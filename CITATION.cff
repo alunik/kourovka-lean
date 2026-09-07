@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite the repository version and the particular problem you use."
+title: "Kourovka in Lean"
+type: software
+authors:
+  - family-names: Rizzoli
+    given-names: Aluna
+version: 0.1.0
+repository-code: "https://github.com/alunik/kourovka-lean"
+abstract: "Complete Lean proofs answering selected problems from the Kourovka Notebook."
