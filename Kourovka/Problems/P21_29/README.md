@@ -14,6 +14,10 @@ and $G_{\beta,\gamma}$ are both trivial?
 **Formalized result:** a negative answer, witnessed by a single primitive
 permutation group of degree $3^9=19\,683$ with a regular suborbit.
 
+The solution is due to **Aluna Rizzoli and Adam R. Thomas**,
+[*Common neighbour conjectures for Saxl graphs fail at every base size*](https://arxiv.org/abs/2609.01367).
+This development formalizes one counterexample from their work.
+
 ## Counterexample
 
 Index the coordinates of $V=\mathbb F_3^9$ by $\mathbb Z/9\mathbb Z$.

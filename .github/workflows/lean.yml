@@ -21,5 +21,7 @@ jobs:
           auto-config: "false"
           build: "true"
           use-mathlib-cache: "true"
+          # Archiving all of .lake exhausted the runner disk after a successful build.
+          use-github-cache: "false"
       - name: Check public statements and axiom dependencies
         run: lake env lean Audit.lean
