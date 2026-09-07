@@ -6,15 +6,21 @@ problems with clear formulations and mathematical interest.
 
 For a problem numbered `21.k`, add:
 
+- `Kourovka/Problems/P21_k/README.md`, with the notebook's natural-language
+  formulation (including relevant subquestions and qualifications), its
+  source and problem authors, the exact question answered, and a compact
+  summary of the Lean strategy. Link to the statement and final theorem.
 - `Kourovka/Problems/P21_k/Statement.lean`, stating the question using standard
   mathlib definitions wherever possible, independently of the proof.
 - `Kourovka/Problems/P21_k/Solution.lean` and supporting modules in `Proof/`.
-- `docs/21.k.md`, giving the source, problem authors, exact scope, explanation
-  of the formal encoding, proof outline, and solution/formalization credits.
+- Optional `docs/21.k.md` for a longer explanation of the formal encoding
+  and a detailed source map. Keep the problem README self-contained.
 - An import in `Kourovka.lean`, a catalogue entry, and an endpoint axiom audit
   in `Audit.lean`.
 
 Use zero-padded problem numbers in module names, as in `P21_03`.
+Every included problem must have its own README; a catalogue entry or an
+external paper link is not a substitute.
 Retain normal mathematical hypotheses; do not assume an unresolved lemma,
 classification, finite verification, or the desired conclusion.
 

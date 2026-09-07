@@ -5,7 +5,7 @@ with an emphasis on recent, precisely stated questions.
 
 | Problem | Result | Formal theorem |
 | --- | --- | --- |
-| [21.3, first question](docs/21.3.md) | Affirmative, for both symmetric and alternating groups in all sufficiently large degrees | [`Kourovka.P21_03.firstQuestion`](Kourovka/Problems/P21_03/Solution.lean) |
+| [21.3, first question](Kourovka/Problems/P21_03/README.md) | Affirmative, for both symmetric and alternating groups in all sufficiently large degrees | [`Kourovka.P21_03.firstQuestion`](Kourovka/Problems/P21_03/Solution.lean) |
 
 Every listed answer has a complete proof checked by Lean. The admitted
 foundational axioms are `propext`, `Classical.choice`, and `Quot.sound`.
@@ -28,8 +28,10 @@ audit. See [verification](docs/verification.md) for the recorded build.
 
 ## Organization
 
-Each problem has `Statement.lean`, `Solution.lean`, and a `Proof/` directory
-for supporting lemmas. Its page in `docs/` explains the statement and the
-argument. `Kourovka.lean` imports every accepted solution.
+Each problem has a `README.md` giving the notebook's natural-language
+formulation, the exact question answered, and a compact summary of the Lean
+strategy. Beside it are `Statement.lean`, `Solution.lean`, and a `Proof/`
+directory for supporting lemmas. Additional notes may live in `docs/`.
+`Kourovka.lean` imports every accepted solution.
 
 See [contribution rules](CONTRIBUTING.md) and [credits](AUTHORS.md).
