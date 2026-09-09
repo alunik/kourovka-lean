@@ -16,6 +16,12 @@ encoding and the general affine-primitivity argument were adapted from
 Aluna Rizzoli's existing Burness–Giudici Lean development; the concrete nine-dimensional group and
 its certificates are formalized here directly.
 
+Problem 21.99 was posed by Peter Müller. This counterexample and its Lean
+development were produced in Aluna Rizzoli's computational search project,
+with substantial Codex assistance in the C++ search, certificate extraction,
+Lean proofs, mathematical review, and documentation. The independent GAP
+checks and Lean compilation were run on Auckland.
+
 The underlying library is [mathlib](https://github.com/leanprover-community/mathlib4),
 maintained by the Lean mathematical community. It is an external pinned
 dependency, not vendored source.

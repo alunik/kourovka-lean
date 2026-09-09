@@ -1,0 +1,49 @@
+{
+  "status": "BUILD_AND_AUDIT_PASS",
+  "date": "2026-09-09",
+  "host": "mathcompprd27",
+  "lean_toolchain": "leanprover/lean4:v4.34.0-rc2",
+  "dependencies": {
+    "mathlib": "87f6d5ec4c780581c9a78b06a9c5f1cf86dc5a70",
+    "plausible": "d9598f07b1bc701f1e3aae163d2681c1fd978793",
+    "LeanSearchClient": "ba67e212be1197b84c1f1f6299488a10a3002713",
+    "importGraph": "d8823026ac7ef130c253089d95685f9877b95323",
+    "proofwidgets": "a8acbfd87375ff4abe14ce09db5b7664d383bc7f",
+    "aesop": "18889deb9e83ea7420ef51c160d6f88552e744e3",
+    "Qq": "507746ab8f4b643ccdacb2ec4cdb5853fa9f8ab3",
+    "batteries": "d54dddc581e08be364c278052863524bff7a99a9",
+    "Cli": "ab3a82db9fea14cf0fd7f5a2de650f4b534640af"
+  },
+  "source_files_verified": 414,
+  "source_manifest_sha256": "a38c07e46072f2ed26c2fdfe709039d16d031700b62b77ece8c9e343ddc3bc75",
+  "build": {
+    "command": "lake build",
+    "jobs": 9187,
+    "workers": 8,
+    "exit_code": 0,
+    "seconds": 517.6711737476289
+  },
+  "audit": {
+    "command": "lake env lean Audit.lean",
+    "exit_code": 0,
+    "seconds": 11.297605313360691,
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "reproduction": {
+    "status": "PASS",
+    "generated_lean_files": 142,
+    "receipt_byte_identical": true,
+    "emitted_inventory_exact": true,
+    "all_emitted_files_byte_identical": true,
+    "all_emitted_hashes_match": true,
+    "source_snapshot_unchanged": true,
+    "input_sha256": "b9c99c8ee4a094bb2f4c7f3ea3c1ff56e4feaa71e90e91082ae7b43f7c8debfe",
+    "compact_sha256": "1a5440c526959dd9f804fc8902da3f0d3dffa54017d53bc52c0baeaa4f315a37",
+    "generator_sha256": "f7d04fbffa5e7d65319d9b6a0aee4ea4674acb1b9a5b02249b62c20a7fe93f9c",
+    "generation_receipt_sha256": "4f18cd5f78e44a3b05ff54a77be719dacc856b76a0033ecd2b844efc8b3ad2af"
+  }
+}

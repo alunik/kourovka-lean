@@ -1,4 +1,10 @@
-# Reproducing the 21.29 certificates
+# Reproducing the certificates
+
+For Problem 21.99, see the [included source data and Python regeneration
+command](data/21_99/README.md). Each generator produces untrusted data that
+the committed Lean proof checks independently.
+
+## Problem 21.29
 
 The C++17 generator searches for finite witnesses for the concrete group in
 `Kourovka/Problems/P21_29/Proof/LinearGroup.lean`. It writes the Lean certificate

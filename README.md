@@ -7,6 +7,7 @@ with an emphasis on recent, precisely stated questions.
 | --- | --- | --- |
 | [21.3, first question](Kourovka/Problems/P21_03/README.md) | Affirmative, for both symmetric and alternating groups in all sufficiently large degrees | [`Kourovka.P21_03.firstQuestion`](Kourovka/Problems/P21_03/Solution.lean) |
 | [21.29](Kourovka/Problems/P21_29/README.md) | Negative, by a primitive affine counterexample of degree 19,683 | [`Kourovka.P21_29.not_notebookStatement`](Kourovka/Problems/P21_29/Solution.lean) |
+| [21.99](Kourovka/Problems/P21_99/README.md) | Negative: a finite transitive action with a point transporter consisting entirely of elements with exactly one fixed point | [`Kourovka.P21_99.not_notebookStatement`](Kourovka/Problems/P21_99/Solution.lean) |
 
 Every listed answer has a complete proof checked by Lean. The admitted
 foundational axioms are `propext`, `Classical.choice`, and `Quot.sound`.
@@ -26,6 +27,9 @@ lake env lean Audit.lean
 The toolchain and all dependencies are pinned. `Audit.lean` displays the
 public statements and verifies their axiom dependencies. CI runs the build and
 audit. See [verification](docs/verification.md) for the recorded build.
+
+On a machine with 8 GB of RAM, use `LEAN_NUM_THREADS=1 lake build` to limit
+parallel compilation. CI uses this setting for the larger finite checks.
 
 ## Organization
 

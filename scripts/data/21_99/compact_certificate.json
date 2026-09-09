@@ -1,0 +1,3246 @@
+{
+  "status": "COMPACT_LINEAR_IDENTITIES_PASS",
+  "meta": "30T2763_p5_mixed_triple_irr1_irr3_irr6",
+  "input_sha256": "b9c99c8ee4a094bb2f4c7f3ea3c1ff56e4feaa71e90e91082ae7b43f7c8debfe",
+  "certificate_sha256": "b6210092ba96fb5ecf4e469bd8b44124ff2c9cd2af63caf7562985f02fef2aea",
+  "field": 5,
+  "dimension": 18,
+  "blocks": 6,
+  "quotient_order": 384,
+  "identity": 0,
+  "K_generator_indices": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "L_generator_indices": [
+    277,
+    27,
+    86
+  ],
+  "block_representative_indices": [
+    0,
+    9,
+    76,
+    1,
+    132,
+    202
+  ],
+  "W": [
+    [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      4,
+      0,
+      0
+    ]
+  ],
+  "block_W": [
+    [
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        4,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        4,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        4
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    ],
+    [
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ]
+  ],
+  "summands": [
+    {
+      "coordinates_zero_based": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "W_projection": [
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      ],
+      "W_rank": 2,
+      "all_matrices_monomial": false
+    },
+    {
+      "coordinates_zero_based": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "W_projection": [
+        [
+          0,
+          0,
+          1,
+          3,
+          0,
+          0
+        ]
+      ],
+      "W_rank": 1,
+      "all_matrices_monomial": false
+    },
+    {
+      "coordinates_zero_based": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "W_projection": [
+        [
+          0,
+          0,
+          1,
+          4,
+          0,
+          0
+        ]
+      ],
+      "W_rank": 1,
+      "all_matrices_monomial": false
+    }
+  ],
+  "target_block": 2,
+  "translation": [
+    3,
+    4,
+    0,
+    0,
+    1,
+    3,
+    2,
+    2,
+    0,
+    0,
+    3,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    4
+  ],
+  "projected_transporter_count": 64,
+  "affine_transporter_count": 40000,
+  "raw_forbidden_space_count": 8,
+  "forbidden_spaces": [
+    {
+      "id": 0,
+      "equations": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "equation_values_on_b": [
+        4
+      ]
+    },
+    {
+      "id": 1,
+      "equations": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      "equation_values_on_b": [
+        4
+      ]
+    },
+    {
+      "id": 2,
+      "equations": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "equation_values_on_b": [
+        2
+      ]
+    },
+    {
+      "id": 3,
+      "equations": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "equation_values_on_b": [
+        2
+      ]
+    },
+    {
+      "id": 4,
+      "equations": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "equation_values_on_b": [
+        3
+      ]
+    },
+    {
+      "id": 5,
+      "equations": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "equation_values_on_b": [
+        3
+      ]
+    },
+    {
+      "id": 6,
+      "equations": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "equation_values_on_b": [
+        2
+      ]
+    },
+    {
+      "id": 7,
+      "equations": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "equation_values_on_b": [
+        3
+      ]
+    }
+  ],
+  "rank_profiles": [
+    {
+      "profile": [
+        [
+          1,
+          17,
+          3
+        ],
+        [
+          5,
+          18,
+          null
+        ]
+      ],
+      "elements": [
+        72,
+        75,
+        79,
+        170,
+        173,
+        176,
+        273,
+        344
+      ],
+      "count": 8
+    },
+    {
+      "profile": [
+        [
+          1,
+          17,
+          7
+        ],
+        [
+          5,
+          18,
+          null
+        ]
+      ],
+      "elements": [
+        18,
+        22,
+        71,
+        73,
+        77,
+        80,
+        168,
+        175
+      ],
+      "count": 8
+    },
+    {
+      "profile": [
+        [
+          1,
+          18,
+          null
+        ],
+        [
+          5,
+          17,
+          2
+        ]
+      ],
+      "elements": [
+        20,
+        78,
+        167,
+        171,
+        174,
+        272,
+        275,
+        276
+      ],
+      "count": 8
+    },
+    {
+      "profile": [
+        [
+          1,
+          18,
+          null
+        ],
+        [
+          5,
+          17,
+          6
+        ]
+      ],
+      "elements": [
+        2,
+        19,
+        21,
+        74,
+        76,
+        169,
+        172,
+        274
+      ],
+      "count": 8
+    },
+    {
+      "profile": [
+        [
+          3,
+          17,
+          1
+        ],
+        [
+          4,
+          18,
+          null
+        ]
+      ],
+      "elements": [
+        68,
+        157,
+        162,
+        163,
+        265,
+        266,
+        271,
+        341
+      ],
+      "count": 8
+    },
+    {
+      "profile": [
+        [
+          3,
+          17,
+          5
+        ],
+        [
+          4,
+          18,
+          null
+        ]
+      ],
+      "elements": [
+        17,
+        159,
+        160,
+        166,
+        262,
+        268,
+        269,
+        374
+      ],
+      "count": 8
+    },
+    {
+      "profile": [
+        [
+          3,
+          18,
+          null
+        ],
+        [
+          4,
+          17,
+          0
+        ]
+      ],
+      "elements": [
+        67,
+        158,
+        164,
+        165,
+        263,
+        264,
+        270,
+        342
+      ],
+      "count": 8
+    },
+    {
+      "profile": [
+        [
+          3,
+          18,
+          null
+        ],
+        [
+          4,
+          17,
+          4
+        ]
+      ],
+      "elements": [
+        66,
+        69,
+        70,
+        161,
+        267,
+        339,
+        340,
+        343
+      ],
+      "count": 8
+    }
+  ],
+  "all_projected_records": [
+    {
+      "element": 2,
+      "fixed_blocks": [
+        {
+          "block": 1,
+          "S_rank": 18,
+          "fixed_point_count_if_solvable": 1
+        },
+        {
+          "block": 5,
+          "S_rank": 17,
+          "fixed_point_count_if_solvable": 5,
+          "covered_by_forbidden": 6
+        }
+      ]
+    },
+    {
+      "element": 17,
+      "fixed_blocks": [
+        {
+          "block": 3,
+          "S_rank": 17,
+          "fixed_point_count_if_solvable": 5,
+          "covered_by_forbidden": 5
+        },
+        {
+          "block": 4,
+          "S_rank": 18,
+          "fixed_point_count_if_solvable": 1
+        }
+      ]
+    },
+    {
+      "element": 18,
+      "fixed_blocks": [
+        {
+          "block": 1,
+          "S_rank": 17,
+          "fixed_point_count_if_solvable": 5,
+          "covered_by_forbidden": 7
+        },
+        {
+          "block": 5,
+          "S_rank": 18,
+          "fixed_point_count_if_solvable": 1
+        }
+      ]
+    },
+    {
+      "element": 19,
+      "fixed_blocks": [
+        {
+          "block": 1,
+          "S_rank": 18,
+          "fixed_point_count_if_solvable": 1
+        },
+        {
+          "block": 5,
+          "S_rank": 17,
+          "fixed_point_count_if_solvable": 5,
+          "covered_by_forbidden": 6
+        }
+      ]
+    },
+    {
+      "element": 20,
+      "fixed_blocks": [
+        {
+          "block": 1,
+          "S_rank": 18,
+          "fixed_point_count_if_solvable": 1
+        },
+        {
+          "block": 5,
+          "S_rank": 17,
+          "fixed_point_count_if_solvable": 5,
+          "covered_by_forbidden": 2
+        }
+      ]
+    },
+    {
+      "element": 21,
+      "fixed_blocks": [
+        {
+          "block": 1,
+          "S_rank": 18,
+          "fixed_point_count_if_solvable": 1
+        },
+        {
+          "block": 5,
+          "S_rank": 17,
+          "fixed_point_count_if_solvable": 5,
+          "covered_by_forbidden": 6
+        }
+      ]
+    },
+    {
+      "element": 22,
+      "fixed_blocks": [
+        {
+          "block": 1,
+          "S_rank": 17,
+          "fixed_point_count_if_solvable": 5,
+          "covered_by_forbidden": 7
+        },
+        {
+          "block": 5,
+          "S_rank": 18,
+          "fixed_point_count_if_solvable": 1
+        }
+      ]
+    },
+    {
+      "element": 66,
+      "fixed_blocks": [
+        {
+          "block": 3,
+          "S_rank": 18,
+          "fixed_point_count_if_solvable": 1
+        },
+        {
+          "block": 4,
+          "S_rank": 17,
+          "fixed_point_count_if_solvable": 5,
+          "covered_by_forbidden": 4
+        }
+      ]
+    },
+    {
+      "element": 67,
+      "fixed_blocks": [
+        {
+          "block": 3,
+          "S_rank": 18,
+          "fixed_point_count_if_solvable": 1
+        },
+        {
+          "block": 4,
+          "S_rank": 17,
+          "fixed_point_count_if_solvable": 5,
+          "covered_by_forbidden": 0
+        }
+      ]
+    },
+    {
+      "element": 68,
+      "fixed_blocks": [
+        {
+          "block": 3,
+          "S_rank": 17,
+          "fixed_point_count_if_solvable": 5,
+          "covered_by_forbidden": 1
+        },
+        {
+          "block": 4,
+          "S_rank": 18,
+          "fixed_point_count_if_solvable": 1
+        }
+      ]
+    },
+    {
+      "element": 69,
+      "fixed_blocks": [
+        {
+          "block": 3,
+          "S_rank": 18,
+          "fixed_point_count_if_solvable": 1
+        },
+        {
+          "block": 4,
+          "S_rank": 17,
+          "fixed_point_count_if_solvable": 5,
+          "covered_by_forbidden": 4
+        }
+      ]
+    },
+    {
+      "element": 70,
+      "fixed_blocks": [
+        {
+          "block": 3,
+          "S_rank": 18,
+          "fixed_point_count_if_solvable": 1
+        },
+        {
+          "block": 4,
+          "S_rank": 17,
+          "fixed_point_count_if_solvable": 5,
+          "covered_by_forbidden": 4
+        }
+      ]
+    },
+    {
+      "element": 71,
+      "fixed_blocks": [
+        {
+          "block": 1,
+          "S_rank": 17,
+          "fixed_point_count_if_solvable": 5,
+          "covered_by_forbidden": 7
+        },
+        {
+          "block": 5,
+          "S_rank": 18,
+          "fixed_point_count_if_solvable": 1
+        }
+      ]
+    },
+    {
+      "element": 72,
+      "fixed_blocks": [
+        {
+          "block": 1,
+          "S_rank": 17,
+          "fixed_point_count_if_solvable": 5,
+          "covered_by_forbidden": 3
+        },
+        {
+          "block": 5,
+          "S_rank": 18,
+          "fixed_point_count_if_solvable": 1
+        }
+      ]
+    },
+    {
+      "element": 73,
+      "fixed_blocks": [
+        {
+          "block": 1,
+          "S_rank": 17,
+          "fixed_point_count_if_solvable": 5,
+          "covered_by_forbidden": 7
+        },
+        {
+          "block": 5,
+          "S_rank": 18,
+          "fixed_point_count_if_solvable": 1
+        }
+      ]
+    },
+    {
+      "element": 74,
+      "fixed_blocks": [
+        {
+          "block": 1,
+          "S_rank": 18,
+          "fixed_point_count_if_solvable": 1
+        },
+        {
+          "block": 5,
+          "S_rank": 17,
+          "fixed_point_count_if_solvable": 5,
+          "covered_by_forbidden": 6
+        }
+      ]
+    },
+    {
+      "element": 75,
+      "fixed_blocks": [
+        {
+          "block": 1,
+          "S_rank": 17,
+          "fixed_point_count_if_solvable": 5,
+          "covered_by_forbidden": 3
+        },
+        {
+          "block": 5,
+          "S_rank": 18,
+          "fixed_point_count_if_solvable": 1
+        }
+      ]
+    },
+    {
+      "element": 76,
+      "fixed_blocks": [
+        {
+          "block": 1,
+          "S_rank": 18,
+          "fixed_point_count_if_solvable": 1
+        },
+        {
+          "block": 5,
+          "S_rank": 17,
+          "fixed_point_count_if_solvable": 5,
+          "covered_by_forbidden": 6
+        }
+      ]
+    },
+    {
+      "element": 77,
+      "fixed_blocks": [
+        {
+          "block": 1,
+          "S_rank": 17,
+          "fixed_point_count_if_solvable": 5,
+          "covered_by_forbidden": 7
+        },
+        {
+          "block": 5,
+          "S_rank": 18,
+          "fixed_point_count_if_solvable": 1
+        }
+      ]
+    },
+    {
+      "element": 78,
+      "fixed_blocks": [
+        {
+          "block": 1,
+          "S_rank": 18,
+          "fixed_point_count_if_solvable": 1
+        },
+        {
+          "block": 5,
+          "S_rank": 17,
+          "fixed_point_count_if_solvable": 5,
+          "covered_by_forbidden": 2
+        }
+      ]
+    },
+    {
+      "element": 79,
+      "fixed_blocks": [
+        {
+          "block": 1,
+          "S_rank": 17,
+          "fixed_point_count_if_solvable": 5,
+          "covered_by_forbidden": 3
+        },
+        {
+          "block": 5,
+          "S_rank": 18,
+          "fixed_point_count_if_solvable": 1
+        }
+      ]
+    },
+    {
+      "element": 80,
+      "fixed_blocks": [
+        {
+          "block": 1,
+          "S_rank": 17,
+          "fixed_point_count_if_solvable": 5,
+          "covered_by_forbidden": 7
+        },
+        {
+          "block": 5,
+          "S_rank": 18,
+          "fixed_point_count_if_solvable": 1
+        }
+      ]
+    },
+    {
+      "element": 157,
+      "fixed_blocks": [
+        {
+          "block": 3,
+          "S_rank": 17,
+          "fixed_point_count_if_solvable": 5,
+          "covered_by_forbidden": 1
+        },
+        {
+          "block": 4,
+          "S_rank": 18,
+          "fixed_point_count_if_solvable": 1
+        }
+      ]
+    },
+    {
+      "element": 158,
+      "fixed_blocks": [
+        {
+          "block": 3,
+          "S_rank": 18,
+          "fixed_point_count_if_solvable": 1
+        },
+        {
+          "block": 4,
+          "S_rank": 17,
+          "fixed_point_count_if_solvable": 5,
+          "covered_by_forbidden": 0
+        }
+      ]
+    },
+    {
+      "element": 159,
+      "fixed_blocks": [
+        {
+          "block": 3,
+          "S_rank": 17,
+          "fixed_point_count_if_solvable": 5,
+          "covered_by_forbidden": 5
+        },
+        {
+          "block": 4,
+          "S_rank": 18,
+          "fixed_point_count_if_solvable": 1
+        }
+      ]
+    },
+    {
+      "element": 160,
+      "fixed_blocks": [
+        {
+          "block": 3,
+          "S_rank": 17,
+          "fixed_point_count_if_solvable": 5,
+          "covered_by_forbidden": 5
+        },
+        {
+          "block": 4,
+          "S_rank": 18,
+          "fixed_point_count_if_solvable": 1
+        }
+      ]
+    },
+    {
+      "element": 161,
+      "fixed_blocks": [
+        {
+          "block": 3,
+          "S_rank": 18,
+          "fixed_point_count_if_solvable": 1
+        },
+        {
+          "block": 4,
+          "S_rank": 17,
+          "fixed_point_count_if_solvable": 5,
+          "covered_by_forbidden": 4
+        }
+      ]
+    },
+    {
+      "element": 162,
+      "fixed_blocks": [
+        {
+          "block": 3,
+          "S_rank": 17,
+          "fixed_point_count_if_solvable": 5,
+          "covered_by_forbidden": 1
+        },
+        {
+          "block": 4,
+          "S_rank": 18,
+          "fixed_point_count_if_solvable": 1
+        }
+      ]
+    },
+    {
+      "element": 163,
+      "fixed_blocks": [
+        {
+          "block": 3,
+          "S_rank": 17,
+          "fixed_point_count_if_solvable": 5,
+          "covered_by_forbidden": 1
+        },
+        {
+          "block": 4,
+          "S_rank": 18,
+          "fixed_point_count_if_solvable": 1
+        }
+      ]
+    },
+    {
+      "element": 164,
+      "fixed_blocks": [
+        {
+          "block": 3,
+          "S_rank": 18,
+          "fixed_point_count_if_solvable": 1
+        },
+        {
+          "block": 4,
+          "S_rank": 17,
+          "fixed_point_count_if_solvable": 5,
+          "covered_by_forbidden": 0
+        }
+      ]
+    },
+    {
+      "element": 165,
+      "fixed_blocks": [
+        {
+          "block": 3,
+          "S_rank": 18,
+          "fixed_point_count_if_solvable": 1
+        },
+        {
+          "block": 4,
+          "S_rank": 17,
+          "fixed_point_count_if_solvable": 5,
+          "covered_by_forbidden": 0
+        }
+      ]
+    },
+    {
+      "element": 166,
+      "fixed_blocks": [
+        {
+          "block": 3,
+          "S_rank": 17,
+          "fixed_point_count_if_solvable": 5,
+          "covered_by_forbidden": 5
+        },
+        {
+          "block": 4,
+          "S_rank": 18,
+          "fixed_point_count_if_solvable": 1
+        }
+      ]
+    },
+    {
+      "element": 167,
+      "fixed_blocks": [
+        {
+          "block": 1,
+          "S_rank": 18,
+          "fixed_point_count_if_solvable": 1
+        },
+        {
+          "block": 5,
+          "S_rank": 17,
+          "fixed_point_count_if_solvable": 5,
+          "covered_by_forbidden": 2
+        }
+      ]
+    },
+    {
+      "element": 168,
+      "fixed_blocks": [
+        {
+          "block": 1,
+          "S_rank": 17,
+          "fixed_point_count_if_solvable": 5,
+          "covered_by_forbidden": 7
+        },
+        {
+          "block": 5,
+          "S_rank": 18,
+          "fixed_point_count_if_solvable": 1
+        }
+      ]
+    },
+    {
+      "element": 169,
+      "fixed_blocks": [
+        {
+          "block": 1,
+          "S_rank": 18,
+          "fixed_point_count_if_solvable": 1
+        },
+        {
+          "block": 5,
+          "S_rank": 17,
+          "fixed_point_count_if_solvable": 5,
+          "covered_by_forbidden": 6
+        }
+      ]
+    },
+    {
+      "element": 170,
+      "fixed_blocks": [
+        {
+          "block": 1,
+          "S_rank": 17,
+          "fixed_point_count_if_solvable": 5,
+          "covered_by_forbidden": 3
+        },
+        {
+          "block": 5,
+          "S_rank": 18,
+          "fixed_point_count_if_solvable": 1
+        }
+      ]
+    },
+    {
+      "element": 171,
+      "fixed_blocks": [
+        {
+          "block": 1,
+          "S_rank": 18,
+          "fixed_point_count_if_solvable": 1
+        },
+        {
+          "block": 5,
+          "S_rank": 17,
+          "fixed_point_count_if_solvable": 5,
+          "covered_by_forbidden": 2
+        }
+      ]
+    },
+    {
+      "element": 172,
+      "fixed_blocks": [
+        {
+          "block": 1,
+          "S_rank": 18,
+          "fixed_point_count_if_solvable": 1
+        },
+        {
+          "block": 5,
+          "S_rank": 17,
+          "fixed_point_count_if_solvable": 5,
+          "covered_by_forbidden": 6
+        }
+      ]
+    },
+    {
+      "element": 173,
+      "fixed_blocks": [
+        {
+          "block": 1,
+          "S_rank": 17,
+          "fixed_point_count_if_solvable": 5,
+          "covered_by_forbidden": 3
+        },
+        {
+          "block": 5,
+          "S_rank": 18,
+          "fixed_point_count_if_solvable": 1
+        }
+      ]
+    },
+    {
+      "element": 174,
+      "fixed_blocks": [
+        {
+          "block": 1,
+          "S_rank": 18,
+          "fixed_point_count_if_solvable": 1
+        },
+        {
+          "block": 5,
+          "S_rank": 17,
+          "fixed_point_count_if_solvable": 5,
+          "covered_by_forbidden": 2
+        }
+      ]
+    },
+    {
+      "element": 175,
+      "fixed_blocks": [
+        {
+          "block": 1,
+          "S_rank": 17,
+          "fixed_point_count_if_solvable": 5,
+          "covered_by_forbidden": 7
+        },
+        {
+          "block": 5,
+          "S_rank": 18,
+          "fixed_point_count_if_solvable": 1
+        }
+      ]
+    },
+    {
+      "element": 176,
+      "fixed_blocks": [
+        {
+          "block": 1,
+          "S_rank": 17,
+          "fixed_point_count_if_solvable": 5,
+          "covered_by_forbidden": 3
+        },
+        {
+          "block": 5,
+          "S_rank": 18,
+          "fixed_point_count_if_solvable": 1
+        }
+      ]
+    },
+    {
+      "element": 262,
+      "fixed_blocks": [
+        {
+          "block": 3,
+          "S_rank": 17,
+          "fixed_point_count_if_solvable": 5,
+          "covered_by_forbidden": 5
+        },
+        {
+          "block": 4,
+          "S_rank": 18,
+          "fixed_point_count_if_solvable": 1
+        }
+      ]
+    },
+    {
+      "element": 263,
+      "fixed_blocks": [
+        {
+          "block": 3,
+          "S_rank": 18,
+          "fixed_point_count_if_solvable": 1
+        },
+        {
+          "block": 4,
+          "S_rank": 17,
+          "fixed_point_count_if_solvable": 5,
+          "covered_by_forbidden": 0
+        }
+      ]
+    },
+    {
+      "element": 264,
+      "fixed_blocks": [
+        {
+          "block": 3,
+          "S_rank": 18,
+          "fixed_point_count_if_solvable": 1
+        },
+        {
+          "block": 4,
+          "S_rank": 17,
+          "fixed_point_count_if_solvable": 5,
+          "covered_by_forbidden": 0
+        }
+      ]
+    },
+    {
+      "element": 265,
+      "fixed_blocks": [
+        {
+          "block": 3,
+          "S_rank": 17,
+          "fixed_point_count_if_solvable": 5,
+          "covered_by_forbidden": 1
+        },
+        {
+          "block": 4,
+          "S_rank": 18,
+          "fixed_point_count_if_solvable": 1
+        }
+      ]
+    },
+    {
+      "element": 266,
+      "fixed_blocks": [
+        {
+          "block": 3,
+          "S_rank": 17,
+          "fixed_point_count_if_solvable": 5,
+          "covered_by_forbidden": 1
+        },
+        {
+          "block": 4,
+          "S_rank": 18,
+          "fixed_point_count_if_solvable": 1
+        }
+      ]
+    },
+    {
+      "element": 267,
+      "fixed_blocks": [
+        {
+          "block": 3,
+          "S_rank": 18,
+          "fixed_point_count_if_solvable": 1
+        },
+        {
+          "block": 4,
+          "S_rank": 17,
+          "fixed_point_count_if_solvable": 5,
+          "covered_by_forbidden": 4
+        }
+      ]
+    },
+    {
+      "element": 268,
+      "fixed_blocks": [
+        {
+          "block": 3,
+          "S_rank": 17,
+          "fixed_point_count_if_solvable": 5,
+          "covered_by_forbidden": 5
+        },
+        {
+          "block": 4,
+          "S_rank": 18,
+          "fixed_point_count_if_solvable": 1
+        }
+      ]
+    },
+    {
+      "element": 269,
+      "fixed_blocks": [
+        {
+          "block": 3,
+          "S_rank": 17,
+          "fixed_point_count_if_solvable": 5,
+          "covered_by_forbidden": 5
+        },
+        {
+          "block": 4,
+          "S_rank": 18,
+          "fixed_point_count_if_solvable": 1
+        }
+      ]
+    },
+    {
+      "element": 270,
+      "fixed_blocks": [
+        {
+          "block": 3,
+          "S_rank": 18,
+          "fixed_point_count_if_solvable": 1
+        },
+        {
+          "block": 4,
+          "S_rank": 17,
+          "fixed_point_count_if_solvable": 5,
+          "covered_by_forbidden": 0
+        }
+      ]
+    },
+    {
+      "element": 271,
+      "fixed_blocks": [
+        {
+          "block": 3,
+          "S_rank": 17,
+          "fixed_point_count_if_solvable": 5,
+          "covered_by_forbidden": 1
+        },
+        {
+          "block": 4,
+          "S_rank": 18,
+          "fixed_point_count_if_solvable": 1
+        }
+      ]
+    },
+    {
+      "element": 272,
+      "fixed_blocks": [
+        {
+          "block": 1,
+          "S_rank": 18,
+          "fixed_point_count_if_solvable": 1
+        },
+        {
+          "block": 5,
+          "S_rank": 17,
+          "fixed_point_count_if_solvable": 5,
+          "covered_by_forbidden": 2
+        }
+      ]
+    },
+    {
+      "element": 273,
+      "fixed_blocks": [
+        {
+          "block": 1,
+          "S_rank": 17,
+          "fixed_point_count_if_solvable": 5,
+          "covered_by_forbidden": 3
+        },
+        {
+          "block": 5,
+          "S_rank": 18,
+          "fixed_point_count_if_solvable": 1
+        }
+      ]
+    },
+    {
+      "element": 274,
+      "fixed_blocks": [
+        {
+          "block": 1,
+          "S_rank": 18,
+          "fixed_point_count_if_solvable": 1
+        },
+        {
+          "block": 5,
+          "S_rank": 17,
+          "fixed_point_count_if_solvable": 5,
+          "covered_by_forbidden": 6
+        }
+      ]
+    },
+    {
+      "element": 275,
+      "fixed_blocks": [
+        {
+          "block": 1,
+          "S_rank": 18,
+          "fixed_point_count_if_solvable": 1
+        },
+        {
+          "block": 5,
+          "S_rank": 17,
+          "fixed_point_count_if_solvable": 5,
+          "covered_by_forbidden": 2
+        }
+      ]
+    },
+    {
+      "element": 276,
+      "fixed_blocks": [
+        {
+          "block": 1,
+          "S_rank": 18,
+          "fixed_point_count_if_solvable": 1
+        },
+        {
+          "block": 5,
+          "S_rank": 17,
+          "fixed_point_count_if_solvable": 5,
+          "covered_by_forbidden": 2
+        }
+      ]
+    },
+    {
+      "element": 339,
+      "fixed_blocks": [
+        {
+          "block": 3,
+          "S_rank": 18,
+          "fixed_point_count_if_solvable": 1
+        },
+        {
+          "block": 4,
+          "S_rank": 17,
+          "fixed_point_count_if_solvable": 5,
+          "covered_by_forbidden": 4
+        }
+      ]
+    },
+    {
+      "element": 340,
+      "fixed_blocks": [
+        {
+          "block": 3,
+          "S_rank": 18,
+          "fixed_point_count_if_solvable": 1
+        },
+        {
+          "block": 4,
+          "S_rank": 17,
+          "fixed_point_count_if_solvable": 5,
+          "covered_by_forbidden": 4
+        }
+      ]
+    },
+    {
+      "element": 341,
+      "fixed_blocks": [
+        {
+          "block": 3,
+          "S_rank": 17,
+          "fixed_point_count_if_solvable": 5,
+          "covered_by_forbidden": 1
+        },
+        {
+          "block": 4,
+          "S_rank": 18,
+          "fixed_point_count_if_solvable": 1
+        }
+      ]
+    },
+    {
+      "element": 342,
+      "fixed_blocks": [
+        {
+          "block": 3,
+          "S_rank": 18,
+          "fixed_point_count_if_solvable": 1
+        },
+        {
+          "block": 4,
+          "S_rank": 17,
+          "fixed_point_count_if_solvable": 5,
+          "covered_by_forbidden": 0
+        }
+      ]
+    },
+    {
+      "element": 343,
+      "fixed_blocks": [
+        {
+          "block": 3,
+          "S_rank": 18,
+          "fixed_point_count_if_solvable": 1
+        },
+        {
+          "block": 4,
+          "S_rank": 17,
+          "fixed_point_count_if_solvable": 5,
+          "covered_by_forbidden": 4
+        }
+      ]
+    },
+    {
+      "element": 344,
+      "fixed_blocks": [
+        {
+          "block": 1,
+          "S_rank": 17,
+          "fixed_point_count_if_solvable": 5,
+          "covered_by_forbidden": 3
+        },
+        {
+          "block": 5,
+          "S_rank": 18,
+          "fixed_point_count_if_solvable": 1
+        }
+      ]
+    },
+    {
+      "element": 374,
+      "fixed_blocks": [
+        {
+          "block": 3,
+          "S_rank": 17,
+          "fixed_point_count_if_solvable": 5,
+          "covered_by_forbidden": 5
+        },
+        {
+          "block": 4,
+          "S_rank": 18,
+          "fixed_point_count_if_solvable": 1
+        }
+      ]
+    }
+  ],
+  "sparse_K_generators": [
+    {
+      "element": 1,
+      "block_permutation": [
+        3,
+        0,
+        4,
+        1,
+        5,
+        2
+      ],
+      "matrix_rows": [
+        [
+          [
+            4,
+            1
+          ]
+        ],
+        [
+          [
+            5,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            2,
+            1
+          ]
+        ],
+        [
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            10,
+            1
+          ]
+        ],
+        [
+          [
+            11,
+            1
+          ]
+        ],
+        [
+          [
+            6,
+            1
+          ]
+        ],
+        [
+          [
+            7,
+            1
+          ]
+        ],
+        [
+          [
+            8,
+            1
+          ]
+        ],
+        [
+          [
+            9,
+            1
+          ]
+        ],
+        [
+          [
+            16,
+            1
+          ]
+        ],
+        [
+          [
+            17,
+            1
+          ]
+        ],
+        [
+          [
+            12,
+            1
+          ]
+        ],
+        [
+          [
+            13,
+            1
+          ]
+        ],
+        [
+          [
+            14,
+            1
+          ]
+        ],
+        [
+          [
+            15,
+            1
+          ]
+        ]
+      ]
+    },
+    {
+      "element": 2,
+      "block_permutation": [
+        2,
+        1,
+        0,
+        4,
+        3,
+        5
+      ],
+      "matrix_rows": [
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        [
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            2
+          ]
+        ],
+        [
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            1
+          ]
+        ],
+        [
+          [
+            6,
+            1
+          ]
+        ],
+        [
+          [
+            6,
+            1
+          ],
+          [
+            7,
+            4
+          ]
+        ],
+        [
+          [
+            8,
+            3
+          ],
+          [
+            9,
+            4
+          ]
+        ],
+        [
+          [
+            8,
+            1
+          ],
+          [
+            9,
+            2
+          ]
+        ],
+        [
+          [
+            10,
+            4
+          ],
+          [
+            11,
+            2
+          ]
+        ],
+        [
+          [
+            10,
+            1
+          ],
+          [
+            11,
+            1
+          ]
+        ],
+        [
+          [
+            12,
+            3
+          ],
+          [
+            13,
+            1
+          ]
+        ],
+        [
+          [
+            13,
+            2
+          ]
+        ],
+        [
+          [
+            14,
+            4
+          ],
+          [
+            15,
+            1
+          ]
+        ],
+        [
+          [
+            14,
+            1
+          ],
+          [
+            15,
+            1
+          ]
+        ],
+        [
+          [
+            16,
+            4
+          ],
+          [
+            17,
+            2
+          ]
+        ],
+        [
+          [
+            16,
+            1
+          ],
+          [
+            17,
+            1
+          ]
+        ]
+      ]
+    },
+    {
+      "element": 3,
+      "block_permutation": [
+        0,
+        5,
+        2,
+        4,
+        3,
+        1
+      ],
+      "matrix_rows": [
+        [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            2,
+            1
+          ]
+        ],
+        [
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            4
+          ]
+        ],
+        [
+          [
+            4,
+            2
+          ],
+          [
+            5,
+            2
+          ]
+        ],
+        [
+          [
+            6,
+            4
+          ],
+          [
+            7,
+            2
+          ]
+        ],
+        [
+          [
+            6,
+            1
+          ],
+          [
+            7,
+            1
+          ]
+        ],
+        [
+          [
+            8,
+            1
+          ]
+        ],
+        [
+          [
+            8,
+            1
+          ],
+          [
+            9,
+            4
+          ]
+        ],
+        [
+          [
+            10,
+            3
+          ],
+          [
+            11,
+            4
+          ]
+        ],
+        [
+          [
+            10,
+            1
+          ],
+          [
+            11,
+            2
+          ]
+        ],
+        [
+          [
+            12,
+            4
+          ],
+          [
+            13,
+            2
+          ]
+        ],
+        [
+          [
+            12,
+            1
+          ],
+          [
+            13,
+            1
+          ]
+        ],
+        [
+          [
+            14,
+            3
+          ],
+          [
+            15,
+            1
+          ]
+        ],
+        [
+          [
+            15,
+            2
+          ]
+        ],
+        [
+          [
+            16,
+            4
+          ],
+          [
+            17,
+            1
+          ]
+        ],
+        [
+          [
+            16,
+            1
+          ],
+          [
+            17,
+            1
+          ]
+        ]
+      ]
+    },
+    {
+      "element": 4,
+      "block_permutation": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "matrix_rows": [
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            2,
+            1
+          ]
+        ],
+        [
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            4,
+            1
+          ]
+        ],
+        [
+          [
+            5,
+            1
+          ]
+        ],
+        [
+          [
+            6,
+            4
+          ]
+        ],
+        [
+          [
+            7,
+            4
+          ]
+        ],
+        [
+          [
+            8,
+            4
+          ]
+        ],
+        [
+          [
+            9,
+            4
+          ]
+        ],
+        [
+          [
+            10,
+            4
+          ]
+        ],
+        [
+          [
+            11,
+            4
+          ]
+        ],
+        [
+          [
+            12,
+            4
+          ]
+        ],
+        [
+          [
+            13,
+            4
+          ]
+        ],
+        [
+          [
+            14,
+            4
+          ]
+        ],
+        [
+          [
+            15,
+            4
+          ]
+        ],
+        [
+          [
+            16,
+            4
+          ]
+        ],
+        [
+          [
+            17,
+            4
+          ]
+        ]
+      ]
+    },
+    {
+      "element": 5,
+      "block_permutation": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "matrix_rows": [
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            2,
+            2
+          ]
+        ],
+        [
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          [
+            4,
+            3
+          ]
+        ],
+        [
+          [
+            5,
+            3
+          ]
+        ],
+        [
+          [
+            6,
+            1
+          ]
+        ],
+        [
+          [
+            7,
+            1
+          ]
+        ],
+        [
+          [
+            8,
+            3
+          ]
+        ],
+        [
+          [
+            9,
+            3
+          ]
+        ],
+        [
+          [
+            10,
+            3
+          ]
+        ],
+        [
+          [
+            11,
+            3
+          ]
+        ],
+        [
+          [
+            12,
+            4
+          ]
+        ],
+        [
+          [
+            13,
+            4
+          ]
+        ],
+        [
+          [
+            14,
+            2
+          ]
+        ],
+        [
+          [
+            15,
+            2
+          ]
+        ],
+        [
+          [
+            16,
+            3
+          ]
+        ],
+        [
+          [
+            17,
+            3
+          ]
+        ]
+      ]
+    },
+    {
+      "element": 6,
+      "block_permutation": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "matrix_rows": [
+        [
+          [
+            0,
+            3
+          ]
+        ],
+        [
+          [
+            1,
+            3
+          ]
+        ],
+        [
+          [
+            2,
+            1
+          ]
+        ],
+        [
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            4,
+            2
+          ]
+        ],
+        [
+          [
+            5,
+            2
+          ]
+        ],
+        [
+          [
+            6,
+            3
+          ]
+        ],
+        [
+          [
+            7,
+            3
+          ]
+        ],
+        [
+          [
+            8,
+            1
+          ]
+        ],
+        [
+          [
+            9,
+            1
+          ]
+        ],
+        [
+          [
+            10,
+            3
+          ]
+        ],
+        [
+          [
+            11,
+            3
+          ]
+        ],
+        [
+          [
+            12,
+            3
+          ]
+        ],
+        [
+          [
+            13,
+            3
+          ]
+        ],
+        [
+          [
+            14,
+            4
+          ]
+        ],
+        [
+          [
+            15,
+            4
+          ]
+        ],
+        [
+          [
+            16,
+            2
+          ]
+        ],
+        [
+          [
+            17,
+            2
+          ]
+        ]
+      ]
+    },
+    {
+      "element": 7,
+      "block_permutation": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "matrix_rows": [
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            2,
+            4
+          ]
+        ],
+        [
+          [
+            3,
+            4
+          ]
+        ],
+        [
+          [
+            4,
+            4
+          ]
+        ],
+        [
+          [
+            5,
+            4
+          ]
+        ],
+        [
+          [
+            6,
+            1
+          ]
+        ],
+        [
+          [
+            7,
+            1
+          ]
+        ],
+        [
+          [
+            8,
+            4
+          ]
+        ],
+        [
+          [
+            9,
+            4
+          ]
+        ],
+        [
+          [
+            10,
+            4
+          ]
+        ],
+        [
+          [
+            11,
+            4
+          ]
+        ],
+        [
+          [
+            12,
+            1
+          ]
+        ],
+        [
+          [
+            13,
+            1
+          ]
+        ],
+        [
+          [
+            14,
+            4
+          ]
+        ],
+        [
+          [
+            15,
+            4
+          ]
+        ],
+        [
+          [
+            16,
+            4
+          ]
+        ],
+        [
+          [
+            17,
+            4
+          ]
+        ]
+      ]
+    },
+    {
+      "element": 8,
+      "block_permutation": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "matrix_rows": [
+        [
+          [
+            0,
+            4
+          ]
+        ],
+        [
+          [
+            1,
+            4
+          ]
+        ],
+        [
+          [
+            2,
+            1
+          ]
+        ],
+        [
+          [
+            3,
+            1
+          ]
+        ],
+        [
+          [
+            4,
+            4
+          ]
+        ],
+        [
+          [
+            5,
+            4
+          ]
+        ],
+        [
+          [
+            6,
+            4
+          ]
+        ],
+        [
+          [
+            7,
+            4
+          ]
+        ],
+        [
+          [
+            8,
+            1
+          ]
+        ],
+        [
+          [
+            9,
+            1
+          ]
+        ],
+        [
+          [
+            10,
+            4
+          ]
+        ],
+        [
+          [
+            11,
+            4
+          ]
+        ],
+        [
+          [
+            12,
+            4
+          ]
+        ],
+        [
+          [
+            13,
+            4
+          ]
+        ],
+        [
+          [
+            14,
+            1
+          ]
+        ],
+        [
+          [
+            15,
+            1
+          ]
+        ],
+        [
+          [
+            16,
+            4
+          ]
+        ],
+        [
+          [
+            17,
+            4
+          ]
+        ]
+      ]
+    }
+  ]
+}

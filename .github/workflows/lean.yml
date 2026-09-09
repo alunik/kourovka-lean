@@ -11,9 +11,10 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 120
     env:
-      LEAN_NUM_THREADS: 2
+      # A 21.99 kernel-check batch can use about 6 GiB; private runners have 8 GB.
+      LEAN_NUM_THREADS: 1
     steps:
       - uses: actions/checkout@v4
       - uses: leanprover/lean-action@v1
