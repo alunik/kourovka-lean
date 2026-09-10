@@ -9,7 +9,16 @@ permissions:
   contents: read
 
 jobs:
+  repository:
+    name: Repository structure and links
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check problem layout, catalogue, audit coverage, and local links
+        run: python3 scripts/check_repository.py
+
   build:
+    needs: repository
     runs-on: ubuntu-latest
     timeout-minutes: 120
     env:

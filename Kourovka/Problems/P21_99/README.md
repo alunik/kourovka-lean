@@ -1,18 +1,38 @@
 # Problem 21.99
 
+[All problems](../../../README.md) · [Contributing](../../../CONTRIBUTING.md)
+
+## Problem
+
 Peter Müller asks whether, in every finite transitive permutation group,
 each ordered pair of distinct points can be joined by a group element
 whose number of fixed points is different from one.
 See [*The Kourovka Notebook*, 21st edition, Problem 21.99, p. 182](https://arxiv.org/pdf/1401.0300v46#page=182).
 The question also appears in [Müller's paper, Remark (f)](https://arxiv.org/pdf/2304.08459v4#page=5).
 
-This development gives a **negative answer**. Its endpoint is
-[`Kourovka.P21_99.not_notebookStatement`](Solution.lean).
-The assertion in [`Statement.lean`](Statement.lean) quantifies over subgroups
-of the full symmetric group on an arbitrary finite type; the fixed-point
-condition is exactly the negation of unique existence.
+## Result and scope
 
-## Counterexample
+**Negative**, witnessed by a finite transitive action of degree
+$6\cdot5^{14}=36\,621\,093\,750$. Every element carrying one specified point
+to another fixes exactly one point. The transporter theorem is universal
+over those elements and their translations; there is no sampling premise.
+
+## Formal statement
+
+[`Kourovka.P21_99.NotebookStatement`](Statement.lean) quantifies over subgroups
+of the full symmetric group on an arbitrary finite type with a transitive
+action (`MulAction.IsPretransitive`). For every ordered pair of distinct
+points it asks for a transporter whose fixed-point condition is the negation
+of unique existence.
+
+The public theorem is
+[`Kourovka.P21_99.not_notebookStatement`](Solution.lean). Its concrete input is
+[`transporter_unique`](Proof/Instance.lean), which proves unique existence of
+a fixed point for every element in the chosen transporter.
+
+## Proof outline
+
+### Counterexample
 
 Let $V=\mathbb F_5^{18}$. An explicitly generated group acts linearly on $V$
 and permutes six blocks. In block $i$, the points are coordinates for a
@@ -32,7 +52,7 @@ target fixes exactly one point**. Taking the image of the action in
 $\operatorname{Sym}(\Omega)$ supplies the permutation group required by the
 notebook formulation.
 
-## Why the proof is small enough to check
+### Argument
 
 The proof does not enumerate the points of $\Omega$.
 
@@ -53,27 +73,33 @@ The proof does not enumerate the points of $\Omega$.
 4. [`Transfer.lean`](Proof/Transfer.lean) passes the obstruction to the
    image permutation group and contradicts the notebook assertion.
 
-The universal transporter theorem is
-[`transporter_unique`](Proof/Instance.lean). It covers arbitrary group
-elements and all their translations; there is no sampling premise.
 The formal argument needs the table to cover the generated subgroup. It
 does not assume that its entries are distinct or identify the subgroup
 with a named group from an external catalogue.
 
-## Verification and reproduction
+## File guide
 
-From the repository root:
+| File | Purpose |
+| --- | --- |
+| [`README.md`](README.md) | Problem, scope, and proof overview. |
+| [`Statement.lean`](Statement.lean) | The notebook question, independent of the proof. |
+| [`Solution.lean`](Solution.lean) | The public answer theorem. |
+| [`Proof/README.md`](Proof/README.md) | Roadmap through the supporting Lean modules. |
+| [`Proof/Certificates/README.md`](Proof/Certificates/README.md) | Sparse certificates and the finite acceptance checks. |
+| [`Proof/generation_receipt.json`](Proof/generation_receipt.json) | Source-data and generated-file hashes for reproduction. |
+
+## Verification
+
+From the repository root, after the [initial setup](../../../README.md#check-the-proofs):
 
 ```sh
-lake exe cache get
-lake build
-lake env lean Audit.lean
+lake build Kourovka.Problems.P21_99.Solution
 ```
 
-To check only this solution, use
-`lake build Kourovka.Problems.P21_99.Solution`; `Audit.lean` checks all repository solutions.
-The toolchain and mathlib commit are pinned. The final axiom check permits
-only `propext`, `Classical.choice`, and `Quot.sound`.
+Use the [full build and axiom audit](../../../README.md#check-the-proofs) to
+check all public solutions. The [verification record](../../../docs/verification.md)
+documents the recorded build. The toolchain and dependencies are pinned;
+the endpoint uses only `propext`, `Classical.choice`, and `Quot.sound`.
 
 The committed finite certificates use `decide +kernel`. The build requires
 neither a C++/GAP installation nor execution of the Python generator. The
@@ -83,9 +109,17 @@ are included so that the sparse certificates can be regenerated.
 The generator is not part of the trusted proof: Lean checks the identities
 in its output.
 
+## References and credits
+
+- Peter Müller,
+  [*The Kourovka Notebook*, 21st edition, Problem 21.99, p. 182](https://arxiv.org/pdf/1401.0300v46#page=182).
+- [Müller's paper, Remark (f)](https://arxiv.org/pdf/2304.08459v4#page=5).
+
+The counterexample and Lean development came from Aluna Rizzoli's
+computational search project, with substantial Codex assistance. See
+[repository credits](../../../AUTHORS.md).
+
 Custom C++ searches found the example on Auckland, and independent GAP
 computations checked the original transporter. Those computations explain
 the discovery and provide additional checks; the Lean theorem has no
-external computational assumptions. See the repository's
-[verification record](../../../docs/verification.md) and
-[credits](../../../AUTHORS.md).
+external computational assumptions.

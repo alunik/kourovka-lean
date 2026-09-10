@@ -1,5 +1,7 @@
 # Problem 21.29
 
+[All problems](../../../README.md) · [Contributing](../../../CONTRIBUTING.md)
+
 ## Problem
 
 Let $G\leq\operatorname{Sym}(\Omega)$ be a finite primitive permutation group
@@ -8,17 +10,34 @@ Then is it true that for all $\alpha,\beta\in\Omega$, there exists
 $\gamma\in\Omega$ such that the $2$-point stabilisers $G_{\alpha,\gamma}$
 and $G_{\beta,\gamma}$ are both trivial?
 
-— T. C. Burness and M. Giudici,
+Posed by T. C. Burness and M. Giudici in
 [*The Kourovka Notebook*, 21st edition, Problem 21.29](https://arxiv.org/abs/1401.0300v46).
 
-**Formalized result:** a negative answer, witnessed by a single primitive
-permutation group of degree $3^9=19\,683$ with a regular suborbit.
+## Result and scope
+
+**Negative**, witnessed by a single primitive permutation group of degree
+$3^9=19\,683$ with a regular suborbit.
 
 The solution is due to **Aluna Rizzoli and Adam R. Thomas**,
 [*Common neighbour conjectures for Saxl graphs fail at every base size*](https://arxiv.org/abs/2609.01367).
 This development formalizes one counterexample from their work.
 
-## Counterexample
+## Formal statement
+
+[`Kourovka.P21_29.NotebookStatement`](Statement.lean) quantifies over finite
+subgroups of the symmetric group with a primitive action
+(`MulAction.IsPreprimitive`). `TrivialPairStabilizer` expresses that the
+intersection of two point stabilisers is the identity subgroup. The
+assertion assumes one pair with trivial stabiliser and asks for a common
+partner for every pair of points.
+
+[`Kourovka.P21_29.not_notebookStatement`](Solution.lean) proves its negation.
+The same file exposes `has_regular_suborbit`, the primitivity instance,
+and `no_simultaneous_trivial_stabilizers` for the concrete example.
+
+## Proof outline
+
+### Counterexample
 
 Index the coordinates of $V=\mathbb F_3^9$ by $\mathbb Z/9\mathbb Z$.
 Let $D$ consist of the diagonal sign changes whose product on each of
@@ -34,7 +53,7 @@ $$\alpha=0,\qquad\beta=(0,1,1,0,1,1,0,1,1),$$
 
 no $\gamma\in V$ makes both required stabilisers trivial.
 
-## Lean strategy
+### Argument
 
 1. Construct the sign subgroup, its dihedral action, and their semidirect
    product. Prove that the linear action is irreducible: two diagonal
@@ -48,15 +67,41 @@ no $\gamma\in V$ makes both required stabilisers trivial.
    stabiliser identity transfers this obstruction to the two pairs in the
    notebook question.
 
-[`Statement.lean`](Statement.lean) defines the notebook assertion directly
-using a subgroup of the symmetric group and intersections of point
-stabilisers. [`Kourovka.P21_29.not_notebookStatement`](Solution.lean) proves
-its negation. The concrete premises and obstruction are also available as
-`has_regular_suborbit`, the primitivity instance, and
-`no_simultaneous_trivial_stabilizers`.
+## File guide
+
+| File | Purpose |
+| --- | --- |
+| [`README.md`](README.md) | Problem, scope, and proof overview. |
+| [`Statement.lean`](Statement.lean) | The notebook question, independent of the proof. |
+| [`Solution.lean`](Solution.lean) | The public answer theorem and transfer to a permutation group. |
+| [`Proof/README.md`](Proof/README.md) | Roadmap through the supporting Lean modules. |
+| [`Proof/Certificates/README.md`](Proof/Certificates/README.md) | Finite checks and their coverage. |
+
+## Verification
+
+From the repository root, after the [initial setup](../../../README.md#check-the-proofs):
+
+```sh
+lake build Kourovka.Problems.P21_29.Solution
+```
+
+Use the [full build and axiom audit](../../../README.md#check-the-proofs) to
+check all public solutions. The [verification record](../../../docs/verification.md)
+documents the recorded build. The committed certificates use `decide +kernel`,
+without native evaluation; the endpoint uses only `propext`, `Classical.choice`,
+and `Quot.sound`.
 
 The [certificate generator](../../../scripts/generate_21_29.cpp) is a
 reproducibility aid; it is not trusted by the proof and is not run during a
-normal build. The committed certificates use `decide +kernel`, without
-native evaluation. See [certificate reproduction](../../../scripts/README.md)
-and the [verification record](../../../docs/verification.md).
+normal build. See [certificate reproduction](../../../scripts/README.md).
+
+## References and credits
+
+- T. C. Burness and M. Giudici,
+  [*The Kourovka Notebook*, 21st edition, Problem 21.29](https://arxiv.org/abs/1401.0300v46).
+- Aluna Rizzoli and Adam R. Thomas,
+  [*Common neighbour conjectures for Saxl graphs fail at every base size*](https://arxiv.org/abs/2609.01367).
+- Codex assisted with the Lean formalization and certificate generator.
+  The encoding and general affine-primitivity argument were adapted from
+  Aluna Rizzoli's existing Burness–Giudici development. See
+  [repository credits](../../../AUTHORS.md).

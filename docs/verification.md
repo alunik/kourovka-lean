@@ -1,8 +1,22 @@
 # Verification
 
+[Repository](../README.md) · [Documentation](README.md)
+
+For current commands, see [check the proofs](../README.md#check-the-proofs).
+`python3 scripts/check_repository.py` checks the catalogue, documentation,
+and audit coverage separately from the Lean build.
+
+## Recorded run: 9 September 2026
+
 Verified on 9 September 2026 on Auckland (`mathcompprd27`, Linux).
 The [machine-readable receipt](21.99-verification.json) records the build,
 dependency revisions, source digest, and independent certificate replay.
+
+This is a historical verification receipt for the source manifest below.
+The manifest covers Lean sources, pinned configuration, certificate generators,
+and generator inputs. It does not include Markdown documentation, the repository
+checker, or the CI workflow. Retain this receipt when those change; a changed
+proof or generator needs a new verification record.
 
 ## Environment
 
