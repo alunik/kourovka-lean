@@ -8,6 +8,8 @@ question, its formal answer, and a map of its proof.
 | Document | Purpose |
 | --- | --- |
 | [Problem template](problem-template.md) | Common files and README sections for a new solution |
+| [21.68 verification](21.68-verification.md) | Local build, source snapshot, provenance and axiom audit for the nonmonomial semiabelian counterexample |
+| [21.68: mathematical proof](21.68.md) | The order-2592 construction, irreducibility and the index-two obstruction |
 | [21.3: detailed source map](21.3.md) | Formal encoding and supporting argument for the eventual statement |
 | [Verification record](verification.md) | Recorded build, axiom audit, environment, and reproduction evidence |
 | [Machine-readable receipt](21.99-verification.json) | Exact metadata for the 9 September 2026 verification run |

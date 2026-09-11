@@ -1,0 +1,132 @@
+{
+  "repository": "https://github.com/TauCetiProject/TauCeti",
+  "commit": "285435d0b4cb5b86819ade410ce78abc77580bf6",
+  "source_mathlib": "03616a12cdf1e3f499349f69e80eee82b28745bc",
+  "target_mathlib": "87f6d5ec4c780581c9a78b06a9c5f1cf86dc5a70",
+  "files": [
+    {
+      "module": "TauCeti.Algebra.Group.Conj",
+      "source_sha256": "ed079bf0224b591fc5967a52335ebb5c9b41275d795b6de6cb0192d54a0c3264"
+    },
+    {
+      "module": "TauCeti.Algebra.Group.Subgroup.Pointwise",
+      "source_sha256": "187c983e3455dff37543962086ae92f4b6437f910972aefad25d3288b11078ce"
+    },
+    {
+      "module": "TauCeti.CategoryTheory.Skeletal",
+      "source_sha256": "9cbfb41fc94ef7957aa91b689af3876b6794fe1820f04ab5342437c92260cd95"
+    },
+    {
+      "module": "TauCeti.GroupTheory.DoubleCoset.Finite",
+      "source_sha256": "6abd3e25d564db2140b6f6cb3cb52c2e87908d0a36f5f2453cc8e1a01181c7c7"
+    },
+    {
+      "module": "TauCeti.GroupTheory.DoubleCoset.Identity",
+      "source_sha256": "9bfd22b004a7928686f06df838200e3b89ee553ec1d99c06b2b3a5e056d2c842"
+    },
+    {
+      "module": "TauCeti.GroupTheory.DoubleCoset.Orbits",
+      "source_sha256": "49715460e6469631e4efc87bf750cb5a1017f351b08431df825dceb8ee0d5efc"
+    },
+    {
+      "module": "TauCeti.GroupTheory.GroupAction.Burnside",
+      "source_sha256": "8175f2cd772e8ea29960a8f8183cf74ad3eaa2b02f1522f61868400ab6e98ac9"
+    },
+    {
+      "module": "TauCeti.GroupTheory.GroupAction.Stabilizer",
+      "source_sha256": "795e1cbbdaa413ee0b9ff8b6dc0098b5e17a386e7262808568f283e2de5ba5cc"
+    },
+    {
+      "module": "TauCeti.GroupTheory.Index",
+      "source_sha256": "4f6ae6b9634c661674372563d4654e66b4e4e3483e42815109a8297a0b265766"
+    },
+    {
+      "module": "TauCeti.GroupTheory.QuotientGroup.Basic",
+      "source_sha256": "f3af8a4ba3950f739829ecc9adaed2ff06de6001954eba52c45600f283a6d567"
+    },
+    {
+      "module": "TauCeti.LinearAlgebra.Trace.Pi",
+      "source_sha256": "627efe4bfda6bc363cbf03b4c645e329663764208ad71932da4f9d21d502e76f"
+    },
+    {
+      "module": "TauCeti.RepresentationTheory.CharacterTable.ClassFunction",
+      "source_sha256": "12e5b7fc665c3c7d1985f5438a0c65c78ca1194f3d3c602076aa1d27f75ee687"
+    },
+    {
+      "module": "TauCeti.RepresentationTheory.CharacterTable.Pairing",
+      "source_sha256": "a8bb30752f5510d023a1e7ac2f926efd869962116d26f198b8afac094e253206"
+    },
+    {
+      "module": "TauCeti.RepresentationTheory.FDRep",
+      "source_sha256": "c570a2aea9d63a29c3929017651ca5edd1cd6e287bd2f08df7275a0d631ce9df"
+    },
+    {
+      "module": "TauCeti.RepresentationTheory.Induction.Character",
+      "source_sha256": "987f28dfa4009eea59fb79da9f14d7b6b8c85df23dad9d9062d221e548abef32"
+    },
+    {
+      "module": "TauCeti.RepresentationTheory.Induction.ClassFunction",
+      "source_sha256": "dcedfb49f145ca75506ddd5b5988389b87db9737e0c2979db6b40e7afc92c0cc"
+    },
+    {
+      "module": "TauCeti.RepresentationTheory.Induction.Conjugate",
+      "source_sha256": "4fdcbe45910391a4295ebf723f93fe2e6b2916c60b9a7113795a5f3a1a281a71"
+    },
+    {
+      "module": "TauCeti.RepresentationTheory.Induction.FiniteDimensional",
+      "source_sha256": "5345da2b9747e08087f07c8e2fe137802689f5c3be40b8c2b15f9cda760c7896"
+    },
+    {
+      "module": "TauCeti.RepresentationTheory.Induction.FrobeniusReciprocity",
+      "source_sha256": "a780e39d0f98b7470cfca3e4432492aa5202e9202ddb5deb935f99a97e211445"
+    },
+    {
+      "module": "TauCeti.RepresentationTheory.Induction.LinearCharacter",
+      "source_sha256": "dab7f012492875a4e35dd130c74c8f5c9d920c37437dcc8c1ff727f95ab25a44"
+    },
+    {
+      "module": "TauCeti.RepresentationTheory.Induction.Mackey.Basic",
+      "source_sha256": "42a37595f947c6e29731aea7b677652c944a83d1104802d04453de09794ad02e"
+    },
+    {
+      "module": "TauCeti.RepresentationTheory.Induction.Mackey.Intertwining",
+      "source_sha256": "916ed525c9659a2acfbb5c36270815ab328552aa3a81096d7add3dfcfff2f23c"
+    },
+    {
+      "module": "TauCeti.RepresentationTheory.Induction.Mackey.Irreducible",
+      "source_sha256": "92849ab558572db9a07c189764a4746ec9a418314b53bffaef35c1af5a1e898b"
+    },
+    {
+      "module": "TauCeti.RepresentationTheory.Induction.Mackey.Subgroup",
+      "source_sha256": "e84982a35196432d86448f696a8c9c7eb3595772a03b15b8b8d9ee6b94c7abd3"
+    },
+    {
+      "module": "TauCeti.RepresentationTheory.Induction.Restriction",
+      "source_sha256": "591f956c43b8f260ccceb63f26264a694201fce5583f4c683cb07ac50e59b8b6"
+    },
+    {
+      "module": "TauCeti.RepresentationTheory.Irreducible",
+      "source_sha256": "3313eb769b96954f48215a936223393e131b2db44c4fb4680b326312f547f169"
+    },
+    {
+      "module": "TauCeti.RepresentationTheory.LinearCharacter",
+      "source_sha256": "258d4b9c28065c859f348c48aff049022f6a75556bdbe0a97aec592a2ed1fd05"
+    },
+    {
+      "module": "TauCeti.RepresentationTheory.Simple.Basic",
+      "source_sha256": "4baa8b56f86fee4f3a0d75ae0e1bd05ac420cdbf58e1f3f6b3b74cc94a8bf396"
+    },
+    {
+      "module": "TauCeti.RepresentationTheory.Subrepresentation",
+      "source_sha256": "cf92084790d6c18d90bd21d69fd83316b17c582864116dde2139df7d9aa97715"
+    },
+    {
+      "module": "TauCeti.RingTheory.Semisimple.DoubleCentralizer",
+      "source_sha256": "5cacb7e1812f56a7d1ce0f155cfabcf0f373a263606918ae9e99e059479a970e"
+    },
+    {
+      "module": "TauCeti.RingTheory.Semisimple.Schur",
+      "source_sha256": "b93b1f32a8ffc802a944daa901763587f961c6ce630436cdaa11f6ebe997a05b"
+    }
+  ]
+}

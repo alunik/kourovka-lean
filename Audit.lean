@@ -14,6 +14,13 @@ import Kourovka
 #guard_msgs in
 #print axioms Kourovka.P21_29.not_notebookStatement
 
+#print Kourovka.P21_68.NotebookStatement
+#print Kourovka.P21_68.not_notebookStatement
+
+/-- info: 'Kourovka.P21_68.not_notebookStatement' depends on axioms: [propext, Classical.choice, Quot.sound] -/
+#guard_msgs in
+#print axioms Kourovka.P21_68.not_notebookStatement
+
 #print Kourovka.P21_99.NotebookStatement
 #print Kourovka.P21_99.not_notebookStatement
 

@@ -16,6 +16,17 @@ encoding and the general affine-primitivity argument were adapted from
 Aluna Rizzoli's existing Burness–Giudici Lean development; the concrete nine-dimensional group and
 its certificates are formalized here directly.
 
+Problem 21.68 was posed by M. Kida. The counterexample and formalization were
+developed in Aluna Rizzoli's research project with substantial Codex assistance
+in the construction, independent mathematical audits, Lean development and
+verification. Kida's *On semiabelian groups* already supplies the relevant
+semiabelian complement containing the binary tetrahedral subgroup; the
+embedding used here is proved explicitly. The induction infrastructure is
+adapted from the Tau Ceti contributors' Apache-licensed work, with its
+[exact provenance and license](Kourovka/External/TauCeti/README.md) retained.
+This record does not claim publication priority for the construction or the
+general transfer argument.
+
 Problem 21.99 was posed by Peter Müller. This counterexample and its Lean
 development were produced in Aluna Rizzoli's computational search project,
 with substantial Codex assistance in the C++ search, certificate extraction,

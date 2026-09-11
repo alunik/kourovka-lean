@@ -13,6 +13,7 @@ its proof, and reproducible verification instructions.
 | --- | --- | --- | --- |
 | [21.3, first question](Kourovka/Problems/P21_03/README.md) | **Affirmative** for symmetric and alternating groups in all sufficiently large degrees; no explicit cutoff | [Lean statement](Kourovka/Problems/P21_03/Statement.lean) | [`Kourovka.P21_03.firstQuestion`](Kourovka/Problems/P21_03/Solution.lean) |
 | [21.29](Kourovka/Problems/P21_29/README.md) | **Negative**, by a primitive affine counterexample of degree 19,683 | [Lean statement](Kourovka/Problems/P21_29/Statement.lean) | [`Kourovka.P21_29.not_notebookStatement`](Kourovka/Problems/P21_29/Solution.lean) |
+| [21.68](Kourovka/Problems/P21_68/README.md) | **Negative**, by a semiabelian group of order 2592 with an irreducible nonmonomial complex representation of degree 8 | [Lean statement](Kourovka/Problems/P21_68/Statement.lean) | [`Kourovka.P21_68.not_notebookStatement`](Kourovka/Problems/P21_68/Solution.lean) |
 | [21.99](Kourovka/Problems/P21_99/README.md) | **Negative**, by a finite transitive action in which every element carrying one specified point to another fixes exactly one point | [Lean statement](Kourovka/Problems/P21_99/Statement.lean) | [`Kourovka.P21_99.not_notebookStatement`](Kourovka/Problems/P21_99/Solution.lean) |
 
 Every listed answer has a complete proof checked by Lean. The permitted
