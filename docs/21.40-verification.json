@@ -188,8 +188,19 @@
   },
   "source_manifest": {
     "path": "docs/21.40-source.sha256",
-    "sha256": "57fc11f78c3f3296ed0162738e8c493daf895c3b20f511a165732c194e1c7e57",
+    "sha256": "610e2c1bef9dadde3c468bd1d867b83fee5f40a8f461d7c0d7fe88d793ca170c",
     "files": 23
   },
-  "scope": "Full affirmative answer for arbitrary rational linear groups with finitely many full abstract automorphism orbits; normal finite-index subgroup with explicit bound, one simultaneous rational unitriangular basis, nilpotency class bound, and torsion-freeness. All natural dimensions, including zero. Unconditional finite-index torsion-free nilpotent conclusion over every number field. Local verification targets the new solution and its audit; no new repository-wide build, root Audit.lean run, or remote CI result is claimed. Unchanged solutions were not rebuilt."
+  "scope": "Full affirmative answer for arbitrary rational linear groups with finitely many full abstract automorphism orbits; normal finite-index subgroup with explicit bound, one simultaneous rational unitriangular basis, nilpotency class bound, and torsion-freeness. All natural dimensions, including zero. Unconditional finite-index torsion-free nilpotent conclusion over every number field. Local verification targets the new solution and its audit; no new repository-wide build, root Audit.lean run, or remote CI result is claimed. Unchanged solutions were not rebuilt.",
+  "documentation_refresh": {
+    "date": "2026-09-15",
+    "basis_commit": "4f277d99c75e875946c56ca5941d7f45ef517352",
+    "reason": "Add verified formulation chronology and mathematical context.",
+    "changed_manifest_files": [
+      "Kourovka/Problems/P21_40/README.md"
+    ],
+    "previous_manifest_sha256": "57fc11f78c3f3296ed0162738e8c493daf895c3b20f511a165732c194e1c7e57",
+    "lean_source_verification": "All 14 Lean files retain the hashes from the successful kernel build and guarded axiom audit; no Lean proof was rebuilt.",
+    "note": "Only documentation hashes were refreshed. The original build and audit metadata are retained."
+  }
 }

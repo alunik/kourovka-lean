@@ -17,6 +17,9 @@ Aluna Rizzoli's existing Burness–Giudici Lean development; the concrete nine-d
 its certificates are formalized here directly.
 
 Problem 21.40 is attributed to A. Dantas and E. de Melo in the Notebook.
+The exact question is present in the initial twenty-first-edition arXiv
+version dated 8 January 2026; the [provenance review](docs/21.40-context.md)
+distinguishes that verified source from any earlier original formulation.
 The affirmative solution, quantitative structural theorem, and number-field
 extension were developed in Aluna Rizzoli's research project with substantial
 Codex assistance in the mathematical argument, literature review, independent

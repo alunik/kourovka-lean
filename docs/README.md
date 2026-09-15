@@ -9,6 +9,7 @@ question, its formal answer, and a map of its proof.
 | --- | --- |
 | [Problem template](problem-template.md) | Common files and README sections for a new solution |
 | [21.40 verification](21.40-verification.md) | Full rational structural theorem, number-field extension, targeted build, and axiom audit |
+| [21.40 origin and context](21.40-context.md) | Earliest verified formulation, prior structural results, and the solution's contribution |
 | [21.68 verification](21.68-verification.md) | Local build, source snapshot, provenance and axiom audit for the nonmonomial semiabelian counterexample |
 | [21.68: mathematical proof](21.68.md) | The order-2592 construction, irreducibility and the index-two obstruction |
 | [21.106 verification](21.106-verification.md) | First-order statement, Heisenberg counterexample, build and axiom verification |

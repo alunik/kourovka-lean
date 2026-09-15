@@ -7,10 +7,16 @@
 Let `G` be a subgroup of `GL_n(ℚ)` with finitely many orbits under its full
 abstract automorphism group. Must `G` be virtually soluble?
 
-The question is attributed to **A. Dantas and E. de Melo** in the
-[21st edition of the Kourovka Notebook, version 46, page 173](https://arxiv.org/pdf/1401.0300v46#page=173).
-It imposes no finite-generation hypothesis. We do not claim that the
-question first appeared in the Notebook.
+The question is attributed to **A. Dantas and E. de Melo** in the initial
+arXiv version of the Notebook's 21st edition,
+[version 39, dated 8 January 2026, page 167](https://arxiv.org/pdf/1401.0300v39#page=167).
+It appears on page 173 in the later
+[September revision, version 46](https://arxiv.org/pdf/1401.0300v46#page=173).
+January is the earliest exact formulation verified in our search;
+we do not claim to have established where it was first conceived or
+published. It imposes no finite-generation hypothesis.
+See the [origin and mathematical context](../../../docs/21.40-context.md)
+for the earlier papers, nearby thesis questions, and remaining access limit.
 
 ## Result and scope
 
@@ -31,6 +37,13 @@ ones. No computational certificate or classification assumption is used.
 Restriction of scalars also proves that every linear group over a number
 field with finitely many automorphism orbits has a finite-index torsion-free
 nilpotent subgroup.
+
+Earlier work of Bastos, Dantas and de Melo established structural
+decompositions under solubility and finite-rank hypotheses, or assuming
+virtual nilpotence. This theorem obtains virtual nilpotence directly
+from rational linearity and the finite-orbit condition. The classification
+within nilpotent groups remains substantial: de Melo and Kato show that
+`UT_6(ℚ)` has infinitely many automorphism orbits.
 
 The mathematical argument was developed in Aluna Rizzoli's research project
 with substantial Codex assistance. The Lean proof uses an efficient variant
@@ -113,8 +126,17 @@ external finite-check assumptions.
 ## References and credits
 
 - E. I. Khukhro and V. D. Mazurov (eds.), *The Kourovka Notebook*, 21st
-  edition, [arXiv:1401.0300v46](https://arxiv.org/abs/1401.0300v46),
-  Problem 21.40, p. 173; question of A. Dantas and E. de Melo.
+  edition, [arXiv:1401.0300v39](https://arxiv.org/abs/1401.0300v39),
+  dated 8 January 2026, Problem 21.40, p. 167; question of A. Dantas and
+  E. de Melo. Later [v46](https://arxiv.org/abs/1401.0300v46), p. 173.
+- R. Bastos, A. C. Dantas and E. de Melo,
+  [*Soluble groups with few orbits under automorphisms*](https://arxiv.org/abs/1908.01375),
+  *Geometriae Dedicata* 209 (2020), 119–123, Theorem A; and
+  [*Virtually nilpotent groups with finitely many orbits under automorphisms*](https://arxiv.org/abs/2008.10800),
+  *Archiv der Mathematik* 116 (2021), 261–270, Theorem 1.2 and Corollary 1.3.
+- E. de Melo and J. Kato,
+  [*Automorphism Orbits of the Group of Unitriangular Matrices*](https://arxiv.org/abs/2510.09353v1),
+  2025, introduction and Theorems 1.1–1.2.
 - The finite-trace method is classical; see I. Kaplansky, *Fields and Rings*,
   second edition, 1972, Part II, §2, pp. 99–101, for the Burnside/Procesi
   argument and Kolchin's triangularization theorem.
