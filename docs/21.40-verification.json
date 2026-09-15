@@ -188,7 +188,7 @@
   },
   "source_manifest": {
     "path": "docs/21.40-source.sha256",
-    "sha256": "610e2c1bef9dadde3c468bd1d867b83fee5f40a8f461d7c0d7fe88d793ca170c",
+    "sha256": "ca1e6156dcc5508f3bdafb5ba0dff69c377b668208d703381002387042fdb046",
     "files": 23
   },
   "scope": "Full affirmative answer for arbitrary rational linear groups with finitely many full abstract automorphism orbits; normal finite-index subgroup with explicit bound, one simultaneous rational unitriangular basis, nilpotency class bound, and torsion-freeness. All natural dimensions, including zero. Unconditional finite-index torsion-free nilpotent conclusion over every number field. Local verification targets the new solution and its audit; no new repository-wide build, root Audit.lean run, or remote CI result is claimed. Unchanged solutions were not rebuilt.",

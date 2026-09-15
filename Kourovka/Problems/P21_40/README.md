@@ -49,8 +49,9 @@ The mathematical argument was developed in Aluna Rizzoli's research project
 with substantial Codex assistance. The Lean proof uses an efficient variant
 of the written argument: a cyclotomic fixed-vector lemma gives uniqueness
 of large prime roots; an ascending chain of finite-dimensional algebras
-puts a coherent root sequence in a single number field, where mathlib's
-Northcott theorem applies. These changes preserve the theorem and index bound.
+stabilizes, allowing the spectral root equations to be transferred to a
+single number field, where mathlib's Northcott theorem applies. These
+changes preserve the theorem and index bound.
 
 ## Formal statement
 
