@@ -1,0 +1,195 @@
+{
+  "status": "TARGETED_BUILD_AND_AUDIT_PASS",
+  "recorded_at_utc": "2026-09-15T12:23:11.556392+00:00",
+  "platform": "macOS-15.2-arm64-arm-64bit-Mach-O",
+  "base_commit": "70c5d6fa5a0e58f50cd8b4a6a88a38ce5893520c",
+  "branch": "main",
+  "lean_toolchain": "leanprover/lean4:v4.34.0-rc2",
+  "dependencies": [
+    {
+      "url": "https://github.com/leanprover-community/mathlib4.git",
+      "type": "git",
+      "subDir": null,
+      "scope": "",
+      "rev": "87f6d5ec4c780581c9a78b06a9c5f1cf86dc5a70",
+      "name": "mathlib",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "87f6d5ec4c780581c9a78b06a9c5f1cf86dc5a70",
+      "inherited": false,
+      "configFile": "lakefile.lean"
+    },
+    {
+      "url": "https://github.com/leanprover-community/plausible",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "d9598f07b1bc701f1e3aae163d2681c1fd978793",
+      "name": "plausible",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "main",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover-community/LeanSearchClient",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "ba67e212be1197b84c1f1f6299488a10a3002713",
+      "name": "LeanSearchClient",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "main",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover-community/import-graph",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "d8823026ac7ef130c253089d95685f9877b95323",
+      "name": "importGraph",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "main",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover-community/ProofWidgets4",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "a8acbfd87375ff4abe14ce09db5b7664d383bc7f",
+      "name": "proofwidgets",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "main",
+      "inherited": true,
+      "configFile": "lakefile.lean"
+    },
+    {
+      "url": "https://github.com/leanprover-community/aesop",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "18889deb9e83ea7420ef51c160d6f88552e744e3",
+      "name": "aesop",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "master",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover-community/quote4",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "507746ab8f4b643ccdacb2ec4cdb5853fa9f8ab3",
+      "name": "Qq",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "master",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover-community/batteries",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "d54dddc581e08be364c278052863524bff7a99a9",
+      "name": "batteries",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "main",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover/lean4-cli",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover",
+      "rev": "ab3a82db9fea14cf0fd7f5a2de650f4b534640af",
+      "name": "Cli",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "v4.34.0-rc2",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    }
+  ],
+  "dependency_checkout_verification": "All nine dependency checkouts verified clean at their manifest revisions.",
+  "checks": [
+    {
+      "command": "LEAN_NUM_THREADS=1 lake build Kourovka.Problems.P21_40.Solution",
+      "exit_code": 0,
+      "lake_jobs": 3451,
+      "new_module_warnings": 0,
+      "log": "docs/21.40-build.txt",
+      "log_sha256": "a0dab0ebe80c80979e3354343e952017d0e2be7510ec9437028a52f8ab35f4c6"
+    },
+    {
+      "command": "LEAN_NUM_THREADS=1 lake env lean Kourovka/Problems/P21_40/Audit.lean",
+      "exit_code": 0,
+      "log": "docs/21.40-axiom-audit.txt",
+      "log_sha256": "f10fa1de2effb92f5a49ca963b0779bb82c851d85eb35dfd7abfe9c51b6b8687",
+      "guarded_checks": 5
+    },
+    {
+      "check": "Comment-stripped source scan for placeholders, axioms, unsafe, native decision procedures, and foreign implementation annotations",
+      "result": "PASS",
+      "lean_files": 14,
+      "lean_lines": 2030
+    },
+    {
+      "command": "python3 scripts/check_repository.py",
+      "exit_code": 0,
+      "output": "Repository check passed: 6 problems, 31 Markdown files."
+    },
+    {
+      "command": "git diff --check",
+      "exit_code": 0,
+      "output": ""
+    },
+    {
+      "check": "Python hashlib replay of SHA-256 manifest and whitespace check of every covered source file",
+      "result": "PASS",
+      "files": 23
+    }
+  ],
+  "audited_axioms": {
+    "Kourovka.P21_40.structural_theorem": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Kourovka.P21_40.notebookStatement": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Kourovka.P21_40.trace_bounds_of_finite_automorphism_orbits": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Kourovka.P21_40.exists_conjugating_strict_upper": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Kourovka.P21_40.numberField_structure": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "independent_semantic_review": {
+    "path": "docs/21.40-statement-audit.md",
+    "sha256": "67cc1516575e0594e628aaa60e61320f260aae22f14ca48bd54318d0729fe32e",
+    "result": "PASS"
+  },
+  "source_manifest": {
+    "path": "docs/21.40-source.sha256",
+    "sha256": "57fc11f78c3f3296ed0162738e8c493daf895c3b20f511a165732c194e1c7e57",
+    "files": 23
+  },
+  "scope": "Full affirmative answer for arbitrary rational linear groups with finitely many full abstract automorphism orbits; normal finite-index subgroup with explicit bound, one simultaneous rational unitriangular basis, nilpotency class bound, and torsion-freeness. All natural dimensions, including zero. Unconditional finite-index torsion-free nilpotent conclusion over every number field. Local verification targets the new solution and its audit; no new repository-wide build, root Audit.lean run, or remote CI result is claimed. Unchanged solutions were not rebuilt."
+}

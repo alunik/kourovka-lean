@@ -1,0 +1,22 @@
+def Kourovka.P21_40.HasFiniteAutomorphismOrbits.{u_1} : (G : Type u_1) → [Group G] → Prop :=
+fun G [Group G] => Finite (MulAction.orbitRel.Quotient (MulAut G) G)
+def Kourovka.P21_40.NotebookStatement : Prop :=
+∀ (n : ℕ) (G : Subgroup (GL (Fin n) ℚ)),
+  Kourovka.P21_40.HasFiniteAutomorphismOrbits ↥G → Kourovka.P21_40.IsVirtuallySolvable ↥G
+def Kourovka.P21_40.StructuralConclusion : {n : ℕ} → Subgroup (GL (Fin n) ℚ) → Prop :=
+fun {n} G =>
+  ∃ K,
+    K.Normal ∧
+      K.FiniteIndex ∧
+        K.index ≤ (2 * n + 1) ^ n ^ 2 ∧
+          Group.IsNilpotent ↥K ∧
+            Group.nilpotencyClass ↥K ≤ n - 1 ∧
+              (∀ (g : ↥K), IsOfFinOrder g → g = 1) ∧ ∃ P, ∀ g ∈ K, Kourovka.P21_40.IsUpperUnitriangular ↑(P⁻¹ * ↑g * P)
+Kourovka.P21_40.structural_theorem {n : ℕ} (G : Subgroup (GL (Fin n) ℚ))
+  (hG : Kourovka.P21_40.HasFiniteAutomorphismOrbits ↥G) : Kourovka.P21_40.StructuralConclusion G
+Kourovka.P21_40.virtually_nilpotent {n : ℕ} (G : Subgroup (GL (Fin n) ℚ))
+  (hG : Kourovka.P21_40.HasFiniteAutomorphismOrbits ↥G) : Group.IsVirtuallyNilpotent ↥G
+Kourovka.P21_40.notebookStatement : Kourovka.P21_40.NotebookStatement
+Kourovka.P21_40.numberField_structure.{u_1} {K : Type u_1} [Field K] [NumberField K] {n : ℕ}
+  (G : Subgroup (GL (Fin n) K)) (hG : Kourovka.P21_40.HasFiniteAutomorphismOrbits ↥G) :
+  ∃ N, N.FiniteIndex ∧ Group.IsNilpotent ↥N ∧ ∀ (g : ↥N), IsOfFinOrder g → g = 1

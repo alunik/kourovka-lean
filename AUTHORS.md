@@ -16,6 +16,17 @@ encoding and the general affine-primitivity argument were adapted from
 Aluna Rizzoli's existing Burness–Giudici Lean development; the concrete nine-dimensional group and
 its certificates are formalized here directly.
 
+Problem 21.40 is attributed to A. Dantas and E. de Melo in the Notebook.
+The affirmative solution, quantitative structural theorem, and number-field
+extension were developed in Aluna Rizzoli's research project with substantial
+Codex assistance in the mathematical argument, literature review, independent
+audits, Lean development, and verification. This record does not assert that
+the question first appeared in the Notebook. Newton–Girard code is adapted
+from the TNLean contributors' work in LionSR/QICLean, and the unitriangular
+commutator filtration from the Tau Ceti contributors' work. Their
+[exact source revisions and Apache license](Kourovka/Problems/P21_40/Proof/THIRD_PARTY.md)
+are retained. Number-field heights and Northcott finiteness use existing mathlib.
+
 Problem 21.68 was posed by M. Kida. The counterexample and formalization were
 developed in Aluna Rizzoli's research project with substantial Codex assistance
 in the construction, independent mathematical audits, Lean development and
