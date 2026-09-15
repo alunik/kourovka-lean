@@ -16,7 +16,7 @@ January is the earliest exact formulation verified in our search;
 we do not claim to have established where it was first conceived or
 published. It imposes no finite-generation hypothesis.
 See the [origin and mathematical context](../../../docs/21.40-context.md)
-for the earlier papers, nearby thesis questions, and remaining access limit.
+for the earlier papers, nearby thesis questions, and the full journal-article check.
 
 ## Result and scope
 

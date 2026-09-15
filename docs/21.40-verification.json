@@ -188,7 +188,7 @@
   },
   "source_manifest": {
     "path": "docs/21.40-source.sha256",
-    "sha256": "ca1e6156dcc5508f3bdafb5ba0dff69c377b668208d703381002387042fdb046",
+    "sha256": "b3ee84ddb0a9fc0469f76e1dc21788fe57339d686ef5fdc2cfa108ef9c5739d5",
     "files": 23
   },
   "scope": "Full affirmative answer for arbitrary rational linear groups with finitely many full abstract automorphism orbits; normal finite-index subgroup with explicit bound, one simultaneous rational unitriangular basis, nilpotency class bound, and torsion-freeness. All natural dimensions, including zero. Unconditional finite-index torsion-free nilpotent conclusion over every number field. Local verification targets the new solution and its audit; no new repository-wide build, root Audit.lean run, or remote CI result is claimed. Unchanged solutions were not rebuilt.",
@@ -201,6 +201,14 @@
     ],
     "previous_manifest_sha256": "57fc11f78c3f3296ed0162738e8c493daf895c3b20f511a165732c194e1c7e57",
     "lean_source_verification": "All 14 Lean files retain the hashes from the successful kernel build and guarded axiom audit; no Lean proof was rebuilt.",
-    "note": "Only documentation hashes were refreshed. The original build and audit metadata are retained."
+    "note": "Only documentation hashes were refreshed. The original build and audit metadata are retained.",
+    "journal_fulltext_review": {
+      "date": "2026-09-15",
+      "source_doi": "10.1080/00927872.2025.2578695",
+      "source_pdf_sha256": "712add5a5f8f6663799ff2bc6ebeb6cc2a5b5eea29e913e0835e18674b2cf896",
+      "pdf_pages": 8,
+      "article_pages": "2341\u20132347",
+      "fulltext_review": "Complete article read by two independent reviewers. The exact21.40 question is absent; no stated theorem settles the general rational-linear problem. Main Theorems1.1\u20131.3 onp2342 retain mixed-order, solubility/metabelianity, finite-rank, and4/5-orbit restrictions."
+    }
   }
 }
