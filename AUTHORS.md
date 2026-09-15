@@ -33,6 +33,16 @@ with substantial Codex assistance in the C++ search, certificate extraction,
 Lean proofs, mathematical review, and documentation. The independent GAP
 checks and Lean compilation were run on Auckland.
 
+Problem 21.106 is attributed to M. Petschick in the Notebook. The original
+question appears in Martina Conte and J. Moritz Petschick's
+[*Conciseness of first-order formulae*](https://arxiv.org/abs/2505.01411v1)
+(2025), before its inclusion in the 2026 Notebook. The Heisenberg
+counterexample and its formalization were developed in Aluna Rizzoli's
+research project with substantial Codex assistance in the construction,
+literature review, independent mathematical checks, first-order encoding,
+Lean development, and verification. The group and formula are formalized
+directly here using mathlib; no third-party source is vendored for this result.
+
 The underlying library is [mathlib](https://github.com/leanprover-community/mathlib4),
 maintained by the Lean mathematical community. It is an external pinned
 dependency, not vendored source.

@@ -27,3 +27,10 @@ import Kourovka
 /-- info: 'Kourovka.P21_99.not_notebookStatement' depends on axioms: [propext, Classical.choice, Quot.sound] -/
 #guard_msgs in
 #print axioms Kourovka.P21_99.not_notebookStatement
+
+#print Kourovka.P21_106.NotebookStatement
+#print Kourovka.P21_106.not_notebookStatement
+
+/-- info: 'Kourovka.P21_106.not_notebookStatement' depends on axioms: [propext, Classical.choice, Quot.sound] -/
+#guard_msgs in
+#print axioms Kourovka.P21_106.not_notebookStatement

@@ -1,0 +1,173 @@
+{
+  "status": "TARGETED_BUILD_AND_AUDIT_PASS",
+  "recorded_at_utc": "2026-09-15T11:20:23.007035+00:00",
+  "platform": "macOS-15.2-arm64-arm-64bit-Mach-O",
+  "base_commit": "b43c0b56f0c94cc2c2bc4d8788e47195843ce337",
+  "branch": "main",
+  "lean_toolchain": "leanprover/lean4:v4.34.0-rc2",
+  "dependencies": [
+    {
+      "url": "https://github.com/leanprover-community/mathlib4.git",
+      "type": "git",
+      "subDir": null,
+      "scope": "",
+      "rev": "87f6d5ec4c780581c9a78b06a9c5f1cf86dc5a70",
+      "name": "mathlib",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "87f6d5ec4c780581c9a78b06a9c5f1cf86dc5a70",
+      "inherited": false,
+      "configFile": "lakefile.lean"
+    },
+    {
+      "url": "https://github.com/leanprover-community/plausible",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "d9598f07b1bc701f1e3aae163d2681c1fd978793",
+      "name": "plausible",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "main",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover-community/LeanSearchClient",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "ba67e212be1197b84c1f1f6299488a10a3002713",
+      "name": "LeanSearchClient",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "main",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover-community/import-graph",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "d8823026ac7ef130c253089d95685f9877b95323",
+      "name": "importGraph",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "main",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover-community/ProofWidgets4",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "a8acbfd87375ff4abe14ce09db5b7664d383bc7f",
+      "name": "proofwidgets",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "main",
+      "inherited": true,
+      "configFile": "lakefile.lean"
+    },
+    {
+      "url": "https://github.com/leanprover-community/aesop",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "18889deb9e83ea7420ef51c160d6f88552e744e3",
+      "name": "aesop",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "master",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover-community/quote4",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "507746ab8f4b643ccdacb2ec4cdb5853fa9f8ab3",
+      "name": "Qq",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "master",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover-community/batteries",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "d54dddc581e08be364c278052863524bff7a99a9",
+      "name": "batteries",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "main",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover/lean4-cli",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover",
+      "rev": "ab3a82db9fea14cf0fd7f5a2de650f4b534640af",
+      "name": "Cli",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "v4.34.0-rc2",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    }
+  ],
+  "dependency_checkout_verification": "All nine dependency checkouts verified clean at their manifest revisions.",
+  "checks": [
+    {
+      "command": "lake build Kourovka.Problems.P21_106.Solution",
+      "exit_code": 0,
+      "lake_jobs": 1230,
+      "new_module_warnings": 0
+    },
+    {
+      "command": "lake env lean Kourovka/Problems/P21_106/Audit.lean",
+      "exit_code": 0,
+      "log_sha256": "b28e91bee922296e347eda9b7bfb74a14313e0ec17daf41289fb533f6f435318"
+    },
+    {
+      "check": "New Lean source scan for placeholders, axioms, unsafe and native decision procedures",
+      "result": "PASS"
+    },
+    {
+      "command": "python3 scripts/check_repository.py",
+      "exit_code": 0,
+      "result": "Repository check passed: 5 problems, 26 Markdown files."
+    },
+    {
+      "command": "git diff --check",
+      "exit_code": 0
+    },
+    {
+      "command": "LC_ALL=C LC_CTYPE=C LANG=C shasum -a 256 -c docs/21.106-source.sha256",
+      "exit_code": 0,
+      "files": 11
+    }
+  ],
+  "audited_axioms": {
+    "Kourovka.P21_106.not_notebookStatement": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Kourovka.P21_106.realize_counterexampleFormula": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Kourovka.P21_106.formulaCondition_iff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "source_manifest": {
+    "path": "docs/21.106-source.sha256",
+    "sha256": "c2c4e2458d12dabfa12a83cbbad35b624a108ba2d85ba9198155cb1724c25bbe",
+    "files": 11
+  },
+  "scope": "Complete mathematical disproof through actual first-order syntax and realization, exact two-value characterization, infinite generated subgroup, and standard residual finiteness. Local verification targets the new solution and its audit; no new repository-wide build, root Audit.lean run, or remote CI result is claimed. Unchanged large existing proofs were not rebuilt."
+}

@@ -15,6 +15,7 @@ its proof, and reproducible verification instructions.
 | [21.29](Kourovka/Problems/P21_29/README.md) | **Negative**, by a primitive affine counterexample of degree 19,683 | [Lean statement](Kourovka/Problems/P21_29/Statement.lean) | [`Kourovka.P21_29.not_notebookStatement`](Kourovka/Problems/P21_29/Solution.lean) |
 | [21.68](Kourovka/Problems/P21_68/README.md) | **Negative**, by a semiabelian group of order 2592 with an irreducible nonmonomial complex representation of degree 8 | [Lean statement](Kourovka/Problems/P21_68/Statement.lean) | [`Kourovka.P21_68.not_notebookStatement`](Kourovka/Problems/P21_68/Solution.lean) |
 | [21.99](Kourovka/Problems/P21_99/README.md) | **Negative**, by a finite transitive action in which every element carrying one specified point to another fixes exactly one point | [Lean statement](Kourovka/Problems/P21_99/Statement.lean) | [`Kourovka.P21_99.not_notebookStatement`](Kourovka/Problems/P21_99/Solution.lean) |
+| [21.106](Kourovka/Problems/P21_106/README.md) | **Negative**, by a parameter-free formula with two values generating an infinite subgroup in the residually finite integral Heisenberg group | [Lean statement](Kourovka/Problems/P21_106/Statement.lean) | [`Kourovka.P21_106.not_notebookStatement`](Kourovka/Problems/P21_106/Solution.lean) |
 
 Every listed answer has a complete proof checked by Lean. The permitted
 foundational axioms are `propext`, `Classical.choice`, and `Quot.sound`.
