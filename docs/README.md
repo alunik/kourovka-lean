@@ -8,6 +8,8 @@ question, its formal answer, and a map of its proof.
 | Document | Purpose |
 | --- | --- |
 | [Nilradical v0 results](nilradical-v0.md) | Six discoveries, source credit and citation instructions |
+| [Research and credit](research-and-credit.md) | Use of the six Nilradical results, human authorship, citation and third-party credit |
+| [Credit corrections](credit-corrections.md) | Reporting omissions or earlier work, human review and a dated correction record |
 | [Strict verification](nilradical-v0-verification/README.md) | 35 endpoints, independent statement audits, Lean and Nanoda replay, frozen source hashes and human review packet |
 | [Human statement acceptance](nilradical-v0-acceptance/README.md) | Final approval of all six scoped statements, with source and decision digests |
 | [Proof walkthroughs](walkthroughs/README.md) | Post-acceptance accounts by Nilradical v0, informal and unrefereed |

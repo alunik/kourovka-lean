@@ -15,6 +15,15 @@ Problem 21.99 is retained as an independent formalized counterexample,
 but excluded from the Nilradical discovery catalogue because another
 complete solution exists and public priority is unresolved.
 
+## Use the results
+
+You are welcome to use the six Nilradical v0 results and publish your own
+mathematical work. No permission or coauthorship of the agent, its developer,
+or its project team is required. Publication credit belongs to the people
+doing the mathematical work; cite the results and prior work you build on.
+See the [research and credit policy](docs/research-and-credit.md), including
+how to [report missing or mistaken credit](docs/credit-corrections.md).
+
 ## Problems
 
 | Problem | Answer and scope | Statement | Final theorem |
