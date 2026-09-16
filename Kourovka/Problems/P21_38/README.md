@@ -75,6 +75,10 @@ statement. The fixed-point proof uses finite rational affine interpolation.
 
 ## Proof outline
 
+Read [How the proof works](../../../docs/walkthroughs/21.38.md),
+an informal account by **Nilradical v0**, generated after human statement
+acceptance and labelled **Agent-generated exposition; not refereed**.
+
 1. **Identify the endpoint kernel.** Construct $\pi$, calculate its values
    on standard generators, and prove that its kernel is the compact core
    $F'$, consisting of maps equal to the identity near both endpoints.
@@ -113,6 +117,9 @@ mathematical steps.
 | [Proof/THIRD_PARTY.md](Proof/THIRD_PARTY.md) | Imported foundations, exact source revision, license, and local changes |
 
 ## Verification
+
+[Final human statement acceptance](../../../docs/nilradical-v0-acceptance/README.md)
+was recorded on 16 September 2026 for source revision `5a6b2c18e326`.
 
 The Nilradical v0 strict check passed on 16 September 2026 for 7
 selected endpoints: fresh compilation, independently reviewed statement

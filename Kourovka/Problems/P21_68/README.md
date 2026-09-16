@@ -35,6 +35,10 @@ or a finite-search conclusion.
 
 ## Proof outline
 
+Read [How the proof works](../../../docs/walkthroughs/21.68.md),
+an informal account by **Nilradical v0**, generated after human statement
+acceptance and labelled **Agent-generated exposition; not refereed**.
+
 A [self-contained mathematical proof](../../../docs/21.68.md) gives the
 matrices, the subgroup chain and the induction argument in detail.
 
@@ -65,6 +69,9 @@ split extensions. The normal 3-subgroup `A` need not be a Sylow subgroup.
   attribution, exact pins, retained license and local compatibility changes.
 
 ## Verification
+
+[Final human statement acceptance](../../../docs/nilradical-v0-acceptance/README.md)
+was recorded on 16 September 2026 for source revision `5a6b2c18e326`.
 
 The Nilradical v0 strict check passed on 16 September 2026 for 7
 selected endpoints: fresh compilation, independently reviewed statement

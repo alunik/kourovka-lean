@@ -33,6 +33,10 @@ The public theorem is [`Kourovka.P21_03.firstQuestion`](Solution.lean).
 
 ## Proof outline
 
+Read [How the proof works](../../../docs/walkthroughs/21.3.md),
+an informal account by **Nilradical v0**, generated after human statement
+acceptance and labelled **Agent-generated exposition; not refereed**.
+
 1. Embed soluble permutation groups into suitable iterated wreath-product
    and direct-product envelopes. Separate the transposition core from the
    remaining elements and bound the latter's contribution uniformly.
@@ -54,6 +58,9 @@ The public theorem is [`Kourovka.P21_03.firstQuestion`](Solution.lean).
 | [`docs/21.3.md`](../../../docs/21.3.md) | Detailed explanation of the encoding and source map. |
 
 ## Verification
+
+[Final human statement acceptance](../../../docs/nilradical-v0-acceptance/README.md)
+was recorded on 16 September 2026 for source revision `5a6b2c18e326`.
 
 The Nilradical v0 strict check passed on 16 September 2026 for 2
 selected endpoints: fresh compilation, independently reviewed statement

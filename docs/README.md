@@ -9,6 +9,8 @@ question, its formal answer, and a map of its proof.
 | --- | --- |
 | [Nilradical v0 results](nilradical-v0.md) | Six discoveries, source credit and citation instructions |
 | [Strict verification](nilradical-v0-verification/README.md) | 35 endpoints, independent statement audits, Lean and Nanoda replay, frozen source hashes and human review packet |
+| [Human statement acceptance](nilradical-v0-acceptance/README.md) | Final approval of all six scoped statements, with source and decision digests |
+| [Proof walkthroughs](walkthroughs/README.md) | Post-acceptance accounts by Nilradical v0, informal and unrefereed |
 | [Novelty audit](nilradical-v0-verification/novelty/README.md) | Primary-source comparison and exclusion of 21.99 from the discovery catalogue |
 | [Problem template](problem-template.md) | Common files and README sections for a new solution |
 | [21.38 verification](21.38-verification.md) | Complete infinite spread-one theorem, source provenance, build and closed axiom checks |

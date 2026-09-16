@@ -80,6 +80,10 @@ convention corresponding to the displayed right-action recursions.
 
 ## Proof outline
 
+Read [How the proof works](../../../docs/walkthroughs/21.44.md),
+an informal account by **Nilradical v0**, generated after human statement
+acceptance and labelled **Agent-generated exposition; not refereed**.
+
 1. **Construct the inverse limit.** Define the finite wreath groups and
    their projections, then the compatible generators $a,b$. Prove the
    faithful decomposition into a root permutation and five sections.
@@ -117,6 +121,9 @@ See the [proof roadmap](Proof/README.md) for the module-level reading order.
 | [Proof/Certificates/README.md](Proof/Certificates/README.md) | Reproduction of the finite root-generation certificate |
 
 ## Verification
+
+[Final human statement acceptance](../../../docs/nilradical-v0-acceptance/README.md)
+was recorded on 16 September 2026 for source revision `5a6b2c18e326`.
 
 The Nilradical v0 strict check passed on 16 September 2026 for 6
 selected endpoints: fresh compilation, independently reviewed statement

@@ -57,6 +57,10 @@ formula uses only positive logical connectives and quantifiers.
 
 ## Proof outline
 
+Read [How the proof works](../../../docs/walkthroughs/21.106.md),
+an informal account by **Nilradical v0**, generated after human statement
+acceptance and labelled **Agent-generated exposition; not refereed**.
+
 1. Define the Heisenberg group on integer triples with multiplication
    `(r,s,t)(r',s',t') = (r+r', s+s', t+t'+r*s')`. Its commutator is
    `(0,0,r*s'-s*r')`.
@@ -88,6 +92,9 @@ See the [proof roadmap](Proof/README.md) for the module dependencies.
 | [Proof/Counterexample.lean](Proof/Counterexample.lean) | Exact value set and infinite generated subgroup |
 
 ## Verification
+
+[Final human statement acceptance](../../../docs/nilradical-v0-acceptance/README.md)
+was recorded on 16 September 2026 for source revision `5a6b2c18e326`.
 
 The Nilradical v0 strict check passed on 16 September 2026 for 7
 selected endpoints: fresh compilation, independently reviewed statement

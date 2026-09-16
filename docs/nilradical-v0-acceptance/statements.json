@@ -1,0 +1,145 @@
+{
+  "schema_version": 1,
+  "decision": "accepted",
+  "accepted_at": "2026-09-16T10:46:42.111Z",
+  "scope": "Final human verification of the six retained Lean statement scopes. This approval does not review subsequently generated exposition or establish publication priority.",
+  "results": [
+    {
+      "result_id": "kourovka-21-3",
+      "problem": "21.3",
+      "decision": "accepted",
+      "accepted_at": "2026-09-16T10:46:42.111Z",
+      "reviewer_role": "Human statement verifier",
+      "source": {
+        "revision": "5a6b2c18e326b7b0281f00b64cade629acbfe1f5",
+        "manifest_sha256": "5db2c7b0bad796360372b4b113473785a000d1e834ce073b899be769d3eb1fba"
+      },
+      "acceptance_sha256": "042e4fffb7a748f69cb2fcb8ac80f825f7af003dd2f544823d98fa3dc14f9ed2",
+      "decision_evidence_sha256": "da8463e176e5cbdf4390e7bcd65d0e7cdaff5388776cf3d16d0f1f419810048f",
+      "contract_sha256": "3150d90afd19ea547ca1a01e24dfbf1207b56e5b55f53f2608899871fcf65240",
+      "integrity_receipt_sha256": "419c22fe5b9455cc63ceb3d9e81483fc8ddf41dc33e6ffbe1b5ce12fb3231c64",
+      "theorem_names": [
+        "Kourovka.P21_03.firstQuestion",
+        "Kourovka213.asymptoticStatement"
+      ]
+    },
+    {
+      "result_id": "kourovka-21-38",
+      "problem": "21.38",
+      "decision": "accepted",
+      "accepted_at": "2026-09-16T10:46:42.111Z",
+      "reviewer_role": "Human statement verifier",
+      "source": {
+        "revision": "5a6b2c18e326b7b0281f00b64cade629acbfe1f5",
+        "manifest_sha256": "5db2c7b0bad796360372b4b113473785a000d1e834ce073b899be769d3eb1fba"
+      },
+      "acceptance_sha256": "cc88c046002818f97d7007308ce7bae2e979a1992905e1f61ab3d34ede5a3263",
+      "decision_evidence_sha256": "da8463e176e5cbdf4390e7bcd65d0e7cdaff5388776cf3d16d0f1f419810048f",
+      "contract_sha256": "d64248f5aa01656a48559dcd175ba786792e6388f5b5e2fe8e962b125c607912",
+      "integrity_receipt_sha256": "c8146f38aa90273d7b7510d6f053b0fb14c8372f6c975ead6ed28775a8a68404",
+      "theorem_names": [
+        "Kourovka.P21_38.diagonal_hasSpreadExactlyOne",
+        "Kourovka.P21_38.diagonal_spread_profile",
+        "Kourovka.P21_38.originalQuestion",
+        "Kourovka.P21_38.notebookStatement",
+        "Kourovka.P21_38.exists_generating_companion",
+        "Kourovka.P21_38.diagonal_exists_pair_no_common_companion",
+        "Kourovka.P21_38.diagonal_infinite"
+      ]
+    },
+    {
+      "result_id": "kourovka-21-40",
+      "problem": "21.40",
+      "decision": "accepted",
+      "accepted_at": "2026-09-16T10:46:42.111Z",
+      "reviewer_role": "Human statement verifier",
+      "source": {
+        "revision": "5a6b2c18e326b7b0281f00b64cade629acbfe1f5",
+        "manifest_sha256": "5db2c7b0bad796360372b4b113473785a000d1e834ce073b899be769d3eb1fba"
+      },
+      "acceptance_sha256": "04384a8b7eda599240c525cc385c25b2c3143cfcd5a38275dc3d278257c30fe7",
+      "decision_evidence_sha256": "da8463e176e5cbdf4390e7bcd65d0e7cdaff5388776cf3d16d0f1f419810048f",
+      "contract_sha256": "f7bdc08d7d59cbee68a1e26efefbbec5d0ebe88a5a31610bfb11cd7c8cbe8c25",
+      "integrity_receipt_sha256": "3e9c70fbc9ac2ee4327fbf4fbe3512b45986f3d89ac471c9cbac972c35bb8887",
+      "theorem_names": [
+        "Kourovka.P21_40.structural_theorem",
+        "Kourovka.P21_40.virtually_nilpotent",
+        "Kourovka.P21_40.virtually_solvable",
+        "Kourovka.P21_40.notebookStatement",
+        "Kourovka.P21_40.numberField_structure",
+        "Kourovka.P21_40.numberField_virtually_nilpotent"
+      ]
+    },
+    {
+      "result_id": "kourovka-21-44",
+      "problem": "21.44",
+      "decision": "accepted",
+      "accepted_at": "2026-09-16T10:46:42.111Z",
+      "reviewer_role": "Human statement verifier",
+      "source": {
+        "revision": "5a6b2c18e326b7b0281f00b64cade629acbfe1f5",
+        "manifest_sha256": "5db2c7b0bad796360372b4b113473785a000d1e834ce073b899be769d3eb1fba"
+      },
+      "acceptance_sha256": "a760eb2a28c018fd23308b71a64b34ae1c4f63c28f8a412412fc27186da2285e",
+      "decision_evidence_sha256": "da8463e176e5cbdf4390e7bcd65d0e7cdaff5388776cf3d16d0f1f419810048f",
+      "contract_sha256": "7697d5a85a02fefe65e785a972323e38ce9abb1d77d814fe2bf87710a67b4ae9",
+      "integrity_receipt_sha256": "de1bcfc8008b758417578e9494a19db2f1e0f4260b0cc2834921b71db4dd0cd8",
+      "theorem_names": [
+        "Kourovka.P21_44.generated_section_shortening",
+        "Kourovka.P21_44.subexponential_growth",
+        "Kourovka.P21_44.generatedSubgroup_fg",
+        "Kourovka.P21_44.notebookStatement",
+        "Kourovka.P21_44.dense_generated_pair",
+        "Kourovka.P21_44.generated_pair_surjective"
+      ]
+    },
+    {
+      "result_id": "kourovka-21-68",
+      "problem": "21.68",
+      "decision": "accepted",
+      "accepted_at": "2026-09-16T10:46:42.111Z",
+      "reviewer_role": "Human statement verifier",
+      "source": {
+        "revision": "5a6b2c18e326b7b0281f00b64cade629acbfe1f5",
+        "manifest_sha256": "5db2c7b0bad796360372b4b113473785a000d1e834ce073b899be769d3eb1fba"
+      },
+      "acceptance_sha256": "1e3479a64b5ba4c071fdad67fe35d18f44d5e0e2a65bd9f5c3600cfa5fab0564",
+      "decision_evidence_sha256": "da8463e176e5cbdf4390e7bcd65d0e7cdaff5388776cf3d16d0f1f419810048f",
+      "contract_sha256": "95ef3f5c15bd3a0aa24be8a3b6000ab7304e13bc85bc639f30fef681cd38bc20",
+      "integrity_receipt_sha256": "40d1340f71f581377d26b4d50afecfe41a8bf26e38e200cc447c6b919bb0b2d3",
+      "theorem_names": [
+        "Kourovka.P21_68.simple_witnessRepresentation",
+        "Kourovka.P21_68.finrank_witnessRepresentation",
+        "Kourovka.P21_68.witness_not_monomial",
+        "Kourovka.P21_68.G_not_monomial",
+        "Kourovka.P21_68.not_notebookStatement",
+        "Kourovka.P21_68.G_semiabelian",
+        "Kourovka.P21_68.card_G"
+      ]
+    },
+    {
+      "result_id": "kourovka-21-106",
+      "problem": "21.106",
+      "decision": "accepted",
+      "accepted_at": "2026-09-16T10:46:42.111Z",
+      "reviewer_role": "Human statement verifier",
+      "source": {
+        "revision": "5a6b2c18e326b7b0281f00b64cade629acbfe1f5",
+        "manifest_sha256": "5db2c7b0bad796360372b4b113473785a000d1e834ce073b899be769d3eb1fba"
+      },
+      "acceptance_sha256": "6d936b42c9ae6a7f16bf12c0542bbd7577a7236ae6c9bea3e6a5d6846986dd7a",
+      "decision_evidence_sha256": "da8463e176e5cbdf4390e7bcd65d0e7cdaff5388776cf3d16d0f1f419810048f",
+      "contract_sha256": "6fcf1640664a0f919f8a06dd809092168911fca0508b5b595f96c1a991c32347",
+      "integrity_receipt_sha256": "34dc8394aa553e97ed026dc49d9226b7a38485a637333ee0ecdbe6a9ac434c88",
+      "theorem_names": [
+        "Kourovka.P21_106.counterexample_values",
+        "Kourovka.P21_106.counterexample_not_concise",
+        "Kourovka.P21_106.not_notebookStatement",
+        "Kourovka.P21_106.realize_counterexampleFormula",
+        "Kourovka.P21_106.formulaCondition_iff",
+        "Kourovka.P21_106.formulaCondition_closure_infinite",
+        "Kourovka.P21_106.central_injective"
+      ]
+    }
+  ]
+}

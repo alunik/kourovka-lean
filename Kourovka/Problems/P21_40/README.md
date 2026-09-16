@@ -74,6 +74,10 @@ The unconditional extension to number fields is
 
 ## Proof outline
 
+Read [How the proof works](../../../docs/walkthroughs/21.40.md),
+an informal account by **Nilradical v0**, generated after human statement
+acceptance and labelled **Agent-generated exposition; not refereed**.
+
 1. For a sufficiently large prime `p`, the rational cyclotomic polynomial
    `Φ_p` has degree greater than the minimal-polynomial degree in the
    relevant finite-dimensional algebra. It follows that the `p`th-power
@@ -108,6 +112,9 @@ See the [proof roadmap](Proof/README.md) for the module structure.
 | [Proof/THIRD_PARTY.md](Proof/THIRD_PARTY.md) | Pinned source provenance, licenses, and adaptations |
 
 ## Verification
+
+[Final human statement acceptance](../../../docs/nilradical-v0-acceptance/README.md)
+was recorded on 16 September 2026 for source revision `5a6b2c18e326`.
 
 The Nilradical v0 strict check passed on 16 September 2026 for 6
 selected endpoints: fresh compilation, independently reviewed statement
