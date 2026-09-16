@@ -18,7 +18,9 @@
   "accepted_at": "2026-09-16T10:46:42.111Z",
   "reviewer_role": "Human statement verifier",
   "acceptance_sha256": "6d936b42c9ae6a7f16bf12c0542bbd7577a7236ae6c9bea3e6a5d6846986dd7a",
-  "markdown_sha256": "fb3fdffb45a7d709938044159b39a697c6149f4d8eb2b8716069a9740f3854e5",
+  "markdown_sha256": "1900927aceb01f0d9458eb65163caa72872d9e8021fca415dcd51237fbc00b83",
   "source_path": "docs/walkthroughs/21.106.md",
-  "human_acceptance_path": "docs/nilradical-v0-acceptance/statements.json"
+  "human_acceptance_path": "docs/nilradical-v0-acceptance/statements.json",
+  "presentation_updated_at": "2026-09-16T11:16:48.110076+00:00",
+  "presentation_note": "Mathematical notation typeset in LaTeX; proof content, source links and accepted source revision unchanged."
 }
