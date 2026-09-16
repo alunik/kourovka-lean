@@ -1,0 +1,31 @@
+Building NilradicalFrozenChallenge
+✔ [2090/2092] Built Kourovka.Problems.P21_40.Statement (8.2s)
+⚠ [2091/2092] Built NilradicalFrozenChallenge (2.7s)
+warning: NilradicalFrozenChallenge.lean:13:8: declaration uses `sorry`
+warning: NilradicalFrozenChallenge.lean:18:8: declaration uses `sorry`
+warning: NilradicalFrozenChallenge.lean:23:8: declaration uses `sorry`
+warning: NilradicalFrozenChallenge.lean:28:8: declaration uses `sorry`
+warning: NilradicalFrozenChallenge.lean:31:8: declaration uses `sorry`
+warning: NilradicalFrozenChallenge.lean:38:8: declaration uses `sorry`
+Build completed successfully (2092 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Kourovka.P21_40.structural_theorem, Kourovka.P21_40.virtually_nilpotent, Kourovka.P21_40.virtually_solvable, Kourovka.P21_40.notebookStatement, Kourovka.P21_40.numberField_structure, Kourovka.P21_40.numberField_virtually_nilpotent, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from NilradicalFrozenChallenge
+Building Kourovka.Problems.P21_40.Solution
+✔ [3440/3451] Built Kourovka.Problems.P21_40.Proof.Orbits (2.6s)
+✔ [3441/3451] Built Kourovka.Problems.P21_40.Proof.TraceRadical (3.2s)
+✔ [3442/3451] Built Kourovka.Problems.P21_40.Proof.RationalFlag (3.3s)
+✔ [3443/3451] Built Kourovka.Problems.P21_40.Proof.NumberFields (3.4s)
+✔ [3444/3451] Built Kourovka.Problems.P21_40.Proof.Unipotent (5.1s)
+✔ [3445/3451] Built Kourovka.Problems.P21_40.Proof.MatrixRoots (5.9s)
+✔ [3446/3451] Built Kourovka.Problems.P21_40.Proof.TraceKernel (3.0s)
+✔ [3447/3451] Built Kourovka.Problems.P21_40.Proof.DeepRoots (6.7s)
+✔ [3448/3451] Built Kourovka.Problems.P21_40.Proof.ConjugateStructure (2.4s)
+✔ [3449/3451] Built Kourovka.Problems.P21_40.Proof.Eigenvalues (3.6s)
+✔ [3450/3451] Built Kourovka.Problems.P21_40.Proof.FiniteOrbits (3.5s)
+✔ [3451/3451] Built Kourovka.Problems.P21_40.Solution (3.0s)
+Build completed successfully (3451 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Kourovka.P21_40.structural_theorem, Kourovka.P21_40.virtually_nilpotent, Kourovka.P21_40.virtually_solvable, Kourovka.P21_40.notebookStatement, Kourovka.P21_40.numberField_structure, Kourovka.P21_40.numberField_virtually_nilpotent, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from Kourovka.Problems.P21_40.Solution
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!

@@ -1,0 +1,20 @@
+{
+  "interpretation": "Private at 07:54:33Z, public confirmed at 07:54:42Z on 10 September 2026. Earlier commits and CI runs are not public-disclosure evidence.",
+  "muliarchyk_pdf_http_last_modified_utc": "2026-09-10T08:45:52Z",
+  "priority_resolved": false,
+  "last_modified_limitation": "This dates the served file version, not necessarily its first public posting or any earlier version.",
+  "events": [
+    {
+      "timestamp_utc": "2026-09-10T07:54:33.775Z",
+      "repository_visibility": "PRIVATE",
+      "command_exit_code": 0,
+      "evidence_kind": "preserved repository visibility command output"
+    },
+    {
+      "timestamp_utc": "2026-09-10T07:54:42.218Z",
+      "repository_visibility": "PUBLIC",
+      "command_exit_code": 0,
+      "evidence_kind": "preserved repository visibility command output"
+    }
+  ]
+}

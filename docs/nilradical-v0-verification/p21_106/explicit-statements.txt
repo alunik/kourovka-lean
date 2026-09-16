@@ -1,0 +1,251 @@
+theorem Kourovka.P21_106.counterexample_values :
+  @Eq.{1} (@Set.{0} @Kourovka.P21_106.H)
+    (@Kourovka.P21_106.FormulaValues.{0} @Kourovka.P21_106.counterexampleFormula @Kourovka.P21_106.H
+      (@Kourovka.P21_106.Heisenberg.instGroup.{0} @Int @Int.instCommRing))
+    (@Set.ofPred.{0} @Kourovka.P21_106.H
+      (fun (x : @Kourovka.P21_106.H) =>
+      @Kourovka.P21_106.FormulaCondition.{0} @Kourovka.P21_106.H
+        (@Kourovka.P21_106.Heisenberg.instGroup.{0} @Int @Int.instCommRing) x)) :=
+  _
+
+theorem Kourovka.P21_106.counterexample_not_concise :
+  @Not
+    (@Kourovka.P21_106.IsConciseIn.{0} @Kourovka.P21_106.counterexampleFormula @Kourovka.P21_106.H
+      (@Kourovka.P21_106.Heisenberg.instGroup.{0} @Int @Int.instCommRing)) :=
+  _
+
+theorem Kourovka.P21_106.not_notebookStatement : @Not @Kourovka.P21_106.NotebookStatement := _
+
+theorem Kourovka.P21_106.realize_counterexampleFormula.{u_1} :
+  forall {G : Type u_1} [inst._@.Kourovka.Problems.P21_106.Proof.Formula.1029654153._hygCtx._hyg.3 : @Group.{u_1} G]
+    (x : G),
+  @Iff
+    (@FirstOrder.Language.Formula.Realize.{0 0 u_1 0} @Kourovka.P21_106.groupLanguage G
+      (@Kourovka.P21_106.groupLanguageStructure.{u_1} G
+        inst._@.Kourovka.Problems.P21_106.Proof.Formula.1029654153._hygCtx._hyg.3) @Unit
+      @Kourovka.P21_106.counterexampleFormula
+      (fun (x._@.Kourovka.Problems.P21_106.Statement.2454056324._hygCtx._hyg.20 : @Unit) => x))
+    (@Kourovka.P21_106.FormulaCondition.{u_1} G
+      inst._@.Kourovka.Problems.P21_106.Proof.Formula.1029654153._hygCtx._hyg.3 x) :=
+  _
+
+theorem Kourovka.P21_106.formulaCondition_iff (x : @Kourovka.P21_106.H) :
+  @Iff
+    (@Kourovka.P21_106.FormulaCondition.{0} @Kourovka.P21_106.H
+      (@Kourovka.P21_106.Heisenberg.instGroup.{0} @Int @Int.instCommRing) x)
+    (@Or (@Eq.{1} @Kourovka.P21_106.H x (@Kourovka.P21_106.central (@OfNat.ofNat.{0} @Int 1 (@instOfNat 1))))
+      (@Eq.{1} @Kourovka.P21_106.H x
+        (@Kourovka.P21_106.central (@Neg.neg.{0} @Int @Int.instNegInt (@OfNat.ofNat.{0} @Int 1 (@instOfNat 1)))))) :=
+  _
+
+theorem Kourovka.P21_106.formulaCondition_closure_infinite :
+  @Infinite.{1}
+    (@Subtype.{1} @Kourovka.P21_106.H
+      (fun (x : @Kourovka.P21_106.H) =>
+      @Membership.mem.{0 0} @Kourovka.P21_106.H
+        (@Subgroup.{0} @Kourovka.P21_106.H (@Kourovka.P21_106.Heisenberg.instGroup.{0} @Int @Int.instCommRing))
+        (@SetLike.instMembership.{0 0}
+          (@Subgroup.{0} @Kourovka.P21_106.H (@Kourovka.P21_106.Heisenberg.instGroup.{0} @Int @Int.instCommRing))
+          @Kourovka.P21_106.H
+          (@Subgroup.instSetLike.{0} @Kourovka.P21_106.H
+            (@Kourovka.P21_106.Heisenberg.instGroup.{0} @Int @Int.instCommRing)))
+        (@Subgroup.closure.{0} @Kourovka.P21_106.H (@Kourovka.P21_106.Heisenberg.instGroup.{0} @Int @Int.instCommRing)
+          (@Set.ofPred.{0} @Kourovka.P21_106.H
+            (fun (x : @Kourovka.P21_106.H) =>
+            @Kourovka.P21_106.FormulaCondition.{0} @Kourovka.P21_106.H
+              (@Kourovka.P21_106.Heisenberg.instGroup.{0} @Int @Int.instCommRing) x))) x)) :=
+  _
+
+theorem Kourovka.P21_106.central_injective :
+  @Function.Injective.{1 1} @Int @Kourovka.P21_106.H @Kourovka.P21_106.central :=
+  _
+
+def Kourovka.P21_106.NotebookStatement :
+  Sort 0 :=
+  forall (G : Type 0) [inst._@.Kourovka.Problems.P21_106.Statement.3108244130._hygCtx._hyg.6 : @Group.{0} G]
+    [inst._@.Kourovka.Problems.P21_106.Statement.3108244130._hygCtx._hyg.9 :
+      @Group.ResiduallyFinite.{0} G inst._@.Kourovka.Problems.P21_106.Statement.3108244130._hygCtx._hyg.6]
+    (φ : @FirstOrder.Language.Formula.{0 0 0} @Kourovka.P21_106.groupLanguage @Unit),
+  @Kourovka.P21_106.IsConciseIn.{0} φ G inst._@.Kourovka.Problems.P21_106.Statement.3108244130._hygCtx._hyg.6
+
+def Kourovka.P21_106.FormulaValues.{u_1} (φ :
+    @FirstOrder.Language.Formula.{0 0 0} @Kourovka.P21_106.groupLanguage @Unit) (G : Type u_1) :
+  forall [inst._@.Kourovka.Problems.P21_106.Statement.2454056324._hygCtx._hyg.5 : @Group.{u_1} G], @Set.{u_1} G :=
+  fun [inst._@.Kourovka.Problems.P21_106.Statement.2454056324._hygCtx._hyg.5 : @Group.{u_1} G] =>
+  @Set.ofPred.{u_1} G
+    (fun (x : G) =>
+    @FirstOrder.Language.Formula.Realize.{0 0 u_1 0} @Kourovka.P21_106.groupLanguage G
+      (@Kourovka.P21_106.groupLanguageStructure.{u_1} G
+        inst._@.Kourovka.Problems.P21_106.Statement.2454056324._hygCtx._hyg.5) @Unit φ
+      (fun (x._@.Kourovka.Problems.P21_106.Statement.2454056324._hygCtx._hyg.20 : @Unit) => x))
+
+def Kourovka.P21_106.IsConciseIn.{u_1} (φ : @FirstOrder.Language.Formula.{0 0 0} @Kourovka.P21_106.groupLanguage @Unit)
+  (G : Type u_1) :
+  forall [inst._@.Kourovka.Problems.P21_106.Statement.3506966879._hygCtx._hyg.5 : @Group.{u_1} G], Sort 0 :=
+  fun [inst._@.Kourovka.Problems.P21_106.Statement.3506966879._hygCtx._hyg.5 : @Group.{u_1} G] =>
+  @Set.Finite.{u_1} G
+      (@Kourovka.P21_106.FormulaValues.{u_1} φ G
+        inst._@.Kourovka.Problems.P21_106.Statement.3506966879._hygCtx._hyg.5) →
+  @Finite.{u_1+1}
+    (@Subtype.{u_1+1} G
+      (fun (x : G) =>
+      @Membership.mem.{u_1 u_1} G
+        (@Subgroup.{u_1} G inst._@.Kourovka.Problems.P21_106.Statement.3506966879._hygCtx._hyg.5)
+        (@SetLike.instMembership.{u_1 u_1}
+          (@Subgroup.{u_1} G inst._@.Kourovka.Problems.P21_106.Statement.3506966879._hygCtx._hyg.5) G
+          (@Subgroup.instSetLike.{u_1} G inst._@.Kourovka.Problems.P21_106.Statement.3506966879._hygCtx._hyg.5))
+        (@Subgroup.closure.{u_1} G inst._@.Kourovka.Problems.P21_106.Statement.3506966879._hygCtx._hyg.5
+          (@Kourovka.P21_106.FormulaValues.{u_1} φ G
+            inst._@.Kourovka.Problems.P21_106.Statement.3506966879._hygCtx._hyg.5)) x))
+
+def Kourovka.P21_106.groupLanguage :
+  @FirstOrder.Language.{0 0} :=
+  @FirstOrder.Language.mk.{0 0} @Kourovka.P21_106.GroupFunction
+    (fun (x._@.Kourovka.Problems.P21_106.Statement.1050878764._hygCtx._hyg.8 : @Nat) => @Empty)
+
+def Kourovka.P21_106.groupLanguageStructure.{u_1} (G : Type u_1) :
+  forall [inst._@.Kourovka.Problems.P21_106.Statement.3014852472._hygCtx._hyg.3 : @Group.{u_1} G],
+  @FirstOrder.Language.Structure.{0 0 u_1} @Kourovka.P21_106.groupLanguage G :=
+  fun [inst._@.Kourovka.Problems.P21_106.Statement.3014852472._hygCtx._hyg.3 : @Group.{u_1} G] =>
+  @FirstOrder.Language.Structure.mk.{0 0 u_1} @Kourovka.P21_106.groupLanguage G
+    (fun {n._@.Kourovka.Problems.P21_106.Statement.3014852472._hygCtx._hyg.14 : @Nat}
+      (f :
+        @FirstOrder.Language.Functions.{0 0} @Kourovka.P21_106.groupLanguage
+          n._@.Kourovka.Problems.P21_106.Statement.3014852472._hygCtx._hyg.14)
+      (v : @Fin n._@.Kourovka.Problems.P21_106.Statement.3014852472._hygCtx._hyg.14 → G) =>
+    @Kourovka.P21_106.groupLanguageStructure.match_1.{u_1+1 u_1} G
+      (fun (n._@.Kourovka.Problems.P21_106.Statement.3014852472._hygCtx.14.Kourovka.Problems.P21_106.Statement.3014852472._hygCtx._hyg.27 :
+          @Nat)
+        (f._@.Kourovka.Problems.P21_106.Statement.3014852472._hygCtx._hyg.21 :
+          @FirstOrder.Language.Functions.{0 0} @Kourovka.P21_106.groupLanguage
+            n._@.Kourovka.Problems.P21_106.Statement.3014852472._hygCtx.14.Kourovka.Problems.P21_106.Statement.3014852472._hygCtx._hyg.27)
+        (v :
+          @Fin
+              n._@.Kourovka.Problems.P21_106.Statement.3014852472._hygCtx.14.Kourovka.Problems.P21_106.Statement.3014852472._hygCtx._hyg.27 →
+          G) =>
+      G) n._@.Kourovka.Problems.P21_106.Statement.3014852472._hygCtx._hyg.14 f v
+      (fun (v : @Fin (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0)) → G) =>
+      @OfNat.ofNat.{u_1} G 1
+        (@One.toOfNat1.{u_1} G
+          (@InvOneClass.toOne.{u_1} G
+            (@DivInvOneMonoid.toInvOneClass.{u_1} G
+              (@DivisionMonoid.toDivInvOneMonoid.{u_1} G
+                (@Group.toDivisionMonoid.{u_1} G
+                  inst._@.Kourovka.Problems.P21_106.Statement.3014852472._hygCtx._hyg.3))))))
+      (fun (v : @Fin (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1)) → G) =>
+      @Inv.inv.{u_1} G
+        (@InvOneClass.toInv.{u_1} G
+          (@DivInvOneMonoid.toInvOneClass.{u_1} G
+            (@DivisionMonoid.toDivInvOneMonoid.{u_1} G
+              (@Group.toDivisionMonoid.{u_1} G inst._@.Kourovka.Problems.P21_106.Statement.3014852472._hygCtx._hyg.3))))
+        (v
+          (@OfNat.ofNat.{0} (@Fin (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1))) 0
+            (@Fin.instOfNat (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1)) _ 0))))
+      (fun (v : @Fin (@OfNat.ofNat.{0} @Nat 2 (@instOfNatNat 2)) → G) =>
+      @HMul.hMul.{u_1 u_1 u_1} G G G
+        (@instHMul.{u_1} G
+          (@MulOne.toMul.{u_1} G
+            (@MulOneClass.toMulOne.{u_1} G
+              (@Monoid.toMulOneClass.{u_1} G
+                (@DivInvMonoid.toMonoid.{u_1} G
+                  (@Group.toDivInvMonoid.{u_1} G
+                    inst._@.Kourovka.Problems.P21_106.Statement.3014852472._hygCtx._hyg.3))))))
+        (v
+          (@OfNat.ofNat.{0} (@Fin (@OfNat.ofNat.{0} @Nat 2 (@instOfNatNat 2))) 0
+            (@Fin.instOfNat (@OfNat.ofNat.{0} @Nat 2 (@instOfNatNat 2)) _ 0)))
+        (v
+          (@OfNat.ofNat.{0} (@Fin (@OfNat.ofNat.{0} @Nat 2 (@instOfNatNat 2))) 1
+            (@Fin.instOfNat (@OfNat.ofNat.{0} @Nat 2 (@instOfNatNat 2)) _ 1)))))
+    (fun {n._@.Kourovka.Problems.P21_106.Statement.3014852472._hygCtx._hyg.93 : @Nat}
+      (r :
+        @FirstOrder.Language.Relations.{0 0} @Kourovka.P21_106.groupLanguage
+          n._@.Kourovka.Problems.P21_106.Statement.3014852472._hygCtx._hyg.93) =>
+    @Kourovka.P21_106.groupLanguageStructure.match_3.{u_1+1}
+      n._@.Kourovka.Problems.P21_106.Statement.3014852472._hygCtx._hyg.93
+      (fun (r._@.Kourovka.Problems.P21_106.Statement.3014852472._hygCtx._hyg.98 :
+          @FirstOrder.Language.Relations.{0 0} @Kourovka.P21_106.groupLanguage
+            n._@.Kourovka.Problems.P21_106.Statement.3014852472._hygCtx._hyg.93) =>
+      (@Fin n._@.Kourovka.Problems.P21_106.Statement.3014852472._hygCtx._hyg.93 → G) → Sort 0) r)
+
+def Kourovka.P21_106.FormulaCondition.{u_1} :
+  forall {G : Type u_1} [inst._@.Kourovka.Problems.P21_106.Proof.Formula.1868760455._hygCtx._hyg.3 : @Group.{u_1} G],
+  G → Sort 0 :=
+  fun {G : Type u_1} [inst._@.Kourovka.Problems.P21_106.Proof.Formula.1868760455._hygCtx._hyg.3 : @Group.{u_1} G]
+    (x : G) =>
+  @Exists.{u_1+1} G
+    (fun (a : G) =>
+    @Exists.{u_1+1} G
+      (fun (b : G) =>
+      @And
+        (@Eq.{u_1+1} G x
+          (@Kourovka.P21_106.commutator.{u_1} G
+            inst._@.Kourovka.Problems.P21_106.Proof.Formula.1868760455._hygCtx._hyg.3 a b))
+        (forall (g h : G),
+        @Exists.{u_1+1} G
+          (fun (u : G) =>
+          @Exists.{u_1+1} G
+            (fun (v : G) =>
+            @And
+              (@Eq.{u_1+1} G
+                (@Kourovka.P21_106.commutator.{u_1} G
+                  inst._@.Kourovka.Problems.P21_106.Proof.Formula.1868760455._hygCtx._hyg.3 u a)
+                (@OfNat.ofNat.{u_1} G 1
+                  (@One.toOfNat1.{u_1} G
+                    (@InvOneClass.toOne.{u_1} G
+                      (@DivInvOneMonoid.toInvOneClass.{u_1} G
+                        (@DivisionMonoid.toDivInvOneMonoid.{u_1} G
+                          (@Group.toDivisionMonoid.{u_1} G
+                            inst._@.Kourovka.Problems.P21_106.Proof.Formula.1868760455._hygCtx._hyg.3)))))))
+              (@And
+                (@Eq.{u_1+1} G
+                  (@Kourovka.P21_106.commutator.{u_1} G
+                    inst._@.Kourovka.Problems.P21_106.Proof.Formula.1868760455._hygCtx._hyg.3 v b)
+                  (@OfNat.ofNat.{u_1} G 1
+                    (@One.toOfNat1.{u_1} G
+                      (@InvOneClass.toOne.{u_1} G
+                        (@DivInvOneMonoid.toInvOneClass.{u_1} G
+                          (@DivisionMonoid.toDivInvOneMonoid.{u_1} G
+                            (@Group.toDivisionMonoid.{u_1} G
+                              inst._@.Kourovka.Problems.P21_106.Proof.Formula.1868760455._hygCtx._hyg.3)))))))
+                (@And
+                  (@Eq.{u_1+1} G
+                    (@Kourovka.P21_106.commutator.{u_1} G
+                      inst._@.Kourovka.Problems.P21_106.Proof.Formula.1868760455._hygCtx._hyg.3 u b)
+                    (@Kourovka.P21_106.commutator.{u_1} G
+                      inst._@.Kourovka.Problems.P21_106.Proof.Formula.1868760455._hygCtx._hyg.3 g h))
+                  (@Eq.{u_1+1} G
+                    (@Kourovka.P21_106.commutator.{u_1} G
+                      inst._@.Kourovka.Problems.P21_106.Proof.Formula.1868760455._hygCtx._hyg.3 a v)
+                    (@Kourovka.P21_106.commutator.{u_1} G
+                      inst._@.Kourovka.Problems.P21_106.Proof.Formula.1868760455._hygCtx._hyg.3 g h)))))))))
+
+def Kourovka.P21_106.counterexampleFormula :
+  @FirstOrder.Language.Formula.{0 0 0} @Kourovka.P21_106.groupLanguage @Unit :=
+  @FirstOrder.Language.BoundedFormula.ex.{0 0 0} @Kourovka.P21_106.groupLanguage @Unit
+    (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+    (@FirstOrder.Language.BoundedFormula.ex.{0 0 0} @Kourovka.P21_106.groupLanguage @Unit
+      (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1))
+      (@FirstOrder.Language.BoundedFormula.all.{0 0 0} @Kourovka.P21_106.groupLanguage @Unit
+        (@OfNat.ofNat.{0} @Nat 2 (@instOfNatNat 2))
+        (@FirstOrder.Language.BoundedFormula.all.{0 0 0} @Kourovka.P21_106.groupLanguage @Unit
+          (@OfNat.ofNat.{0} @Nat 3 (@instOfNatNat 3))
+          (@FirstOrder.Language.BoundedFormula.ex.{0 0 0} @Kourovka.P21_106.groupLanguage @Unit
+            (@OfNat.ofNat.{0} @Nat 4 (@instOfNatNat 4))
+            (@FirstOrder.Language.BoundedFormula.ex.{0 0 0} @Kourovka.P21_106.groupLanguage @Unit
+              (@OfNat.ofNat.{0} @Nat 5 (@instOfNatNat 5)) @Kourovka.P21_106.counterexampleMatrix)))))
+
+def Kourovka.P21_106.H : Type 0 := @Kourovka.P21_106.Heisenberg.{0} @Int
+
+inductive Kourovka.P21_106.Heisenberg.{u_1} : Type u_1 → Type u_1
+
+def Kourovka.P21_106.central (n : @Int) : @Kourovka.P21_106.H :=
+  @Kourovka.P21_106.Heisenberg.mk.{0} @Int (@OfNat.ofNat.{0} @Int 0 (@instOfNat 0))
+    (@OfNat.ofNat.{0} @Int 0 (@instOfNat 0)) n
+
+axiom Quot.sound.{u} {α : Sort u} {r : α → α → Sort 0} {a b : α} :
+  r a b → @Eq.{u} (@Quot.{u} α r) (@Quot.mk.{u} α r a) (@Quot.mk.{u} α r b)
+
+axiom propext {a b : Sort 0} : @Iff a b → @Eq.{1} Sort 0 a b
+
+axiom Classical.choice.{u} {α : Sort u} : @Nonempty.{u} α → α
+

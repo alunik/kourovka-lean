@@ -1,0 +1,88 @@
+{
+  "command": [
+    "/HOST/.elan/toolchains/leanprover--lean4---v4.34.0-rc2/bin/lake",
+    "env",
+    "/HOST/notebook/math-research-agent/verification/tools/bin/comparator",
+    "/HOST/notebook/math-research-agent/verification/runs/controls-20260916T102825/work-1789550964301763000/comparator.json"
+  ],
+  "contract_sha256": "5009bb04898500aee32d0bfbbf18322d2acfa16a262d3212b811f8d7415a7d0a",
+  "elapsed_seconds": 14.532,
+  "exports": {
+    "NilradicalFrozenChallenge.ndjson": {
+      "bytes": 984017,
+      "path": "/HOST/notebook/math-research-agent/verification/runs/controls-20260916T102825/work-1789550964301763000/exports/NilradicalFrozenChallenge.ndjson",
+      "sha256": "f3a54f4b145e7b29ebc186468b77e4c74d06813f9486e12921b2d3c3740d34f8"
+    },
+    "Solution.ndjson": {
+      "bytes": 982288,
+      "path": "/HOST/notebook/math-research-agent/verification/runs/controls-20260916T102825/work-1789550964301763000/exports/Solution.ndjson",
+      "sha256": "36046b62b48b99399563f3e2b1684eba60c1cde2ddb98ffbed9d2f1e17b5c5af"
+    }
+  },
+  "harness_sha256": {
+    "sandbox.py": "76c455a4b6f3798f19e3c3ead9474ddfeac5e4e677c768b5c16dd047ee0f1348",
+    "verify.py": "ebfd71d5e0392c1b55f35256c39a75d1fdb83ccd476edefcdf21fd362291648f"
+  },
+  "host": "macOS-15.2-arm64-arm-64bit-Mach-O",
+  "human_statement_approval": "NOT_RECORDED",
+  "isolation_checks": [
+    "protected_write_denied",
+    "child_write_denied",
+    "socket_denied_2",
+    "socket_denied_1",
+    "dependency_symlink_write_denied",
+    "build_write_permitted"
+  ],
+  "log": "/HOST/notebook/math-research-agent/verification/runs/controls-20260916T102825/custom_axiom.log",
+  "log_sha256": "74957fa610b7ec752e72d7988397f7954389478ecaec8a55f5340dd421951684",
+  "reason": "Comparator did not accept: inspect log; never accept solver PASS text",
+  "returncode": 1,
+  "schema": 1,
+  "started_utc": "2026-09-16T09:29:18.570984+00:00",
+  "status": "INTEGRITY_REJECTED",
+  "tools": {
+    "build_provenance": "Comparator, lean4export and Nanoda built from clean upstream pinned sources on 2026-09-16.",
+    "comparator": {
+      "path": "/HOST/notebook/math-research-agent/verification/tools/bin/comparator",
+      "sha256": "378586e4f6785d320c4b5d753dd84a7f9cc4b2e6b66867f23f080970e2fa2c3a"
+    },
+    "exporter": {
+      "path": "/HOST/notebook/math-research-agent/verification/tools/bin/lean4export",
+      "sha256": "86ac903a8d040bc79a3a59ee4816e0a0a961f7f864100f1a8e154820297e756a"
+    },
+    "lake": {
+      "path": "/HOST/.elan/toolchains/leanprover--lean4---v4.34.0-rc2/bin/lake",
+      "sha256": "c8c24f1398162ab4004e2a869952d8469f54293651151feaad4526f2b8474c6e"
+    },
+    "lean": {
+      "path": "/HOST/.elan/toolchains/leanprover--lean4---v4.34.0-rc2/bin/lean",
+      "sha256": "1b370cfcbf44e80d1b004ab1b1ab9a4c73951f9f7c242140bcff9bc577576554"
+    },
+    "lean_known_fix": {
+      "ahead_by": 93,
+      "behind_by": 0,
+      "comparison_status": "ahead",
+      "fix_pr": "https://github.com/leanprover/lean4/pull/14577",
+      "issue": "https://github.com/leanprover/lean4/issues/14576",
+      "lean_commit": "6a10ac8c22beadecabdbb0919c2b50214762f91d",
+      "merge_base": "a39eab69e1eee9ad38f4efe507907b1026a77808",
+      "merge_commit": "a39eab69e1eee9ad38f4efe507907b1026a77808"
+    },
+    "lean_version_string": "Lean (version 4.34.0-rc2, arm64-apple-darwin24.6.0, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)",
+    "nanoda": {
+      "path": "/HOST/notebook/math-research-agent/verification/tools/nanoda/target/release/nanoda_bin",
+      "sha256": "411b09fe602f6784a3fcca0beb33be54e5deae7f571c4819c79664e7b21400b5"
+    },
+    "source_pins": {
+      "comparator": "2312244ac716564a61cc0bf4e107d9abf1757a61",
+      "lean": "6a10ac8c22beadecabdbb0919c2b50214762f91d",
+      "lean4export": "cacf989bd75f608700820f6afc595f32e7a99a4d",
+      "nanoda": "4c544ed4099c8227f07d5de77ad1e69fb0740a27"
+    },
+    "toolchain_library_tree": {
+      "file_count": 15136,
+      "sha256": "0991b4b2fa89204828689a1efb4c9cd3999a9cd444ef808071ec7cc05e5ab716"
+    }
+  },
+  "work_directory": "/HOST/notebook/math-research-agent/verification/runs/controls-20260916T102825/work-1789550964301763000"
+}

@@ -1,0 +1,10 @@
+{
+  "contract_sha256": "1e04d88c0623a9e5c90fb1a29a18baf8f5a6acf8252dc067acdf05f6ad69106b",
+  "elapsed_seconds": 0.001,
+  "host": "macOS-15.2-arm64-arm-64bit-Mach-O",
+  "human_statement_approval": "NOT_RECORDED",
+  "reason": "Source snapshot changed since freeze",
+  "schema": 1,
+  "started_utc": "2026-09-16T09:32:32.867857+00:00",
+  "status": "INTEGRITY_BLOCKED"
+}

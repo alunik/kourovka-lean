@@ -1,0 +1,27 @@
+{
+  "returncode": 0,
+  "seconds": 0.509,
+  "export_sha256": "7bad3b4d4a859754dfbd27048c9e90c7059787a284f84f3c0c375875d1356971",
+  "printed_declarations": [
+    "Kourovka.P21_106.counterexample_values",
+    "Kourovka.P21_106.counterexample_not_concise",
+    "Kourovka.P21_106.not_notebookStatement",
+    "Kourovka.P21_106.realize_counterexampleFormula",
+    "Kourovka.P21_106.formulaCondition_iff",
+    "Kourovka.P21_106.formulaCondition_closure_infinite",
+    "Kourovka.P21_106.central_injective",
+    "Kourovka.P21_106.NotebookStatement",
+    "Kourovka.P21_106.FormulaValues",
+    "Kourovka.P21_106.IsConciseIn",
+    "Kourovka.P21_106.groupLanguage",
+    "Kourovka.P21_106.groupLanguageStructure",
+    "Kourovka.P21_106.FormulaCondition",
+    "Kourovka.P21_106.counterexampleFormula",
+    "Kourovka.P21_106.H",
+    "Kourovka.P21_106.Heisenberg",
+    "Kourovka.P21_106.central"
+  ],
+  "requested_names_absent_from_export": [],
+  "output_sha256": "08c65393b2c422e88f4f3c3f7be93437019f6cda25e38391b43cdcb6e8fe0ed1",
+  "human_approval": "NOT_RECORDED"
+}

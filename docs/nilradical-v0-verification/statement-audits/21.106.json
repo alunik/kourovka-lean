@@ -1,0 +1,71 @@
+{
+  "problem": "21.106",
+  "decision": "PASS",
+  "review_type": "AGENT_SEMANTIC_REVIEW",
+  "human_decision": "PENDING",
+  "reviewed_at": "2026-09-16T09:55:59.865023+00:00",
+  "source": {
+    "path": "/HOST/notebook/kourovka_21_3/tmp/pdfs/kourovka_notebook_v46.pdf",
+    "sha256": "498c2443bcee6ca398430935c87c97b6f99d0b1a6e5cb8f637d188a1827115da",
+    "text_path": "sources/kourovka-v46.txt",
+    "text_sha256": "ff3f8d3fda603989d10f8416f369b77a72303132cc19271fdffd9d3cb0e61a4c",
+    "text_lines": [
+      8713,
+      8721
+    ],
+    "physical_pdf_page": 183,
+    "printed_page": 183,
+    "url": "https://arxiv.org/abs/1401.0300v46"
+  },
+  "original_question": "The Notebook asks whether every one-free-variable group formula is concise on residually finite groups: a finite set of satisfying elements should generate a finite subgroup. Conte and Petschick, Conciseness of first-order formulae, Question 1 and its preceding definition explicitly exclude parameters.",
+  "reviewed_claim": "An actual parameter-free one-variable formula in the ordinary group language has exactly the two values central(1), central(-1) in the integral Heisenberg group; those values generate an infinite subgroup although the group is residually finite. The formula has prefix exists a,b; forall g,h; exists u,v and an equality-only conjunction.",
+  "checks": [
+    "groupLanguage contains only identity of arity zero, inversion of arity one, and multiplication of arity two, with no relation symbols other than the equality supplied by first-order syntax. The structure interprets these as the given group operations. No Heisenberg element is added as a named parameter.",
+    "Formula Unit has one free-variable index. The actual bounded formula uses x as the free variable and six bound variables in the intended order. counterexampleFormula is real Mathlib syntax, not a semantic predicate disguised as a formula. realize_counterexampleFormula proves its interpretation for every group.",
+    "The algebraic FormulaCondition says x=[a,b] and every commutator [g,h] can be represented as [u,b]=[a,v], with [u,a]=[v,b]=1. The realization proof discharges the quantifier-order bridge; moving the x equation outside the universal block is legitimate because groups are inhabited.",
+    "H is the concrete Heisenberg group of integer triples with multiplication (r,s,t)(r2,s2,t2)=(r+r2,s+s2,t+t2+r*s2), the ordinary integral model. The residual-finiteness instance uses Mathlib Group.ResiduallyFinite and coordinate reduction to finite Heisenberg groups modulo abs(nonzero coordinate)+1.",
+    "formulaCondition_iff proves the entire value set is exactly the two displayed central elements. central_injective distinguishes them and the integer central embedding gives an injection of Z into their generated subgroup. Finiteness is of the whole formula-value set, and infinitude is of its actual ordinary Subgroup.closure.",
+    "NotebookStatement adds no nilpotency, finite-generation, torsion, or witness-specific assumptions. It universally quantifies over all residually finite groups and parameter-free formulas in the language. A Type-level concrete counterexample suffices to refute the mathematical universal claim.",
+    "The final negative theorem is closed; it uses the actual residual-finiteness instance and the syntax-to-semantics equality counterexample_values. It contains no oracle for the formula values or assumed representation of the generated subgroup."
+  ],
+  "scope_boundary": "This disproves the full formula-conciseness question. It does not resolve the separate word-conciseness question 21.105. No claim is made here about every informal strengthening over all commutative coefficient rings.",
+  "endpoints": [
+    "Kourovka.P21_106.counterexample_values",
+    "Kourovka.P21_106.counterexample_not_concise",
+    "Kourovka.P21_106.not_notebookStatement",
+    "Kourovka.P21_106.realize_counterexampleFormula",
+    "Kourovka.P21_106.formulaCondition_iff",
+    "Kourovka.P21_106.formulaCondition_closure_infinite",
+    "Kourovka.P21_106.central_injective"
+  ],
+  "trusted_challenge": "trusted-challenges/P21_106.lean",
+  "challenge_sha256": "14867f915ac9bae9183204df1e506040ff1f7417c4ea1bf58c6b47203ba82fd5",
+  "reviewed_source_hashes": {
+    "Kourovka/Problems/P21_106/Statement.lean": "0638a3830d00c8fca4c9f78b7326ce714232c743430535365da4efc6d74d7b8d",
+    "Kourovka/Problems/P21_106/Solution.lean": "c012b81c5d586631ddc583d4e8ec4549e694bbfe781fc7dc40e570c85f355610",
+    "Kourovka/Problems/P21_106/Proof/Formula.lean": "cea5bf59d0b98bc594e7b859197731710b5dfad03ad9c3fad2e62afba4b08915",
+    "Kourovka/Problems/P21_106/Proof/Heisenberg.lean": "57cfe16212a343b8926f699e4ff4e61cc5a5acc5c8bd7cb38ff87f9b1d6691c5",
+    "Kourovka/Problems/P21_106/Proof/Counterexample.lean": "2e44fa1b381ea69c57d85ace3ee8da524f13477428c5f699d70b00b2528862fd",
+    ".lake/packages/mathlib/Mathlib/GroupTheory/ResiduallyFinite.lean": "7483fd620fabbe175a1b797e85f32a021a7abfcddb6c5311b13cf52e80674ef2"
+  },
+  "problem_lean_inventory": {
+    "Kourovka/Problems/P21_106/Audit.lean": "ee13566a3fdcca30c7cc3a841a6273785f55f32a9452721f72602545e93e9fd9",
+    "Kourovka/Problems/P21_106/Proof/Counterexample.lean": "2e44fa1b381ea69c57d85ace3ee8da524f13477428c5f699d70b00b2528862fd",
+    "Kourovka/Problems/P21_106/Proof/Formula.lean": "cea5bf59d0b98bc594e7b859197731710b5dfad03ad9c3fad2e62afba4b08915",
+    "Kourovka/Problems/P21_106/Proof/Heisenberg.lean": "57cfe16212a343b8926f699e4ff4e61cc5a5acc5c8bd7cb38ff87f9b1d6691c5",
+    "Kourovka/Problems/P21_106/Solution.lean": "c012b81c5d586631ddc583d4e8ec4549e694bbfe781fc7dc40e570c85f355610",
+    "Kourovka/Problems/P21_106/Statement.lean": "0638a3830d00c8fca4c9f78b7326ce714232c743430535365da4efc6d74d7b8d"
+  },
+  "prior_audit": {
+    "path": "docs/21.106-verification.md",
+    "sha256": "1bf587e414e7ecc8e092fc14c6b9914cec5406cd605ef95dcf67ef6228afc921"
+  },
+  "source_comparison": "MATCHES_SCOPED_CLAIM",
+  "site_scope_comparison": "MATCHES_SCOPED_CLAIM",
+  "limitations": [
+    "Not human approval",
+    "Not a fresh kernel build receipt",
+    "Not a full independent paper-level mathematical referee report",
+    "No novelty or priority adjudication"
+  ]
+}

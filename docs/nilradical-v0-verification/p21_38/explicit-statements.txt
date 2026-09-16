@@ -1,0 +1,607 @@
+theorem Kourovka.P21_38.diagonal_hasSpreadExactlyOne :
+  @Kourovka.P21_38.HasSpreadExactlyOne.{0}
+    (@Subtype.{1} @Kourovka.P21_38.F
+      (fun (x : @Kourovka.P21_38.F) =>
+      @Membership.mem.{0 0} @Kourovka.P21_38.F
+        (@Subgroup.{0} @Kourovka.P21_38.F
+          (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+            (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+              (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1)))))
+        (@SetLike.instMembership.{0 0}
+          (@Subgroup.{0} @Kourovka.P21_38.F
+            (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+              (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1))))) @Kourovka.P21_38.F
+          (@Subgroup.instSetLike.{0} @Kourovka.P21_38.F
+            (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+              (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1)))))) @Kourovka.P21_38.diagonalSubgroup x))
+    (@Subgroup.toGroup.{0} @Kourovka.P21_38.F
+      (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+        (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+          (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1)))) @Kourovka.P21_38.diagonalSubgroup) :=
+  _
+
+theorem Kourovka.P21_38.diagonal_spread_profile (k : @Nat) :
+  @Iff
+    (@Kourovka.P21_38.HasSpreadAtLeast.{0}
+      (@Subtype.{1} @Kourovka.P21_38.F
+        (fun (x : @Kourovka.P21_38.F) =>
+        @Membership.mem.{0 0} @Kourovka.P21_38.F
+          (@Subgroup.{0} @Kourovka.P21_38.F
+            (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+              (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1)))))
+          (@SetLike.instMembership.{0 0}
+            (@Subgroup.{0} @Kourovka.P21_38.F
+              (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+                (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                  (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1))))) @Kourovka.P21_38.F
+            (@Subgroup.instSetLike.{0} @Kourovka.P21_38.F
+              (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+                (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                  (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1)))))) @Kourovka.P21_38.diagonalSubgroup x))
+      (@Subgroup.toGroup.{0} @Kourovka.P21_38.F
+        (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+          (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+            (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1)))) @Kourovka.P21_38.diagonalSubgroup) k)
+    (@LE.le.{0} @Nat @instLENat k (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1))) :=
+  _
+
+theorem Kourovka.P21_38.originalQuestion : @Kourovka.P21_38.OriginalQuestion := _
+
+theorem Kourovka.P21_38.notebookStatement : @Kourovka.P21_38.NotebookStatement := _
+
+theorem Kourovka.P21_38.exists_generating_companion (f :
+    @Subtype.{1} @Kourovka.P21_38.F
+      (fun (x : @Kourovka.P21_38.F) =>
+      @Membership.mem.{0 0} @Kourovka.P21_38.F
+        (@Subgroup.{0} @Kourovka.P21_38.F
+          (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+            (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+              (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1)))))
+        (@SetLike.instMembership.{0 0}
+          (@Subgroup.{0} @Kourovka.P21_38.F
+            (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+              (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1))))) @Kourovka.P21_38.F
+          (@Subgroup.instSetLike.{0} @Kourovka.P21_38.F
+            (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+              (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1)))))) @Kourovka.P21_38.diagonalSubgroup x))
+  (hf :
+    @Ne.{1}
+      (@Subtype.{1} @Kourovka.P21_38.F
+        (fun (x : @Kourovka.P21_38.F) =>
+        @Membership.mem.{0 0} @Kourovka.P21_38.F
+          (@Subgroup.{0} @Kourovka.P21_38.F
+            (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+              (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1)))))
+          (@SetLike.instMembership.{0 0}
+            (@Subgroup.{0} @Kourovka.P21_38.F
+              (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+                (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                  (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1))))) @Kourovka.P21_38.F
+            (@Subgroup.instSetLike.{0} @Kourovka.P21_38.F
+              (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+                (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                  (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1)))))) @Kourovka.P21_38.diagonalSubgroup x)) f
+      (@OfNat.ofNat.{0}
+        (@Subtype.{1} @Kourovka.P21_38.F
+          (fun (x : @Kourovka.P21_38.F) =>
+          @Membership.mem.{0 0} @Kourovka.P21_38.F
+            (@Subgroup.{0} @Kourovka.P21_38.F
+              (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+                (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                  (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1)))))
+            (@SetLike.instMembership.{0 0}
+              (@Subgroup.{0} @Kourovka.P21_38.F
+                (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+                  (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                    (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1))))) @Kourovka.P21_38.F
+              (@Subgroup.instSetLike.{0} @Kourovka.P21_38.F
+                (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+                  (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                    (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1)))))) @Kourovka.P21_38.diagonalSubgroup x)) 1
+        (@One.toOfNat1.{0}
+          (@Subtype.{1} @Kourovka.P21_38.F
+            (fun (x : @Kourovka.P21_38.F) =>
+            @Membership.mem.{0 0} @Kourovka.P21_38.F
+              (@Subgroup.{0} @Kourovka.P21_38.F
+                (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+                  (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                    (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1)))))
+              (@SetLike.instMembership.{0 0}
+                (@Subgroup.{0} @Kourovka.P21_38.F
+                  (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+                    (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                      (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1))))) @Kourovka.P21_38.F
+                (@Subgroup.instSetLike.{0} @Kourovka.P21_38.F
+                  (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+                    (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                      (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1)))))) @Kourovka.P21_38.diagonalSubgroup x))
+          (@Subgroup.one.{0} @Kourovka.P21_38.F
+            (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+              (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1)))) @Kourovka.P21_38.diagonalSubgroup)))) :
+  @Exists.{1}
+    (@Subtype.{1} @Kourovka.P21_38.F
+      (fun (x : @Kourovka.P21_38.F) =>
+      @Membership.mem.{0 0} @Kourovka.P21_38.F
+        (@Subgroup.{0} @Kourovka.P21_38.F
+          (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+            (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+              (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1)))))
+        (@SetLike.instMembership.{0 0}
+          (@Subgroup.{0} @Kourovka.P21_38.F
+            (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+              (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1))))) @Kourovka.P21_38.F
+          (@Subgroup.instSetLike.{0} @Kourovka.P21_38.F
+            (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+              (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1)))))) @Kourovka.P21_38.diagonalSubgroup x))
+    (fun (g :
+        @Subtype.{1} @Kourovka.P21_38.F
+          (fun (x : @Kourovka.P21_38.F) =>
+          @Membership.mem.{0 0} @Kourovka.P21_38.F
+            (@Subgroup.{0} @Kourovka.P21_38.F
+              (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+                (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                  (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1)))))
+            (@SetLike.instMembership.{0 0}
+              (@Subgroup.{0} @Kourovka.P21_38.F
+                (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+                  (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                    (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1))))) @Kourovka.P21_38.F
+              (@Subgroup.instSetLike.{0} @Kourovka.P21_38.F
+                (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+                  (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                    (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1)))))) @Kourovka.P21_38.diagonalSubgroup x)) =>
+    @Kourovka.P21_38.GeneratesPair.{0}
+      (@Subtype.{1} @Kourovka.P21_38.F
+        (fun (x : @Kourovka.P21_38.F) =>
+        @Membership.mem.{0 0} @Kourovka.P21_38.F
+          (@Subgroup.{0} @Kourovka.P21_38.F
+            (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+              (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1)))))
+          (@SetLike.instMembership.{0 0}
+            (@Subgroup.{0} @Kourovka.P21_38.F
+              (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+                (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                  (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1))))) @Kourovka.P21_38.F
+            (@Subgroup.instSetLike.{0} @Kourovka.P21_38.F
+              (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+                (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                  (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1)))))) @Kourovka.P21_38.diagonalSubgroup x))
+      (@Subgroup.toGroup.{0} @Kourovka.P21_38.F
+        (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+          (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+            (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1)))) @Kourovka.P21_38.diagonalSubgroup) f g) :=
+  _
+
+theorem Kourovka.P21_38.diagonal_exists_pair_no_common_companion :
+  @Exists.{1}
+    (@Subtype.{1} @Kourovka.P21_38.F
+      (fun (x : @Kourovka.P21_38.F) =>
+      @Membership.mem.{0 0} @Kourovka.P21_38.F
+        (@Subgroup.{0} @Kourovka.P21_38.F
+          (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+            (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+              (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1)))))
+        (@SetLike.instMembership.{0 0}
+          (@Subgroup.{0} @Kourovka.P21_38.F
+            (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+              (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1))))) @Kourovka.P21_38.F
+          (@Subgroup.instSetLike.{0} @Kourovka.P21_38.F
+            (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+              (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1)))))) @Kourovka.P21_38.diagonalSubgroup x))
+    (fun (a :
+        @Subtype.{1} @Kourovka.P21_38.F
+          (fun (x : @Kourovka.P21_38.F) =>
+          @Membership.mem.{0 0} @Kourovka.P21_38.F
+            (@Subgroup.{0} @Kourovka.P21_38.F
+              (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+                (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                  (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1)))))
+            (@SetLike.instMembership.{0 0}
+              (@Subgroup.{0} @Kourovka.P21_38.F
+                (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+                  (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                    (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1))))) @Kourovka.P21_38.F
+              (@Subgroup.instSetLike.{0} @Kourovka.P21_38.F
+                (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+                  (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                    (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1)))))) @Kourovka.P21_38.diagonalSubgroup x)) =>
+    @Exists.{1}
+      (@Subtype.{1} @Kourovka.P21_38.F
+        (fun (x : @Kourovka.P21_38.F) =>
+        @Membership.mem.{0 0} @Kourovka.P21_38.F
+          (@Subgroup.{0} @Kourovka.P21_38.F
+            (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+              (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1)))))
+          (@SetLike.instMembership.{0 0}
+            (@Subgroup.{0} @Kourovka.P21_38.F
+              (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+                (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                  (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1))))) @Kourovka.P21_38.F
+            (@Subgroup.instSetLike.{0} @Kourovka.P21_38.F
+              (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+                (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                  (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1)))))) @Kourovka.P21_38.diagonalSubgroup x))
+      (fun (b :
+          @Subtype.{1} @Kourovka.P21_38.F
+            (fun (x : @Kourovka.P21_38.F) =>
+            @Membership.mem.{0 0} @Kourovka.P21_38.F
+              (@Subgroup.{0} @Kourovka.P21_38.F
+                (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+                  (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                    (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1)))))
+              (@SetLike.instMembership.{0 0}
+                (@Subgroup.{0} @Kourovka.P21_38.F
+                  (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+                    (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                      (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1))))) @Kourovka.P21_38.F
+                (@Subgroup.instSetLike.{0} @Kourovka.P21_38.F
+                  (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+                    (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                      (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1)))))) @Kourovka.P21_38.diagonalSubgroup x)) =>
+      @And
+        (@Ne.{1}
+          (@Subtype.{1} @Kourovka.P21_38.F
+            (fun (x : @Kourovka.P21_38.F) =>
+            @Membership.mem.{0 0} @Kourovka.P21_38.F
+              (@Subgroup.{0} @Kourovka.P21_38.F
+                (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+                  (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                    (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1)))))
+              (@SetLike.instMembership.{0 0}
+                (@Subgroup.{0} @Kourovka.P21_38.F
+                  (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+                    (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                      (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1))))) @Kourovka.P21_38.F
+                (@Subgroup.instSetLike.{0} @Kourovka.P21_38.F
+                  (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+                    (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                      (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1)))))) @Kourovka.P21_38.diagonalSubgroup x)) a
+          (@OfNat.ofNat.{0}
+            (@Subtype.{1} @Kourovka.P21_38.F
+              (fun (x : @Kourovka.P21_38.F) =>
+              @Membership.mem.{0 0} @Kourovka.P21_38.F
+                (@Subgroup.{0} @Kourovka.P21_38.F
+                  (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+                    (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                      (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1)))))
+                (@SetLike.instMembership.{0 0}
+                  (@Subgroup.{0} @Kourovka.P21_38.F
+                    (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+                      (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                        (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1))))) @Kourovka.P21_38.F
+                  (@Subgroup.instSetLike.{0} @Kourovka.P21_38.F
+                    (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+                      (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                        (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1)))))) @Kourovka.P21_38.diagonalSubgroup x)) 1
+            (@One.toOfNat1.{0}
+              (@Subtype.{1} @Kourovka.P21_38.F
+                (fun (x : @Kourovka.P21_38.F) =>
+                @Membership.mem.{0 0} @Kourovka.P21_38.F
+                  (@Subgroup.{0} @Kourovka.P21_38.F
+                    (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+                      (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                        (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1)))))
+                  (@SetLike.instMembership.{0 0}
+                    (@Subgroup.{0} @Kourovka.P21_38.F
+                      (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+                        (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                          (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1))))) @Kourovka.P21_38.F
+                    (@Subgroup.instSetLike.{0} @Kourovka.P21_38.F
+                      (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+                        (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                          (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1)))))) @Kourovka.P21_38.diagonalSubgroup x))
+              (@Subgroup.one.{0} @Kourovka.P21_38.F
+                (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+                  (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                    (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1)))) @Kourovka.P21_38.diagonalSubgroup))))
+        (@And
+          (@Ne.{1}
+            (@Subtype.{1} @Kourovka.P21_38.F
+              (fun (x : @Kourovka.P21_38.F) =>
+              @Membership.mem.{0 0} @Kourovka.P21_38.F
+                (@Subgroup.{0} @Kourovka.P21_38.F
+                  (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+                    (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                      (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1)))))
+                (@SetLike.instMembership.{0 0}
+                  (@Subgroup.{0} @Kourovka.P21_38.F
+                    (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+                      (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                        (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1))))) @Kourovka.P21_38.F
+                  (@Subgroup.instSetLike.{0} @Kourovka.P21_38.F
+                    (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+                      (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                        (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1)))))) @Kourovka.P21_38.diagonalSubgroup x)) b
+            (@OfNat.ofNat.{0}
+              (@Subtype.{1} @Kourovka.P21_38.F
+                (fun (x : @Kourovka.P21_38.F) =>
+                @Membership.mem.{0 0} @Kourovka.P21_38.F
+                  (@Subgroup.{0} @Kourovka.P21_38.F
+                    (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+                      (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                        (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1)))))
+                  (@SetLike.instMembership.{0 0}
+                    (@Subgroup.{0} @Kourovka.P21_38.F
+                      (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+                        (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                          (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1))))) @Kourovka.P21_38.F
+                    (@Subgroup.instSetLike.{0} @Kourovka.P21_38.F
+                      (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+                        (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                          (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1)))))) @Kourovka.P21_38.diagonalSubgroup x)) 1
+              (@One.toOfNat1.{0}
+                (@Subtype.{1} @Kourovka.P21_38.F
+                  (fun (x : @Kourovka.P21_38.F) =>
+                  @Membership.mem.{0 0} @Kourovka.P21_38.F
+                    (@Subgroup.{0} @Kourovka.P21_38.F
+                      (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+                        (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                          (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1)))))
+                    (@SetLike.instMembership.{0 0}
+                      (@Subgroup.{0} @Kourovka.P21_38.F
+                        (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+                          (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                            (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1))))) @Kourovka.P21_38.F
+                      (@Subgroup.instSetLike.{0} @Kourovka.P21_38.F
+                        (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+                          (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                            (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1)))))) @Kourovka.P21_38.diagonalSubgroup x))
+                (@Subgroup.one.{0} @Kourovka.P21_38.F
+                  (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+                    (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                      (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1)))) @Kourovka.P21_38.diagonalSubgroup))))
+          (forall (y :
+              @Subtype.{1} @Kourovka.P21_38.F
+                (fun (x : @Kourovka.P21_38.F) =>
+                @Membership.mem.{0 0} @Kourovka.P21_38.F
+                  (@Subgroup.{0} @Kourovka.P21_38.F
+                    (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+                      (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                        (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1)))))
+                  (@SetLike.instMembership.{0 0}
+                    (@Subgroup.{0} @Kourovka.P21_38.F
+                      (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+                        (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                          (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1))))) @Kourovka.P21_38.F
+                    (@Subgroup.instSetLike.{0} @Kourovka.P21_38.F
+                      (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+                        (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                          (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1)))))) @Kourovka.P21_38.diagonalSubgroup x)),
+          @Not
+            (@And
+              (@Kourovka.P21_38.GeneratesPair.{0}
+                (@Subtype.{1} @Kourovka.P21_38.F
+                  (fun (x : @Kourovka.P21_38.F) =>
+                  @Membership.mem.{0 0} @Kourovka.P21_38.F
+                    (@Subgroup.{0} @Kourovka.P21_38.F
+                      (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+                        (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                          (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1)))))
+                    (@SetLike.instMembership.{0 0}
+                      (@Subgroup.{0} @Kourovka.P21_38.F
+                        (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+                          (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                            (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1))))) @Kourovka.P21_38.F
+                      (@Subgroup.instSetLike.{0} @Kourovka.P21_38.F
+                        (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+                          (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                            (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1)))))) @Kourovka.P21_38.diagonalSubgroup x))
+                (@Subgroup.toGroup.{0} @Kourovka.P21_38.F
+                  (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+                    (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                      (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1)))) @Kourovka.P21_38.diagonalSubgroup) a y)
+              (@Kourovka.P21_38.GeneratesPair.{0}
+                (@Subtype.{1} @Kourovka.P21_38.F
+                  (fun (x : @Kourovka.P21_38.F) =>
+                  @Membership.mem.{0 0} @Kourovka.P21_38.F
+                    (@Subgroup.{0} @Kourovka.P21_38.F
+                      (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+                        (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                          (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1)))))
+                    (@SetLike.instMembership.{0 0}
+                      (@Subgroup.{0} @Kourovka.P21_38.F
+                        (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+                          (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                            (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1))))) @Kourovka.P21_38.F
+                      (@Subgroup.instSetLike.{0} @Kourovka.P21_38.F
+                        (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+                          (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                            (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1)))))) @Kourovka.P21_38.diagonalSubgroup x))
+                (@Subgroup.toGroup.{0} @Kourovka.P21_38.F
+                  (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+                    (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                      (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1)))) @Kourovka.P21_38.diagonalSubgroup) b y)))))) :=
+  _
+
+theorem Kourovka.P21_38.diagonal_infinite :
+  @Infinite.{1}
+    (@Subtype.{1} @Kourovka.P21_38.F
+      (fun (x : @Kourovka.P21_38.F) =>
+      @Membership.mem.{0 0} @Kourovka.P21_38.F
+        (@Subgroup.{0} @Kourovka.P21_38.F
+          (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+            (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+              (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1)))))
+        (@SetLike.instMembership.{0 0}
+          (@Subgroup.{0} @Kourovka.P21_38.F
+            (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+              (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1))))) @Kourovka.P21_38.F
+          (@Subgroup.instSetLike.{0} @Kourovka.P21_38.F
+            (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+              (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1)))))) @Kourovka.P21_38.diagonalSubgroup x)) :=
+  _
+
+def Kourovka.P21_38.GeneratesPair.{u_1} :
+  forall {G : Type u_1} [inst._@.Kourovka.Problems.P21_38.Proof.Spread.2981501361._hygCtx._hyg.3 : @Group.{u_1} G],
+  G → G → Sort 0 :=
+  fun {G : Type u_1} [inst._@.Kourovka.Problems.P21_38.Proof.Spread.2981501361._hygCtx._hyg.3 : @Group.{u_1} G]
+    (a b : G) =>
+  @Eq.{u_1+1} (@Subgroup.{u_1} G inst._@.Kourovka.Problems.P21_38.Proof.Spread.2981501361._hygCtx._hyg.3)
+    (@Subgroup.closure.{u_1} G inst._@.Kourovka.Problems.P21_38.Proof.Spread.2981501361._hygCtx._hyg.3
+      (@Insert.insert.{u_1 u_1} G (@Set.{u_1} G) (@Set.instInsert.{u_1} G) a
+        (@Singleton.singleton.{u_1 u_1} G (@Set.{u_1} G) (@Set.instSingletonSet.{u_1} G) b)))
+    (@Top.top.{u_1} (@Subgroup.{u_1} G inst._@.Kourovka.Problems.P21_38.Proof.Spread.2981501361._hygCtx._hyg.3)
+      (@Subgroup.instTop.{u_1} G inst._@.Kourovka.Problems.P21_38.Proof.Spread.2981501361._hygCtx._hyg.3))
+
+def Kourovka.P21_38.HasSpreadAtLeast.{u_2} (G : Type u_2) :
+  forall [inst._@.Kourovka.Problems.P21_38.Proof.Spread.129381295._hygCtx._hyg.7 : @Group.{u_2} G], @Nat → Sort 0 :=
+  fun [inst._@.Kourovka.Problems.P21_38.Proof.Spread.129381295._hygCtx._hyg.7 : @Group.{u_2} G] (k : @Nat) =>
+  forall (x : @Fin k → G),
+  (forall (i : @Fin k),
+    @Ne.{u_2+1} G (x i)
+      (@OfNat.ofNat.{u_2} G 1
+        (@One.toOfNat1.{u_2} G
+          (@InvOneClass.toOne.{u_2} G
+            (@DivInvOneMonoid.toInvOneClass.{u_2} G
+              (@DivisionMonoid.toDivInvOneMonoid.{u_2} G
+                (@Group.toDivisionMonoid.{u_2} G
+                  inst._@.Kourovka.Problems.P21_38.Proof.Spread.129381295._hygCtx._hyg.7))))))) →
+  @Exists.{u_2+1} G
+    (fun (y : G) =>
+    forall (i : @Fin k),
+    @Kourovka.P21_38.GeneratesPair.{u_2} G inst._@.Kourovka.Problems.P21_38.Proof.Spread.129381295._hygCtx._hyg.7 (x i)
+      y)
+
+def Kourovka.P21_38.HasSpreadExactlyOne.{u_2} (G : Type u_2) :
+  forall [inst._@.Kourovka.Problems.P21_38.Proof.Spread.4063911463._hygCtx._hyg.7 : @Group.{u_2} G], Sort 0 :=
+  fun [inst._@.Kourovka.Problems.P21_38.Proof.Spread.4063911463._hygCtx._hyg.7 : @Group.{u_2} G] =>
+  @And
+    (@Kourovka.P21_38.HasSpreadAtLeast.{u_2} G inst._@.Kourovka.Problems.P21_38.Proof.Spread.4063911463._hygCtx._hyg.7
+      (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1)))
+    (@Not
+      (@Kourovka.P21_38.HasSpreadAtLeast.{u_2} G inst._@.Kourovka.Problems.P21_38.Proof.Spread.4063911463._hygCtx._hyg.7
+        (@OfNat.ofNat.{0} @Nat 2 (@instOfNatNat 2))))
+
+def Kourovka.P21_38.OriginalQuestion :
+  Sort 0 :=
+  @Exists.{2} Type 0
+    (fun (G : Type 0) =>
+    @Exists.{1} (@Group.{0} G)
+      (fun (group : @Group.{0} G) => @And (@Infinite.{1} G) (@Kourovka.P21_38.HasSpreadExactlyOne.{0} G group)))
+
+def Kourovka.P21_38.NotebookStatement :
+  Sort 0 :=
+  @Exists.{2} Type 0
+    (fun (G : Type 0) =>
+    @Exists.{1} (@Group.{0} G) (fun (group : @Group.{0} G) => @Kourovka.P21_38.HasSpreadExactlyOne.{0} G group))
+
+def Kourovka.P21_38.diagonalSubgroup :
+  @Subgroup.{0} @Kourovka.P21_38.F
+    (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+      (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+        (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1)))) :=
+  @Subgroup.mk.{0} @Kourovka.P21_38.F
+    (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+      (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+        (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1))))
+    (@Submonoid.mk.{0} @Kourovka.P21_38.F
+      (@Monoid.toMulOneClass.{0} @Kourovka.P21_38.F
+        (@DivInvMonoid.toMonoid.{0} @Kourovka.P21_38.F
+          (@Group.toDivInvMonoid.{0} @Kourovka.P21_38.F
+            (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+              (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1)))))))
+      (@Subsemigroup.mk.{0} @Kourovka.P21_38.F
+        (@MulOne.toMul.{0} @Kourovka.P21_38.F
+          (@MulOneClass.toMulOne.{0} @Kourovka.P21_38.F
+            (@Monoid.toMulOneClass.{0} @Kourovka.P21_38.F
+              (@DivInvMonoid.toMonoid.{0} @Kourovka.P21_38.F
+                (@Group.toDivInvMonoid.{0} @Kourovka.P21_38.F
+                  (@Subgroup.toGroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)
+                    (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                      (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1)))))))))
+        (@Set.ofPred.{0} @Kourovka.P21_38.F
+          (fun (g : @Kourovka.P21_38.F) =>
+          @Eq.{1} @Int (@Kourovka.P21_38.leftExponent g) (@Kourovka.P21_38.rightExponent g))) _) _) _
+
+def Kourovka.P21_38.F :
+  Type 0 :=
+  @Subtype.{1} (@Equiv.Perm.{1} @Rat)
+    (fun (x : @Equiv.Perm.{1} @Rat) =>
+    @Membership.mem.{0 0} (@Equiv.Perm.{1} @Rat) (@Subgroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat))
+      (@SetLike.instMembership.{0 0} (@Subgroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat))
+        (@Equiv.Perm.{1} @Rat) (@Subgroup.instSetLike.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)))
+      (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+        (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1))) x)
+
+def Kourovka.P21_38.HasLeftExponent (g : @Kourovka.P21_38.F)
+  (x._@.Init.Data.Int.Lemmas.2690306645._hygCtx.26.Init.Data.Int.Lemmas.2690306645._hygCtx._hyg.57 : @Int) :
+  Sort 0 :=
+  @Exists.{1} @Rat
+    (fun (ε : @Rat) =>
+    @And (@LT.lt.{0} @Rat @Rat.instLT (@OfNat.ofNat.{0} @Rat 0 (@Rat.instOfNat 0)) ε)
+      (forall (t : @Rat),
+      @LE.le.{0} @Rat @Rat.instLE (@OfNat.ofNat.{0} @Rat 0 (@Rat.instOfNat 0)) t → @LE.le.{0} @Rat @Rat.instLE t
+          ε →
+      @Eq.{1} @Rat
+        (@DFunLike.coe.{1 1 1} (@Equiv.Perm.{1} @Rat) @Rat
+          (fun (x._@.Mathlib.Data.FunLike.Basic.2582841819._hygCtx._hyg.11 : @Rat) => @Rat)
+          (@EquivLike.toFunLike.{1 1 1} (@Equiv.Perm.{1} @Rat) @Rat @Rat (@Equiv.instEquivLike.{1 1} @Rat @Rat))
+          (@Subtype.val.{1} (@Equiv.Perm.{1} @Rat)
+            (fun (x : @Equiv.Perm.{1} @Rat) =>
+            @Membership.mem.{0 0} (@Equiv.Perm.{1} @Rat)
+              (@Subgroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat))
+              (@SetLike.instMembership.{0 0} (@Subgroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat))
+                (@Equiv.Perm.{1} @Rat)
+                (@Subgroup.instSetLike.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)))
+              (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1))) x) g) t)
+        (@HMul.hMul.{0 0 0} @Rat @Rat @Rat (@instHMul.{0} @Rat @Rat.instMul)
+          (@HPow.hPow.{0 0 0} @Rat @Int @Rat (@instHPow.{0 0} @Rat @Int @Rat.instPowInt)
+            (@OfNat.ofNat.{0} @Rat 2 (@Rat.instOfNat 2))
+            x._@.Init.Data.Int.Lemmas.2690306645._hygCtx.26.Init.Data.Int.Lemmas.2690306645._hygCtx._hyg.57) t)))
+
+def Kourovka.P21_38.HasRightExponent (g : @Kourovka.P21_38.F)
+  (x._@.Init.Data.Int.Lemmas.2690306645._hygCtx.26.Init.Data.Int.Lemmas.2690306645._hygCtx._hyg.57 : @Int) :
+  Sort 0 :=
+  @Exists.{1} @Rat
+    (fun (ε : @Rat) =>
+    @And (@LT.lt.{0} @Rat @Rat.instLT (@OfNat.ofNat.{0} @Rat 0 (@Rat.instOfNat 0)) ε)
+      (forall (t : @Rat),
+      @LE.le.{0} @Rat @Rat.instLE
+          (@HSub.hSub.{0 0 0} @Rat @Rat @Rat (@instHSub.{0} @Rat @Rat.instSub)
+            (@OfNat.ofNat.{0} @Rat 1 (@Rat.instOfNat 1)) ε) t →
+      @LE.le.{0} @Rat @Rat.instLE t (@OfNat.ofNat.{0} @Rat 1 (@Rat.instOfNat 1)) → @Eq.{1} @Rat
+        (@DFunLike.coe.{1 1 1} (@Equiv.Perm.{1} @Rat) @Rat
+          (fun (x._@.Mathlib.Data.FunLike.Basic.2582841819._hygCtx._hyg.11 : @Rat) => @Rat)
+          (@EquivLike.toFunLike.{1 1 1} (@Equiv.Perm.{1} @Rat) @Rat @Rat (@Equiv.instEquivLike.{1 1} @Rat @Rat))
+          (@Subtype.val.{1} (@Equiv.Perm.{1} @Rat)
+            (fun (x : @Equiv.Perm.{1} @Rat) =>
+            @Membership.mem.{0 0} (@Equiv.Perm.{1} @Rat)
+              (@Subgroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat))
+              (@SetLike.instMembership.{0 0} (@Subgroup.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat))
+                (@Equiv.Perm.{1} @Rat)
+                (@Subgroup.instSetLike.{0} (@Equiv.Perm.{1} @Rat) (@Equiv.Perm.permGroup.{0} @Rat)))
+              (@GroupApproximation.HigmanThompson.compactF (@OfNat.ofNat.{0} @Nat 0 (@instOfNatNat 0))
+                (@OfNat.ofNat.{0} @Nat 1 (@instOfNatNat 1))) x) g) t)
+        (@HAdd.hAdd.{0 0 0} @Rat @Rat @Rat (@instHAdd.{0} @Rat @Rat.instAdd)
+          (@OfNat.ofNat.{0} @Rat 1 (@Rat.instOfNat 1))
+          (@HMul.hMul.{0 0 0} @Rat @Rat @Rat (@instHMul.{0} @Rat @Rat.instMul)
+            (@HPow.hPow.{0 0 0} @Rat @Int @Rat (@instHPow.{0 0} @Rat @Int @Rat.instPowInt)
+              (@OfNat.ofNat.{0} @Rat 2 (@Rat.instOfNat 2))
+              x._@.Init.Data.Int.Lemmas.2690306645._hygCtx.26.Init.Data.Int.Lemmas.2690306645._hygCtx._hyg.57)
+            (@HSub.hSub.{0 0 0} @Rat @Rat @Rat (@instHSub.{0} @Rat @Rat.instSub) t
+              (@OfNat.ofNat.{0} @Rat 1 (@Rat.instOfNat 1)))))))
+
+axiom propext {a b : Sort 0} : @Iff a b → @Eq.{1} Sort 0 a b
+
+axiom Quot.sound.{u} {α : Sort u} {r : α → α → Sort 0} {a b : α} :
+  r a b → @Eq.{u} (@Quot.{u} α r) (@Quot.mk.{u} α r a) (@Quot.mk.{u} α r b)
+
+axiom Classical.choice.{u} {α : Sort u} : @Nonempty.{u} α → α
+

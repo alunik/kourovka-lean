@@ -1,0 +1,22 @@
+import Kourovka.Problems.P21_106.Statement
+import Kourovka.Problems.P21_106.Proof.Counterexample
+
+/- Independent semantic challenge, 2026-09-16.
+Reviewed and frozen imports: Statement, Formula, Heisenberg, Counterexample.
+The three Solution endpoint types below were compared against Notebook 21.106
+and the actual first-order syntax, Heisenberg group, and concrete value-set bridge.
+Placeholder bodies are trusted benchmark statements only, never candidate proofs.
+-/
+namespace Kourovka.P21_106
+
+theorem counterexample_values :
+    FormulaValues counterexampleFormula H = {x : H | FormulaCondition x} := by
+  sorry
+
+theorem counterexample_not_concise : ¬ IsConciseIn counterexampleFormula H := by
+  sorry
+
+theorem not_notebookStatement : ¬ NotebookStatement := by
+  sorry
+
+end Kourovka.P21_106

@@ -1,0 +1,38 @@
+[
+  {
+    "problem": "21.3",
+    "summary": "For symmetric and alternating groups in every sufficiently large degree, any two soluble subgroups have a conjugate with trivial intersection.",
+    "scope": "The first question only: one uniform eventual cutoff. The specific threshold n ≥ 21 is not proved.",
+    "outcome": "Affirmative"
+  },
+  {
+    "problem": "21.38",
+    "summary": "An explicit subgroup of Thompson’s group F is infinite and has ordinary spread exactly one.",
+    "scope": "The subgroup consists of maps with equal endpoint slopes; the spread condition holds exactly for k ≤ 1. The key generation argument specializes Gili Golan-Polak’s published theorem.",
+    "outcome": "Affirmative"
+  },
+  {
+    "problem": "21.40",
+    "summary": "Every rational linear group with finitely many abstract automorphism orbits has a normal torsion-free nilpotent subgroup of bounded finite index.",
+    "scope": "No finite-generation assumption. The index is at most (2n+1)^(n²), the nilpotency class at most n−1, and there is an extension to number fields.",
+    "outcome": "Affirmative"
+  },
+  {
+    "problem": "21.44",
+    "summary": "A fixed pair generates a dense subgroup of subexponential growth in the infinite iterated natural degree-five alternating wreath product.",
+    "scope": "The proof establishes the logarithmic growth limit for one compatible pair in the full inverse limit. It does not establish an additional proposed explicit growth bound.",
+    "outcome": "Affirmative"
+  },
+  {
+    "problem": "21.68",
+    "summary": "A semiabelian group of order 2,592 has an irreducible nonmonomial complex representation of degree eight.",
+    "scope": "A complete counterexample, with no minimal-order claim. The complement and subgroup pair from Kida’s earlier work are prior mathematical input.",
+    "outcome": "Negative"
+  },
+  {
+    "problem": "21.106",
+    "summary": "A parameter-free first-order formula has exactly two values generating an infinite subgroup in the residually finite integral Heisenberg group.",
+    "scope": "Disproves universal conciseness for one-variable formulae, using actual first-order syntax and realization. The separate word-conciseness question 21.105 is outside scope.",
+    "outcome": "Negative"
+  }
+]

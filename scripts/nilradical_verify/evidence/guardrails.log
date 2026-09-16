@@ -1,0 +1,15 @@
+test_changed_while_staging (__main__.Guardrails.test_changed_while_staging) ... ok
+test_compiled_directory_symlink (__main__.Guardrails.test_compiled_directory_symlink) ... ok
+test_external_package_configuration (__main__.Guardrails.test_external_package_configuration) ... ok
+test_external_packages_dir (__main__.Guardrails.test_external_packages_dir) ... ok
+test_external_source_dir (__main__.Guardrails.test_external_source_dir) ... ok
+test_nonpositive_timeout (__main__.Guardrails.test_nonpositive_timeout) ... ok
+test_source_directory_symlink (__main__.Guardrails.test_source_directory_symlink) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 7.583s
+
+OK
+FROZEN 72fd81fdb20872c9593c1d99e3aa52b286df622f3179bb3aa843486244bdd07b
+INTEGRITY_BLOCKED Source changed while staging: Solution.lean /private/var/folders/9t/mz006dhd67j4g75rzt4f0nrc0000gn/T/nilradical-guard-ay3xjb5p/receipt.json
+INTEGRITY_BLOCKED Timeout must be positive /private/var/folders/9t/mz006dhd67j4g75rzt4f0nrc0000gn/T/nilradical-guard-n3uldpri/receipt.json

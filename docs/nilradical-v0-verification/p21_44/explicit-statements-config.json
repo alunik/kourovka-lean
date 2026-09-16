@@ -1,0 +1,40 @@
+{
+  "export_file_path": "/HOST/notebook/nilradical-v0-upgrade/verification/p21_44/work-1789553085145141000/exports/Kourovka_Problems_P21_44_Solution.ndjson",
+  "nat_extension": true,
+  "string_extension": true,
+  "num_threads": 4,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "unpermitted_axiom_hard_error": true,
+  "pp_declars": [
+    "Kourovka.P21_44.generated_section_shortening",
+    "Kourovka.P21_44.subexponential_growth",
+    "Kourovka.P21_44.generatedSubgroup_fg",
+    "Kourovka.P21_44.notebookStatement",
+    "Kourovka.P21_44.dense_generated_pair",
+    "Kourovka.P21_44.generated_pair_surjective",
+    "Kourovka.P21_44.NotebookStatement",
+    "Kourovka.P21_44.HasSubexponentialGrowth",
+    "Kourovka.P21_44.AutTree",
+    "Kourovka.P21_44.compatibleSubgroup",
+    "Kourovka.P21_44.Level",
+    "Kourovka.P21_44.levelProj",
+    "Kourovka.P21_44.Wreath",
+    "Kourovka.P21_44.reindexAction",
+    "Kourovka.P21_44.generatedSubgroup",
+    "Kourovka.P21_44.wordGeometry",
+    "RecurrentSections.WordGeometry",
+    "RecurrentSections.WordGeometry.ball",
+    "RecurrentSections.SubexponentialGrowth"
+  ],
+  "pp_options": {
+    "all": true,
+    "explicit": true,
+    "universes": true,
+    "proofs": false
+  },
+  "pp_to_stdout": true
+}

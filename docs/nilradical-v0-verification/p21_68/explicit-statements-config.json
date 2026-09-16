@@ -1,0 +1,40 @@
+{
+  "export_file_path": "/HOST/notebook/nilradical-v0-upgrade/verification/p21_68/work-1789552469003333000/exports/Kourovka_Problems_P21_68_Solution.ndjson",
+  "nat_extension": true,
+  "string_extension": true,
+  "num_threads": 4,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "unpermitted_axiom_hard_error": true,
+  "pp_declars": [
+    "Kourovka.P21_68.simple_witnessRepresentation",
+    "Kourovka.P21_68.finrank_witnessRepresentation",
+    "Kourovka.P21_68.witness_not_monomial",
+    "Kourovka.P21_68.G_not_monomial",
+    "Kourovka.P21_68.not_notebookStatement",
+    "Kourovka.P21_68.G_semiabelian",
+    "Kourovka.P21_68.card_G",
+    "Kourovka.P21_68.IsSemiabelianStep",
+    "Kourovka.P21_68.IsSemiabelian",
+    "Kourovka.P21_68.IsMonomialRepresentation",
+    "Kourovka.P21_68.IsMonomial",
+    "Kourovka.P21_68.NotebookStatement",
+    "Kourovka.P21_68.G",
+    "Kourovka.P21_68.A",
+    "Kourovka.P21_68.W",
+    "Kourovka.P21_68.inertiaRep",
+    "Kourovka.P21_68.witnessRepresentation",
+    "TauCeti.indFDRep",
+    "FDRep.ofLinearCharacter"
+  ],
+  "pp_options": {
+    "all": true,
+    "explicit": true,
+    "universes": true,
+    "proofs": false
+  },
+  "pp_to_stdout": true
+}

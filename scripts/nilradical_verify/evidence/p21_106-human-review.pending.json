@@ -1,0 +1,21 @@
+{
+  "contract_sha256": "935a10d8a200465131a15172aa4407d36889aa8c88047108e4160031cb258180",
+  "endpoint": "Kourovka.P21_106.not_notebookStatement",
+  "notice": "An agent may prepare this packet but must not fill approval fields on behalf of a human.",
+  "novelty_attribution_approval": {
+    "date": null,
+    "decision": null,
+    "evidence_pointer": null,
+    "human_name": null
+  },
+  "problem": "Kourovka 21.106",
+  "project_source_manifest_sha256": "840aba62500eec28ef102ffaa513aaafeccf0725b7667547d67f6cae9c0b1a5e",
+  "statement_approval": {
+    "date": null,
+    "decision": null,
+    "evidence_pointer": null,
+    "human_name": null
+  },
+  "status": "AWAITING_HUMAN",
+  "technical_receipt_sha256": "c72789bd8fd26ecb309daa4de684f1b318fc1f6370fe9cd06c2f4fe38b4a808c"
+}

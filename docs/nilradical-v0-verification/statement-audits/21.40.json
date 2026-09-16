@@ -1,0 +1,85 @@
+{
+  "problem": "21.40",
+  "decision": "PASS",
+  "review_type": "AGENT_SEMANTIC_REVIEW",
+  "human_decision": "PENDING",
+  "reviewed_at": "2026-09-16T09:55:59.865023+00:00",
+  "source": {
+    "path": "/HOST/notebook/kourovka_21_3/tmp/pdfs/kourovka_notebook_v46.pdf",
+    "sha256": "498c2443bcee6ca398430935c87c97b6f99d0b1a6e5cb8f637d188a1827115da",
+    "text_path": "sources/kourovka-v46.txt",
+    "text_sha256": "ff3f8d3fda603989d10f8416f369b77a72303132cc19271fdffd9d3cb0e61a4c",
+    "text_lines": [
+      8223,
+      8227
+    ],
+    "physical_pdf_page": 173,
+    "printed_page": 173,
+    "url": "https://arxiv.org/abs/1401.0300v46"
+  },
+  "original_question": "For an arbitrary subgroup G of GL(n,Q) with finitely many automorphism orbits, the Notebook asks whether G is virtually soluble. It imposes no finite-generation assumption.",
+  "reviewed_claim": "Every such rational linear group has a normal subgroup K of actual finite index at most (2n+1)^(n^2), which is torsion-free nilpotent of class at most n-1 and is simultaneously conjugated into the upper-unitriangular matrices by one rational P. Virtual solubility follows. For every number field, the corresponding finite-orbit hypothesis gives a finite-index torsion-free nilpotent subgroup.",
+  "checks": [
+    "HasFiniteAutomorphismOrbits uses the quotient by the full MulAut G evaluation action on the subgroup carrier. The Mathlib action is literally automorphism application; it does not restrict automorphisms to ambient matrix conjugation or rational algebraic automorphisms.",
+    "The public rational quantifier covers every n : Nat and every subgroup of GL(Fin n,Q). There is no finite, finite-generation, solvability, or rank assumption on G. The finite hypothesis applies to the orbit quotient only.",
+    "StructuralConclusion separately asserts K.FiniteIndex and its numerical bound. Mathlib FiniteIndex requires nonzero natural index, which rules out the infinite-index default zero. Similarly, explicit Group.IsNilpotent precedes the class bound, ruling out the default zero class for nonnilpotent groups.",
+    "The quantifier order is one K and one rational invertible matrix P for all g in K. IsUpperUnitriangular enforces diagonal 1 and every strictly lower entry 0. The solution builds the trace kernel from actual matrices and a trace-pairing ideal, then applies one rational flag to the whole ideal.",
+    "The finite-order predicate was checked in Mathlib: it means some positive power is one. The explicit implication IsOfFinOrder g -> g = 1 is exactly torsion-freeness, not merely absence of a selected prime torsion.",
+    "Dimension zero is included. Natural subtraction makes n-1 zero; the zero-dimensional general linear group is trivial and the index bound is 1. There is no dimension-positive hidden premise in the public endpoint.",
+    "ConjugateStructure uses an injective conjugation homomorphism and transfers nilpotence, the class bound, and torsion-freeness from the unitriangular image to the same K. NumberFields faithfully restricts scalars, transports the full abstract orbit condition across a group isomorphism, and transfers actual finite index and structure back.",
+    "The conditional internal _of_rational_structure lemma is discharged in public numberField_structure by structural_theorem. Neither public number-field endpoint retains that extra premise. No bound in terms of the original number-field dimension is promised."
+  ],
+  "scope_boundary": "The numerical class/index bounds and simultaneous rational conjugator are asserted over Q. The number-field extension asserts a finite-index torsion-free nilpotent subgroup and virtual nilpotence; it does not assert the same dimension-only bound over the original field.",
+  "endpoints": [
+    "Kourovka.P21_40.structural_theorem",
+    "Kourovka.P21_40.virtually_nilpotent",
+    "Kourovka.P21_40.virtually_solvable",
+    "Kourovka.P21_40.notebookStatement",
+    "Kourovka.P21_40.numberField_structure",
+    "Kourovka.P21_40.numberField_virtually_nilpotent"
+  ],
+  "trusted_challenge": "trusted-challenges/P21_40.lean",
+  "challenge_sha256": "d74cb40fcfb20c9d3d7308718709a833cbe91ab737e7cef10f90fd8d69618a0e",
+  "reviewed_source_hashes": {
+    "Kourovka/Problems/P21_40/Statement.lean": "5eff5e3c95972b9228bc6ce47aff248af6b03dbe76dbbfd5fd6c3f35af4c43a8",
+    "Kourovka/Problems/P21_40/Solution.lean": "713dc8e87e073b12dca18db9efb552101c22d17f5806ebe442c34f40887e5f4d",
+    "Kourovka/Problems/P21_40/Proof/Orbits.lean": "9615535200891fc94c8bad778e449812f4065aa336730e5f612e18c852b23652",
+    "Kourovka/Problems/P21_40/Proof/FiniteOrbits.lean": "9dbebf0d6caf50cbc585b6a3098022acdc64f352f0106a4a1273aef3c15a4116",
+    "Kourovka/Problems/P21_40/Proof/TraceKernel.lean": "17859fff51656f274eaaa1e4290961a1b140eb22b93c8962db6f1c361e66004d",
+    "Kourovka/Problems/P21_40/Proof/ConjugateStructure.lean": "29f7d57cf7c583a5433bc3ac9b3950bbd613fcb2e9bcbb36e161547c78b6b7c6",
+    "Kourovka/Problems/P21_40/Proof/NumberFields.lean": "4d56b9a0cf5363ce7b0e56782a5268618914a98118af773d39f07183fbeb9365",
+    ".lake/packages/mathlib/Mathlib/Algebra/Group/Action/End.lean": "40ea6e88d8ff3f3fdfce1aa759bcd5285e24e7d597777f58a65d224c7dd8630d",
+    ".lake/packages/mathlib/Mathlib/GroupTheory/GroupAction/Defs.lean": "1f0cfda8f2b40e939a9f12b2637e0afb97eccaaca8dea2157f83e1f932cdb6ea",
+    ".lake/packages/mathlib/Mathlib/GroupTheory/Index.lean": "dbcba69198cd4e0b4dfc940fb9d27b1918ef561e82a2b2520e67cb5788c65598",
+    ".lake/packages/mathlib/Mathlib/GroupTheory/Nilpotent.lean": "ec9cd051d94443547fef697e2aeb730ab619176ce31ed5d09e79d8158dca3ca1",
+    ".lake/packages/mathlib/Mathlib/GroupTheory/OrderOfElement.lean": "b3d7a466c991e6e251272012cd58aff8256e58c42e017a35ed26ab2df1bc3cf2"
+  },
+  "problem_lean_inventory": {
+    "Kourovka/Problems/P21_40/Audit.lean": "c2e106004503e66439876f55f4d7883ae4b90eebbd4858ad76b9335a244e51b0",
+    "Kourovka/Problems/P21_40/Proof/ConjugateStructure.lean": "29f7d57cf7c583a5433bc3ac9b3950bbd613fcb2e9bcbb36e161547c78b6b7c6",
+    "Kourovka/Problems/P21_40/Proof/DeepRoots.lean": "ec12ad09b6279965c0a5cc1f9ad8ee5a5acc117181049f883eb6ff7c599f348a",
+    "Kourovka/Problems/P21_40/Proof/Eigenvalues.lean": "5e4162c81c9c1113146e290831e6a30c1add064f55178f650fdf83191f1153a5",
+    "Kourovka/Problems/P21_40/Proof/FiniteOrbits.lean": "9dbebf0d6caf50cbc585b6a3098022acdc64f352f0106a4a1273aef3c15a4116",
+    "Kourovka/Problems/P21_40/Proof/MatrixRoots.lean": "db29ec332d7dc3d1a6d6b1b35a96c9bd8ae3e006326c98f9cdc58eab3e48b22e",
+    "Kourovka/Problems/P21_40/Proof/NumberFields.lean": "4d56b9a0cf5363ce7b0e56782a5268618914a98118af773d39f07183fbeb9365",
+    "Kourovka/Problems/P21_40/Proof/Orbits.lean": "9615535200891fc94c8bad778e449812f4065aa336730e5f612e18c852b23652",
+    "Kourovka/Problems/P21_40/Proof/RationalFlag.lean": "c076c4bca90ce98a072377bc05fbc4264e571e0e2a8b02df5ef5ba124cd2f01b",
+    "Kourovka/Problems/P21_40/Proof/TraceKernel.lean": "17859fff51656f274eaaa1e4290961a1b140eb22b93c8962db6f1c361e66004d",
+    "Kourovka/Problems/P21_40/Proof/TraceRadical.lean": "187bfb50c83ed9c9246caeb510974410a21afb77be3c201be671c002c9e1cd0f",
+    "Kourovka/Problems/P21_40/Proof/Unipotent.lean": "40b7b7874499b2b68c2673fe98d1ce666dc752b036f760d85ce975c8e551b961",
+    "Kourovka/Problems/P21_40/Solution.lean": "713dc8e87e073b12dca18db9efb552101c22d17f5806ebe442c34f40887e5f4d",
+    "Kourovka/Problems/P21_40/Statement.lean": "5eff5e3c95972b9228bc6ce47aff248af6b03dbe76dbbfd5fd6c3f35af4c43a8"
+  },
+  "prior_audit": {
+    "path": "docs/21.40-statement-audit.md",
+    "sha256": "67cc1516575e0594e628aaa60e61320f260aae22f14ca48bd54318d0729fe32e"
+  },
+  "source_comparison": "MATCHES_SCOPED_CLAIM",
+  "site_scope_comparison": "MATCHES_SCOPED_CLAIM",
+  "limitations": [
+    "Not human approval",
+    "Not a fresh kernel build receipt",
+    "Not a full independent paper-level mathematical referee report",
+    "No novelty or priority adjudication"
+  ]
+}

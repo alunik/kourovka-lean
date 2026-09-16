@@ -55,6 +55,12 @@ The public theorem is [`Kourovka.P21_03.firstQuestion`](Solution.lean).
 
 ## Verification
 
+The Nilradical v0 strict check passed on 16 September 2026 for 2
+selected endpoints: fresh compilation, independently reviewed statement
+comparison, the three-axiom policy, and Lean plus Nanoda proof replay.
+See the [verification evidence](../../../docs/nilradical-v0-verification/README.md)
+and [statement review](../../../docs/nilradical-v0-verification/statement-audits/21.3.md).
+
 From the repository root, after the [initial setup](../../../README.md#check-the-proofs):
 
 ```sh
@@ -71,6 +77,8 @@ only `propext`, `Classical.choice`, and `Quot.sound`.
 
 - M. Anagnostopoulou-Merkouri and T. C. Burness,
   [*The Kourovka Notebook*, 21st edition, Problem 21.3, p. 167](https://arxiv.org/abs/1401.0300v46).
-- The proof was extracted from Aluna Rizzoli's existing Kourovka 21.3
-  development. Codex assisted with the Lean development, extraction, public
-  interface, documentation, and verification. See [repository credits](../../../AUTHORS.md).
+- The solution of the first question and its Lean proof are by
+  **Nilradical v0**. See [repository credits](../../../AUTHORS.md).
+
+Cite **Nilradical v0**, this problem number and the exact source commit.
+Machine-readable citation: [CITATION.cff](CITATION.cff).

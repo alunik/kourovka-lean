@@ -1,0 +1,38 @@
+{
+  "export_file_path": "/HOST/notebook/nilradical-v0-upgrade/verification/p21_106/work-1789552103493793000/exports/Kourovka_Problems_P21_106_Solution.ndjson",
+  "nat_extension": true,
+  "string_extension": true,
+  "num_threads": 4,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "unpermitted_axiom_hard_error": true,
+  "pp_declars": [
+    "Kourovka.P21_106.counterexample_values",
+    "Kourovka.P21_106.counterexample_not_concise",
+    "Kourovka.P21_106.not_notebookStatement",
+    "Kourovka.P21_106.realize_counterexampleFormula",
+    "Kourovka.P21_106.formulaCondition_iff",
+    "Kourovka.P21_106.formulaCondition_closure_infinite",
+    "Kourovka.P21_106.central_injective",
+    "Kourovka.P21_106.NotebookStatement",
+    "Kourovka.P21_106.FormulaValues",
+    "Kourovka.P21_106.IsConciseIn",
+    "Kourovka.P21_106.groupLanguage",
+    "Kourovka.P21_106.groupLanguageStructure",
+    "Kourovka.P21_106.FormulaCondition",
+    "Kourovka.P21_106.counterexampleFormula",
+    "Kourovka.P21_106.H",
+    "Kourovka.P21_106.Heisenberg",
+    "Kourovka.P21_106.central"
+  ],
+  "pp_options": {
+    "all": true,
+    "explicit": true,
+    "universes": true,
+    "proofs": false
+  },
+  "pp_to_stdout": true
+}

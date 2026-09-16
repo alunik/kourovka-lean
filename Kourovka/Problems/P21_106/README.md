@@ -89,6 +89,12 @@ See the [proof roadmap](Proof/README.md) for the module dependencies.
 
 ## Verification
 
+The Nilradical v0 strict check passed on 16 September 2026 for 7
+selected endpoints: fresh compilation, independently reviewed statement
+comparison, the three-axiom policy, and Lean plus Nanoda proof replay.
+See the [verification evidence](../../../docs/nilradical-v0-verification/README.md)
+and [statement review](../../../docs/nilradical-v0-verification/statement-audits/21.106.md).
+
 From the repository root:
 
 ```sh
@@ -113,6 +119,8 @@ for the complete repository.
 - E. I. Khukhro and V. D. Mazurov (eds.),
   [*The Kourovka Notebook*, 21st edition, version 46](https://arxiv.org/abs/1401.0300v46)
   (1 September 2026), Problem 21.106, p. 183.
-- The construction and Lean development were produced in Aluna Rizzoli's
-  research project with substantial Codex assistance. See
+- The counterexample and Lean formalization are by **Nilradical v0**. See
   [repository credits](../../../AUTHORS.md).
+
+Cite **Nilradical v0**, this problem number and the exact source commit.
+Machine-readable citation: [CITATION.cff](CITATION.cff).

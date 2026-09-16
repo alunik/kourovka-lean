@@ -1,0 +1,25 @@
+import Kourovka.Problems.P21_38.Statement
+import Kourovka.Problems.P21_38.Proof.PrescribedGeneration
+import Kourovka.Problems.P21_38.Proof.UpperBound
+import Kourovka.Problems.P21_38.Proof.SpreadBounds
+
+/- Independent semantic review: ordinary subgroup generation, every nonidentity
+input including the endpoint kernel, exact one-versus-two tuple quantifiers,
+concrete rational PL witness, and proved infinitude. Reviewed imports frozen.
+-/
+namespace Kourovka.P21_38
+
+theorem diagonal_hasSpreadExactlyOne : HasSpreadExactlyOne diagonalSubgroup := by
+  sorry
+
+theorem diagonal_spread_profile (k : ℕ) :
+    HasSpreadAtLeast diagonalSubgroup k ↔ k ≤ 1 := by
+  sorry
+
+theorem originalQuestion : OriginalQuestion := by
+  sorry
+
+theorem notebookStatement : NotebookStatement := by
+  sorry
+
+end Kourovka.P21_38

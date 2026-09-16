@@ -21,6 +21,7 @@ witnesses and identities using `decide +kernel`.
 | --- | --- | --- | --- |
 | [21.3](../Kourovka/Problems/P21_03/README.md) | None | None | [Proof roadmap](../Kourovka/Problems/P21_03/Proof/README.md) |
 | [21.29](../Kourovka/Problems/P21_29/README.md) | [C++17](generate_21_29.cpp) | Construction encoded in the generator | [Reproduce below](#problem-2129) · [Certificates](../Kourovka/Problems/P21_29/Proof/Certificates/README.md) |
+| [21.44](../Kourovka/Problems/P21_44/README.md) | [Python 3](21_44_root_words.py) | Two explicit degree-five permutations | [Reproduce below](#problem-2144) · [Certificates](../Kourovka/Problems/P21_44/Proof/Certificates/README.md) |
 | [21.99](../Kourovka/Problems/P21_99/README.md) | [Python 3](generate_21_99.py) | [Sealed affine model and sparse certificate](data/21_99/README.md) | [Reproduction commands](data/21_99/README.md#reproduce-and-compare) · [Certificates](../Kourovka/Problems/P21_99/Proof/Certificates/README.md) |
 
 ## Problem 21.29
@@ -55,6 +56,25 @@ combines their results. Splitting the checks keeps kernel reductions bounded.
 Every supplied witness is checked in Lean against the actual group action;
 the generator's output alone establishes no theorem.
 
+## Problem 21.44
+
+The Python generator reproduces the 60 root-generator words embedded in
+[WreathGeneration.lean](../Kourovka/Problems/P21_44/Proof/WreathGeneration.lean).
+It requires only Python's standard library. Generate into a fresh directory
+and compare the complete definition byte for byte:
+
+```sh
+repro_dir=$(mktemp -d)
+python3 scripts/21_44_root_words.py --output-dir "$repro_dir" --check
+```
+
+The generated `rootWords.lean.fragment` remains in that directory. The
+`--check` option reports `PASS` and exits with status zero on an exact match;
+it does not alter the source. Lean's `rootWords_cover` theorem checks the
+coverage by ordinary kernel-checked `decide`. See the
+[certificate documentation](../Kourovka/Problems/P21_44/Proof/Certificates/README.md)
+for the multiplication convention, deterministic ordering, and fragment boundaries.
+
 ## Problem 21.99
 
 The Python generator emits sparse matrix definitions, finite-check batches,
@@ -66,3 +86,10 @@ in the [verification record](../docs/verification.md).
 
 See the [proof roadmap](../Kourovka/Problems/P21_99/Proof/README.md) for the
 hand-written modules that turn those finite checks into the public theorem.
+
+## Nilradical verification
+
+The [protected verification runner](nilradical_verify/README.md) provides the
+pinned checker bootstrap, strict axiom policy and adversarial controls. Copy
+it outside the proof checkout before setup. Result-specific replay instructions
+and evidence are in the [verification bundle](../docs/nilradical-v0-verification/README.md).

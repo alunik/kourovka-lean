@@ -1,0 +1,106 @@
+{
+  "repository": "https://github.com/SauersML/group-approximation",
+  "commit": "a39c9b72861bd04c71fc8e18876d13307851d777",
+  "license": "Apache-2.0",
+  "source_toolchain": "leanprover/lean4:v4.32.0",
+  "target_toolchain": "leanprover/lean4:v4.34.0-rc2",
+  "source_files": [
+    {
+      "upstream_module": "GroupApproximation.GroupTheory.HigmanThompson.BrownPresentation",
+      "repository_path": "Kourovka/External/GroupApproximation/GroupTheory/HigmanThompson/BrownPresentation.lean",
+      "sha256": "05e26fee1d6b039a459a684fd9748d5cb43b89696cd2eb49ceaec7ab7d25eb15",
+      "upstream_sha256": "1fab4eb12c1b177969ec83a36e2708d062a2ff32c144bcc63a0d5c4638fddc28"
+    },
+    {
+      "upstream_module": "GroupApproximation.GroupTheory.HigmanThompson.CompactConj",
+      "repository_path": "Kourovka/External/GroupApproximation/GroupTheory/HigmanThompson/CompactConj.lean",
+      "sha256": "d1812d321bc5f5c11f4403d70111ac48ad18303d4f6c9ed6bc36e80e023854d8",
+      "upstream_sha256": "5fc798cfedf974b44d44bf4a3c612927c749609452720e9b74af35920e80d6bf"
+    },
+    {
+      "upstream_module": "GroupApproximation.GroupTheory.HigmanThompson.CompactCore",
+      "repository_path": "Kourovka/External/GroupApproximation/GroupTheory/HigmanThompson/CompactCore.lean",
+      "sha256": "cc470ba77781bd93546579a91fee4ebfb0aecbc4940f70453d350660ffdb5118",
+      "upstream_sha256": "e8823a0afe0e569f64e663580693d2931fa72081c7a4f1fe85ad467c33f7255e"
+    },
+    {
+      "upstream_module": "GroupApproximation.GroupTheory.HigmanThompson.CompactCoreGerms",
+      "repository_path": "Kourovka/External/GroupApproximation/GroupTheory/HigmanThompson/CompactCoreGerms.lean",
+      "sha256": "03523973d23cb57d6738011b5db42808a54b4f55329d7a02a02ae85f45bc7707",
+      "upstream_sha256": "f72517ae013303cee8ce9c41136ed984d3d6145d723cbfa12851d58d7a771325"
+    },
+    {
+      "upstream_module": "GroupApproximation.GroupTheory.HigmanThompson.CompactE",
+      "repository_path": "Kourovka/External/GroupApproximation/GroupTheory/HigmanThompson/CompactE.lean",
+      "sha256": "37ab3fd9e85e5340b6d00e6cc1b431e08e21b048b1a24b725f80082a89016bd2",
+      "upstream_sha256": "4adc6a52fe2e9418af9b3a7f68a04957171f9604a2be20146a894c744f53216f"
+    },
+    {
+      "upstream_module": "GroupApproximation.GroupTheory.HigmanThompson.CompactRangeA",
+      "repository_path": "Kourovka/External/GroupApproximation/GroupTheory/HigmanThompson/CompactRangeA.lean",
+      "sha256": "9ee02169373f78468ab008bfb685e247f8e14e4bd2cdb07f966566f190a8f37c",
+      "upstream_sha256": "bdc9fd13c2aea03aa42a54531e62d4a932719ecde818aca6bac38bb7d313b99a"
+    },
+    {
+      "upstream_module": "GroupApproximation.GroupTheory.HigmanThompson.CompactRangeB",
+      "repository_path": "Kourovka/External/GroupApproximation/GroupTheory/HigmanThompson/CompactRangeB.lean",
+      "sha256": "a9c86b2679de91d26432a7b6733844664eccd96361e04bbc68e667a7a72064a0",
+      "upstream_sha256": "0b30c71a3c76a431c472197750ca8fd1f5c0bb98eac689e05ff8314707a9a538"
+    },
+    {
+      "upstream_module": "GroupApproximation.GroupTheory.HigmanThompson.CompactTrunc",
+      "repository_path": "Kourovka/External/GroupApproximation/GroupTheory/HigmanThompson/CompactTrunc.lean",
+      "sha256": "f5a442f03e1569b4fb6a78cfbdf52989364ea89991ce7dd838430d87ef119ed7",
+      "upstream_sha256": "9076e89eb88d1ad91c5df21b02967863d0e5a0f56c82e5050a2de810156b2789"
+    },
+    {
+      "upstream_module": "GroupApproximation.GroupTheory.HigmanThompson.Generators",
+      "repository_path": "Kourovka/External/GroupApproximation/GroupTheory/HigmanThompson/Generators.lean",
+      "sha256": "e756b89b664058f8e3c819ef2c48786dc2cf7af0bf32d6b0e875d04a68f33b3f",
+      "upstream_sha256": "6ab4523d0f852dd7e58db9f80d6f488ebbe27f49e93e5d88817fd2758888ade5"
+    },
+    {
+      "upstream_module": "GroupApproximation.GroupTheory.HigmanThompson.GeometricF",
+      "repository_path": "Kourovka/External/GroupApproximation/GroupTheory/HigmanThompson/GeometricF.lean",
+      "sha256": "2ed500dc0c760219a2f2fe83884aec203e9ac4e2b6b2cb1f12e6b021bb2eb497",
+      "upstream_sha256": "2584ad63b442425b1571b953b268b8fe0a3c80f707a83eff6ff24e5299d19fe2"
+    },
+    {
+      "upstream_module": "GroupApproximation.GroupTheory.HigmanThompson.GridAffine",
+      "repository_path": "Kourovka/External/GroupApproximation/GroupTheory/HigmanThompson/GridAffine.lean",
+      "sha256": "5399ee61b178cbc778323e8df156ad6494a36110750c4170bfc64a681c82b512",
+      "upstream_sha256": "745c3f9ddb93f3ff1ac1b156ce57092763c310fdca92b456182ea9d1f66e6b55"
+    },
+    {
+      "upstream_module": "GroupApproximation.GroupTheory.HigmanThompson.PLMoves",
+      "repository_path": "Kourovka/External/GroupApproximation/GroupTheory/HigmanThompson/PLMoves.lean",
+      "sha256": "c114db75290b49113cbf597ae2442f9bc99b70f5c0e6a8a0e855c4a11b7bd059",
+      "upstream_sha256": "603ff20aade29cb82e08df9679af39cca9cfaea021d311da7320bd676e2eaa05"
+    },
+    {
+      "upstream_module": "GroupApproximation.GroupTheory.HigmanThompson.ResidueInvariance",
+      "repository_path": "Kourovka/External/GroupApproximation/GroupTheory/HigmanThompson/ResidueInvariance.lean",
+      "sha256": "79dc53768dc0052a67967dcec65510eb9b0811a87592275a3b3fd177e4d938d6",
+      "upstream_sha256": "1d01415150405527079eb8005138c276e6f7b0b7a04bb1ad941df53d9f6e6748"
+    },
+    {
+      "upstream_module": "GroupApproximation.GroupTheory.HigmanThompson.UniformWords",
+      "repository_path": "Kourovka/External/GroupApproximation/GroupTheory/HigmanThompson/UniformWords.lean",
+      "sha256": "2f2f1eb7e72c4d6978077cad1fef13bae9647ad5247b603e93e72a1ccc140e6a",
+      "upstream_sha256": "e2c8be5d2ee95658266afe1237df924382731981075e481baeadf673b73c5d6e"
+    },
+    {
+      "upstream_module": "GroupApproximation.GroupTheory.HydeLodha.HigmanEpstein",
+      "repository_path": "Kourovka/External/GroupApproximation/GroupTheory/HydeLodha/HigmanEpstein.lean",
+      "sha256": "478d23da238ee8b5c10e3d188af103e1c07e24027553a143c0cbb4a9b0486f3a",
+      "upstream_sha256": "35887d7ea10cf4873386ec3ed3de9d3470715fab5b71ddea362441188f088b58"
+    },
+    {
+      "upstream_module": "GroupApproximation.Meta.AxiomGuard",
+      "repository_path": "Kourovka/External/GroupApproximation/Meta/AxiomGuard.lean",
+      "sha256": "d17b5aa0a3d2506108096d381879941ea9b9cd6f9e3b7bcb3b389782b71f5994",
+      "upstream_sha256": "82ed03f762f6fb1683942c595eccb248b6dc93d3c15f652d0696f0a04a0e3d80"
+    }
+  ],
+  "modifications": "Local portability changes, if needed, recorded separately; original snapshot preserved outside staging."
+}

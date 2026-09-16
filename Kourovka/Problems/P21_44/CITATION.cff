@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Cite this result by Nilradical v0 and include the exact repository commit used."
+type: software
+title: "Nilradical v0: solution and Lean proof of Kourovka Problem 21.44"
+authors:
+  - name: Nilradical
+    website: "https://nilradical.ai"
+version: "0"
+repository-code: "https://github.com/alunik/kourovka-lean"
+url: "https://github.com/alunik/kourovka-lean/tree/main/Kourovka/Problems/P21_44"

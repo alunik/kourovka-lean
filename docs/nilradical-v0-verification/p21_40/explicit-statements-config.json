@@ -1,0 +1,34 @@
+{
+  "export_file_path": "/HOST/notebook/nilradical-v0-upgrade/verification/p21_40/work-1789552225713662000/exports/Kourovka_Problems_P21_40_Solution.ndjson",
+  "nat_extension": true,
+  "string_extension": true,
+  "num_threads": 4,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "unpermitted_axiom_hard_error": true,
+  "pp_declars": [
+    "Kourovka.P21_40.structural_theorem",
+    "Kourovka.P21_40.virtually_nilpotent",
+    "Kourovka.P21_40.virtually_solvable",
+    "Kourovka.P21_40.notebookStatement",
+    "Kourovka.P21_40.numberField_structure",
+    "Kourovka.P21_40.numberField_virtually_nilpotent",
+    "Kourovka.P21_40.HasFiniteAutomorphismOrbits",
+    "Kourovka.P21_40.IsVirtuallySolvable",
+    "Kourovka.P21_40.StructuralConclusion",
+    "Kourovka.P21_40.IsUpperUnitriangular",
+    "Kourovka.P21_40.NotebookStatement",
+    "Group.IsVirtuallyNilpotent",
+    "Subgroup.FiniteIndex"
+  ],
+  "pp_options": {
+    "all": true,
+    "explicit": true,
+    "universes": true,
+    "proofs": false
+  },
+  "pp_to_stdout": true
+}

@@ -1,0 +1,1215 @@
+Building NilradicalFrozenChallenge
+✔ [2058/2061] Built Kourovka.Problems.P21_03.Statement (6.2s)
+✔ [2059/2061] Built Kourovka.Problems.P21_03.Proof.Basic (6.1s)
+⚠ [2060/2061] Built NilradicalFrozenChallenge (1.9s)
+warning: NilradicalFrozenChallenge.lean:9:8: declaration uses `sorry`
+warning: NilradicalFrozenChallenge.lean:14:8: declaration uses `sorry`
+Build completed successfully (2061 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Kourovka.P21_03.firstQuestion, Kourovka213.asymptoticStatement, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from NilradicalFrozenChallenge
+Building Kourovka.Problems.P21_03.Solution
+⚠ [3445/3488] Built Kourovka.Problems.P21_03.Proof.Bonferroni (2.8s)
+warning: Kourovka/Problems/P21_03/Proof/Bonferroni.lean:28:36: This simp argument is unused:
+  Nat.succ_eq_add_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [truncatedBinomial] at ih ⊢
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Kourovka/Problems/P21_03/Proof/Bonferroni.lean:41:25: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: Kourovka/Problems/P21_03/Proof/Bonferroni.lean:49:25: `if_neg` has been deprecated: Use `ite_eq_right` instead
+✔ [3449/3491] Built Kourovka.Problems.P21_03.Proof.GroupRankBound (2.9s)
+✔ [3451/3495] Built Kourovka.Problems.P21_03.Proof.TranspositionCore (3.2s)
+✔ [3454/3495] Built Kourovka.Problems.P21_03.Proof.NaturalWreath.Defs (3.5s)
+✔ [3456/3498] Built Kourovka.Problems.P21_03.Proof.CycleCentralizerBound (3.7s)
+⚠ [3458/3498] Built Kourovka.Problems.P21_03.Proof.AtomCountArithmetic (2.8s)
+warning: Kourovka/Problems/P21_03/Proof/AtomCountArithmetic.lean:45:19: Variable name `hkn` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hkn
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Kourovka/Problems/P21_03/Proof/AtomCountArithmetic.lean:46:19: Variable name `hqn` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hqn
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3459/3498] Built Kourovka.Problems.P21_03.Proof.YoungConfiguration (4.7s)
+warning: Kourovka/Problems/P21_03/Proof/YoungConfiguration.lean:97:4: Try this: intro hzero a b hab hsab hqab
+⚠ [3461/3498] Built Kourovka.Problems.P21_03.Proof.SupportSeries (3.8s)
+warning: Kourovka/Problems/P21_03/Proof/SupportSeries.lean:30:34: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+✔ [3462/3498] Built Kourovka.Problems.P21_03.Proof.AsymptoticSqueeze (3.0s)
+✔ [3464/3519] Built Kourovka.Problems.P21_03.Proof.AutomorphismBound (2.9s)
+⚠ [3465/3519] Built Kourovka.Problems.P21_03.Proof.ConfigurationPoisson.PartialBijectionCount (3.0s)
+warning: Kourovka/Problems/P21_03/Proof/ConfigurationPoisson/PartialBijectionCount.lean:22:8: automatically included section variable(s) unused in theorem `_private.Kourovka.Problems.P21_03.Proof.ConfigurationPoisson.PartialBijectionCount.0.Kourovka213.subtypeCongr_apply_of_mem`:
+  [Fintype alpha]
+  [DecidableEq alpha]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype alpha] [DecidableEq alpha] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Kourovka/Problems/P21_03/Proof/ConfigurationPoisson/PartialBijectionCount.lean:27:8: automatically included section variable(s) unused in theorem `_private.Kourovka.Problems.P21_03.Proof.ConfigurationPoisson.PartialBijectionCount.0.Kourovka213.subtypeCongr_apply_of_not_mem`:
+  [Fintype alpha]
+  [DecidableEq alpha]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype alpha] [DecidableEq alpha] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Kourovka/Problems/P21_03/Proof/ConfigurationPoisson/PartialBijectionCount.lean:32:8: automatically included section variable(s) unused in theorem `_private.Kourovka.Problems.P21_03.Proof.ConfigurationPoisson.PartialBijectionCount.0.Kourovka213.mem_iff_image_mem`:
+  [Fintype alpha]
+  [DecidableEq alpha]
+  [DecidablePred p]
+  [DecidablePred q]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype alpha] [DecidableEq alpha] [DecidablePred p] [DecidablePred q] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Kourovka/Problems/P21_03/Proof/ConfigurationPoisson/PartialBijectionCount.lean:103:8: automatically included section variable(s) unused in theorem `_private.Kourovka.Problems.P21_03.Proof.ConfigurationPoisson.PartialBijectionCount.0.Kourovka213.rangeEquivOfInjective_apply`:
+  [Fintype alpha]
+  [DecidableEq alpha]
+  [Fintype iota]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype alpha] [DecidableEq alpha] [Fintype iota] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [3471/3519] Built Kourovka.Problems.P21_03.Proof.NaturalWreath.Action (3.6s)
+✔ [3472/3519] Built Kourovka.Problems.P21_03.Proof.ConjugationUnionBound (3.9s)
+✔ [3863/3946] Built Kourovka.Problems.P21_03.Proof.WeightedConfiguration (3.9s)
+⚠ [3896/3952] Built Kourovka.Problems.P21_03.Proof.ConfigurationPoisson.MomentCriterion (6.7s)
+warning: Kourovka/Problems/P21_03/Proof/ConfigurationPoisson/MomentCriterion.lean:48:2: Unused tactic linter: `push_cast` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Kourovka/Problems/P21_03/Proof/ConfigurationPoisson/MomentCriterion.lean:61:2: Unused tactic linter: `push_cast` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+info: Kourovka/Problems/P21_03/Proof/ConfigurationPoisson/MomentCriterion.lean:101:2: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+✔ [4262/4328] Built Kourovka.Problems.P21_03.Proof.NaturalWreath (3.8s)
+✔ [4284/4328] Built Kourovka.Problems.P21_03.Proof.ConfigurationPoisson.FactorialNormalization (6.2s)
+⚠ [4285/4360] Built Kourovka.Problems.P21_03.Proof.YoungSubgroup (6.4s)
+warning: Kourovka/Problems/P21_03/Proof/YoungSubgroup.lean:56:8: This simp argument is unused:
+  Equiv.symm_apply_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Equiv.Perm.coe_mul, Function.comp_apply, Equiv.Perm.coe_inv]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Kourovka/Problems/P21_03/Proof/YoungSubgroup.lean:40:4: Try this: intro a b hab hP hQ
+⚠ [4286/4360] Built Kourovka.Problems.P21_03.Proof.PrimeOrderReduction (6.3s)
+warning: Kourovka/Problems/P21_03/Proof/PrimeOrderReduction.lean:35:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Kourovka/Problems/P21_03/Proof/PrimeOrderReduction.lean:55:14: This simp argument is unused:
+  Nat.add_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Nat.mul_add, Nat.mul_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [4436/4525] Built Kourovka.Problems.P21_03.Proof.RawWeightedFunction (4.1s)
+✔ [4437/4525] Built Kourovka.Problems.P21_03.Proof.SigmaCardBound (4.1s)
+⚠ [4748/4869] Built Kourovka.Problems.P21_03.Proof.YoungConfigurationCount (7.5s)
+warning: Kourovka/Problems/P21_03/Proof/YoungConfigurationCount.lean:47:12: This simp argument is unused:
+  ne_of_lt p.fst_lt_snd
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [p.fst_lt_snd]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Kourovka/Problems/P21_03/Proof/YoungConfigurationCount.lean:48:12: This simp argument is unused:
+  ne_of_lt p.fst_lt_snd
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [p.fst_lt_snd, (not_lt_of_ge p.fst_lt_snd.le)]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Kourovka/Problems/P21_03/Proof/YoungConfigurationCount.lean:48:35: This simp argument is unused:
+  p.fst_lt_snd
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [ne_of_lt p.fst_lt_snd, (not_lt_of_ge p.fst_lt_snd.le)]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Kourovka/Problems/P21_03/Proof/YoungConfigurationCount.lean:53:12: This simp argument is unused:
+  h
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [not_lt_of_ge h.le]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Kourovka/Problems/P21_03/Proof/YoungConfigurationCount.lean:127:8: automatically included section variable(s) unused in theorem `_private.Kourovka.Problems.P21_03.Proof.YoungConfigurationCount.0.Kourovka213.subtypeCongr_apply_of_mem`:
+  [Fintype α]
+  [DecidableEq α]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype α] [DecidableEq α] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Kourovka/Problems/P21_03/Proof/YoungConfigurationCount.lean:133:8: automatically included section variable(s) unused in theorem `_private.Kourovka.Problems.P21_03.Proof.YoungConfigurationCount.0.Kourovka213.subtypeCongr_apply_of_not_mem`:
+  [Fintype α]
+  [DecidableEq α]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype α] [DecidableEq α] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Kourovka/Problems/P21_03/Proof/YoungConfigurationCount.lean:148:12: This simp argument is unused:
+  hab
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hab.symm, hcd, hcd.symm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Kourovka/Problems/P21_03/Proof/YoungConfigurationCount.lean:148:27: This simp argument is unused:
+  hcd
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hab, hab.symm, hcd.symm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Kourovka/Problems/P21_03/Proof/YoungConfigurationCount.lean:153:12: This simp argument is unused:
+  hab
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hab.symm, hcd, hcd.symm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Kourovka/Problems/P21_03/Proof/YoungConfigurationCount.lean:153:27: This simp argument is unused:
+  hcd
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hab, hab.symm, hcd.symm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Kourovka/Problems/P21_03/Proof/YoungConfigurationCount.lean:156:8: automatically included section variable(s) unused in theorem `_private.Kourovka.Problems.P21_03.Proof.YoungConfigurationCount.0.Kourovka213.prescribedPairEquiv_apply_left`:
+  [Fintype α]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype α] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Kourovka/Problems/P21_03/Proof/YoungConfigurationCount.lean:158:29: This simp argument is unused:
+  hab
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [prescribedPairEquiv, hab.symm, hcd, hcd.symm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Kourovka/Problems/P21_03/Proof/YoungConfigurationCount.lean:158:34: This simp argument is unused:
+  hab.symm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [prescribedPairEquiv, hab, hcd, hcd.symm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Kourovka/Problems/P21_03/Proof/YoungConfigurationCount.lean:158:44: This simp argument is unused:
+  hcd
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [prescribedPairEquiv, hab, hab.symm, hcd.symm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Kourovka/Problems/P21_03/Proof/YoungConfigurationCount.lean:158:49: This simp argument is unused:
+  hcd.symm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [prescribedPairEquiv, hab, hab.symm, hcd]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Kourovka/Problems/P21_03/Proof/YoungConfigurationCount.lean:161:8: automatically included section variable(s) unused in theorem `_private.Kourovka.Problems.P21_03.Proof.YoungConfigurationCount.0.Kourovka213.prescribedPairEquiv_apply_right`:
+  [Fintype α]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype α] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Kourovka/Problems/P21_03/Proof/YoungConfigurationCount.lean:163:29: This simp argument is unused:
+  hab
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [prescribedPairEquiv, hab.symm, hcd, hcd.symm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Kourovka/Problems/P21_03/Proof/YoungConfigurationCount.lean:163:44: This simp argument is unused:
+  hcd
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [prescribedPairEquiv, hab, hab.symm, hcd.symm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Kourovka/Problems/P21_03/Proof/YoungConfigurationCount.lean:163:49: This simp argument is unused:
+  hcd.symm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [prescribedPairEquiv, hab, hab.symm, hcd]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Kourovka/Problems/P21_03/Proof/YoungConfigurationCount.lean:165:8: automatically included section variable(s) unused in theorem `_private.Kourovka.Problems.P21_03.Proof.YoungConfigurationCount.0.Kourovka213.pair_mem_iff_image_mem`:
+  [Fintype α]
+  [DecidableEq α]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype α] [DecidableEq α] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Kourovka/Problems/P21_03/Proof/YoungConfigurationCount.lean:165:68: Variable name `hcd` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hcd
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [4839/4954] Built Kourovka.Problems.P21_03.Proof.FactorialRatioBound (9.4s)
+✔ [4950/5048] Built Kourovka.Problems.P21_03.Proof.PrimitiveOrderArithmetic (12s)
+⚠ [5590/5729] Built Kourovka.Problems.P21_03.Proof.WreathSupport (3.5s)
+warning: Kourovka/Problems/P21_03/Proof/WreathSupport.lean:30:11: Variable name `p` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _p
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Kourovka/Problems/P21_03/Proof/WreathSupport.lean:31:12: Variable name `p` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _p
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Kourovka/Problems/P21_03/Proof/WreathSupport.lean:62:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: Kourovka/Problems/P21_03/Proof/WreathSupport.lean:63:25: This simp argument is unused:
+  false_or
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [hfix]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [5591/5729] Built Kourovka.Problems.P21_03.Proof.WreathCoreLift (3.5s)
+warning: Kourovka/Problems/P21_03/Proof/WreathCoreLift.lean:46:29: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: Kourovka/Problems/P21_03/Proof/WreathCoreLift.lean:159:12: This simp argument is unused:
+  B
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [8809/8854] Built Kourovka.Problems.P21_03.Proof.ConfigurationPoisson.SubsetExpansion (5.0s)
+✔ [8810/8854] Built Kourovka.Problems.P21_03.Proof.CorePartition (6.2s)
+⚠ [8811/8854] Built Kourovka.Problems.P21_03.Proof.FourBlockWitness (6.0s)
+warning: Kourovka/Problems/P21_03/Proof/FourBlockWitness.lean:167:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Kourovka/Problems/P21_03/Proof/FourBlockWitness.lean:168:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Kourovka/Problems/P21_03/Proof/FourBlockWitness.lean:187:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Kourovka/Problems/P21_03/Proof/FourBlockWitness.lean:274:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [8812/8854] Built Kourovka.Problems.P21_03.Proof.ParityTransporter (4.3s)
+warning: Kourovka/Problems/P21_03/Proof/ParityTransporter.lean:194:30: Variable name `hp` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hp
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Kourovka/Problems/P21_03/Proof/ParityTransporter.lean:230:30: Variable name `hp` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hp
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [8813/8854] Built Kourovka.Problems.P21_03.Proof.CoreProbability (4.0s)
+⚠ [8814/8854] Built Kourovka.Problems.P21_03.Proof.PrimitiveSolvable (10s)
+warning: Kourovka/Problems/P21_03/Proof/PrimitiveSolvable.lean:37:6: Try `simp at hn` instead of `simpa using hn`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Kourovka/Problems/P21_03/Proof/PrimitiveSolvable.lean:98:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Kourovka/Problems/P21_03/Proof/PrimitiveSolvable.lean:101:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Kourovka/Problems/P21_03/Proof/PrimitiveSolvable.lean:102:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Kourovka/Problems/P21_03/Proof/PrimitiveSolvable.lean:213:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Kourovka/Problems/P21_03/Proof/PrimitiveSolvable.lean:216:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Kourovka/Problems/P21_03/Proof/PrimitiveSolvable.lean:217:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Kourovka/Problems/P21_03/Proof/PrimitiveSolvable.lean:218:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Kourovka/Problems/P21_03/Proof/PrimitiveSolvable.lean:219:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Kourovka/Problems/P21_03/Proof/PrimitiveSolvable.lean:334:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Kourovka/Problems/P21_03/Proof/PrimitiveSolvable.lean:332:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Kourovka/Problems/P21_03/Proof/PrimitiveSolvable.lean:351:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Kourovka/Problems/P21_03/Proof/PrimitiveSolvable.lean:352:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Kourovka/Problems/P21_03/Proof/PrimitiveSolvable.lean:357:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Kourovka/Problems/P21_03/Proof/PrimitiveSolvable.lean:358:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Kourovka/Problems/P21_03/Proof/PrimitiveSolvable.lean:359:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Kourovka/Problems/P21_03/Proof/PrimitiveSolvable.lean:360:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Kourovka/Problems/P21_03/Proof/PrimitiveSolvable.lean:362:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+✔ [8815/8854] Built Kourovka.Problems.P21_03.Proof.ConfigurationPoisson.DisjointFamilies (5.5s)
+✔ [8816/8854] Built Kourovka.Problems.P21_03.Proof.ConfigurationPoisson.UniformTopBound (10s)
+⚠ [8817/8854] Built Kourovka.Problems.P21_03.Proof.ForestContainer (15s)
+warning: Kourovka/Problems/P21_03/Proof/ForestContainer.lean:54:6: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Kourovka/Problems/P21_03/Proof/ForestContainer.lean:56:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Kourovka/Problems/P21_03/Proof/ForestContainer.lean:67:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Kourovka/Problems/P21_03/Proof/ForestContainer.lean:168:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Kourovka/Problems/P21_03/Proof/ForestContainer.lean:259:0: Definition `Kourovka213.SolubleAction.sumSMul` of class type is semireducible. Most type class instances should be instance-reducible, so consider marking this
+definition with `@[instance_reducible]`. If it is intentionally semireducible, this warning can be disabled with `set_option warn.classDefReducibility false`.
+warning: Kourovka/Problems/P21_03/Proof/ForestContainer.lean:265:0: Definition `Kourovka213.SolubleAction.sumMulAction` of class type is semireducible. Most type class instances should be instance-reducible, so consider marking this
+definition with `@[instance_reducible]`. If it is intentionally semireducible, this warning can be disabled with `set_option warn.classDefReducibility false`.
+warning: Kourovka/Problems/P21_03/Proof/ForestContainer.lean:291:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Kourovka/Problems/P21_03/Proof/ForestContainer.lean:292:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Kourovka/Problems/P21_03/Proof/ForestContainer.lean:288:0: Definition `Kourovka213.SolubleAction.sumFaithfulSMul` of class type is semireducible. Most type class instances should be instance-reducible, so consider marking this
+definition with `@[instance_reducible]`. If it is intentionally semireducible, this warning can be disabled with `set_option warn.classDefReducibility false`.
+warning: Kourovka/Problems/P21_03/Proof/ForestContainer.lean:288:0: Definition `sumFaithfulSMul` is a proposition; use `theorem` instead of `def`
+
+Note: This linter can be disabled with `set_option linter.defProp false`
+warning: Kourovka/Problems/P21_03/Proof/ForestContainer.lean:617:14: Variable name `y` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _y
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Kourovka/Problems/P21_03/Proof/ForestContainer.lean:676:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Kourovka/Problems/P21_03/Proof/ForestContainer.lean:689:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Kourovka/Problems/P21_03/Proof/ForestContainer.lean:789:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Kourovka/Problems/P21_03/Proof/ForestContainer.lean:825:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Kourovka/Problems/P21_03/Proof/ForestContainer.lean:826:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Kourovka/Problems/P21_03/Proof/ForestContainer.lean:933:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Kourovka/Problems/P21_03/Proof/ForestContainer.lean:934:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Kourovka/Problems/P21_03/Proof/ForestContainer.lean:958:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Kourovka/Problems/P21_03/Proof/ForestContainer.lean:959:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Kourovka/Problems/P21_03/Proof/ForestContainer.lean:1079:2: Unused tactic linter: `change
+  (BlockOrbit.rep A B C)⁻¹ * (g * h) * BlockOrbit.rep A B ((g * h)⁻¹ • C) =
+    ((BlockOrbit.rep A B C)⁻¹ * g * BlockOrbit.rep A B (g⁻¹ • C)) *
+      ((BlockOrbit.rep A B (g⁻¹ • C))⁻¹ * h * BlockOrbit.rep A B (h⁻¹ • (g⁻¹ • C)))` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Kourovka/Problems/P21_03/Proof/ForestContainer.lean:1098:5: Variable name `hB` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hB
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Kourovka/Problems/P21_03/Proof/ForestContainer.lean:1232:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Kourovka/Problems/P21_03/Proof/ForestContainer.lean:1260:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Kourovka/Problems/P21_03/Proof/ForestContainer.lean:1291:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+✔ [8818/8854] Built Kourovka.Problems.P21_03.Proof.NoncoreReduction (4.8s)
+✔ [8819/8854] Built Kourovka.Problems.P21_03.Proof.ConfigurationPoisson.EndpointDegree (4.6s)
+⚠ [8820/8854] Built Kourovka.Problems.P21_03.Proof.ConfigurationPoisson.CompatibleFamilies (4.0s)
+warning: Kourovka/Problems/P21_03/Proof/ConfigurationPoisson/CompatibleFamilies.lean:145:6: This simp argument is unused:
+  Bool.true_eq_false
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [CollisionWitness.prescribedTarget, Bool.false_eq_true, ↓reduceIte] at h0 h1
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Kourovka/Problems/P21_03/Proof/ConfigurationPoisson/CompatibleFamilies.lean:155:6: This simp argument is unused:
+  Bool.true_eq_false
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [CollisionWitness.prescribedTarget, Bool.false_eq_true, ↓reduceIte] at h0 h1
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Kourovka/Problems/P21_03/Proof/ConfigurationPoisson/CompatibleFamilies.lean:163:6: This simp argument is unused:
+  Bool.true_eq_false
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [CollisionWitness.prescribedTarget, Bool.false_eq_true, ↓reduceIte] at h0 h1
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Kourovka/Problems/P21_03/Proof/ConfigurationPoisson/CompatibleFamilies.lean:170:50: This simp argument is unused:
+  Bool.false_eq_true
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [CollisionWitness.prescribedTarget, Bool.true_eq_false, ↓reduceIte] at h0 h1
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Kourovka/Problems/P21_03/Proof/ConfigurationPoisson/CompatibleFamilies.lean:171:6: This simp argument is unused:
+  Bool.true_eq_false
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [CollisionWitness.prescribedTarget, Bool.false_eq_true, ↓reduceIte] at h0 h1
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [8821/8854] Built Kourovka.Problems.P21_03.Proof.ConfigurationPoisson.ConfigurationLimit (5.6s)
+✔ [8822/8854] Built Kourovka.Problems.P21_03.Proof.ConfigurationPoisson.UniformTopApproximation (32s)
+✔ [8823/8854] Built Kourovka.Problems.P21_03.Proof.SumCoreLift (31s)
+⚠ [8824/8854] Built Kourovka.Problems.P21_03.Proof.ConfigurationPoisson.TupleOverlapBound (30s)
+warning: Kourovka/Problems/P21_03/Proof/ConfigurationPoisson/TupleOverlapBound.lean:41:0: automatically included section variable(s) unused in theorem `Kourovka213.card_binaryConstraint_le`:
+  [DecidableEq W]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq W] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Kourovka/Problems/P21_03/Proof/ConfigurationPoisson/TupleOverlapBound.lean:111:8: automatically included section variable(s) unused in theorem `_private.Kourovka.Problems.P21_03.Proof.ConfigurationPoisson.TupleOverlapBound.0.Kourovka213.endpointCollisionTuples_eq_empty_of_same_index`:
+  [DecidableEq W]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq W] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Kourovka/Problems/P21_03/Proof/ConfigurationPoisson/TupleOverlapBound.lean:123:50: This simp argument is unused:
+  hwithin
+
+Hint: Omit it from the simp argument list.
+  [apply] simp_all
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Kourovka/Problems/P21_03/Proof/ConfigurationPoisson/TupleOverlapBound.lean:170:8: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+✔ [8825/8854] Built Kourovka.Problems.P21_03.Proof.ConfigurationPoisson.SupportStrata (30s)
+⚠ [8826/8854] Built Kourovka.Problems.P21_03.Proof.PrimeRowReduction (31s)
+warning: Kourovka/Problems/P21_03/Proof/PrimeRowReduction.lean:35:23: This simp argument is unused:
+  and_assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [primeRowSlice]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Kourovka/Problems/P21_03/Proof/PrimeRowReduction.lean:89:49: This simp argument is unused:
+  Nat.mul_assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hr.ne', Nat.mul_comm, Nat.mul_left_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Kourovka/Problems/P21_03/Proof/PrimeRowReduction.lean:239:2: Try `simp at hmem` instead of `simpa using hmem`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Kourovka/Problems/P21_03/Proof/PrimeRowReduction.lean:247:2: Try `simp at ha` instead of `simpa using ha`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+⚠ [8827/8854] Built Kourovka.Problems.P21_03.Proof.ConfigurationPoisson.BlockMapCount (31s)
+warning: Kourovka/Problems/P21_03/Proof/ConfigurationPoisson/BlockMapCount.lean:42:0: automatically included section variable(s) unused in theorem `Kourovka213.card_pointsOverLabels_le`:
+  [DecidableEq X]
+  [Fintype L]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq X] [Fintype L] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Kourovka/Problems/P21_03/Proof/ConfigurationPoisson/BlockMapCount.lean:90:32: This simp argument is unused:
+  Fintype.card_fun
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Fintype.card_sigma]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [8828/8854] Built Kourovka.Problems.P21_03.Proof.SupportError (31s)
+warning: Kourovka/Problems/P21_03/Proof/SupportError.lean:74:30: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [8829/8854] Built Kourovka.Problems.P21_03.Proof.ForestSupportCount (31s)
+warning: Kourovka/Problems/P21_03/Proof/ForestSupportCount.lean:215:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Kourovka/Problems/P21_03/Proof/ForestSupportCount.lean:216:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Kourovka/Problems/P21_03/Proof/ForestSupportCount.lean:231:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Kourovka/Problems/P21_03/Proof/ForestSupportCount.lean:232:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Kourovka/Problems/P21_03/Proof/ForestSupportCount.lean:235:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Kourovka/Problems/P21_03/Proof/ForestSupportCount.lean:336:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Kourovka/Problems/P21_03/Proof/ForestSupportCount.lean:337:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Kourovka/Problems/P21_03/Proof/ForestSupportCount.lean:342:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+✔ [8830/8854] Built Kourovka.Problems.P21_03.Proof.MovingWreathDegree (32s)
+⚠ [8831/8854] Built Kourovka.Problems.P21_03.Proof.ConfigurationPoisson.WitnessOverlapBound (27s)
+warning: Kourovka/Problems/P21_03/Proof/ConfigurationPoisson/WitnessOverlapBound.lean:26:8: automatically included section variable(s) unused in theorem `_private.Kourovka.Problems.P21_03.Proof.ConfigurationPoisson.WitnessOverlapBound.0.Kourovka213.familyTuple_mem`:
+  [Fintype W]
+  [DecidableEq W]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype W] [DecidableEq W] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Kourovka/Problems/P21_03/Proof/ConfigurationPoisson/WitnessOverlapBound.lean:30:8: automatically included section variable(s) unused in theorem `_private.Kourovka.Problems.P21_03.Proof.ConfigurationPoisson.WitnessOverlapBound.0.Kourovka213.familyTuple_surjective_onto`:
+  [Fintype W]
+  [DecidableEq W]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype W] [DecidableEq W] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8832/8854] Built Kourovka.Problems.P21_03.Proof.ConfigurationPoisson.WitnessBlockSupport (27s)
+warning: Kourovka/Problems/P21_03/Proof/ConfigurationPoisson/WitnessBlockSupport.lean:24:8: automatically included section variable(s) unused in theorem `_private.Kourovka.Problems.P21_03.Proof.ConfigurationPoisson.WitnessBlockSupport.0.Kourovka213.exists_orientedRepresentative`:
+  [DecidableEq I]
+  [Fintype X]
+  [DecidableEq X]
+  [Fintype L]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq I] [Fintype X] [DecidableEq X] [Fintype L] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8833/8854] Built Kourovka.Problems.P21_03.Proof.UniformBrunLower (30s)
+info: Kourovka/Problems/P21_03/Proof/UniformBrunLower.lean:162:29: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+warning: Kourovka/Problems/P21_03/Proof/UniformBrunLower.lean:162:25: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+✔ [8834/8854] Built Kourovka.Problems.P21_03.Proof.PortraitBoundArithmetic (27s)
+⚠ [8835/8854] Built Kourovka.Problems.P21_03.Proof.LowerBound (27s)
+warning: Kourovka/Problems/P21_03/Proof/LowerBound.lean:129:77: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+✔ [8836/8854] Built Kourovka.Problems.P21_03.Proof.TargetEnvelopeCore (27s)
+⚠ [8837/8854] Built Kourovka.Problems.P21_03.Proof.ForestSupportBounds (27s)
+warning: Kourovka/Problems/P21_03/Proof/ForestSupportBounds.lean:14:0: Definition `Kourovka213.nontrivialOfNeOne` of class type is semireducible. Most type class instances should be instance-reducible, so consider marking this
+definition with `@[instance_reducible]`. If it is intentionally semireducible, this warning can be disabled with `set_option warn.classDefReducibility false`.
+warning: Kourovka/Problems/P21_03/Proof/ForestSupportBounds.lean:14:0: Definition `nontrivialOfNeOne` is a proposition; use `theorem` instead of `def`
+
+Note: This linter can be disabled with `set_option linter.defProp false`
+warning: Kourovka/Problems/P21_03/Proof/ForestSupportBounds.lean:65:14: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+warning: Kourovka/Problems/P21_03/Proof/ForestSupportBounds.lean:65:26: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+warning: Kourovka/Problems/P21_03/Proof/ForestSupportBounds.lean:68:14: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+warning: Kourovka/Problems/P21_03/Proof/ForestSupportBounds.lean:68:26: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+warning: Kourovka/Problems/P21_03/Proof/ForestSupportBounds.lean:76:14: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+warning: Kourovka/Problems/P21_03/Proof/ForestSupportBounds.lean:76:26: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+warning: Kourovka/Problems/P21_03/Proof/ForestSupportBounds.lean:88:14: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+warning: Kourovka/Problems/P21_03/Proof/ForestSupportBounds.lean:88:26: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+warning: Kourovka/Problems/P21_03/Proof/ForestSupportBounds.lean:91:14: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+warning: Kourovka/Problems/P21_03/Proof/ForestSupportBounds.lean:91:26: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+warning: Kourovka/Problems/P21_03/Proof/ForestSupportBounds.lean:99:14: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+warning: Kourovka/Problems/P21_03/Proof/ForestSupportBounds.lean:99:26: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+warning: Kourovka/Problems/P21_03/Proof/ForestSupportBounds.lean:110:16: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: Kourovka/Problems/P21_03/Proof/ForestSupportBounds.lean:110:28: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: Kourovka/Problems/P21_03/Proof/ForestSupportBounds.lean:160:8: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Kourovka/Problems/P21_03/Proof/ForestSupportBounds.lean:168:12: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+warning: Kourovka/Problems/P21_03/Proof/ForestSupportBounds.lean:180:14: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+warning: Kourovka/Problems/P21_03/Proof/ForestSupportBounds.lean:189:8: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Kourovka/Problems/P21_03/Proof/ForestSupportBounds.lean:190:8: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Kourovka/Problems/P21_03/Proof/ForestSupportBounds.lean:205:14: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+warning: Kourovka/Problems/P21_03/Proof/ForestSupportBounds.lean:235:20: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: Kourovka/Problems/P21_03/Proof/ForestSupportBounds.lean:250:16: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: Kourovka/Problems/P21_03/Proof/ForestSupportBounds.lean:274:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Kourovka/Problems/P21_03/Proof/ForestSupportBounds.lean:312:0: Definition `Kourovka213.treeAtomLabelFintype` of class type is semireducible. Most type class instances should be instance-reducible, so consider marking this
+definition with `@[instance_reducible]`. If it is intentionally semireducible, this warning can be disabled with `set_option warn.classDefReducibility false`.
+warning: Kourovka/Problems/P21_03/Proof/ForestSupportBounds.lean:328:11: Definition `Kourovka213.treeAtomLabelFintype` of class type is semireducible. Most type class instances should be instance-reducible, so consider marking this
+definition with `@[instance_reducible]`. If it is intentionally semireducible, this warning can be disabled with `set_option warn.classDefReducibility false`.
+warning: Kourovka/Problems/P21_03/Proof/ForestSupportBounds.lean:355:8: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Kourovka/Problems/P21_03/Proof/ForestSupportBounds.lean:363:8: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Kourovka/Problems/P21_03/Proof/ForestSupportBounds.lean:385:8: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: Kourovka/Problems/P21_03/Proof/ForestSupportBounds.lean:444:22: This simp argument is unused:
+  h
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Kourovka/Problems/P21_03/Proof/ForestSupportBounds.lean:445:24: This simp argument is unused:
+  h
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Kourovka/Problems/P21_03/Proof/ForestSupportBounds.lean:550:12: Variable name `F₂` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _F₂
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Kourovka/Problems/P21_03/Proof/ForestSupportBounds.lean:551:9: Variable name `F₁` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _F₁
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Kourovka/Problems/P21_03/Proof/ForestSupportBounds.lean:555:10: Variable name `T` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _T
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Kourovka/Problems/P21_03/Proof/ForestSupportBounds.lean:556:12: Variable name `F₂` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _F₂
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Kourovka/Problems/P21_03/Proof/ForestSupportBounds.lean:557:9: Variable name `F₁` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _F₁
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Kourovka/Problems/P21_03/Proof/ForestSupportBounds.lean:563:12: Variable name `F₂` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _F₂
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Kourovka/Problems/P21_03/Proof/ForestSupportBounds.lean:564:9: Variable name `F₁` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _F₁
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Kourovka/Problems/P21_03/Proof/ForestSupportBounds.lean:699:12: Variable name `F₂` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _F₂
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Kourovka/Problems/P21_03/Proof/ForestSupportBounds.lean:701:9: Variable name `F₁` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _F₁
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Kourovka/Problems/P21_03/Proof/ForestSupportBounds.lean:704:0: Definition `Kourovka213.forestAtomLabelFintype` of class type is semireducible. Most type class instances should be instance-reducible, so consider marking this
+definition with `@[instance_reducible]`. If it is intentionally semireducible, this warning can be disabled with `set_option warn.classDefReducibility false`.
+warning: Kourovka/Problems/P21_03/Proof/ForestSupportBounds.lean:708:12: Variable name `F₂` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _F₂
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Kourovka/Problems/P21_03/Proof/ForestSupportBounds.lean:709:9: Variable name `F₁` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _F₁
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Kourovka/Problems/P21_03/Proof/ForestSupportBounds.lean:711:11: Definition `Kourovka213.forestAtomLabelFintype` of class type is semireducible. Most type class instances should be instance-reducible, so consider marking this
+definition with `@[instance_reducible]`. If it is intentionally semireducible, this warning can be disabled with `set_option warn.classDefReducibility false`.
+warning: Kourovka/Problems/P21_03/Proof/ForestSupportBounds.lean:721:12: Variable name `F₂` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _F₂
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Kourovka/Problems/P21_03/Proof/ForestSupportBounds.lean:723:9: Variable name `F₁` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _F₁
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Kourovka/Problems/P21_03/Proof/ForestSupportBounds.lean:904:14: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+warning: Kourovka/Problems/P21_03/Proof/ForestSupportBounds.lean:914:12: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+warning: Kourovka/Problems/P21_03/Proof/ForestSupportBounds.lean:930:14: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+warning: Kourovka/Problems/P21_03/Proof/ForestSupportBounds.lean:943:12: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+warning: Kourovka/Problems/P21_03/Proof/ForestSupportBounds.lean:959:16: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: Kourovka/Problems/P21_03/Proof/ForestSupportBounds.lean:1013:10: Unused tactic linter: `change ((ForestContainer.sum F₁ F₂).portrait g l).isSome = true` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Kourovka/Problems/P21_03/Proof/ForestSupportBounds.lean:1036:10: Unused tactic linter: `change ((ForestContainer.sum F₁ F₂).portrait g l).isSome = true` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Kourovka/Problems/P21_03/Proof/ForestSupportBounds.lean:1067:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+⚠ [8838/8854] Built Kourovka.Problems.P21_03.Proof.ConfigurationPoisson.CompatibleStratumBound (9.3s)
+warning: Kourovka/Problems/P21_03/Proof/ConfigurationPoisson/CompatibleStratumBound.lean:25:8: automatically included section variable(s) unused in theorem `_private.Kourovka.Problems.P21_03.Proof.ConfigurationPoisson.CompatibleStratumBound.0.Kourovka213.image_stratumFamilyTuple`:
+  [Fintype W]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype W] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [8839/8854] Built Kourovka.Problems.P21_03.Proof.ForestSliceEncoding (9.4s)
+✔ [8840/8854] Built Kourovka.Problems.P21_03.Proof.ForestEnvelopeBounds (6.7s)
+⚠ [8841/8854] Built Kourovka.Problems.P21_03.Proof.UpperWitness (7.7s)
+warning: Kourovka/Problems/P21_03/Proof/UpperWitness.lean:44:32: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Kourovka/Problems/P21_03/Proof/UpperWitness.lean:188:20: Unused tactic linter: `omega` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Kourovka/Problems/P21_03/Proof/UpperWitness.lean:188:20: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: Kourovka/Problems/P21_03/Proof/UpperWitness.lean:236:4: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Kourovka/Problems/P21_03/Proof/UpperWitness.lean:307:30: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: Kourovka/Problems/P21_03/Proof/UpperWitness.lean:496:65: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+warning: Kourovka/Problems/P21_03/Proof/UpperWitness.lean:574:80: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Kourovka/Problems/P21_03/Proof/UpperWitness.lean:592:14: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+✔ [8842/8854] Built Kourovka.Problems.P21_03.Proof.Asymptotic (11s)
+✔ [8843/8854] Built Kourovka.Problems.P21_03.Proof.MaximalSolubleReduction (11s)
+⚠ [8844/8854] Built Kourovka.Problems.P21_03.Proof.FiniteAsymmetricLopsidedLLL (111s)
+warning: Kourovka/Problems/P21_03/Proof/FiniteAsymmetricLopsidedLLL.lean:24:0: automatically included section variable(s) unused in theorem `Kourovka213.mem_avoidEvents`:
+  [DecidableEq I]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq I] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8845/8854] Built Kourovka.Problems.P21_03.Proof.CanonicalPartialMatching (87s)
+warning: Kourovka/Problems/P21_03/Proof/CanonicalPartialMatching.lean:62:0: automatically included section variable(s) unused in theorem `Kourovka213.CanonicalPartialMatching.conflicts_symm`:
+  [Fintype alpha]
+  [DecidableEq alpha]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype alpha] [DecidableEq alpha] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Kourovka/Problems/P21_03/Proof/CanonicalPartialMatching.lean:75:0: automatically included section variable(s) unused in theorem `Kourovka213.CanonicalPartialMatching.mem_neighborhood`:
+  [Fintype alpha]
+  [DecidableEq alpha]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype alpha] [DecidableEq alpha] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Kourovka/Problems/P21_03/Proof/CanonicalPartialMatching.lean:124:8: automatically included section variable(s) unused in theorem `_private.Kourovka.Problems.P21_03.Proof.CanonicalPartialMatching.0.Kourovka213.CanonicalPartialMatching.transportTarget_injective`:
+  [Fintype alpha]
+  [DecidableEq alpha]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype alpha] [DecidableEq alpha] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Kourovka/Problems/P21_03/Proof/CanonicalPartialMatching.lean:188:2: Try this: intro j hjS htau_j
+warning: Kourovka/Problems/P21_03/Proof/CanonicalPartialMatching.lean:351:0: automatically included section variable(s) unused in theorem `Kourovka213.CanonicalPartialMatching.mem_conflictSet`:
+  [Fintype alpha]
+  [DecidableEq alpha]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype alpha] [DecidableEq alpha] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8846/8854] Built Kourovka.Problems.P21_03.Proof.WeightedCanonicalLLL (85s)
+warning: Kourovka/Problems/P21_03/Proof/WeightedCanonicalLLL.lean:25:0: automatically included section variable(s) unused in theorem `Kourovka213.CanonicalPartialMatching.denominator_pos`:
+  [DecidableEq alpha]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq alpha] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [8847/8854] Built Kourovka.Problems.P21_03.Proof.CoreCanonicalEvents (79s)
+⚠ [8848/8854] Built Kourovka.Problems.P21_03.Proof.CoreCanonicalProbability (85s)
+warning: Kourovka/Problems/P21_03/Proof/CoreCanonicalProbability.lean:33:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Kourovka/Problems/P21_03/Proof/CoreCanonicalProbability.lean:60:7: Variable name `w` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _w
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [8849/8854] Built Kourovka.Problems.P21_03.Proof.PrimeTransporterCanonical (87s)
+⚠ [8850/8854] Built Kourovka.Problems.P21_03.Proof.PrimeCycleProfile (85s)
+warning: Kourovka/Problems/P21_03/Proof/PrimeCycleProfile.lean:261:4: Try this: intro c _hc hcontained
+warning: Kourovka/Problems/P21_03/Proof/PrimeCycleProfile.lean:293:15: `if_pos` has been deprecated: Use `ite_eq_left` instead
+warning: Kourovka/Problems/P21_03/Proof/PrimeCycleProfile.lean:300:15: `if_neg` has been deprecated: Use `ite_eq_right` instead
+warning: Kourovka/Problems/P21_03/Proof/PrimeCycleProfile.lean:293:15: This simp argument is unused:
+  if_pos rfl
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [mem_primeCycleProfileSlice]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [8851/8854] Built Kourovka.Problems.P21_03.Proof.PrimeRowConditionalReduction (68s)
+⚠ [8852/8854] Built Kourovka.Problems.P21_03.Proof.AlternatingReduction (61s)
+warning: Kourovka/Problems/P21_03/Proof/AlternatingReduction.lean:249:25: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Kourovka/Problems/P21_03/Proof/AlternatingReduction.lean:252:25: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Kourovka/Problems/P21_03/Proof/AlternatingReduction.lean:270:26: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Kourovka/Problems/P21_03/Proof/AlternatingReduction.lean:270:41: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Kourovka/Problems/P21_03/Proof/AlternatingReduction.lean:285:26: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Kourovka/Problems/P21_03/Proof/AlternatingReduction.lean:285:41: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [8853/8854] Built Kourovka.Problems.P21_03.Proof.AlternatingAsymptotic (64s)
+warning: Kourovka/Problems/P21_03/Proof/AlternatingAsymptotic.lean:113:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+✔ [8854/8854] Built Kourovka.Problems.P21_03.Solution (62s)
+Build completed successfully (8854 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Kourovka.P21_03.firstQuestion, Kourovka213.asymptoticStatement, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from Kourovka.Problems.P21_03.Solution
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!

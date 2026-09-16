@@ -1,0 +1,237 @@
+{
+  "status": "FULL_BUILD_AND_AUDIT_PASS",
+  "recorded_at_utc": "2026-09-15T19:57:16.017187+00:00",
+  "platform": "macOS-15.2-arm64-arm-64bit-Mach-O",
+  "base_commit": "b7ca6c7fbea223097e428b695a2341d8aa3de25b",
+  "branch": "main",
+  "changes_uncommitted": true,
+  "push_performed": false,
+  "lean_toolchain": "leanprover/lean4:v4.34.0-rc2",
+  "dependencies": [
+    {
+      "url": "https://github.com/leanprover-community/mathlib4.git",
+      "type": "git",
+      "subDir": null,
+      "scope": "",
+      "rev": "87f6d5ec4c780581c9a78b06a9c5f1cf86dc5a70",
+      "name": "mathlib",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "87f6d5ec4c780581c9a78b06a9c5f1cf86dc5a70",
+      "inherited": false,
+      "configFile": "lakefile.lean"
+    },
+    {
+      "url": "https://github.com/leanprover-community/plausible",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "d9598f07b1bc701f1e3aae163d2681c1fd978793",
+      "name": "plausible",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "main",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover-community/LeanSearchClient",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "ba67e212be1197b84c1f1f6299488a10a3002713",
+      "name": "LeanSearchClient",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "main",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover-community/import-graph",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "d8823026ac7ef130c253089d95685f9877b95323",
+      "name": "importGraph",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "main",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover-community/ProofWidgets4",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "a8acbfd87375ff4abe14ce09db5b7664d383bc7f",
+      "name": "proofwidgets",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "main",
+      "inherited": true,
+      "configFile": "lakefile.lean"
+    },
+    {
+      "url": "https://github.com/leanprover-community/aesop",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "18889deb9e83ea7420ef51c160d6f88552e744e3",
+      "name": "aesop",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "master",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover-community/quote4",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "507746ab8f4b643ccdacb2ec4cdb5853fa9f8ab3",
+      "name": "Qq",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "master",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover-community/batteries",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "d54dddc581e08be364c278052863524bff7a99a9",
+      "name": "batteries",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "main",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover/lean4-cli",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover",
+      "rev": "ab3a82db9fea14cf0fd7f5a2de650f4b534640af",
+      "name": "Cli",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "v4.34.0-rc2",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    }
+  ],
+  "dependency_checkout_verification": "All nine dependency checkouts verified clean at their pinned revisions.",
+  "checks": [
+    {
+      "command": "LEAN_NUM_THREADS=1 lake build Kourovka.Problems.P21_44.Solution",
+      "exit_code": 0,
+      "log": "docs/21.44-build.txt",
+      "log_sha256": "5f21580ef6ad2686df91461c40d581980dd65000eb974cfee2e6df3bbb468d3c",
+      "lake_jobs": 3205,
+      "warnings": 0,
+      "new_module_warnings": 0
+    },
+    {
+      "command": "lake exe cache get",
+      "exit_code": 0,
+      "log": "docs/21.44-cache.txt",
+      "log_sha256": "31b57c367389539f815856fa86b05f3b68a6f795169298bfb5bb695cb181adef"
+    },
+    {
+      "command": "LEAN_NUM_THREADS=1 lake build",
+      "exit_code": 0,
+      "log": "docs/21.44-full-build.txt",
+      "log_sha256": "17d0246049270ade3b29b015883953fef57e8e1676ebec72e321a825a63bb4df",
+      "lake_jobs": 9324,
+      "warnings": 205,
+      "new_module_warnings": 0
+    },
+    {
+      "command": "LEAN_NUM_THREADS=1 lake env lean Audit.lean",
+      "exit_code": 0,
+      "log": "docs/21.44-axiom-audit.txt",
+      "log_sha256": "ee2f69ce3a4a9df88ac4ac56292d301cf127fcfd616c0e022298c0711b7a8fb0"
+    },
+    {
+      "command": "python3 scripts/check_repository.py",
+      "exit_code": 0,
+      "output": "Repository check passed: 8 problems, 44 Markdown files."
+    },
+    {
+      "command": "git diff --check",
+      "exit_code": 0,
+      "output": ""
+    },
+    {
+      "check": "Full Lean source manifest replay",
+      "result": "PASS",
+      "files": 552
+    },
+    {
+      "check": "Comment-stripped Lean source and whitespace scan",
+      "result": "PASS",
+      "new_lean_files": 19,
+      "forbidden": [
+        "sorry",
+        "admit",
+        "axiom",
+        "unsafe",
+        "native_decide",
+        "bv_decide"
+      ]
+    },
+    {
+      "check": "Semantic audit source comparison and namespace/import-only integration",
+      "result": "PASS",
+      "audited_source_files": 16,
+      "integrated_local_modules": 17
+    },
+    {
+      "check": "Independent root-word certificate regeneration in a fresh directory",
+      "result": "PASS",
+      "generator": "scripts/21_44_root_words.py",
+      "generator_sha256": "f6a9380de9283ebead802dbaf8478223c5ccab4316a7317b97d6de68dbe4be41",
+      "details": {
+        "status": "PASS",
+        "fragment_sha256": "0737d6d8f343a4857123ace35817acbf48731423900ecb6cd5361b983d177dbd",
+        "fragment_bytes": 2177,
+        "source_unchanged": true,
+        "independent_line_extraction_comparison": true,
+        "output_file_option_checked": true,
+        "modified_fragment_rejected": true
+      }
+    }
+  ],
+  "audited_axioms": {
+    "Kourovka.P21_44.notebookStatement": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "closed_statement_audit": "PASS: no leading parameters or mathematical hypotheses",
+  "source_manifest": {
+    "path": "docs/21.44-source.sha256",
+    "sha256": "3ba265dfb6e998e69d1007dcc7cad770b427d3afa88a9a358624c2bcba464b1e",
+    "files": 552,
+    "scope": "All repository Lean files, pinned configuration, and the 21.44 certificate generator.",
+    "new_problem_lean_modules": 19
+  },
+  "semantic_review": {
+    "path": "docs/21.44-statement-audit.md",
+    "sha256": "e5df0167997e8efa0b472dfc4331b91cf55c9f31d6a18596cb55417eab3213fb",
+    "integration_manifest": "docs/21.44-statement-audit.json",
+    "integration_manifest_sha256": "7a7412b1f828e6acddd11bfd8f1ea42867e9a773d6eb88a2146f0b3af9ab1fe6",
+    "result": "PASS",
+    "reviewer": "Separately tasked Codex agent"
+  },
+  "foundation_provenance": {
+    "path": "Kourovka/Problems/P21_44/Proof/RecurrentSections/provenance.json",
+    "sha256": "fb931359dcd5ca13c56ed9148aa18928556f5f6257dda3773aa3e1027a2fdfc2",
+    "upstream_revision": "2b68f638c3af39a18a0630fa4977bb749d97a14a",
+    "license": "Apache-2.0",
+    "modules": 2
+  },
+  "scope": "Closed affirmative answer to Notebook21.44: a fixed two-generated abstract subgroup is dense in the actual full inverse limit of natural degree-five alternating wreath products and its ordinary finite symmetric word balls have normalized logarithmic growth tending to zero. The proof establishes qualitative subexponential growth without a separate constant-200 quantitative bound or a novelty claim.",
+  "automation": {
+    "id": "check-gpt-pro-kourovka-21-44",
+    "status": "DELETED"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "result": "PASS",
+  "namespace_path_only_integration": "PASS",
+  "files": [
+    {
+      "staging": "Kourovka2144/BinomialCounting.lean",
+      "staging_sha256": "ba9941dbac80f908f0cecd2eb6277adf1b6d8d76ae6d18566c2b2ca2d7b6f03e",
+      "repository": "Kourovka/Problems/P21_44/Proof/BinomialCounting.lean",
+      "repository_sha256": "6e14fc7bf645feb14ddb39724cdd4cabc1100259439333fb55fe83ee3d022323"
+    },
+    {
+      "staging": "Kourovka2144/Counting.lean",
+      "staging_sha256": "5a17154f08e1767662b573fa0d028741f4cdfd76e0247ebf29b8e8e5e9790bab",
+      "repository": "Kourovka/Problems/P21_44/Proof/Counting.lean",
+      "repository_sha256": "23d2c0c69bcc8de4b9c15a9f9d6de904c35b461781a166b0403e2ca4138efd2a"
+    },
+    {
+      "staging": "Kourovka2144/Density.lean",
+      "staging_sha256": "87a4e3577216a19dda5331e32a3a5bbffe6c7ef2c899b279d553da93ad778f18",
+      "repository": "Kourovka/Problems/P21_44/Proof/Density.lean",
+      "repository_sha256": "15e6dfb5a37e927d17be541b98a9e17e030d781d93d9800092ab76b0b5e31b53"
+    },
+    {
+      "staging": "Kourovka2144/GeneratedGeometry.lean",
+      "staging_sha256": "50d34194c5fe4ff7224350d9bb9e5f2e036f3883fce16c1b4c51addd8cb44690",
+      "repository": "Kourovka/Problems/P21_44/Proof/GeneratedGeometry.lean",
+      "repository_sha256": "ad21af8ea6b77c786bd792536978af087950a71e3d86a24ca6bde5e9d83c9764"
+    },
+    {
+      "staging": "Kourovka2144/GrowthRate.lean",
+      "staging_sha256": "bae0f4c0f1b9d638c6e1cd079024005117e9759a63d63814cbeb39d7fe5c658d",
+      "repository": "Kourovka/Problems/P21_44/Proof/GrowthRate.lean",
+      "repository_sha256": "08c19629fa529f0b1f72097632c5dd73d215e0da60e881866d5214a3e3600566"
+    },
+    {
+      "staging": "Kourovka2144/InverseLimit.lean",
+      "staging_sha256": "003adcae1d05db9c9c83e0b5e7468b788ebd12676fa2c5763990dc9dc941c091",
+      "repository": "Kourovka/Problems/P21_44/Proof/InverseLimit.lean",
+      "repository_sha256": "092a455880a5b71c134e374ee3239f51a13563e0e33603aab5ac4182dbf20f5e"
+    },
+    {
+      "staging": "Kourovka2144/PerfectSubdirect.lean",
+      "staging_sha256": "2faa260b755bb694541c53912d262204bbf5af7af7a7f20519dce891ef62b92e",
+      "repository": "Kourovka/Problems/P21_44/Proof/PerfectSubdirect.lean",
+      "repository_sha256": "5c90644e8745430d1bd57d1a49b85da70118cfdb85f1ffa05fd8fc29b12abce7"
+    },
+    {
+      "staging": "Kourovka2144/SectionCounting.lean",
+      "staging_sha256": "eda47690fd6d08f9adb6ca0927f667412c348af45b829554345bceb94da53f67",
+      "repository": "Kourovka/Problems/P21_44/Proof/SectionCounting.lean",
+      "repository_sha256": "ce92eef69ff471206efcd03b0fd737baab0a00bc499ec8ab916048cd927fe117"
+    },
+    {
+      "staging": "Kourovka2144/SectionWords.lean",
+      "staging_sha256": "e8145559e6e7f5d2c7e87e8996d311a27bb406b1b00868fbc08072e1dea9a51d",
+      "repository": "Kourovka/Problems/P21_44/Proof/SectionWords.lean",
+      "repository_sha256": "a14b857f8e872b126d47c6e2e05f21af440117d99ee8e1b5020eee5fa9a5a832"
+    },
+    {
+      "staging": "Kourovka2144/Shortening.lean",
+      "staging_sha256": "bc5cd58235f61156e062f082b21bb452f7cce4591c9ff9edcb1e79c6ea609f49",
+      "repository": "Kourovka/Problems/P21_44/Proof/Shortening.lean",
+      "repository_sha256": "84bb5592f51af54e736545d7277a138a00752d9500b10de8f06ba717d61c2d43"
+    },
+    {
+      "staging": "Kourovka2144/SignedWords.lean",
+      "staging_sha256": "b380c45cda9bfd48a4f1e48717e72816b134b342fac4645ac80f29515778fe7f",
+      "repository": "Kourovka/Problems/P21_44/Proof/SignedWords.lean",
+      "repository_sha256": "8f7f5cc309f46ca7929e7beb694d08d1994782972ca46af540b7fdc354dcd7a5"
+    },
+    {
+      "staging": "Kourovka2144/Solution.lean",
+      "staging_sha256": "05ffb8d4edced7e78f70c6c9aeed13e0f7513c25fdd5c8602e8b9b8f63282721",
+      "repository": "Kourovka/Problems/P21_44/Solution.lean",
+      "repository_sha256": "a47ebbb9bf258ba088b12a09280072f731989b19f564c55cf8a9859981516abc"
+    },
+    {
+      "staging": "Kourovka2144/Statement.lean",
+      "staging_sha256": "ea55980725d0bfe3bccd98d9e2ad2d8890a935fead0fbb5c0bf16c7515852c67",
+      "repository": "Kourovka/Problems/P21_44/Statement.lean",
+      "repository_sha256": "eed64a7298a99ca94eeccb2c5bb71be416023d40613a5439d63d5731b03cfd13"
+    },
+    {
+      "staging": "Kourovka2144/WordEncoding.lean",
+      "staging_sha256": "10e74bfbf625fcf6f9e6ee41375f46ec03b47d851168d3b53026f85e9b564b18",
+      "repository": "Kourovka/Problems/P21_44/Proof/WordEncoding.lean",
+      "repository_sha256": "1e86435ab549cdd43e4abd36f24b225e93c6860b1525d3f9e8c9150fdb5bc692"
+    },
+    {
+      "staging": "Kourovka2144/WordEvaluation.lean",
+      "staging_sha256": "5bd48aaade93b54c193d449ab01ec2d685f64ce84918203f268e634295bd5ea1",
+      "repository": "Kourovka/Problems/P21_44/Proof/WordEvaluation.lean",
+      "repository_sha256": "e212210bb420a5fbbf33adb55b78e8bcb320a2fe7d80bd88270dcbd40108d4a0"
+    },
+    {
+      "staging": "Kourovka2144/Wreath.lean",
+      "staging_sha256": "f22dbfeb85a309a886e4924c40639559e20e6451228d47f11e6177671f102b83",
+      "repository": "Kourovka/Problems/P21_44/Proof/Wreath.lean",
+      "repository_sha256": "a2fad3fd059194b9cb17d3199a4fb205bbe1347f65332da34b9013a1e9e22066"
+    },
+    {
+      "staging": "Kourovka2144/WreathGeneration.lean",
+      "staging_sha256": "2e53e92fc20f374d8e6a720e99533e07d4e7565524f283034e3c05e1bc0612e4",
+      "repository": "Kourovka/Problems/P21_44/Proof/WreathGeneration.lean",
+      "repository_sha256": "3b49b3845305c98adbf2f718dd3694869133dd2712fe9ac6b18a514502b67e90"
+    }
+  ]
+}

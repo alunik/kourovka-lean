@@ -1,0 +1,459 @@
+--- upstream/GroupApproximation/GroupTheory/HigmanThompson/BrownPresentation.lean
++++ Kourovka/External/GroupApproximation/GroupTheory/HigmanThompson/BrownPresentation.lean
+@@ -1,9 +1,13 @@
++/- Local adaptation for Kourovka 21.38: import paths relocated; Lean 4.34
++compatibility changes are recorded in the adjacent README and provenance.
++Original copyright and license remain with the upstream contributors. -/
++
+ import Mathlib.GroupTheory.PresentedGroup
+ import Mathlib.GroupTheory.FinitelyPresentedGroup
+ import Mathlib.Algebra.Group.Subgroup.Ker
+ import Mathlib.Tactic.Group
+-import GroupApproximation.GroupTheory.HigmanThompson.Generators
+-import GroupApproximation.Meta.AxiomGuard
++import Kourovka.External.GroupApproximation.GroupTheory.HigmanThompson.Generators
++import Kourovka.External.GroupApproximation.Meta.AxiomGuard
+ 
+ /-!
+ # Brown's finite presentation of `F_{m+2,∞}`
+@@ -37,12 +41,12 @@
+ decreasing_by omega
+ 
+ theorem brownWord_of_lt {k : ℕ} (h : k < m + 2) : brownWord m k = FreeGroup.of ⟨k, h⟩ := by
+-  rw [brownWord, dif_pos h]
++  rw [brownWord, dite_eq_left h]
+ 
+ theorem brownWord_of_ge {k : ℕ} (h : m + 2 ≤ k) :
+     brownWord m k = FreeGroup.of ⟨0, by omega⟩ * brownWord m (k - (m + 1)) *
+       (FreeGroup.of ⟨0, by omega⟩)⁻¹ := by
+-  rw [brownWord, dif_neg (by omega)]
++  rw [brownWord, dite_eq_right (by omega)]
+ 
+ /-- Brown's finitely many relators. -/
+ def brownRels : Set (FreeGroup (Fin (m + 2))) :=
+@@ -187,7 +191,7 @@
+         (brownPos m q')⁻¹ * brownPos m p' := by
+     intro w
+     induction w using FreeGroup.induction_on with
+-    | C1 => exact fun q p => ⟨q, p, by simp⟩
++    | one => exact fun q p => ⟨q, p, by simp⟩
+     | of x =>
+         intro q p
+         obtain ⟨q', p', h⟩ := brown_move m q x.val
+@@ -221,8 +225,8 @@
+   | cons i l ih =>
+     intro j
+     by_cases h : j ≤ i
+-    · simp only [brownIns, if_pos h]
+-    · simp only [brownIns, if_neg h, brownPos, ih]
++    · simp only [brownIns, ite_eq_left h]
++    · simp only [brownIns, ite_eq_right h, brownPos, ih]
+       have hr : brownX m i * brownX m j = brownX m (j + m + 1) * brownX m i := by
+         rw [← brownX_rel m (not_le.mp h)]
+         group
+@@ -235,12 +239,12 @@
+     exact Or.inl hx.ge
+   | cons i l ih =>
+     by_cases h : j ≤ i
+-    · simp only [brownIns, if_pos h, List.mem_cons] at hx
++    · simp only [brownIns, ite_eq_left h, List.mem_cons] at hx
+       rcases hx with rfl | rfl | hx
+       · exact Or.inl le_rfl
+       · exact Or.inr (List.mem_cons_self)
+       · exact Or.inr (List.mem_cons_of_mem _ hx)
+-    · simp only [brownIns, if_neg h, List.mem_cons] at hx
++    · simp only [brownIns, ite_eq_right h, List.mem_cons] at hx
+       rcases hx with rfl | hx
+       · exact Or.inr List.mem_cons_self
+       · rcases ih hx with h1 | h1
+@@ -255,13 +259,13 @@
+     intro j
+     have hl' := List.pairwise_cons.mp hl
+     by_cases h : j ≤ i
+-    · simp only [brownIns, if_pos h]
++    · simp only [brownIns, ite_eq_left h]
+       refine List.pairwise_cons.mpr ⟨?_, hl⟩
+       intro x hx
+       rcases List.mem_cons.mp hx with rfl | hx
+       · exact h
+       · exact le_trans h (hl'.1 x hx)
+-    · simp only [brownIns, if_neg h]
++    · simp only [brownIns, ite_eq_right h]
+       refine List.pairwise_cons.mpr ⟨?_, ih hl'.2 _⟩
+       intro x hx
+       rcases mem_brownIns m hx with h1 | h1
+@@ -412,7 +416,7 @@
+ 
+ /-- **`F_{m+2,∞}` is finitely presented.** -/
+ theorem brownF_isFinitelyPresented : Group.IsFinitelyPresented (brownF m) := by
+-  haveI : Finite (brownRels m) := (brownRels_finite m).to_subtype
++  have : Finite (brownRels m) := (brownRels_finite m).to_subtype
+   exact Group.IsFinitelyPresented.equiv (MonoidHom.ofInjective (brownEval_injective m))
+ 
+ #audit_axioms GroupApproximation.HigmanThompson.brownEval_injective
+--- upstream/GroupApproximation/GroupTheory/HigmanThompson/CompactConj.lean
++++ Kourovka/External/GroupApproximation/GroupTheory/HigmanThompson/CompactConj.lean
+@@ -1,6 +1,10 @@
+-import GroupApproximation.GroupTheory.HigmanThompson.CompactE
+-import GroupApproximation.GroupTheory.HigmanThompson.GeometricF
+-import GroupApproximation.Meta.AxiomGuard
++/- Local adaptation for Kourovka 21.38: import paths relocated; Lean 4.34
++compatibility changes are recorded in the adjacent README and provenance.
++Original copyright and license remain with the upstream contributors. -/
++
++import Kourovka.External.GroupApproximation.GroupTheory.HigmanThompson.CompactE
++import Kourovka.External.GroupApproximation.GroupTheory.HigmanThompson.GeometricF
++import Kourovka.External.GroupApproximation.Meta.AxiomGuard
+ 
+ /-!
+ # Conjugating the half-line model onto a bounded interval
+@@ -24,7 +28,7 @@
+   if h : t < r then Classical.choose (compE_surj m r h) else t
+ 
+ theorem compE_compEinv {t : ℚ} (ht : t < r) : compE m r (compEinv m r t) = t := by
+-  simp only [compEinv, dif_pos ht]
++  simp only [compEinv, dite_eq_left ht]
+   exact Classical.choose_spec (compE_surj m r ht)
+ 
+ theorem compEinv_compE (u : ℚ) : compEinv m r (compE m r u) = u :=
+--- upstream/GroupApproximation/GroupTheory/HigmanThompson/CompactCore.lean
++++ Kourovka/External/GroupApproximation/GroupTheory/HigmanThompson/CompactCore.lean
+@@ -1,7 +1,11 @@
+-import GroupApproximation.GroupTheory.HigmanThompson.ResidueInvariance
+-import GroupApproximation.GroupTheory.HigmanThompson.CompactConj
+-import GroupApproximation.GroupTheory.HydeLodha.HigmanEpstein
+-import GroupApproximation.Meta.AxiomGuard
++/- Local adaptation for Kourovka 21.38: import paths relocated; Lean 4.34
++compatibility changes are recorded in the adjacent README and provenance.
++Original copyright and license remain with the upstream contributors. -/
++
++import Kourovka.External.GroupApproximation.GroupTheory.HigmanThompson.ResidueInvariance
++import Kourovka.External.GroupApproximation.GroupTheory.HigmanThompson.CompactConj
++import Kourovka.External.GroupApproximation.GroupTheory.HydeLodha.HigmanEpstein
++import Kourovka.External.GroupApproximation.Meta.AxiomGuard
+ 
+ /-!
+ # The compactly supported part of `F_n` and its simple derived subgroup
+--- upstream/GroupApproximation/GroupTheory/HigmanThompson/CompactCoreGerms.lean
++++ Kourovka/External/GroupApproximation/GroupTheory/HigmanThompson/CompactCoreGerms.lean
+@@ -1,6 +1,10 @@
++/- Local adaptation for Kourovka 21.38: import paths relocated; Lean 4.34
++compatibility changes are recorded in the adjacent README and provenance.
++Original copyright and license remain with the upstream contributors. -/
++
+ import Mathlib.GroupTheory.Perm.Support
+-import GroupApproximation.GroupTheory.HigmanThompson.CompactCore
+-import GroupApproximation.Meta.AxiomGuard
++import Kourovka.External.GroupApproximation.GroupTheory.HigmanThompson.CompactCore
++import Kourovka.External.GroupApproximation.Meta.AxiomGuard
+ 
+ /-!
+ # `F_n'` is the derived subgroup of the compactly supported part
+--- upstream/GroupApproximation/GroupTheory/HigmanThompson/CompactE.lean
++++ Kourovka/External/GroupApproximation/GroupTheory/HigmanThompson/CompactE.lean
+@@ -1,11 +1,15 @@
++/- Local adaptation for Kourovka 21.38: import paths relocated; Lean 4.34
++compatibility changes are recorded in the adjacent README and provenance.
++Original copyright and license remain with the upstream contributors. -/
++
+ import Mathlib.Algebra.Order.Floor.Ring
+ import Mathlib.Data.Rat.Floor
+ import Mathlib.Algebra.Order.Archimedean.Basic
+ import Mathlib.Data.Nat.Find
+ import Mathlib.Tactic.FieldSimp
+ import Mathlib.Tactic.LinearCombination
+-import GroupApproximation.GroupTheory.HigmanThompson.Generators
+-import GroupApproximation.Meta.AxiomGuard
++import Kourovka.External.GroupApproximation.GroupTheory.HigmanThompson.Generators
++import Kourovka.External.GroupApproximation.Meta.AxiomGuard
+ 
+ /-!
+ # Brown's conjugacy from the half line onto a bounded interval
+--- upstream/GroupApproximation/GroupTheory/HigmanThompson/CompactRangeA.lean
++++ Kourovka/External/GroupApproximation/GroupTheory/HigmanThompson/CompactRangeA.lean
+@@ -1,5 +1,9 @@
+-import GroupApproximation.GroupTheory.HigmanThompson.CompactTrunc
+-import GroupApproximation.Meta.AxiomGuard
++/- Local adaptation for Kourovka 21.38: import paths relocated; Lean 4.34
++compatibility changes are recorded in the adjacent README and provenance.
++Original copyright and license remain with the upstream contributors. -/
++
++import Kourovka.External.GroupApproximation.GroupTheory.HigmanThompson.CompactTrunc
++import Kourovka.External.GroupApproximation.Meta.AxiomGuard
+ 
+ /-!
+ # `F_{n,∞}` conjugates into `F_{n,r}`
+@@ -31,7 +35,7 @@
+   induction w using PresentedGroup.induction_on with
+   | H z =>
+     induction z using FreeGroup.induction_on with
+-    | C1 => exact ⟨0, 0, fun t _ => by simp⟩
++    | one => exact ⟨0, 0, fun t _ => by simp⟩
+     | of x =>
+         refine ⟨x.val + 1, 1, fun t ht => ?_⟩
+         rw [brownX_of_fin, brownEval_X, xg_apply, xfun_of_ge (by push_cast at ht; linarith)]
+@@ -212,14 +216,14 @@
+   have hF₂A : GridAffine (m + 2) (powSlopes m) F₂ 0 (k.natAbs + k.natAbs) := by
+     refine GridAffine.glue hB hId (p := (r : ℚ)) (by simpa using int_mem_grid (m := m + 2) 0 (r : ℤ))
+       (fun t ht => ?_) (fun t ht => ?_)
+-    · simp only [hF₂, if_pos ht]
++    · simp only [hF₂, ite_eq_left ht]
+     · by_cases h : t ≤ r
+       · have htr : t = r := le_antisymm h ht
+         subst htr
+         show (if (r : ℚ) ≤ r then s * r + (r : ℚ) * (1 - s) else (r : ℚ)) = (r : ℚ)
+-        rw [if_pos le_rfl]
+-        ring
+-      · simp only [hF₂, if_neg h, id]
++        rw [ite_eq_left le_rfl]
++        ring
++      · simp only [hF₂, ite_eq_right h, id]
+   -- common level
+   set L : ℕ := NA + ((T + k.natAbs * (m + 1)) / (m + 1) + 1) with hL
+   have hNAL : NA ≤ L := by
+@@ -245,7 +249,7 @@
+       have : (0 : ℚ) ≤ (k.natAbs : ℚ) * ((m : ℚ) + 1) := by positivity
+       linarith
+     have hinvT : compEinvT m r (T + k.natAbs * (m + 1) + k.natAbs * (m + 1)) t = compEinv m r t := by
+-      simp only [compEinvT, if_pos (le_trans ht hJle)]
++      simp only [compEinvT, ite_eq_left (le_trans ht hJle)]
+     have hu : compEinv m r t ≤ (r : ℚ) - 1 + ((T + k.natAbs * (m + 1) : ℕ) : ℚ) := by
+       by_contra h
+       have h' := compE_strictMono m r (not_le.mp h)
+@@ -272,7 +276,7 @@
+   · -- at and beyond the germ
+     by_cases htr : t < r
+     · rw [compConj_near m r hr hT ht htr]
+-      simp only [hF₂, if_pos htr.le]
++      simp only [hF₂, ite_eq_left htr.le]
+       ring
+     · have htr' : (r : ℚ) ≤ t := not_lt.mp htr
+       rw [compConjHom_apply, compConjFun_of_ge m r g htr']
+@@ -280,9 +284,9 @@
+       · have ht' : t = r := le_antisymm h htr'
+         subst ht'
+         show (r : ℚ) = (if (r : ℚ) ≤ r then s * r + (r : ℚ) * (1 - s) else (r : ℚ))
+-        rw [if_pos le_rfl]
+-        ring
+-      · simp only [hF₂, if_neg h]
++        rw [ite_eq_left le_rfl]
++        ring
++      · simp only [hF₂, ite_eq_right h]
+ 
+ /-- **Conjugates of `F_{n,∞}` lie in `F_{n,r}`.** -/
+ theorem compConj_mem_compactF (hr : 1 ≤ r) {g : Equiv.Perm ℚ} (hg : g ∈ geoF m) :
+--- upstream/GroupApproximation/GroupTheory/HigmanThompson/CompactRangeB.lean
++++ Kourovka/External/GroupApproximation/GroupTheory/HigmanThompson/CompactRangeB.lean
+@@ -1,5 +1,9 @@
+-import GroupApproximation.GroupTheory.HigmanThompson.CompactRangeA
+-import GroupApproximation.Meta.AxiomGuard
++/- Local adaptation for Kourovka 21.38: import paths relocated; Lean 4.34
++compatibility changes are recorded in the adjacent README and provenance.
++Original copyright and license remain with the upstream contributors. -/
++
++import Kourovka.External.GroupApproximation.GroupTheory.HigmanThompson.CompactRangeA
++import Kourovka.External.GroupApproximation.Meta.AxiomGuard
+ 
+ /-!
+ # Brown's isomorphism `F_{n,r} ≅ F_{n,∞}`
+@@ -158,7 +162,7 @@
+       rwa [hfix _ le_rfl] at h2
+     show compEinv m r (h (compE m r u)) = compEinvT m r J (h (compET m r J u))
+     rw [compET_of_le m r hu]
+-    simp only [compEinvT, if_pos hle]
++    simp only [compEinvT, ite_eq_left hle]
+   · show compEinv m r (h (compE m r u)) = u
+     rw [hfix _ ((compE_strictMono m r).monotone hu), compEinv_compE]
+ 
+@@ -262,7 +266,7 @@
+ 
+ /-- **`F_{n,r}` is finitely presented.** -/
+ theorem compactF_isFinitelyPresented (hr : 1 ≤ r) : Group.IsFinitelyPresented (compactF m r) := by
+-  haveI := geoF_isFinitelyPresented m
++  have := geoF_isFinitelyPresented m
+   exact Group.IsFinitelyPresented.equiv (geoFEquivCompactF m r hr)
+ 
+ #audit_axioms GroupApproximation.HigmanThompson.map_compConj_eq
+--- upstream/GroupApproximation/GroupTheory/HigmanThompson/CompactTrunc.lean
++++ Kourovka/External/GroupApproximation/GroupTheory/HigmanThompson/CompactTrunc.lean
+@@ -1,5 +1,9 @@
+-import GroupApproximation.GroupTheory.HigmanThompson.CompactConj
+-import GroupApproximation.Meta.AxiomGuard
++/- Local adaptation for Kourovka 21.38: import paths relocated; Lean 4.34
++compatibility changes are recorded in the adjacent README and provenance.
++Original copyright and license remain with the upstream contributors. -/
++
++import Kourovka.External.GroupApproximation.GroupTheory.HigmanThompson.CompactConj
++import Kourovka.External.GroupApproximation.Meta.AxiomGuard
+ 
+ /-!
+ # Finite truncations of Brown's conjugacy
+@@ -128,19 +132,19 @@
+   rcases le_or_gt u ((r : ℚ) - 1 + J) with h | h
+   · rw [compET_of_le m r h]
+     have hle : compE m r u ≤ compE m r ((r : ℚ) - 1 + J) := (compE_strictMono m r).monotone h
+-    simp only [compEinvT, if_pos hle]
++    simp only [compEinvT, ite_eq_left hle]
+     exact compEinv_compE m r u
+   · rw [compET_of_ge m r h.le]
+     have hgt : ¬ (compE m r ((r : ℚ) - 1 + J) + (u - ((r : ℚ) - 1 + J)) ≤
+         compE m r ((r : ℚ) - 1 + J)) := by
+       intro hc
+       linarith
+-    simp only [compEinvT, if_neg hgt]
++    simp only [compEinvT, ite_eq_right hgt]
+     ring
+ 
+ theorem compET_compEinvT (J : ℕ) (t : ℚ) : compET m r J (compEinvT m r J t) = t := by
+   rcases le_or_gt t (compE m r ((r : ℚ) - 1 + J)) with h | h
+-  · simp only [compEinvT, if_pos h]
++  · simp only [compEinvT, ite_eq_left h]
+     have ht : t < r := lt_of_le_of_lt h (compE_lt m r _)
+     have hle : compEinv m r t ≤ (r : ℚ) - 1 + J := by
+       by_contra hc
+@@ -148,7 +152,7 @@
+       rw [compE_compEinv m r ht] at hc'
+       linarith
+     rw [compET_of_le m r hle, compE_compEinv m r ht]
+-  · simp only [compEinvT, if_neg (not_le.mpr h)]
++  · simp only [compEinvT, ite_eq_right (not_le.mpr h)]
+     rw [compET_of_ge m r (by linarith)]
+     ring
+ 
+--- upstream/GroupApproximation/GroupTheory/HigmanThompson/Generators.lean
++++ Kourovka/External/GroupApproximation/GroupTheory/HigmanThompson/Generators.lean
+@@ -1,10 +1,14 @@
++/- Local adaptation for Kourovka 21.38: import paths relocated; Lean 4.34
++compatibility changes are recorded in the adjacent README and provenance.
++Original copyright and license remain with the upstream contributors. -/
++
+ import Mathlib.Algebra.Order.Field.Basic
+ import Mathlib.GroupTheory.Perm.Basic
+ import Mathlib.Tactic.Linarith
+ import Mathlib.Tactic.FieldSimp
+ import Mathlib.Tactic.Positivity
+ import Mathlib.Tactic.Ring
+-import GroupApproximation.Meta.AxiomGuard
++import Kourovka.External.GroupApproximation.Meta.AxiomGuard
+ 
+ /-!
+ # The generators of Brown's `F_{n,∞}`
+--- upstream/GroupApproximation/GroupTheory/HigmanThompson/GeometricF.lean
++++ Kourovka/External/GroupApproximation/GroupTheory/HigmanThompson/GeometricF.lean
+@@ -1,7 +1,11 @@
++/- Local adaptation for Kourovka 21.38: import paths relocated; Lean 4.34
++compatibility changes are recorded in the adjacent README and provenance.
++Original copyright and license remain with the upstream contributors. -/
++
+ import Mathlib.Tactic.LinearCombination
+-import GroupApproximation.GroupTheory.HigmanThompson.GridAffine
+-import GroupApproximation.GroupTheory.HigmanThompson.UniformWords
+-import GroupApproximation.Meta.AxiomGuard
++import Kourovka.External.GroupApproximation.GroupTheory.HigmanThompson.GridAffine
++import Kourovka.External.GroupApproximation.GroupTheory.HigmanThompson.UniformWords
++import Kourovka.External.GroupApproximation.Meta.AxiomGuard
+ 
+ /-!
+ # Geometric `F_{n,∞}` is generated by the `x_k`
+@@ -217,7 +221,7 @@
+   induction g using PresentedGroup.induction_on with
+   | H w =>
+     induction w using FreeGroup.induction_on with
+-    | C1 => simp
++    | one => simp
+     | of x =>
+         rw [brownX_of_fin, brownEval_X]
+         exact xg_mem_geoF m x.val
+--- upstream/GroupApproximation/GroupTheory/HigmanThompson/GridAffine.lean
++++ Kourovka/External/GroupApproximation/GroupTheory/HigmanThompson/GridAffine.lean
+@@ -1,3 +1,7 @@
++/- Local adaptation for Kourovka 21.38: import paths relocated; Lean 4.34
++compatibility changes are recorded in the adjacent README and provenance.
++Original copyright and license remain with the upstream contributors. -/
++
+ import Mathlib.Algebra.Order.Floor.Ring
+ import Mathlib.Algebra.Order.Field.Basic
+ import Mathlib.Data.Rat.Floor
+@@ -6,7 +10,7 @@
+ import Mathlib.GroupTheory.Perm.Basic
+ import Mathlib.Tactic.Linarith
+ import Mathlib.Tactic.Ring
+-import GroupApproximation.Meta.AxiomGuard
++import Kourovka.External.GroupApproximation.Meta.AxiomGuard
+ 
+ /-!
+ # Grid-affine bijections of `ℚ`
+--- upstream/GroupApproximation/GroupTheory/HigmanThompson/PLMoves.lean
++++ Kourovka/External/GroupApproximation/GroupTheory/HigmanThompson/PLMoves.lean
+@@ -1,7 +1,11 @@
++/- Local adaptation for Kourovka 21.38: import paths relocated; Lean 4.34
++compatibility changes are recorded in the adjacent README and provenance.
++Original copyright and license remain with the upstream contributors. -/
++
+ import Mathlib.Algebra.Order.Archimedean.Basic
+ import Mathlib.Tactic.LinearCombination
+-import GroupApproximation.GroupTheory.HigmanThompson.GeometricF
+-import GroupApproximation.Meta.AxiomGuard
++import Kourovka.External.GroupApproximation.GroupTheory.HigmanThompson.GeometricF
++import Kourovka.External.GroupApproximation.Meta.AxiomGuard
+ 
+ /-!
+ # Moves in the Higman–Thompson groups
+--- upstream/GroupApproximation/GroupTheory/HigmanThompson/ResidueInvariance.lean
++++ Kourovka/External/GroupApproximation/GroupTheory/HigmanThompson/ResidueInvariance.lean
+@@ -1,6 +1,10 @@
++/- Local adaptation for Kourovka 21.38: import paths relocated; Lean 4.34
++compatibility changes are recorded in the adjacent README and provenance.
++Original copyright and license remain with the upstream contributors. -/
++
+ import Mathlib.Algebra.Ring.GeomSum
+-import GroupApproximation.GroupTheory.HigmanThompson.PLMoves
+-import GroupApproximation.Meta.AxiomGuard
++import Kourovka.External.GroupApproximation.GroupTheory.HigmanThompson.PLMoves
++import Kourovka.External.GroupApproximation.Meta.AxiomGuard
+ 
+ /-!
+ # The residue invariant of `F_n`
+--- upstream/GroupApproximation/GroupTheory/HigmanThompson/UniformWords.lean
++++ Kourovka/External/GroupApproximation/GroupTheory/HigmanThompson/UniformWords.lean
+@@ -1,5 +1,9 @@
+-import GroupApproximation.GroupTheory.HigmanThompson.BrownPresentation
+-import GroupApproximation.Meta.AxiomGuard
++/- Local adaptation for Kourovka 21.38: import paths relocated; Lean 4.34
++compatibility changes are recorded in the adjacent README and provenance.
++Original copyright and license remain with the upstream contributors. -/
++
++import Kourovka.External.GroupApproximation.GroupTheory.HigmanThompson.BrownPresentation
++import Kourovka.External.GroupApproximation.Meta.AxiomGuard
+ 
+ /-!
+ # Uniform subdivisions as positive words
+--- upstream/GroupApproximation/GroupTheory/HydeLodha/HigmanEpstein.lean
++++ Kourovka/External/GroupApproximation/GroupTheory/HydeLodha/HigmanEpstein.lean
+@@ -1,3 +1,7 @@
++/- Local adaptation for Kourovka 21.38: import paths relocated; Lean 4.34
++compatibility changes are recorded in the adjacent README and provenance.
++Original copyright and license remain with the upstream contributors. -/
++
+ import Mathlib.GroupTheory.Commutator.Basic
+ import Mathlib.GroupTheory.Subgroup.Simple
+ import Mathlib.Algebra.Group.End
+@@ -5,7 +9,7 @@
+ import Mathlib.Algebra.Group.Subgroup.Map
+ import Mathlib.Data.Set.Disjoint
+ import Mathlib.Tactic.Group
+-import GroupApproximation.Meta.AxiomGuard
++import Kourovka.External.GroupApproximation.Meta.AxiomGuard
+ 
+ /-!
+ # Higman–Epstein commutator arguments
+--- upstream/GroupApproximation/Meta/AxiomGuard.lean
++++ Kourovka/External/GroupApproximation/Meta/AxiomGuard.lean
+@@ -1,3 +1,7 @@
++/- Local adaptation for Kourovka 21.38: import paths relocated; Lean 4.34
++compatibility changes are recorded in the adjacent README and provenance.
++Original copyright and license remain with the upstream contributors. -/
++
+ /-
+ The design of this command is borrowed, with thanks, from two Apache 2.0
+ projects registered in the Palomar registry:

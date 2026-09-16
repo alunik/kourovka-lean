@@ -45,8 +45,8 @@ from rational linearity and the finite-orbit condition. The classification
 within nilpotent groups remains substantial: de Melo and Kato show that
 `UT_6(ℚ)` has infinitely many automorphism orbits.
 
-The mathematical argument was developed in Aluna Rizzoli's research project
-with substantial Codex assistance. The Lean proof uses an efficient variant
+The solution, quantitative strengthening, number-field extension and Lean
+formalization are by **Nilradical v0**. The Lean proof uses an efficient variant
 of the written argument: a cyclotomic fixed-vector lemma gives uniqueness
 of large prime roots; an ascending chain of finite-dimensional algebras
 stabilizes, allowing the spectral root equations to be transferred to a
@@ -109,6 +109,12 @@ See the [proof roadmap](Proof/README.md) for the module structure.
 
 ## Verification
 
+The Nilradical v0 strict check passed on 16 September 2026 for 6
+selected endpoints: fresh compilation, independently reviewed statement
+comparison, the three-axiom policy, and Lean plus Nanoda proof replay.
+See the [verification evidence](../../../docs/nilradical-v0-verification/README.md)
+and [statement review](../../../docs/nilradical-v0-verification/statement-audits/21.40.md).
+
 From the repository root:
 
 ```sh
@@ -147,6 +153,8 @@ external finite-check assumptions.
   LionSR/QICLean. The unitriangular commutator filtration is adapted from
   the Tau Ceti contributors' work. Their
   [exact provenance and Apache license](Proof/THIRD_PARTY.md) are retained.
-- [Repository credits](../../../AUTHORS.md) describe material Codex
-  involvement in discovery, research, independent reviews, formalization,
+- [Repository credits](../../../AUTHORS.md) record Nilradical v0 contributions in discovery, research, independent reviews, formalization,
   integration, and verification.
+
+Cite **Nilradical v0**, this problem number and the exact source commit.
+Machine-readable citation: [CITATION.cff](CITATION.cff).

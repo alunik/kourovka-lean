@@ -1,0 +1,28 @@
+import Kourovka.Problems.P21_68.Statement
+import Kourovka.Problems.P21_68.Proof.InertiaRep
+
+/- Independently reviewed subgroup-chain and ordinary complex induction
+definitions, concrete finite semidirect product G, and inertia representation.
+The witness definition below is frozen, not an arbitrary nonmonomial interface.
+-/
+open CategoryTheory
+namespace Kourovka.P21_68
+
+noncomputable def witnessRepresentation : FDRep ℂ G := TauCeti.indFDRep inertiaRep
+
+instance simple_witnessRepresentation : Simple witnessRepresentation := by
+  sorry
+
+theorem finrank_witnessRepresentation : Module.finrank ℂ witnessRepresentation = 8 := by
+  sorry
+
+theorem witness_not_monomial : ¬ IsMonomialRepresentation witnessRepresentation := by
+  sorry
+
+theorem G_not_monomial : ¬ IsMonomial G := by
+  sorry
+
+theorem not_notebookStatement : ¬ NotebookStatement := by
+  sorry
+
+end Kourovka.P21_68

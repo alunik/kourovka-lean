@@ -1,0 +1,29 @@
+import Kourovka.Problems.P21_44.Statement
+import Kourovka.Problems.P21_44.Proof.Density
+import Kourovka.Problems.P21_44.Proof.GeneratedGeometry
+import Kourovka.Problems.P21_44.Proof.Shortening
+
+/- Independent semantic review: full natural degree-five alternating wreath
+inverse limit and inherited product topology, the same two actual generators,
+finite symmetric exhaustive word balls, actual sections, qualitative log-growth
+limit. Reviewed semantic definitions are frozen; no explicit-rate claim is made.
+-/
+namespace Kourovka.P21_44
+
+theorem generated_section_shortening (w : Word) (hw : Alternating w) :
+    (∑ i : Alphabet,
+      (wordGeometry.length (generatedSection (evalWord generatedA generatedB w) i) : ℝ)) +
+        (variation w : ℝ) / 10 ≤ (w.length : ℝ) + 1 := by
+  sorry
+
+theorem subexponential_growth :
+    RecurrentSections.SubexponentialGrowth wordGeometry.volume := by
+  sorry
+
+theorem generatedSubgroup_fg : generatedSubgroup.FG := by
+  sorry
+
+theorem notebookStatement : NotebookStatement := by
+  sorry
+
+end Kourovka.P21_44

@@ -1,0 +1,84 @@
+{
+  "problem": "21.68",
+  "decision": "PASS",
+  "review_type": "AGENT_SEMANTIC_REVIEW",
+  "human_decision": "PENDING",
+  "reviewed_at": "2026-09-16T09:55:59.865023+00:00",
+  "source": {
+    "path": "/HOST/notebook/kourovka_21_3/tmp/pdfs/kourovka_notebook_v46.pdf",
+    "sha256": "498c2443bcee6ca398430935c87c97b6f99d0b1a6e5cb8f637d188a1827115da",
+    "text_path": "sources/kourovka-v46.txt",
+    "text_sha256": "ff3f8d3fda603989d10f8416f369b77a72303132cc19271fdffd9d3cb0e61a4c",
+    "text_lines": [
+      8436,
+      8441
+    ],
+    "physical_pdf_page": 177,
+    "printed_page": 177,
+    "url": "https://arxiv.org/abs/1401.0300v46"
+  },
+  "original_question": "Kida conjectures that finite semiabelian groups are monomial. The Notebook defines semiabelianity by an actual increasing subgroup chain, each next group being an abstract quotient of an abelian semidirect product with its predecessor. Kida, On semiabelian groups, Definition 2.1 additionally explicitly calls the auxiliary abelian groups finite.",
+  "reviewed_claim": "The concrete group G of order 2592 has a semiabelian subgroup chain and a nonzero irreducible complex representation of dimension 8 which is not isomorphic to the induction of any linear character of any subgroup. Hence the universal finite-group assertion fails.",
+  "checks": [
+    "NotebookStatement quantifies over groups with an explicit Finite instance; no cardinality bound or solvability premise is added. IsSemiabelian uses subgroups of that actual G, starts at bottom, ends at top, and requires monotonicity. Each step supplies a surjective homomorphism from A semidirect the preceding subgroup, exactly the abstract-quotient condition.",
+    "IsSemiabelianStep does not demand that A be finite, matching the literal Notebook. This difference from Kida Definition 2.1 does not undermine this counterexample: its chain is built from the explicitly finite factors C3, V4, E, and A by injective semidirect inclusions. For a finite target the general definition can also be reduced to a finite abelian factor using the image of A; that equivalence is explanatory here, not an extra formalized endpoint.",
+    "The constructed G is the ternary augmentation kernel A semidirect W; A has order 27 and W order 96. The finite instances come from concrete finite semidirect-product carriers. card_G proves 2592, and G_semiabelian repeatedly constructs actual subgroup chains rather than assuming a closure-class interface.",
+    "Monomiality is expressed using finite-dimensional complex representations, Simple, subgroup linear characters theta : L ->* C units, and a categorical isomorphism to induction. The linear-character action was inspected: it is scalar multiplication on the one-dimensional field carrier. TauCeti.indFDRep is a finite-dimensional shrink of Mathlib Rep.ind with an explicit equivariant comparison, not a dummy induction operator.",
+    "The external FDRep.simple_iff_isIrreducible bridge identifies categorical simplicity with the ordinary nonzero invariant-subspace notion. The concrete witness is the induction of inertiaRep, which inflates a two-dimensional quaternion representation and twists by the extended coordinate character.",
+    "The Solution proves simplicity and dimension eight for that same witness. Its nonmonomial obstruction is universal over all inducing subgroups and all linear characters. The degree/index argument uses the actual finite normal subgroup of order 27, exact inertia, and the proved absence of index-two subgroups in the quaternion complement.",
+    "No minimality claim, catalogue group identification, character-table oracle, or external finite-check premise is part of the final theorem. Finite algebraic calculations are proof terms subject to the separate strict replay."
+  ],
+  "scope_boundary": "The smallest possible counterexample is not established. The complement/subgroup input has prior provenance. This report checks semantic correctness; credit and novelty are separately reviewed. The finite-factor distinction in the source is explicitly disclosed above.",
+  "endpoints": [
+    "Kourovka.P21_68.simple_witnessRepresentation",
+    "Kourovka.P21_68.finrank_witnessRepresentation",
+    "Kourovka.P21_68.witness_not_monomial",
+    "Kourovka.P21_68.G_not_monomial",
+    "Kourovka.P21_68.not_notebookStatement",
+    "Kourovka.P21_68.G_semiabelian",
+    "Kourovka.P21_68.card_G"
+  ],
+  "trusted_challenge": "trusted-challenges/P21_68.lean",
+  "challenge_sha256": "0243e8352197c563d279d3065b719ec9b70202be05a2a1fb4c9b7a6d98e0c51b",
+  "reviewed_source_hashes": {
+    "Kourovka/Problems/P21_68/Statement.lean": "d5f57c80029979526b29fd0741292d58f4607441a3164d6121f08e5d8325bb7a",
+    "Kourovka/Problems/P21_68/Solution.lean": "cdf9999e021f795ae1f3f8aa54ab8996ad2e7b146adc9696105736e234042170",
+    "Kourovka/Problems/P21_68/Proof/Semiabelian.lean": "c570b3e717b21d74d15b436a5070b40cc8ec6138b751303260d7a1b80b121b76",
+    "Kourovka/Problems/P21_68/Proof/Groups.lean": "f01a29238e5e03846e4df969d8fc45d63a5f0603d0371a7206f7fd98f207eb60",
+    "Kourovka/Problems/P21_68/Proof/AbelianKernel.lean": "fae8ff59f594b023b9eb1a5ccd5f32b01c0a3b6d8cae1f40b4fc8f4ded614d43",
+    "Kourovka/Problems/P21_68/Proof/InertiaRep.lean": "ed8cc99aa0feba494562d8d7d861b355a69c1061d02daaefbade9fb3b8bceb04",
+    "Kourovka/Problems/P21_68/Proof/NonmonomialInduction.lean": "9c8586b5a59270ae487b3c373666c690cb6676490a67514af76bae0cfe507c80",
+    "Kourovka/External/TauCeti/RepresentationTheory/Induction/FiniteDimensional.lean": "7d68283c10eed498a400767dbee3fcf4f014fcec4f730696c714dac3733e907e",
+    "Kourovka/External/TauCeti/RepresentationTheory/LinearCharacter.lean": "4fe18aaa90f82d45b4d68ff8a4d9c4b311a6b11bac0b1bc75777c67fb5dddd3c",
+    "Kourovka/External/TauCeti/RepresentationTheory/Simple/Basic.lean": "878e2f942492bf580754e4e06cd45a9203b214fa030247d72e01ff7eada8ac6c"
+  },
+  "problem_lean_inventory": {
+    "Kourovka/Problems/P21_68/Audit.lean": "eda3bbec296c87c3b02853d272e4cfdf43bf8ba8e824522bd1c8e9eb848e94f1",
+    "Kourovka/Problems/P21_68/Proof/AbelianKernel.lean": "fae8ff59f594b023b9eb1a5ccd5f32b01c0a3b6d8cae1f40b4fc8f4ded614d43",
+    "Kourovka/Problems/P21_68/Proof/ConjugateInertia.lean": "75a4fab224516c78a5d86f5d1cf4c83943a49d9ea2479f439c05a427d2cdc8a3",
+    "Kourovka/Problems/P21_68/Proof/Groups.lean": "f01a29238e5e03846e4df969d8fc45d63a5f0603d0371a7206f7fd98f207eb60",
+    "Kourovka/Problems/P21_68/Proof/InertiaRep.lean": "ed8cc99aa0feba494562d8d7d861b355a69c1061d02daaefbade9fb3b8bceb04",
+    "Kourovka/Problems/P21_68/Proof/NonmonomialInduction.lean": "9c8586b5a59270ae487b3c373666c690cb6676490a67514af76bae0cfe507c80",
+    "Kourovka/Problems/P21_68/Proof/Obstruction/InducedCoordinates.lean": "ec120cb26c21dc68b2f0b19d103dd8525d9d0f1b267b0af30a4d978f7c9acb6d",
+    "Kourovka/Problems/P21_68/Proof/Obstruction/LinearInduction.lean": "3ebcad67380a00cb7f9f19c3afcf6eb8942f491bfa90142f06b09c5527c52cda",
+    "Kourovka/Problems/P21_68/Proof/Obstruction.lean": "fe60dfa75807198711300b94dee3ebe5b99a4f1a91fc8e74c87ae4c00fec0abd",
+    "Kourovka/Problems/P21_68/Proof/QuaternionRep/Matrices.lean": "e306ad43ae5f96143121e57059092e3c4190ffef43108e2a91e66ffe5c82022a",
+    "Kourovka/Problems/P21_68/Proof/QuaternionRep.lean": "23c859bbe2bc2e0c036a1c2c2baeeb06b0723042bbca49bf0c018621234b0b68",
+    "Kourovka/Problems/P21_68/Proof/ScalarInduction.lean": "4647a7aed05f8e6ef570d3e736e30b7172f2e06328e1b18fbd599df9475b0e5a",
+    "Kourovka/Problems/P21_68/Proof/Semiabelian.lean": "c570b3e717b21d74d15b436a5070b40cc8ec6138b751303260d7a1b80b121b76",
+    "Kourovka/Problems/P21_68/Solution.lean": "cdf9999e021f795ae1f3f8aa54ab8996ad2e7b146adc9696105736e234042170",
+    "Kourovka/Problems/P21_68/Statement.lean": "d5f57c80029979526b29fd0741292d58f4607441a3164d6121f08e5d8325bb7a"
+  },
+  "prior_audit": {
+    "path": "docs/21.68-verification.md",
+    "sha256": "e138a5d66663c9a658433f3a99cec545fab9c74583c14f645bb5efcdf4dd17b5"
+  },
+  "source_comparison": "MATCHES_SCOPED_CLAIM",
+  "site_scope_comparison": "MATCHES_SCOPED_CLAIM",
+  "limitations": [
+    "Not human approval",
+    "Not a fresh kernel build receipt",
+    "Not a full independent paper-level mathematical referee report",
+    "No novelty or priority adjudication"
+  ]
+}

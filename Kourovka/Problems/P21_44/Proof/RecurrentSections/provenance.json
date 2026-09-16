@@ -1,0 +1,22 @@
+{
+  "repository": "https://github.com/kslutsky/recurrent-sections-lean",
+  "revision": "2b68f638c3af39a18a0630fa4977bb749d97a14a",
+  "license": "Apache-2.0",
+  "source_toolchain": "leanprover/lean4:v4.33.0-rc2",
+  "local_toolchain": "leanprover/lean4:v4.34.0-rc2",
+  "modification": "Relocated one import and added a modification notice. Definitions and proofs unchanged.",
+  "files": [
+    {
+      "upstream_path": "RecurrentSections/WordGeometry.lean",
+      "local_path": "Kourovka/Problems/P21_44/Proof/RecurrentSections/WordGeometry.lean",
+      "upstream_sha256": "804d73088712ac84d1fa0d727cf74cf842bdd5b090ec25b262e411866129af48",
+      "local_sha256": "804d73088712ac84d1fa0d727cf74cf842bdd5b090ec25b262e411866129af48"
+    },
+    {
+      "upstream_path": "RecurrentSections/ExponentialGrowth.lean",
+      "local_path": "Kourovka/Problems/P21_44/Proof/RecurrentSections/ExponentialGrowth.lean",
+      "upstream_sha256": "bb70412d620c30a55e182a4fc4fcb27748dbe4371e517ac15250bf975f910720",
+      "local_sha256": "a09f4cd7082ac1a640ff1faaf50fb01a39992c3b551bcd280a119a5449d4603a"
+    }
+  ]
+}

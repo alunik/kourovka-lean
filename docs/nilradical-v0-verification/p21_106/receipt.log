@@ -1,0 +1,20 @@
+Building NilradicalFrozenChallenge
+✔ [1226/1231] Built Kourovka.Problems.P21_106.Statement (5.3s)
+✔ [1227/1231] Built Kourovka.Problems.P21_106.Proof.Heisenberg (5.5s)
+✔ [1228/1231] Built Kourovka.Problems.P21_106.Proof.Formula (4.1s)
+✔ [1229/1231] Built Kourovka.Problems.P21_106.Proof.Counterexample (1.5s)
+⚠ [1230/1231] Built NilradicalFrozenChallenge (1.3s)
+warning: NilradicalFrozenChallenge.lean:12:8: declaration uses `sorry`
+warning: NilradicalFrozenChallenge.lean:16:8: declaration uses `sorry`
+warning: NilradicalFrozenChallenge.lean:19:8: declaration uses `sorry`
+Build completed successfully (1231 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Kourovka.P21_106.counterexample_values, Kourovka.P21_106.counterexample_not_concise, Kourovka.P21_106.not_notebookStatement, Kourovka.P21_106.realize_counterexampleFormula, Kourovka.P21_106.formulaCondition_iff, Kourovka.P21_106.formulaCondition_closure_infinite, Kourovka.P21_106.central_injective, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from NilradicalFrozenChallenge
+Building Kourovka.Problems.P21_106.Solution
+✔ [1230/1230] Built Kourovka.Problems.P21_106.Solution (1.3s)
+Build completed successfully (1230 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Kourovka.P21_106.counterexample_values, Kourovka.P21_106.counterexample_not_concise, Kourovka.P21_106.not_notebookStatement, Kourovka.P21_106.realize_counterexampleFormula, Kourovka.P21_106.formulaCondition_iff, Kourovka.P21_106.formulaCondition_closure_infinite, Kourovka.P21_106.central_injective, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from Kourovka.Problems.P21_106.Solution
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!

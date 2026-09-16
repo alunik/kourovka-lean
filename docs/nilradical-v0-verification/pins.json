@@ -1,0 +1,9 @@
+{
+  "lean_toolchain": "leanprover/lean4:v4.34.0-rc2",
+  "lean_commit": "6a10ac8c22beadecabdbb0919c2b50214762f91d",
+  "comparator": {"url": "https://github.com/leanprover/comparator.git", "rev": "2312244ac716564a61cc0bf4e107d9abf1757a61"},
+  "lean4export": {"url": "https://github.com/leanprover/lean4export.git", "rev": "cacf989bd75f608700820f6afc595f32e7a99a4d"},
+  "nanoda": {"url": "https://github.com/ammkrn/nanoda_lib.git", "rev": "4c544ed4099c8227f07d5de77ad1e69fb0740a27"},
+  "rust_pilot": "1.98.1",
+  "profile": "macos-seatbelt-comparator-nanoda-v1"
+}

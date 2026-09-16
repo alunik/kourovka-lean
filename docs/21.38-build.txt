@@ -1,0 +1,185 @@
+✔ [785/787] Built Kourovka.Problems.P21_38.Proof.Spread (1.0s)
+✔ [786/857] Built Kourovka.Problems.P21_38.Statement (1.2s)
+✔ [977/1025] Built Kourovka.Problems.P21_38.Proof.BinaryBranches (1.7s)
+✔ [1023/1025] Built Kourovka.External.GroupApproximation.Meta.AxiomGuard (486ms)
+ℹ [1024/1083] Built Kourovka.External.GroupApproximation.GroupTheory.HigmanThompson.GridAffine (5.8s)
+info: Kourovka/External/GroupApproximation/GroupTheory/HigmanThompson/GridAffine.lean:484:14: 'GroupApproximation.HigmanThompson.GridAffine.comp' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kourovka/External/GroupApproximation/GroupTheory/HigmanThompson/GridAffine.lean:485:14: 'GroupApproximation.HigmanThompson.GridAffine.mapsGrid' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kourovka/External/GroupApproximation/GroupTheory/HigmanThompson/GridAffine.lean:486:14: 'GroupApproximation.HigmanThompson.mem_PLGroup' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1404/1411] Built Kourovka.External.GroupApproximation.GroupTheory.HigmanThompson.Generators (2.3s)
+info: Kourovka/External/GroupApproximation/GroupTheory/HigmanThompson/Generators.lean:167:14: 'GroupApproximation.HigmanThompson.xg_comm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kourovka/External/GroupApproximation/GroupTheory/HigmanThompson/Generators.lean:168:14: 'GroupApproximation.HigmanThompson.le_xg' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1405/1416] Built Kourovka.External.GroupApproximation.GroupTheory.HigmanThompson.BrownPresentation (3.1s)
+info: Kourovka/External/GroupApproximation/GroupTheory/HigmanThompson/BrownPresentation.lean:422:14: 'GroupApproximation.HigmanThompson.brownEval_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kourovka/External/GroupApproximation/GroupTheory/HigmanThompson/BrownPresentation.lean:423:14: 'GroupApproximation.HigmanThompson.brownF_isFinitelyPresented' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [1406/1416] Built Kourovka.External.GroupApproximation.GroupTheory.HigmanThompson.UniformWords (2.3s)
+info: Kourovka/External/GroupApproximation/GroupTheory/HigmanThompson/UniformWords.lean:198:14: 'GroupApproximation.HigmanThompson.wword_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1408/1422] Built Kourovka.External.GroupApproximation.GroupTheory.HigmanThompson.GeometricF (2.9s)
+info: Kourovka/External/GroupApproximation/GroupTheory/HigmanThompson/GeometricF.lean:541:14: 'GroupApproximation.HigmanThompson.geoF_eq_brownF' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kourovka/External/GroupApproximation/GroupTheory/HigmanThompson/GeometricF.lean:542:14: 'GroupApproximation.HigmanThompson.geoF_isFinitelyPresented' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1410/1422] Built Kourovka.External.GroupApproximation.GroupTheory.HigmanThompson.PLMoves (2.4s)
+info: Kourovka/External/GroupApproximation/GroupTheory/HigmanThompson/PLMoves.lean:539:14: 'GroupApproximation.HigmanThompson.exists_move' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kourovka/External/GroupApproximation/GroupTheory/HigmanThompson/PLMoves.lean:540:14: 'GroupApproximation.HigmanThompson.germLeft_near' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kourovka/External/GroupApproximation/GroupTheory/HigmanThompson/PLMoves.lean:541:14: 'GroupApproximation.HigmanThompson.germRight_near' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1412/1425] Built Kourovka.External.GroupApproximation.GroupTheory.HigmanThompson.CompactE (2.3s)
+info: Kourovka/External/GroupApproximation/GroupTheory/HigmanThompson/CompactE.lean:270:14: 'GroupApproximation.HigmanThompson.compE_strictMono' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kourovka/External/GroupApproximation/GroupTheory/HigmanThompson/CompactE.lean:271:14: 'GroupApproximation.HigmanThompson.compE_add_nat_q' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1413/1425] Built Kourovka.External.GroupApproximation.GroupTheory.HydeLodha.HigmanEpstein (1.7s)
+info: Kourovka/External/GroupApproximation/GroupTheory/HydeLodha/HigmanEpstein.lean:370:14: 'GroupApproximation.HydeLodha.commutator_le_of_normal_commutator' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: Kourovka/External/GroupApproximation/GroupTheory/HydeLodha/HigmanEpstein.lean:371:14: 'GroupApproximation.HydeLodha.isSimpleGroup_commutator' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kourovka/External/GroupApproximation/GroupTheory/HydeLodha/HigmanEpstein.lean:372:14: 'GroupApproximation.HydeLodha.commutator_le_of_decomposition' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1414/1425] Built Kourovka.Problems.P21_38.Proof.PLSplice (1.8s)
+info: Kourovka/Problems/P21_38/Proof/PLSplice.lean:106:14: 'Kourovka.P21_38.splicePerm_mem_PLGroup' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1415/1425] Built Kourovka.Problems.P21_38.Proof.AffineBranches (1.8s)
+info: Kourovka/Problems/P21_38/Proof/AffineBranches.lean:80:14: 'Kourovka.P21_38.branchAffine_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kourovka/Problems/P21_38/Proof/AffineBranches.lean:81:14: 'Kourovka.P21_38.branchAffine_hasBranch' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1416/1425] Built Kourovka.External.GroupApproximation.GroupTheory.HigmanThompson.CompactConj (1.8s)
+info: Kourovka/External/GroupApproximation/GroupTheory/HigmanThompson/CompactConj.lean:133:14: 'GroupApproximation.HigmanThompson.compConjHom_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1418/1426] Built Kourovka.Problems.P21_38.Proof.BinaryPartitions (1.4s)
+info: Kourovka/Problems/P21_38/Proof/BinaryPartitions.lean:205:14: 'Kourovka.P21_38.BinaryTree.leaves_partition' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kourovka/Problems/P21_38/Proof/BinaryPartitions.lean:206:14: 'Kourovka.P21_38.BinaryTree.leaves_cover' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kourovka/Problems/P21_38/Proof/BinaryPartitions.lean:207:14: 'Kourovka.P21_38.BinaryTree.exists_leaves_containing' depends on axioms: [propext, Quot.sound]
+info: Kourovka/Problems/P21_38/Proof/BinaryPartitions.lean:208:14: 'Kourovka.P21_38.exists_wordPartition_containing' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1419/1429] Built Kourovka.External.GroupApproximation.GroupTheory.HigmanThompson.ResidueInvariance (2.2s)
+info: Kourovka/External/GroupApproximation/GroupTheory/HigmanThompson/ResidueInvariance.lean:184:14: 'GroupApproximation.HigmanThompson.resEq_apply_of_fix' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kourovka/External/GroupApproximation/GroupTheory/HigmanThompson/ResidueInvariance.lean:185:14: 'GroupApproximation.HigmanThompson.exists_resEq_mem_Ioo' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [1420/1430] Built Kourovka.Problems.P21_38.Proof.BranchCommunication (1.3s)
+ℹ [1421/1430] Built Kourovka.External.GroupApproximation.GroupTheory.HigmanThompson.CompactCore (3.5s)
+info: Kourovka/External/GroupApproximation/GroupTheory/HigmanThompson/CompactCore.lean:327:14: 'GroupApproximation.HigmanThompson.compactCore_room' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kourovka/External/GroupApproximation/GroupTheory/HigmanThompson/CompactCore.lean:328:14: 'GroupApproximation.HigmanThompson.isSimpleGroup_commutator_compactCore' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: Kourovka/External/GroupApproximation/GroupTheory/HigmanThompson/CompactCore.lean:329:14: 'GroupApproximation.HigmanThompson.commutator_compactCore_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [1422/1430] Built Kourovka.Problems.P21_38.Proof.BinaryIntervalOrder (1.4s)
+ℹ [1423/1430] Built Kourovka.Problems.P21_38.Proof.CompanionPartition (1.4s)
+info: Kourovka/Problems/P21_38/Proof/CompanionPartition.lean:208:14: 'Kourovka.P21_38.exists_companion_source_partition' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1424/1431] Built Kourovka.External.GroupApproximation.GroupTheory.HigmanThompson.CompactCoreGerms (3.8s)
+info: Kourovka/External/GroupApproximation/GroupTheory/HigmanThompson/CompactCoreGerms.lean:395:14: 'GroupApproximation.HigmanThompson.exists_germ_decomposition' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kourovka/External/GroupApproximation/GroupTheory/HigmanThompson/CompactCoreGerms.lean:396:14: 'GroupApproximation.HigmanThompson.commutator_compactF_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [1425/1434] Built Kourovka.Problems.P21_38.Proof.LeafCommunication (1.3s)
+ℹ [1426/1434] Built Kourovka.Problems.P21_38.Proof.EndpointSlopes (2.2s)
+info: Kourovka/Problems/P21_38/Proof/EndpointSlopes.lean:243:14: 'Kourovka.P21_38.endpointCharacter' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kourovka/Problems/P21_38/Proof/EndpointSlopes.lean:244:14: 'Kourovka.P21_38.mem_endpointCharacter_ker_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kourovka/Problems/P21_38/Proof/EndpointSlopes.lean:245:14: 'Kourovka.P21_38.mem_diagonalSubgroup_of_mem_compactCore' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1427/1434] Built Kourovka.Problems.P21_38.Proof.BinaryDyadic (1.3s)
+info: Kourovka/Problems/P21_38/Proof/BinaryDyadic.lean:98:14: 'Kourovka.P21_38.BinaryWord.exists_chart_zero_of_grid' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kourovka/Problems/P21_38/Proof/BinaryDyadic.lean:99:14: 'Kourovka.P21_38.BinaryWord.chart_rightTail' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1428/1434] Built Kourovka.Problems.P21_38.Proof.FirstMovingPiece (1.7s)
+info: Kourovka/Problems/P21_38/Proof/FirstMovingPiece.lean:122:14: 'Kourovka.P21_38.exists_firstMovingPiece' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1429/1434] Built Kourovka.Problems.P21_38.Proof.TreePairRealization (1.6s)
+info: Kourovka/Problems/P21_38/Proof/TreePairRealization.lean:112:14: 'Kourovka.P21_38.exists_interval_restriction' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kourovka/Problems/P21_38/Proof/TreePairRealization.lean:125:14: 'Kourovka.P21_38.exists_pl_of_wordPartitions' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kourovka/Problems/P21_38/Proof/TreePairRealization.lean:126:14: 'Kourovka.P21_38.exists_treePair' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1430/1434] Built Kourovka.Problems.P21_38.Proof.FirstMovingBranches (1.9s)
+info: Kourovka/Problems/P21_38/Proof/FirstMovingBranches.lean:174:14: 'Kourovka.P21_38.exists_expandingPiece' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kourovka/Problems/P21_38/Proof/FirstMovingBranches.lean:175:14: 'Kourovka.P21_38.exists_three_successive_branches' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1431/1434] Built Kourovka.Problems.P21_38.Proof.CompanionTrees (2.2s)
+info: Kourovka/Problems/P21_38/Proof/CompanionTrees.lean:373:14: 'Kourovka.P21_38.CompanionTrees.source_partition' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kourovka/Problems/P21_38/Proof/CompanionTrees.lean:374:14: 'Kourovka.P21_38.CompanionTrees.target_partition' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kourovka/Problems/P21_38/Proof/CompanionTrees.lean:375:14: 'Kourovka.P21_38.CompanionTrees.exists_companion_branches' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kourovka/Problems/P21_38/Proof/CompanionTrees.lean:376:14: 'Kourovka.P21_38.CompanionTrees.endpoint_exponents' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kourovka/Problems/P21_38/Proof/CompanionTrees.lean:377:14: 'Kourovka.P21_38.CompanionTrees.slope_jump' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kourovka/Problems/P21_38/Proof/CompanionTrees.lean:378:14: 'Kourovka.P21_38.CompanionTrees.exists_companion' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [1432/1435] Built Kourovka.Problems.P21_38.Proof.CompanionCommunication (2.2s)
+ℹ [1433/1447] Built Kourovka.Problems.P21_38.Proof.CompanionConstruction (1.7s)
+info: Kourovka/Problems/P21_38/Proof/CompanionConstruction.lean:70:14: 'Kourovka.P21_38.exists_companion_with_communication' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1444/1447] Built Kourovka.Problems.P21_38.Proof.CommutatorExtraction (1.8s)
+info: Kourovka/Problems/P21_38/Proof/CommutatorExtraction.lean:74:14: 'Kourovka.P21_38.commutator_compactCore_le_of_local_interpolation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [1445/1448] Built Kourovka.Problems.P21_38.Proof.OrbitMotion (1.5s)
+info: Kourovka/Problems/P21_38/Proof/OrbitMotion.lean:167:14: 'Kourovka.P21_38.real_exists_moves_past' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kourovka/Problems/P21_38/Proof/OrbitMotion.lean:168:14: 'Kourovka.P21_38.rational_exists_moves_past' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kourovka/Problems/P21_38/Proof/OrbitMotion.lean:169:14: 'Kourovka.P21_38.rational_exists_moves_past_of_finite_cover' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kourovka/Problems/P21_38/Proof/OrbitMotion.lean:170:14: 'Kourovka.P21_38.rational_interval_compression' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1446/1449] Built Kourovka.Problems.P21_38.Proof.LocalInterpolation (2.2s)
+info: Kourovka/Problems/P21_38/Proof/LocalInterpolation.lean:456:14: 'Kourovka.P21_38.exists_transported_zero_shift' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kourovka/Problems/P21_38/Proof/LocalInterpolation.lean:457:14: 'Kourovka.P21_38.exists_zero_shift_fixing_left' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kourovka/Problems/P21_38/Proof/LocalInterpolation.lean:458:14: 'Kourovka.P21_38.exists_corrected_zero_branch' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kourovka/Problems/P21_38/Proof/LocalInterpolation.lean:459:14: 'Kourovka.P21_38.exists_zero_branch_of_left_endpoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kourovka/Problems/P21_38/Proof/LocalInterpolation.lean:460:14: 'Kourovka.P21_38.exists_core_adjustment_of_compression' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kourovka/Problems/P21_38/Proof/LocalInterpolation.lean:461:14: 'Kourovka.P21_38.exists_branch_partition_extension' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kourovka/Problems/P21_38/Proof/LocalInterpolation.lean:462:14: 'Kourovka.P21_38.exists_core_interpolant_of_wordPartitions' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [1447/1449] Built Kourovka.Problems.P21_38.Proof.AbelianizationCriterion (1.5s)
+✔ [1448/1453] Built Kourovka.Problems.P21_38.Proof.SubgroupGeneration (1.6s)
+ℹ [1449/1453] Built Kourovka.External.GroupApproximation.GroupTheory.HigmanThompson.CompactTrunc (2.0s)
+info: Kourovka/External/GroupApproximation/GroupTheory/HigmanThompson/CompactTrunc.lean:305:14: 'GroupApproximation.HigmanThompson.compE_affine_block' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kourovka/External/GroupApproximation/GroupTheory/HigmanThompson/CompactTrunc.lean:306:14: 'GroupApproximation.HigmanThompson.compET_strictMono' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kourovka/External/GroupApproximation/GroupTheory/HigmanThompson/CompactTrunc.lean:307:14: 'GroupApproximation.HigmanThompson.compET_gridAffine' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kourovka/External/GroupApproximation/GroupTheory/HigmanThompson/CompactTrunc.lean:308:14: 'GroupApproximation.HigmanThompson.compEinvT_gridAffine' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1450/1455] Built Kourovka.External.GroupApproximation.GroupTheory.HigmanThompson.CompactRangeA (2.3s)
+info: Kourovka/External/GroupApproximation/GroupTheory/HigmanThompson/CompactRangeA.lean:306:14: 'GroupApproximation.HigmanThompson.geoF_translation' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kourovka/External/GroupApproximation/GroupTheory/HigmanThompson/CompactRangeA.lean:307:14: 'GroupApproximation.HigmanThompson.compConj_near' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kourovka/External/GroupApproximation/GroupTheory/HigmanThompson/CompactRangeA.lean:308:14: 'GroupApproximation.HigmanThompson.map_compConj_le_compactF' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1451/1462] Built Kourovka.External.GroupApproximation.GroupTheory.HigmanThompson.CompactRangeB (2.1s)
+info: Kourovka/External/GroupApproximation/GroupTheory/HigmanThompson/CompactRangeB.lean:272:14: 'GroupApproximation.HigmanThompson.map_compConj_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kourovka/External/GroupApproximation/GroupTheory/HigmanThompson/CompactRangeB.lean:273:14: 'GroupApproximation.HigmanThompson.compactF_isFinitelyPresented' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [1453/1465] Built Kourovka.Problems.P21_38.Proof.StandardGenerators (1.9s)
+info: Kourovka/Problems/P21_38/Proof/StandardGenerators.lean:147:14: 'Kourovka.P21_38.standardGenerators_generate' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kourovka/Problems/P21_38/Proof/StandardGenerators.lean:148:14: 'Kourovka.P21_38.endpointCharacter_standardGenerator_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kourovka/Problems/P21_38/Proof/StandardGenerators.lean:149:14: 'Kourovka.P21_38.endpointCharacter_standardGenerator_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kourovka/Problems/P21_38/Proof/StandardGenerators.lean:150:14: 'Kourovka.P21_38.endpointCharacter_ker_eq_commutator' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1459/1467] Built Kourovka.Problems.P21_38.Proof.LastMovingPiece (2.2s)
+info: Kourovka/Problems/P21_38/Proof/LastMovingPiece.lean:181:14: 'Kourovka.P21_38.exists_lastMovingPiece' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kourovka/Problems/P21_38/Proof/LastMovingPiece.lean:182:14: 'Kourovka.P21_38.exists_core_lastMovingPiece' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kourovka/Problems/P21_38/Proof/LastMovingPiece.lean:183:14: 'Kourovka.P21_38.exists_core_contractingLastPiece' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1460/1469] Built Kourovka.Problems.P21_38.Proof.FixerMotion (2.1s)
+info: Kourovka/Problems/P21_38/Proof/FixerMotion.lean:283:14: 'Kourovka.P21_38.BinaryWord.exists_real_bracket' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kourovka/Problems/P21_38/Proof/FixerMotion.lean:284:14: 'Kourovka.P21_38.BinaryWord.exists_mixed_left_neighborhood' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kourovka/Problems/P21_38/Proof/FixerMotion.lean:285:14: 'Kourovka.P21_38.affine_contraction_changes_cut' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kourovka/Problems/P21_38/Proof/FixerMotion.lean:286:14: 'Kourovka.P21_38.conjugate_branch_contraction' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kourovka/Problems/P21_38/Proof/FixerMotion.lean:287:14: 'Kourovka.P21_38.wordFixer_noInvariantRealCut_of_deep_branches' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [1461/1469] Built Kourovka.Problems.P21_38.Proof.CorePerfect (1.6s)
+info: Kourovka/Problems/P21_38/Proof/CorePerfect.lean:52:14: 'Kourovka.P21_38.compactCore_eq_ambient_commutator' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kourovka/Problems/P21_38/Proof/CorePerfect.lean:53:14: 'Kourovka.P21_38.compactCore_isPerfect' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kourovka/Problems/P21_38/Proof/CorePerfect.lean:54:14: 'Kourovka.P21_38.compactCore_isSimpleGroup' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1462/1470] Built Kourovka.Problems.P21_38.Proof.PLBranchPartition (1.8s)
+info: Kourovka/Problems/P21_38/Proof/PLBranchPartition.lean:209:14: 'Kourovka.P21_38.exists_branch_wordPartitions' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kourovka/Problems/P21_38/Proof/PLBranchPartition.lean:210:14: 'Kourovka.P21_38.exists_eventual_grid_branches' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1463/1470] Built Kourovka.Problems.P21_38.Proof.DiagonalGeneration (1.7s)
+info: Kourovka/Problems/P21_38/Proof/DiagonalGeneration.lean:97:14: 'Kourovka.P21_38.generatesPair_diagonal_of_core_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kourovka/Problems/P21_38/Proof/DiagonalGeneration.lean:98:14: 'Kourovka.P21_38.generatesPair_diagonal_of_local_interpolation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [1464/1470] Built Kourovka.Problems.P21_38.Proof.NontrivialCore (1.7s)
+info: Kourovka/Problems/P21_38/Proof/NontrivialCore.lean:75:14: 'Kourovka.P21_38.dyadicTransitive_of_deep_branches' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kourovka/Problems/P21_38/Proof/NontrivialCore.lean:76:14: 'Kourovka.P21_38.exists_nontrivial_core_of_fixed_and_moved' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kourovka/Problems/P21_38/Proof/NontrivialCore.lean:101:14: 'Kourovka.P21_38.exists_nontrivial_core_of_shift' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1465/1471] Built Kourovka.Problems.P21_38.Proof.RefinedCoreBranches (2.0s)
+info: Kourovka/Problems/P21_38/Proof/RefinedCoreBranches.lean:208:14: 'Kourovka.P21_38.exists_mixed_core_branch_partitions' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kourovka/Problems/P21_38/Proof/RefinedCoreBranches.lean:209:14: 'Kourovka.P21_38.exists_refined_core_branch_partitions' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [1466/1471] Built Kourovka.Problems.P21_38.Proof.ActionObstruction (1.3s)
+ℹ [1467/1473] Built Kourovka.Problems.P21_38.Proof.IntervalCompression (1.7s)
+info: Kourovka/Problems/P21_38/Proof/IntervalCompression.lean:72:14: 'Kourovka.P21_38.exists_interval_compression_of_deep_branches' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: Kourovka/Problems/P21_38/Proof/IntervalCompression.lean:73:14: 'Kourovka.P21_38.exists_interval_compression_to_binary' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1468/1473] Built Kourovka.Problems.P21_38.Proof.GenerationData (1.9s)
+info: Kourovka/Problems/P21_38/Proof/GenerationData.lean:65:14: 'Kourovka.P21_38.exists_generationData' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [1470/1475] Built Kourovka.Problems.P21_38.Proof.LocalSupport (2.0s)
+ℹ [1471/1475] Built Kourovka.Problems.P21_38.Proof.RationalPLFixedPoint (2.3s)
+info: Kourovka/Problems/P21_38/Proof/RationalPLFixedPoint.lean:189:14: 'Kourovka.P21_38.rational_grid_affine_interior_fixedPoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1472/1475] Built Kourovka.Problems.P21_38.Proof.PrescribedGeneration (1.9s)
+info: Kourovka/Problems/P21_38/Proof/PrescribedGeneration.lean:58:14: 'Kourovka.P21_38.GenerationData.coreLocalInterpolation' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kourovka/Problems/P21_38/Proof/PrescribedGeneration.lean:59:14: 'Kourovka.P21_38.exists_generating_companion' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kourovka/Problems/P21_38/Proof/PrescribedGeneration.lean:60:14: 'Kourovka.P21_38.diagonal_hasSpreadAtLeast_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [1473/1475] Built Kourovka.Problems.P21_38.Proof.SpreadBounds (1.2s)
+ℹ [1474/1475] Built Kourovka.Problems.P21_38.Proof.UpperBound (1.9s)
+info: Kourovka/Problems/P21_38/Proof/UpperBound.lean:138:14: 'Kourovka.P21_38.diagonal_has_interior_fixedPoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kourovka/Problems/P21_38/Proof/UpperBound.lean:139:14: 'Kourovka.P21_38.diagonal_exists_pair_no_common_companion' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kourovka/Problems/P21_38/Proof/UpperBound.lean:140:14: 'Kourovka.P21_38.diagonal_not_hasSpreadAtLeast_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kourovka/Problems/P21_38/Proof/UpperBound.lean:141:14: 'Kourovka.P21_38.diagonal_infinite' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [1475/1475] Built Kourovka.Problems.P21_38.Solution (1.6s)
+info: Kourovka/Problems/P21_38/Solution.lean:35:21: 'Kourovka.P21_38.originalQuestion' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kourovka/Problems/P21_38/Solution.lean:36:21: 'Kourovka.P21_38.notebookStatement' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kourovka/Problems/P21_38/Solution.lean:37:14: 'Kourovka.P21_38.diagonal_hasSpreadExactlyOne' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Kourovka/Problems/P21_38/Solution.lean:38:14: 'Kourovka.P21_38.diagonal_spread_profile' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (1475 jobs).

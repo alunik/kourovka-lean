@@ -1,0 +1,26 @@
+{
+  "returncode": 0,
+  "seconds": 1.133,
+  "export_sha256": "2dc4329062484246e832e1587f1fa62727b8721ef78eb113e44d424cb61c5be6",
+  "printed_declarations": [
+    "Kourovka.P21_38.diagonal_hasSpreadExactlyOne",
+    "Kourovka.P21_38.diagonal_spread_profile",
+    "Kourovka.P21_38.originalQuestion",
+    "Kourovka.P21_38.notebookStatement",
+    "Kourovka.P21_38.exists_generating_companion",
+    "Kourovka.P21_38.diagonal_exists_pair_no_common_companion",
+    "Kourovka.P21_38.diagonal_infinite",
+    "Kourovka.P21_38.GeneratesPair",
+    "Kourovka.P21_38.HasSpreadAtLeast",
+    "Kourovka.P21_38.HasSpreadExactlyOne",
+    "Kourovka.P21_38.OriginalQuestion",
+    "Kourovka.P21_38.NotebookStatement",
+    "Kourovka.P21_38.diagonalSubgroup",
+    "Kourovka.P21_38.F",
+    "Kourovka.P21_38.HasLeftExponent",
+    "Kourovka.P21_38.HasRightExponent"
+  ],
+  "requested_names_absent_from_export": [],
+  "output_sha256": "7994b08a622a09a4e398b7d6e707d949f2734842343b3f467f9f88ebaeca3ee3",
+  "human_approval": "NOT_RECORDED"
+}

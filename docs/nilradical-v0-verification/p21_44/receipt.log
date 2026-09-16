@@ -1,0 +1,35 @@
+Building NilradicalFrozenChallenge
+✔ [3077/3091] Built Kourovka.Problems.P21_44.Proof.PerfectSubdirect (7.1s)
+✔ [3078/3091] Built Kourovka.Problems.P21_44.Proof.Wreath (34s)
+✔ [3079/3091] Built Kourovka.Problems.P21_44.Proof.RecurrentSections.WordGeometry (34s)
+✔ [3080/3091] Built Kourovka.Problems.P21_44.Proof.SignedWords (34s)
+✔ [3081/3091] Built Kourovka.Problems.P21_44.Proof.InverseLimit (13s)
+✔ [3082/3091] Built Kourovka.Problems.P21_44.Proof.RecurrentSections.ExponentialGrowth (13s)
+✔ [3083/3091] Built Kourovka.Problems.P21_44.Proof.WordEvaluation (13s)
+✔ [3084/3091] Built Kourovka.Problems.P21_44.Proof.WreathGeneration (16s)
+✔ [3085/3091] Built Kourovka.Problems.P21_44.Statement (8.1s)
+✔ [3086/3091] Built Kourovka.Problems.P21_44.Proof.Density (5.3s)
+✔ [3087/3091] Built Kourovka.Problems.P21_44.Proof.SectionWords (8.4s)
+✔ [3088/3091] Built Kourovka.Problems.P21_44.Proof.GeneratedGeometry (4.6s)
+✔ [3089/3091] Built Kourovka.Problems.P21_44.Proof.Shortening (4.6s)
+⚠ [3090/3091] Built NilradicalFrozenChallenge (3.7s)
+warning: NilradicalFrozenChallenge.lean:13:8: declaration uses `sorry`
+warning: NilradicalFrozenChallenge.lean:19:8: declaration uses `sorry`
+warning: NilradicalFrozenChallenge.lean:23:8: declaration uses `sorry`
+warning: NilradicalFrozenChallenge.lean:26:8: declaration uses `sorry`
+Build completed successfully (3091 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Kourovka.P21_44.generated_section_shortening, Kourovka.P21_44.subexponential_growth, Kourovka.P21_44.generatedSubgroup_fg, Kourovka.P21_44.notebookStatement, Kourovka.P21_44.dense_generated_pair, Kourovka.P21_44.generated_pair_surjective, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from NilradicalFrozenChallenge
+Building Kourovka.Problems.P21_44.Solution
+✔ [3200/3205] Built Kourovka.Problems.P21_44.Proof.BinomialCounting (9.3s)
+✔ [3201/3205] Built Kourovka.Problems.P21_44.Proof.GrowthRate (9.3s)
+✔ [3202/3205] Built Kourovka.Problems.P21_44.Proof.SectionCounting (9.7s)
+✔ [3203/3205] Built Kourovka.Problems.P21_44.Proof.WordEncoding (4.7s)
+✔ [3204/3205] Built Kourovka.Problems.P21_44.Proof.Counting (3.8s)
+✔ [3205/3205] Built Kourovka.Problems.P21_44.Solution (3.6s)
+Build completed successfully (3205 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Kourovka.P21_44.generated_section_shortening, Kourovka.P21_44.subexponential_growth, Kourovka.P21_44.generatedSubgroup_fg, Kourovka.P21_44.notebookStatement, Kourovka.P21_44.dense_generated_pair, Kourovka.P21_44.generated_pair_surjective, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from Kourovka.Problems.P21_44.Solution
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!

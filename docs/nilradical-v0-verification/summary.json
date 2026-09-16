@@ -1,0 +1,127 @@
+{
+  "created_utc": "2026-09-16T10:27:02.455865+00:00",
+  "excluded": [
+    "21.29 Thomas\u2013Rizzoli, not a Nilradical result",
+    "21.99, removed from Nilradical discovery catalogue after competing prior-solution review"
+  ],
+  "human_decisions": "Technical integrity and independent agent semantic review do not record human acceptance.",
+  "profile": "macos-seatbelt-comparator-nanoda-v1",
+  "publication_note": "Host paths normalized. Existing contract_sha256 and receipt_sha256 identify original records; public-copy hashes are separate.",
+  "results": [
+    {
+      "contract_sha256": "3150d90afd19ea547ca1a01e24dfbf1207b56e5b55f53f2608899871fcf65240",
+      "directory": "p21_03",
+      "elapsed_seconds": 1111.077,
+      "human_statement_approval": "NOT_RECORDED",
+      "id": "21.3",
+      "public_contract_sha256": "2d6fe8897587386218be8fb668722ededdb6091423dcdc640695b112580f87ae",
+      "public_receipt_sha256": "e723e68a2dc51b3c00bb7a35f5d4c6be68d8852901e8474e1815c0bb419d3fce",
+      "receipt_sha256": "419c22fe5b9455cc63ceb3d9e81483fc8ddf41dc33e6ffbe1b5ce12fb3231c64",
+      "status": "INTEGRITY_PASSED",
+      "theorem_names": [
+        "Kourovka.P21_03.firstQuestion",
+        "Kourovka213.asymptoticStatement"
+      ]
+    },
+    {
+      "contract_sha256": "d64248f5aa01656a48559dcd175ba786792e6388f5b5e2fe8e962b125c607912",
+      "directory": "p21_38",
+      "elapsed_seconds": 155.235,
+      "human_statement_approval": "NOT_RECORDED",
+      "id": "21.38",
+      "public_contract_sha256": "71ed364b2b7a51e1030981d04add507c726bdefdb423d3c9e857933881faf68a",
+      "public_receipt_sha256": "439cf40bf620f144631fade9cd8ff2a09968e81c64871c66c82b750ffcddeb1d",
+      "receipt_sha256": "c8146f38aa90273d7b7510d6f053b0fb14c8372f6c975ead6ed28775a8a68404",
+      "status": "INTEGRITY_PASSED",
+      "theorem_names": [
+        "Kourovka.P21_38.diagonal_hasSpreadExactlyOne",
+        "Kourovka.P21_38.diagonal_spread_profile",
+        "Kourovka.P21_38.originalQuestion",
+        "Kourovka.P21_38.notebookStatement",
+        "Kourovka.P21_38.exists_generating_companion",
+        "Kourovka.P21_38.diagonal_exists_pair_no_common_companion",
+        "Kourovka.P21_38.diagonal_infinite"
+      ]
+    },
+    {
+      "contract_sha256": "f7bdc08d7d59cbee68a1e26efefbbec5d0ebe88a5a31610bfb11cd7c8cbe8c25",
+      "directory": "p21_40",
+      "elapsed_seconds": 218.381,
+      "human_statement_approval": "NOT_RECORDED",
+      "id": "21.40",
+      "public_contract_sha256": "04ede93de286e0330378bd2c8e983b48da8fe91f1ac91a75fdca6a79b0bb8a53",
+      "public_receipt_sha256": "256ead1f45885b698820b62a76b1291da73ae6d04bfd55516921f59a40994b04",
+      "receipt_sha256": "3e9c70fbc9ac2ee4327fbf4fbe3512b45986f3d89ac471c9cbac972c35bb8887",
+      "status": "INTEGRITY_PASSED",
+      "theorem_names": [
+        "Kourovka.P21_40.structural_theorem",
+        "Kourovka.P21_40.virtually_nilpotent",
+        "Kourovka.P21_40.virtually_solvable",
+        "Kourovka.P21_40.notebookStatement",
+        "Kourovka.P21_40.numberField_structure",
+        "Kourovka.P21_40.numberField_virtually_nilpotent"
+      ]
+    },
+    {
+      "contract_sha256": "7697d5a85a02fefe65e785a972323e38ce9abb1d77d814fe2bf87710a67b4ae9",
+      "directory": "p21_44",
+      "elapsed_seconds": 207.262,
+      "human_statement_approval": "NOT_RECORDED",
+      "id": "21.44",
+      "public_contract_sha256": "e0a0b06fc3e45fe15a585b249817e7240a9277da47afbbd02b103d620f96e0d6",
+      "public_receipt_sha256": "78148d3227308e3bc7b91b3b3fa5abd9d38ee83fe342602b50563460095223ce",
+      "receipt_sha256": "de1bcfc8008b758417578e9494a19db2f1e0f4260b0cc2834921b71db4dd0cd8",
+      "status": "INTEGRITY_PASSED",
+      "theorem_names": [
+        "Kourovka.P21_44.generated_section_shortening",
+        "Kourovka.P21_44.subexponential_growth",
+        "Kourovka.P21_44.generatedSubgroup_fg",
+        "Kourovka.P21_44.notebookStatement",
+        "Kourovka.P21_44.dense_generated_pair",
+        "Kourovka.P21_44.generated_pair_surjective"
+      ]
+    },
+    {
+      "contract_sha256": "95ef3f5c15bd3a0aa24be8a3b6000ab7304e13bc85bc639f30fef681cd38bc20",
+      "directory": "p21_68",
+      "elapsed_seconds": 369.446,
+      "human_statement_approval": "NOT_RECORDED",
+      "id": "21.68",
+      "public_contract_sha256": "42041b08b2de95d02901dc6ab8287becf016c592b8c464772aca4408bb0c3ae9",
+      "public_receipt_sha256": "6752a7fe100aa164d01bade7dc2a57167bd9a30824e8e51158302291b229042e",
+      "receipt_sha256": "40d1340f71f581377d26b4d50afecfe41a8bf26e38e200cc447c6b919bb0b2d3",
+      "status": "INTEGRITY_PASSED",
+      "theorem_names": [
+        "Kourovka.P21_68.simple_witnessRepresentation",
+        "Kourovka.P21_68.finrank_witnessRepresentation",
+        "Kourovka.P21_68.witness_not_monomial",
+        "Kourovka.P21_68.G_not_monomial",
+        "Kourovka.P21_68.not_notebookStatement",
+        "Kourovka.P21_68.G_semiabelian",
+        "Kourovka.P21_68.card_G"
+      ]
+    },
+    {
+      "contract_sha256": "6fcf1640664a0f919f8a06dd809092168911fca0508b5b595f96c1a991c32347",
+      "directory": "p21_106",
+      "elapsed_seconds": 108.015,
+      "human_statement_approval": "NOT_RECORDED",
+      "id": "21.106",
+      "public_contract_sha256": "f87cc37443ade0452ce8900d97cf0f84aee06ff568e7cf34e4890de11d0b5b28",
+      "public_receipt_sha256": "82882c34bd38855519c680261a7c84f61181be3f34ac66f22497d04167a50fdd",
+      "receipt_sha256": "34dc8394aa553e97ed026dc49d9226b7a38485a637333ee0ecdbe6a9ac434c88",
+      "status": "INTEGRITY_PASSED",
+      "theorem_names": [
+        "Kourovka.P21_106.counterexample_values",
+        "Kourovka.P21_106.counterexample_not_concise",
+        "Kourovka.P21_106.not_notebookStatement",
+        "Kourovka.P21_106.realize_counterexampleFormula",
+        "Kourovka.P21_106.formulaCondition_iff",
+        "Kourovka.P21_106.formulaCondition_closure_infinite",
+        "Kourovka.P21_106.central_injective"
+      ]
+    }
+  ],
+  "schema": 1,
+  "status": "COMPLETE"
+}

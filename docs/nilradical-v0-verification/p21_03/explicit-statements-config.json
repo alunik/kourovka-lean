@@ -1,0 +1,29 @@
+{
+  "export_file_path": "/HOST/notebook/nilradical-v0-upgrade/verification/p21_03/work-1789553324866346000/exports/Kourovka_Problems_P21_03_Solution.ndjson",
+  "nat_extension": true,
+  "string_extension": true,
+  "num_threads": 4,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "unpermitted_axiom_hard_error": true,
+  "pp_declars": [
+    "Kourovka.P21_03.firstQuestion",
+    "Kourovka213.asymptoticStatement",
+    "Kourovka.P21_03.FirstQuestion",
+    "Kourovka213.conjugate",
+    "Kourovka213.successProbability",
+    "Kourovka213.solubleProbabilities",
+    "Kourovka213.worstProbability",
+    "Kourovka213.AsymptoticStatement"
+  ],
+  "pp_options": {
+    "all": true,
+    "explicit": true,
+    "universes": true,
+    "proofs": false
+  },
+  "pp_to_stdout": true
+}

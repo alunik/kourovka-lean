@@ -1,6 +1,8 @@
 import Kourovka.Problems.P21_03.Solution
 import Kourovka.Problems.P21_29.Solution
+import Kourovka.Problems.P21_38.Solution
 import Kourovka.Problems.P21_40.Solution
+import Kourovka.Problems.P21_44.Solution
 import Kourovka.Problems.P21_68.Solution
 import Kourovka.Problems.P21_99.Solution
 import Kourovka.Problems.P21_106.Solution

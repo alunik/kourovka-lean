@@ -115,8 +115,10 @@ in its output.
   [*The Kourovka Notebook*, 21st edition, Problem 21.99, p. 182](https://arxiv.org/pdf/1401.0300v46#page=182).
 - [Müller's paper, Remark (f)](https://arxiv.org/pdf/2304.08459v4#page=5).
 
-The counterexample and Lean development came from Aluna Rizzoli's
-computational search project, with substantial Codex assistance. See
+The counterexample and Lean formalization are by **Nilradical v0**.
+This result is excluded from the Nilradical discovery catalogue because
+Kyrylo Muliarchyk gives [another complete solution](https://kourovkanotebookorg.wordpress.com/wp-content/uploads/2026/09/kourovka_21.99_solution.pdf)
+and public priority is unresolved. See
 [repository credits](../../../AUTHORS.md).
 
 Custom C++ searches found the example on Auckland, and independent GAP

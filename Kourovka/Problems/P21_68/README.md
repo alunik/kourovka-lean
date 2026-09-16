@@ -66,6 +66,12 @@ split extensions. The normal 3-subgroup `A` need not be a Sylow subgroup.
 
 ## Verification
 
+The Nilradical v0 strict check passed on 16 September 2026 for 7
+selected endpoints: fresh compilation, independently reviewed statement
+comparison, the three-axiom policy, and Lean plus Nanoda proof replay.
+See the [verification evidence](../../../docs/nilradical-v0-verification/README.md)
+and [statement review](../../../docs/nilradical-v0-verification/statement-audits/21.68.md).
+
 The targeted solution build and independent endpoint axiom audits passed.
 The [verification receipt](../../../docs/21.68-verification.md) records these
 checks and their scope.
@@ -91,7 +97,8 @@ lake env lean Kourovka/Problems/P21_68/Audit.lean
 - [TauCeti](https://github.com/TauCetiProject/TauCeti), the Apache-licensed
   source of the vendored induction theorems. Its authorship is preserved.
 
-The construction, independent mathematical audits and Lean development were
-carried out in Aluna Rizzoli's research project with substantial Codex
-assistance. The literature checks do not establish publication priority for
-the counterexample or its general transfer argument.
+The counterexample, mathematical proof and Lean formalization are by
+**Nilradical v0**.
+
+Cite **Nilradical v0**, this problem number and the exact source commit.
+Machine-readable citation: [CITATION.cff](CITATION.cff).

@@ -1,0 +1,9 @@
+{
+  "elapsed_seconds": 0.0,
+  "host": "macOS-15.2-arm64-arm-64bit-Mach-O",
+  "human_statement_approval": "NOT_RECORDED",
+  "reason": "Frozen contract hash mismatch",
+  "schema": 1,
+  "started_utc": "2026-09-16T09:32:32.963264+00:00",
+  "status": "INTEGRITY_BLOCKED"
+}

@@ -1,0 +1,16 @@
+import Kourovka.Problems.P21_03.Statement
+import Kourovka.Problems.P21_03.Proof.Basic
+
+/- Independently reviewed original Notebook 21.3 FIRST QUESTION only.
+Statement and Basic freeze actual conjugation, solvable subgroups, the uniform
+cutoff, the even conjugator, and the literal finite probability infimum.
+-/
+namespace Kourovka213
+theorem asymptoticStatement : AsymptoticStatement := by
+  sorry
+end Kourovka213
+
+namespace Kourovka.P21_03
+theorem firstQuestion : FirstQuestion := by
+  sorry
+end Kourovka.P21_03

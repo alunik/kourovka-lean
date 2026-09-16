@@ -1,0 +1,185 @@
+{
+  "all_passed": true,
+  "cases": [
+    {
+      "actual": "INTEGRITY_PASSED",
+      "archived_receipt": "controls/positive.json",
+      "archived_receipt_sha256": "99e55ece520615df567b0f41045b42118a0f08981630b1ba350207eef347ff19",
+      "case": "positive",
+      "expected": "INTEGRITY_PASSED",
+      "pass": true,
+      "receipt": "/HOST/notebook/math-research-agent/verification/runs/controls-20260916T102825/positive.json",
+      "receipt_sha256": "99e55ece520615df567b0f41045b42118a0f08981630b1ba350207eef347ff19"
+    },
+    {
+      "actual": "INTEGRITY_REJECTED",
+      "archived_receipt": "controls/sorry.json",
+      "archived_receipt_sha256": "ecd8b38af7da97237aa2514a322e83794841f090a2af2dbb7a4b784f62c3968f",
+      "case": "sorry",
+      "expected": "INTEGRITY_REJECTED",
+      "pass": true,
+      "receipt": "/HOST/notebook/math-research-agent/verification/runs/controls-20260916T102825/sorry.json",
+      "receipt_sha256": "ecd8b38af7da97237aa2514a322e83794841f090a2af2dbb7a4b784f62c3968f"
+    },
+    {
+      "actual": "INTEGRITY_REJECTED",
+      "archived_receipt": "controls/hidden_sorry.json",
+      "archived_receipt_sha256": "ddbd5118cee07c8063026a8b0b04253040471b91d352fc4e89f2862bd4a0620a",
+      "case": "hidden_sorry",
+      "expected": "INTEGRITY_REJECTED",
+      "pass": true,
+      "receipt": "/HOST/notebook/math-research-agent/verification/runs/controls-20260916T102825/hidden_sorry.json",
+      "receipt_sha256": "ddbd5118cee07c8063026a8b0b04253040471b91d352fc4e89f2862bd4a0620a"
+    },
+    {
+      "actual": "INTEGRITY_REJECTED",
+      "archived_receipt": "controls/custom_axiom.json",
+      "archived_receipt_sha256": "6ec55f5c69b21bb0e99b20204fceda9609af4b44578e798723586556a3744c49",
+      "case": "custom_axiom",
+      "expected": "INTEGRITY_REJECTED",
+      "pass": true,
+      "receipt": "/HOST/notebook/math-research-agent/verification/runs/controls-20260916T102825/custom_axiom.json",
+      "receipt_sha256": "6ec55f5c69b21bb0e99b20204fceda9609af4b44578e798723586556a3744c49"
+    },
+    {
+      "actual": "INTEGRITY_REJECTED",
+      "archived_receipt": "controls/native_evaluation.json",
+      "archived_receipt_sha256": "e9f65c0507309acbb70234ebf482cd1ef837c9130db9554347f7073d97b13781",
+      "case": "native_evaluation",
+      "expected": "INTEGRITY_REJECTED",
+      "pass": true,
+      "receipt": "/HOST/notebook/math-research-agent/verification/runs/controls-20260916T102825/native_evaluation.json",
+      "receipt_sha256": "e9f65c0507309acbb70234ebf482cd1ef837c9130db9554347f7073d97b13781"
+    },
+    {
+      "actual": "INTEGRITY_REJECTED",
+      "archived_receipt": "controls/wrong_statement.json",
+      "archived_receipt_sha256": "43d051323fec9633bc72ee0cda0c0c028e07500509b0e6a4728a7221d0c855fb",
+      "case": "wrong_statement",
+      "expected": "INTEGRITY_REJECTED",
+      "pass": true,
+      "receipt": "/HOST/notebook/math-research-agent/verification/runs/controls-20260916T102825/wrong_statement.json",
+      "receipt_sha256": "43d051323fec9633bc72ee0cda0c0c028e07500509b0e6a4728a7221d0c855fb"
+    },
+    {
+      "actual": "INTEGRITY_REJECTED",
+      "archived_receipt": "controls/false_hypothesis.json",
+      "archived_receipt_sha256": "29a7f75223cbf8b4ca62da0ab491fcbbaea2e10e5f4891b87a547a0e69447fb4",
+      "case": "false_hypothesis",
+      "expected": "INTEGRITY_REJECTED",
+      "pass": true,
+      "receipt": "/HOST/notebook/math-research-agent/verification/runs/controls-20260916T102825/false_hypothesis.json",
+      "receipt_sha256": "29a7f75223cbf8b4ca62da0ab491fcbbaea2e10e5f4891b87a547a0e69447fb4"
+    },
+    {
+      "actual": "INTEGRITY_REJECTED",
+      "archived_receipt": "controls/changed_definition.json",
+      "archived_receipt_sha256": "864e8ad8797baa38347991560f49097ce2e870ee1bfe7aca5a7f224a243fc4fa",
+      "case": "changed_definition",
+      "expected": "INTEGRITY_REJECTED",
+      "pass": true,
+      "receipt": "/HOST/notebook/math-research-agent/verification/runs/controls-20260916T102825/changed_definition.json",
+      "receipt_sha256": "864e8ad8797baa38347991560f49097ce2e870ee1bfe7aca5a7f224a243fc4fa"
+    },
+    {
+      "actual": "INTEGRITY_REJECTED",
+      "archived_receipt": "controls/changed_definition_same_type.json",
+      "archived_receipt_sha256": "100544b04e8f1f58a7457a9d3027bc48e0d8068cf99a6faca35100ce45c0758e",
+      "case": "changed_definition_same_type",
+      "expected": "INTEGRITY_REJECTED",
+      "pass": true,
+      "receipt": "/HOST/notebook/math-research-agent/verification/runs/controls-20260916T102825/changed_definition_same_type.json",
+      "receipt_sha256": "100544b04e8f1f58a7457a9d3027bc48e0d8068cf99a6faca35100ce45c0758e"
+    },
+    {
+      "actual": "INTEGRITY_REJECTED",
+      "archived_receipt": "controls/notation.json",
+      "archived_receipt_sha256": "cc7e6f1b1cb602011f29ce2a8f59a5f32606e41c745f6b3e8747599005b4c744",
+      "case": "notation",
+      "expected": "INTEGRITY_REJECTED",
+      "pass": true,
+      "receipt": "/HOST/notebook/math-research-agent/verification/runs/controls-20260916T102825/notation.json",
+      "receipt_sha256": "cc7e6f1b1cb602011f29ce2a8f59a5f32606e41c745f6b3e8747599005b4c744"
+    },
+    {
+      "actual": "INTEGRITY_REJECTED",
+      "archived_receipt": "controls/typeclass_instance.json",
+      "archived_receipt_sha256": "ca77dd7d5a80ceca9840ba673d3b54ebb011f0785a2cceb1c4925e1c65f4fb96",
+      "case": "typeclass_instance",
+      "expected": "INTEGRITY_REJECTED",
+      "pass": true,
+      "receipt": "/HOST/notebook/math-research-agent/verification/runs/controls-20260916T102825/typeclass_instance.json",
+      "receipt_sha256": "ca77dd7d5a80ceca9840ba673d3b54ebb011f0785a2cceb1c4925e1c65f4fb96"
+    },
+    {
+      "actual": "INTEGRITY_REJECTED",
+      "archived_receipt": "controls/missing_endpoint.json",
+      "archived_receipt_sha256": "75d4233d64c0c73326abf6c586213c755f3f3ad0430ef4137ba8de4562540d7d",
+      "case": "missing_endpoint",
+      "expected": "INTEGRITY_REJECTED",
+      "pass": true,
+      "receipt": "/HOST/notebook/math-research-agent/verification/runs/controls-20260916T102825/missing_endpoint.json",
+      "receipt_sha256": "75d4233d64c0c73326abf6c586213c755f3f3ad0430ef4137ba8de4562540d7d"
+    },
+    {
+      "actual": "INTEGRITY_REJECTED",
+      "archived_receipt": "controls/forged_success.json",
+      "archived_receipt_sha256": "9aa83f863e526b017c19501bcd5317c239caee7db9dbf8a0da6150898ecbf5ff",
+      "case": "forged_success",
+      "expected": "INTEGRITY_REJECTED",
+      "pass": true,
+      "receipt": "/HOST/notebook/math-research-agent/verification/runs/controls-20260916T102825/forged_success.json",
+      "receipt_sha256": "9aa83f863e526b017c19501bcd5317c239caee7db9dbf8a0da6150898ecbf5ff"
+    },
+    {
+      "actual": "INTEGRITY_REJECTED",
+      "archived_receipt": "controls/challenge_write.json",
+      "archived_receipt_sha256": "3a717e99e3a2cff718350ee56c44eeb0f8dd5ce49a39f5a0bd9e48a04bae2b71",
+      "case": "challenge_write",
+      "expected": "INTEGRITY_REJECTED",
+      "pass": true,
+      "receipt": "/HOST/notebook/math-research-agent/verification/runs/controls-20260916T102825/challenge_write.json",
+      "receipt_sha256": "3a717e99e3a2cff718350ee56c44eeb0f8dd5ce49a39f5a0bd9e48a04bae2b71"
+    },
+    {
+      "actual": "INTEGRITY_REJECTED",
+      "archived_receipt": "controls/config_write.json",
+      "archived_receipt_sha256": "ead4d7e693a1d9eecb4ef331d9870efd8cbf8a3fec23e0018a1136db8d59cf4e",
+      "case": "config_write",
+      "expected": "INTEGRITY_REJECTED",
+      "pass": true,
+      "receipt": "/HOST/notebook/math-research-agent/verification/runs/controls-20260916T102825/config_write.json",
+      "receipt_sha256": "ead4d7e693a1d9eecb4ef331d9870efd8cbf8a3fec23e0018a1136db8d59cf4e"
+    },
+    {
+      "actual": "INTEGRITY_PASSED",
+      "archived_receipt": "controls/stale_artifacts_ignored.json",
+      "archived_receipt_sha256": "860a54309bc35c999205c58edb0c078f281a25b79f319d09c866312adae356e5",
+      "case": "stale_artifacts_ignored",
+      "expected": "INTEGRITY_PASSED",
+      "pass": true,
+      "receipt": "/HOST/notebook/math-research-agent/verification/runs/controls-20260916T102825/stale_artifacts_ignored.json",
+      "receipt_sha256": "860a54309bc35c999205c58edb0c078f281a25b79f319d09c866312adae356e5"
+    },
+    {
+      "actual": "INTEGRITY_BLOCKED",
+      "archived_receipt": "controls/stale_source.json",
+      "archived_receipt_sha256": "0fbe2bee5494c998d8f8fedfc465d4580405be500526e70844b78702f1ee31f8",
+      "case": "stale_source",
+      "expected": "INTEGRITY_BLOCKED",
+      "pass": true,
+      "receipt": "/HOST/notebook/math-research-agent/verification/runs/controls-20260916T102825/stale_source.json",
+      "receipt_sha256": "0fbe2bee5494c998d8f8fedfc465d4580405be500526e70844b78702f1ee31f8"
+    },
+    {
+      "actual": "INTEGRITY_BLOCKED",
+      "archived_receipt": "controls/modified_contract.json",
+      "archived_receipt_sha256": "336f709a329559bcaebdd53236c34d0338324c8c09d60c57522d6ab6d0719c82",
+      "case": "modified_contract",
+      "expected": "INTEGRITY_BLOCKED",
+      "pass": true,
+      "receipt": "/HOST/notebook/math-research-agent/verification/runs/controls-20260916T102825/modified_contract.json",
+      "receipt_sha256": "336f709a329559bcaebdd53236c34d0338324c8c09d60c57522d6ab6d0719c82"
+    }
+  ]
+}

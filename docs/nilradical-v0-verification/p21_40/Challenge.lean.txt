@@ -1,0 +1,43 @@
+import Kourovka.Problems.P21_40.Statement
+import Mathlib.NumberTheory.NumberField.Basic
+
+/- Independent semantic challenge, 2026-09-16.
+Statement.lean has been independently reviewed and frozen: full abstract
+automorphism orbits, actual finite index, nilpotence, torsion-freeness, one
+simultaneous rational conjugator, all natural dimensions, and class/index bounds.
+No rational-structure hypothesis is allowed on the number-field endpoints.
+Placeholder bodies are trusted benchmark statements only, never candidate proofs.
+-/
+namespace Kourovka.P21_40
+
+theorem structural_theorem {n : ℕ}
+    (G : Subgroup (Matrix.GeneralLinearGroup (Fin n) ℚ))
+    (hG : HasFiniteAutomorphismOrbits G) : StructuralConclusion G := by
+  sorry
+
+theorem virtually_nilpotent {n : ℕ}
+    (G : Subgroup (Matrix.GeneralLinearGroup (Fin n) ℚ))
+    (hG : HasFiniteAutomorphismOrbits G) : Group.IsVirtuallyNilpotent G := by
+  sorry
+
+theorem virtually_solvable {n : ℕ}
+    (G : Subgroup (Matrix.GeneralLinearGroup (Fin n) ℚ))
+    (hG : HasFiniteAutomorphismOrbits G) : IsVirtuallySolvable G := by
+  sorry
+
+theorem notebookStatement : NotebookStatement := by
+  sorry
+
+theorem numberField_structure {K : Type*} [Field K] [NumberField K] {n : ℕ}
+    (G : Subgroup (Matrix.GeneralLinearGroup (Fin n) K))
+    (hG : HasFiniteAutomorphismOrbits G) :
+    ∃ N : Subgroup G, N.FiniteIndex ∧ Group.IsNilpotent N ∧
+      (∀ g : N, IsOfFinOrder g → g = 1) := by
+  sorry
+
+theorem numberField_virtually_nilpotent {K : Type*} [Field K] [NumberField K] {n : ℕ}
+    (G : Subgroup (Matrix.GeneralLinearGroup (Fin n) K))
+    (hG : HasFiniteAutomorphismOrbits G) : Group.IsVirtuallyNilpotent G := by
+  sorry
+
+end Kourovka.P21_40

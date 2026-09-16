@@ -1,0 +1,216 @@
+{
+  "status": "FULL_BUILD_AND_AUDIT_PASS",
+  "recorded_at_utc": "2026-09-15T16:46:16.579009+00:00",
+  "platform": "macOS-15.2-arm64-arm-64bit-Mach-O",
+  "base_commit": "b7ca6c7fbea223097e428b695a2341d8aa3de25b",
+  "branch": "main",
+  "changes_uncommitted": true,
+  "push_performed": false,
+  "lean_toolchain": "leanprover/lean4:v4.34.0-rc2",
+  "dependencies": [
+    {
+      "url": "https://github.com/leanprover-community/mathlib4.git",
+      "type": "git",
+      "subDir": null,
+      "scope": "",
+      "rev": "87f6d5ec4c780581c9a78b06a9c5f1cf86dc5a70",
+      "name": "mathlib",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "87f6d5ec4c780581c9a78b06a9c5f1cf86dc5a70",
+      "inherited": false,
+      "configFile": "lakefile.lean"
+    },
+    {
+      "url": "https://github.com/leanprover-community/plausible",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "d9598f07b1bc701f1e3aae163d2681c1fd978793",
+      "name": "plausible",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "main",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover-community/LeanSearchClient",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "ba67e212be1197b84c1f1f6299488a10a3002713",
+      "name": "LeanSearchClient",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "main",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover-community/import-graph",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "d8823026ac7ef130c253089d95685f9877b95323",
+      "name": "importGraph",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "main",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover-community/ProofWidgets4",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "a8acbfd87375ff4abe14ce09db5b7664d383bc7f",
+      "name": "proofwidgets",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "main",
+      "inherited": true,
+      "configFile": "lakefile.lean"
+    },
+    {
+      "url": "https://github.com/leanprover-community/aesop",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "18889deb9e83ea7420ef51c160d6f88552e744e3",
+      "name": "aesop",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "master",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover-community/quote4",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "507746ab8f4b643ccdacb2ec4cdb5853fa9f8ab3",
+      "name": "Qq",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "master",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover-community/batteries",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "d54dddc581e08be364c278052863524bff7a99a9",
+      "name": "batteries",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "main",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    },
+    {
+      "url": "https://github.com/leanprover/lean4-cli",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover",
+      "rev": "ab3a82db9fea14cf0fd7f5a2de650f4b534640af",
+      "name": "Cli",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "v4.34.0-rc2",
+      "inherited": true,
+      "configFile": "lakefile.toml"
+    }
+  ],
+  "dependency_checkout_verification": "All nine dependency checkouts verified clean at their manifest revisions.",
+  "checks": [
+    {
+      "command": "LEAN_NUM_THREADS=1 lake build Kourovka.Problems.P21_38.Solution",
+      "exit_code": 0,
+      "lake_jobs": 1475,
+      "warnings": 0,
+      "new_module_warnings": 0,
+      "log": "docs/21.38-build.txt",
+      "log_sha256": "4f0fd361a78907cc971dcc1d09d16d705a7a17a257f0727387ae3248afc41c19"
+    },
+    {
+      "command": "LEAN_NUM_THREADS=1 lake build",
+      "exit_code": 0,
+      "lake_jobs": 9305,
+      "warnings": 205,
+      "new_module_warnings": 0,
+      "log": "docs/21.38-full-build.txt",
+      "log_sha256": "e1928da8d9a1fc3922ade953538aa21c6c8ea50581faf6d058eda6c259ee5f45"
+    },
+    {
+      "command": "LEAN_NUM_THREADS=1 lake env lean Audit.lean",
+      "exit_code": 0,
+      "log": "docs/21.38-axiom-audit.txt",
+      "log_sha256": "c4afa0102cbcf9c85ed6b08de4560299dc88a2f95d8dc20b6d9d9470b5028da5",
+      "guarded_checks": "PASS"
+    },
+    {
+      "command": "python3 scripts/check_repository.py",
+      "exit_code": 0,
+      "output": "Repository check passed: 7 problems, 38 Markdown files."
+    },
+    {
+      "command": "git diff --check",
+      "exit_code": 0,
+      "output": ""
+    },
+    {
+      "check": "Comment- and string-stripped Lean source scan for admissions, added axioms, unsafe declarations, native_decide, and bv_decide",
+      "result": "PASS",
+      "lean_files": 56
+    },
+    {
+      "check": "SHA-256 source manifest replay and whitespace scan of every new Lean file",
+      "result": "PASS",
+      "manifest_files": 61,
+      "lean_files": 56
+    },
+    {
+      "check": "Upstream and adapted foundation hashes plus retained Apache-2.0 license",
+      "result": "PASS",
+      "foundation_modules": 16
+    }
+  ],
+  "audited_axioms": {
+    "Kourovka.P21_38.originalQuestion": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Kourovka.P21_38.notebookStatement": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Kourovka.P21_38.diagonal_hasSpreadExactlyOne": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "Kourovka.P21_38.diagonal_spread_profile": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "source_manifest": {
+    "path": "docs/21.38-source.sha256",
+    "sha256": "0858bcc33e55c9f632cce97226c91ef4b8afc4dd336a685174349d94447a65e2",
+    "files": 61,
+    "problem_lean_modules": 40,
+    "foundation_lean_modules": 16
+  },
+  "independent_semantic_review": {
+    "path": "docs/21.38-statement-audit.md",
+    "sha256": "12fc0067d7ea67db2bbb28802bbeb59a7fa308ed3eaa363623009341de4eceba",
+    "result": "PASS"
+  },
+  "foundation_provenance": {
+    "path": "Kourovka/External/GroupApproximation/provenance.json",
+    "sha256": "83340c4cc08fcc85ae6f7feb7ab56993c394583a096afea3ddc017159ae263ec",
+    "source_commit": "a39c9b72861bd04c71fc8e18876d13307851d777",
+    "license": "Apache-2.0"
+  },
+  "scope": "Closed existence of an infinite group of ordinary spread exactly one, using the concrete equal-endpoint subgroup of the rational dyadic PL model. Includes a generating companion for every nonidentity element, a fixed pair with no common companion, infinitude, and the full tuple profile k <= 1. The required prescribed-generation case is proved in Lean, including the endpoint kernel. No separate formal identification with real PL homeomorphisms is claimed or required for the existential result.",
+  "warnings_note": "The target solution and its foundation dependency closure have zero warnings. The full build replays 192 pre-existing warnings in other problem modules."
+}

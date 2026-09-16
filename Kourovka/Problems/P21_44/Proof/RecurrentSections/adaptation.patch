@@ -1,0 +1,14 @@
+--- upstream/ExponentialGrowth.lean
++++ local/ExponentialGrowth.lean
+@@ -4,7 +4,10 @@
+ Developed with AI assistance; see ACKNOWLEDGEMENTS.md and AUTHORS.md.
+ -/
+ 
+-import RecurrentSections.WordGeometry
++/- Local modification (2026-09-15): relocate the WordGeometry import into the
++Kourovka proof tree. Mathematical declarations are unchanged. -/
++
++import Kourovka.Problems.P21_44.Proof.RecurrentSections.WordGeometry
+ import Mathlib.Analysis.Subadditive
+ import Mathlib.Analysis.SpecialFunctions.Log.Basic
+ import Mathlib.Analysis.SpecialFunctions.Exp

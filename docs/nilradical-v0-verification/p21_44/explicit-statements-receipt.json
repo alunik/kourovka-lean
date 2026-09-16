@@ -1,0 +1,29 @@
+{
+  "returncode": 0,
+  "seconds": 2.383,
+  "export_sha256": "971bd46a4778295aa51b07ba4836b8141421a757ce2794619b96527e94db6f6f",
+  "printed_declarations": [
+    "Kourovka.P21_44.generated_section_shortening",
+    "Kourovka.P21_44.subexponential_growth",
+    "Kourovka.P21_44.generatedSubgroup_fg",
+    "Kourovka.P21_44.notebookStatement",
+    "Kourovka.P21_44.dense_generated_pair",
+    "Kourovka.P21_44.generated_pair_surjective",
+    "Kourovka.P21_44.NotebookStatement",
+    "Kourovka.P21_44.HasSubexponentialGrowth",
+    "Kourovka.P21_44.AutTree",
+    "Kourovka.P21_44.compatibleSubgroup",
+    "Kourovka.P21_44.Level",
+    "Kourovka.P21_44.levelProj",
+    "Kourovka.P21_44.Wreath",
+    "Kourovka.P21_44.reindexAction",
+    "Kourovka.P21_44.generatedSubgroup",
+    "Kourovka.P21_44.wordGeometry",
+    "RecurrentSections.WordGeometry",
+    "RecurrentSections.WordGeometry.ball",
+    "RecurrentSections.SubexponentialGrowth"
+  ],
+  "requested_names_absent_from_export": [],
+  "output_sha256": "ffe5b96e0c297050bc1d727c47770e483113b5adc36b742725c1ca4590886f1f",
+  "human_approval": "NOT_RECORDED"
+}

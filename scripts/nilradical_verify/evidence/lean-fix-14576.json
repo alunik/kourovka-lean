@@ -1,0 +1,10 @@
+{
+  "issue": "https://github.com/leanprover/lean4/issues/14576",
+  "fix_pr": "https://github.com/leanprover/lean4/pull/14577",
+  "merge_commit": "a39eab69e1eee9ad38f4efe507907b1026a77808",
+  "lean_commit": "6a10ac8c22beadecabdbb0919c2b50214762f91d",
+  "comparison_status": "ahead",
+  "ahead_by": 93,
+  "behind_by": 0,
+  "merge_base": "a39eab69e1eee9ad38f4efe507907b1026a77808"
+}

@@ -1,0 +1,26 @@
+{
+  "export_file_path": "/HOST/notebook/math-research-agent/verification/runs/work-1789551007381033000/exports/Kourovka_Problems_P21_106_Solution.ndjson",
+  "nat_extension": true,
+  "num_threads": 4,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "pp_declars": [
+    "Kourovka.P21_106.not_notebookStatement",
+    "Kourovka.P21_106.NotebookStatement",
+    "Kourovka.P21_106.FormulaValues",
+    "Kourovka.P21_106.IsConciseIn",
+    "Kourovka.P21_106.groupLanguage",
+    "Kourovka.P21_106.groupLanguageStructure"
+  ],
+  "pp_options": {
+    "all": true,
+    "explicit": true,
+    "universes": true
+  },
+  "pp_to_stdout": true,
+  "string_extension": true,
+  "unpermitted_axiom_hard_error": true
+}

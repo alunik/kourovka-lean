@@ -7,13 +7,23 @@ Complete, kernel-checked Lean proofs answering selected problems from
 Each entry connects the original question to a precise formal statement,
 its proof, and reproducible verification instructions.
 
+The solutions to Problems **21.3 (first question), 21.38, 21.40, 21.44,
+21.68 and 21.106** are by **[Nilradical v0](https://nilradical.ai)**.
+See the [result and verification record](docs/nilradical-v0.md).
+Problem 21.29 remains credited to Aluna Rizzoli and Adam R. Thomas.
+Problem 21.99 is retained as an independent formalized counterexample,
+but excluded from the Nilradical discovery catalogue because another
+complete solution exists and public priority is unresolved.
+
 ## Problems
 
 | Problem | Answer and scope | Statement | Final theorem |
 | --- | --- | --- | --- |
 | [21.3, first question](Kourovka/Problems/P21_03/README.md) | **Affirmative** for symmetric and alternating groups in all sufficiently large degrees; no explicit cutoff | [Lean statement](Kourovka/Problems/P21_03/Statement.lean) | [`Kourovka.P21_03.firstQuestion`](Kourovka/Problems/P21_03/Solution.lean) |
 | [21.29](Kourovka/Problems/P21_29/README.md) | **Negative**, by a primitive affine counterexample of degree 19,683 | [Lean statement](Kourovka/Problems/P21_29/Statement.lean) | [`Kourovka.P21_29.not_notebookStatement`](Kourovka/Problems/P21_29/Solution.lean) |
+| [21.38](Kourovka/Problems/P21_38/README.md) | **Affirmative**: an infinite group of ordinary spread exactly one | [Lean statement](Kourovka/Problems/P21_38/Statement.lean) | [`Kourovka.P21_38.notebookStatement`](Kourovka/Problems/P21_38/Solution.lean) |
 | [21.40](Kourovka/Problems/P21_40/README.md) | **Affirmative**: every rational linear group with finitely many automorphism orbits has a normal torsion-free nilpotent subgroup of explicitly bounded finite index | [Lean statement](Kourovka/Problems/P21_40/Statement.lean) | [`Kourovka.P21_40.notebookStatement`](Kourovka/Problems/P21_40/Solution.lean) |
+| [21.44](Kourovka/Problems/P21_44/README.md) | **Affirmative**: a two-generated dense subgroup of subexponential growth in the infinite iterated natural degree-five alternating wreath product | [Lean statement](Kourovka/Problems/P21_44/Statement.lean) | [`Kourovka.P21_44.notebookStatement`](Kourovka/Problems/P21_44/Solution.lean) |
 | [21.68](Kourovka/Problems/P21_68/README.md) | **Negative**, by a semiabelian group of order 2592 with an irreducible nonmonomial complex representation of degree 8 | [Lean statement](Kourovka/Problems/P21_68/Statement.lean) | [`Kourovka.P21_68.not_notebookStatement`](Kourovka/Problems/P21_68/Solution.lean) |
 | [21.99](Kourovka/Problems/P21_99/README.md) | **Negative**, by a finite transitive action in which every element carrying one specified point to another fixes exactly one point | [Lean statement](Kourovka/Problems/P21_99/Statement.lean) | [`Kourovka.P21_99.not_notebookStatement`](Kourovka/Problems/P21_99/Solution.lean) |
 | [21.106](Kourovka/Problems/P21_106/README.md) | **Negative**, by a parameter-free formula with two values generating an infinite subgroup in the residually finite integral Heisenberg group | [Lean statement](Kourovka/Problems/P21_106/Statement.lean) | [`Kourovka.P21_106.not_notebookStatement`](Kourovka/Problems/P21_106/Solution.lean) |

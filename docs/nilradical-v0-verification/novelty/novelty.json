@@ -1,0 +1,493 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-09-16",
+  "review_kind": "bounded primary-source comparison and public-chronology audit",
+  "absolute_priority_certified": false,
+  "retained": [
+    "21.3",
+    "21.38",
+    "21.40",
+    "21.44",
+    "21.68",
+    "21.106"
+  ],
+  "excluded": [
+    "21.99"
+  ],
+  "existing_exclusion_untouched": [
+    "21.29"
+  ],
+  "records": [
+    {
+      "problem": "21.3",
+      "decision": "retain",
+      "reason_code": "no_earlier_complete_solution_located",
+      "claim_scope": "Uniform eventual trivial conjugate intersection for every pair of soluble subgroups in Sn and An; first question only.",
+      "confirmed_prior_complete_solution": false,
+      "competing_complete_solution_found": false,
+      "priority_status": "no_earlier_complete_solution_located_in_bounded_check",
+      "source_ids": [
+        "regularity",
+        "project_21_3",
+        "official_repository"
+      ],
+      "prior_work_relation": "Earlier positive result covers soluble maximal subgroups, while the official posted full result is from this same project.",
+      "qualifications": [
+        "No claim for all n >= 21.",
+        "No priority certificate from bounded search."
+      ],
+      "proof_correctness_gate": "separate audit; not certified by novelty review",
+      "statement_path": "Kourovka/Problems/P21_03/Statement.lean"
+    },
+    {
+      "problem": "21.38",
+      "decision": "retain",
+      "reason_code": "no_earlier_complete_solution_located",
+      "claim_scope": "Existence of an infinite group with ordinary spread exactly one, realized by the diagonal subgroup of Thompson’s F.",
+      "confirmed_prior_complete_solution": false,
+      "competing_complete_solution_found": false,
+      "priority_status": "no_earlier_complete_solution_located_in_bounded_check",
+      "source_ids": [
+        "golan_generation",
+        "golan_spread",
+        "official_repository"
+      ],
+      "prior_work_relation": "Lower bound is a specialization of Golan-Polak’s published generation theorem; upper bound uses her fixed-point obstruction.",
+      "qualifications": [
+        "Credit these substantial prior ingredients prominently.",
+        "Potential novelty is the exact ordinary-spread-one corollary, not the generation theorem."
+      ],
+      "proof_correctness_gate": "separate audit; not certified by novelty review",
+      "statement_path": "Kourovka/Problems/P21_38/Statement.lean"
+    },
+    {
+      "problem": "21.40",
+      "decision": "retain",
+      "reason_code": "no_earlier_complete_solution_located",
+      "claim_scope": "Every rational-linear group with finitely many full abstract automorphism orbits is virtually soluble; stronger finite-index normal torsion-free nilpotent conclusion.",
+      "confirmed_prior_complete_solution": false,
+      "competing_complete_solution_found": false,
+      "priority_status": "no_earlier_complete_solution_located_in_bounded_check",
+      "source_ids": [
+        "bastos_soluble",
+        "bastos_nilpotent",
+        "dantas_melo_kato",
+        "dantas_sousa",
+        "melo_kato",
+        "official_repository"
+      ],
+      "prior_work_relation": "Located predecessors impose structural, rank, residual-finiteness or finite-generation assumptions absent from the local statement.",
+      "qualifications": [
+        "Arbitrary, including infinitely generated, rational-linear subgroups must remain in scope.",
+        "Existing broader local context audit supplements the fresh major-theorem recheck."
+      ],
+      "proof_correctness_gate": "separate audit; not certified by novelty review",
+      "statement_path": "Kourovka/Problems/P21_40/Statement.lean"
+    },
+    {
+      "problem": "21.44",
+      "decision": "retain",
+      "reason_code": "no_earlier_complete_solution_located",
+      "claim_scope": "A finitely generated dense subgroup of the infinite iterated wreath product of natural degree-five A5, with subexponential growth.",
+      "confirmed_prior_complete_solution": false,
+      "competing_complete_solution_found": false,
+      "priority_status": "no_earlier_complete_solution_located_in_bounded_check",
+      "source_ids": [
+        "brieussel",
+        "woryna",
+        "eberhard",
+        "official_repository"
+      ],
+      "prior_work_relation": "Brieussel’s checked construction requires local degrees >= 29; Woryna’s compatible degree-five construction has exponential growth.",
+      "qualifications": [
+        "Degree-five requirement is essential.",
+        "Amenability is insufficient for this question."
+      ],
+      "proof_correctness_gate": "separate audit; not certified by novelty review",
+      "statement_path": "Kourovka/Problems/P21_44/Statement.lean"
+    },
+    {
+      "problem": "21.68",
+      "decision": "retain",
+      "reason_code": "no_earlier_complete_solution_located",
+      "claim_scope": "A semiabelian group of order 2592 that is not monomial.",
+      "confirmed_prior_complete_solution": false,
+      "competing_complete_solution_found": false,
+      "priority_status": "no_earlier_complete_solution_located_in_bounded_check",
+      "source_ids": [
+        "kida",
+        "project_21_68",
+        "official_repository"
+      ],
+      "prior_work_relation": "Kida’s order-192 example disproves the converse; his order-96 complement/subgroup pair is an explicitly credited prior input.",
+      "qualifications": [
+        "No minimal-order claim.",
+        "No novelty claim for the general character-transfer mechanism."
+      ],
+      "proof_correctness_gate": "separate audit; not certified by novelty review",
+      "statement_path": "Kourovka/Problems/P21_68/Statement.lean"
+    },
+    {
+      "problem": "21.99",
+      "decision": "exclude",
+      "reason_code": "complete_competing_solution_and_unresolved_priority",
+      "claim_scope": "Finite transitive soluble action and two distinct points such that every transporter fixes exactly one point.",
+      "confirmed_prior_complete_solution": false,
+      "competing_complete_solution_found": true,
+      "priority_status": "unresolved",
+      "source_ids": [
+        "muliarchyk",
+        "official_repository"
+      ],
+      "prior_work_relation": "Muliarchyk’s paper is a complete independent negative solution with a smaller witness.",
+      "qualifications": [
+        "Neither earlier private commits nor present HTTP Last-Modified resolves first public solution.",
+        "Preserve existing independently constructed Lean counterexample outside the discovery catalogue.",
+        "Do not state that Muliarchyk solved it first."
+      ],
+      "proof_correctness_gate": "separate audit; not certified by novelty review",
+      "statement_path": "Kourovka/Problems/P21_99/Statement.lean"
+    },
+    {
+      "problem": "21.106",
+      "decision": "retain",
+      "reason_code": "no_earlier_complete_solution_located",
+      "claim_scope": "A parameter-free first-order formula on a residually finite integer Heisenberg group has a finite value set generating an infinite subgroup.",
+      "confirmed_prior_complete_solution": false,
+      "competing_complete_solution_found": false,
+      "priority_status": "no_earlier_complete_solution_located_in_bounded_check",
+      "source_ids": [
+        "conte_petschick",
+        "ciobanu_conte",
+        "official_repository"
+      ],
+      "prior_work_relation": "Prior positive results concern existential formulas or different group families and retain the general question.",
+      "qualifications": [
+        "Scope is first-order formulas, not the separate word-conciseness question.",
+        "The local formula has a universal quantifier, outside the existential theorem."
+      ],
+      "proof_correctness_gate": "separate audit; not certified by novelty review",
+      "statement_path": "Kourovka/Problems/P21_106/Statement.lean"
+    }
+  ],
+  "sources": [
+    {
+      "id": "official_repository",
+      "title": "The Kourovka Notebook: repository",
+      "url": "https://kourovkanotebookorg.wordpress.com/repository/",
+      "dates": {
+        "checked": "2026-09-16"
+      },
+      "primary_claims_read": [
+        "Current selective repository of solution papers; links for 21.3(a), 21.68 and Muliarchyk 21.99 inspected."
+      ],
+      "relation_to_local_result": "Positive evidence of listed solutions; absence of a link is not proof of novelty."
+    },
+    {
+      "id": "regularity",
+      "title": "Anagnostopoulou-Merkouri and Burness: On the regularity number of a finite group and other base-related invariants",
+      "url": "https://arxiv.org/abs/2405.15300",
+      "dates": {
+        "v1": "2024-05-24T07:39:14Z",
+        "v2": "2024-10-27T09:08:16Z"
+      },
+      "primary_claims_read": [
+        "Conjecture 2 in v2: eventual regularity number two for soluble subgroups of symmetric and alternating groups.",
+        "The positive soluble-maximal-subgroup theorem at degree at least 17 is narrower."
+      ],
+      "relation_to_local_result": "Original conjecture and partial theorem, not a complete solution for arbitrary soluble subgroups."
+    },
+    {
+      "id": "project_21_3",
+      "title": "The soluble-intersection limit in Sn",
+      "url": "https://kourovkanotebookorg.wordpress.com/wp-content/uploads/2026/09/kourovka_21_3a.pdf",
+      "dates": {
+        "internal_paper_date": "2026-09-11"
+      },
+      "primary_claims_read": [
+        "Theorem 1.1: sharp limiting proportion exp(-9/2).",
+        "Alternating corollary and eventual positive answer."
+      ],
+      "relation_to_local_result": "Own result, not an independent competitor; only first question admitted."
+    },
+    {
+      "id": "golan_generation",
+      "title": "Gili Golan-Polak: Thompson’s group F is almost 3/2-generated",
+      "url": "https://arxiv.org/abs/2210.03564",
+      "dates": {
+        "v1": "2022-10-07T13:57:32Z",
+        "journal_year": 2023
+      },
+      "primary_claims_read": [
+        "Theorem 2 and Proposition 16(1): prescribed nonzero endpoint exponents yield a companion generating the full inverse image of the lattice of endpoint vectors."
+      ],
+      "relation_to_local_result": "Specializing the companion endpoint vector to (1,1) gives spread at least one for the diagonal subgroup. Substantial prior theorem must be credited."
+    },
+    {
+      "id": "golan_spread",
+      "title": "Gili Golan-Polak: The spread of Thompson’s group F",
+      "url": "https://arxiv.org/abs/2402.19444",
+      "dates": {
+        "v1": "2024-02-29T18:44:10Z"
+      },
+      "primary_claims_read": [
+        "Introduction: existence of an infinite group of ordinary spread exactly one remains open.",
+        "Lemma 2: fixed-point obstruction to generation.",
+        "Remark 11: nonnegative product of endpoint exponents forces an interior fixed point."
+      ],
+      "relation_to_local_result": "Contains ingredients for the upper bound after a diagonal specialization; no explicit ordinary-spread-one conclusion located."
+    },
+    {
+      "id": "bastos_soluble",
+      "title": "Bastos, Dantas and de Melo: soluble finite-rank groups with finitely many automorphism orbits",
+      "url": "https://arxiv.org/pdf/1908.01375v1",
+      "dates": {
+        "arxiv_year": 2019,
+        "journal_year": 2020
+      },
+      "primary_claims_read": [
+        "Theorem A, page 2, assumes solubility and finite rank."
+      ],
+      "relation_to_local_result": "Does not deduce virtual solubility from arbitrary rational linearity and finite automorphism-orbit count."
+    },
+    {
+      "id": "bastos_nilpotent",
+      "title": "Bastos, Dantas and de Melo: nilpotent and virtually soluble groups with finitely many automorphism orbits",
+      "url": "https://arxiv.org/pdf/2008.10800v1",
+      "dates": {
+        "arxiv_year": 2020,
+        "journal_year": 2021
+      },
+      "primary_claims_read": [
+        "Theorem 1.2, page 2, assumes virtual nilpotence.",
+        "Corollary 1.3, page 3, assumes virtual solubility and finite rank."
+      ],
+      "relation_to_local_result": "Hypotheses include the structural condition the local result must prove."
+    },
+    {
+      "id": "dantas_melo_kato",
+      "title": "Dantas, de Melo and Kato: On soluble groups of finite rank with finitely many automorphism orbits",
+      "url": "https://doi.org/10.1080/00927872.2025.2578695",
+      "dates": {
+        "online": "2025-11-14",
+        "issue_year": 2026
+      },
+      "primary_claims_read": [
+        "Introduction, page 2341, and all three main statements, page 2342, read in user-supplied publisher PDF.",
+        "Theorem 1.1: mixed-order soluble finite-rank groups with four orbits.",
+        "Theorem 1.2: mixed-order metabelian finite-rank groups with four orbits.",
+        "Theorem 1.3: mixed-order soluble finite-rank groups with five orbits."
+      ],
+      "relation_to_local_result": "All statements retain hypotheses absent from the rational-linear question."
+    },
+    {
+      "id": "dantas_sousa",
+      "title": "Dantas and de Sousa: groups with finitely many automorphism orbits",
+      "url": "https://arxiv.org/html/2605.02090v1",
+      "dates": {
+        "v1_date": "2026-05-03"
+      },
+      "primary_claims_read": [
+        "Theorem A concerns residually finite groups.",
+        "Theorem B concerns finitely generated locally graded groups.",
+        "Theorem C concerns specified rational nilpotent completions."
+      ],
+      "relation_to_local_result": "None settles arbitrary rational-linear subgroups; (Q,+) shows residual finiteness cannot be assumed."
+    },
+    {
+      "id": "melo_kato",
+      "title": "de Melo and Kato: full unitriangular groups and automorphism orbits",
+      "url": "https://arxiv.org/html/2510.09353v1",
+      "dates": {
+        "v1_date": "2025-10-10"
+      },
+      "primary_claims_read": [
+        "Results concern full unitriangular groups and orbit counts; broader classification discussed."
+      ],
+      "relation_to_local_result": "Related nilpotent classification, not arbitrary rational-linear virtual solubility."
+    },
+    {
+      "id": "brieussel",
+      "title": "Jérémie Brieussel: doctoral thesis, sections 3.6.1–3.6.7",
+      "url": "https://imag.umontpellier.fr/~brieussel/these_brieussel.pdf",
+      "dates": {
+        "defended": "2008-09-29",
+        "related_journal_year": 2009,
+        "related_journal_doi": "10.1007/s00209-008-0417-3"
+      },
+      "primary_claims_read": [
+        "Printed pages 76–80; construction hypotheses and Propositions 3.6.1, 3.6.3, 3.6.6 and Remark 3.6.7.",
+        "Eligible generator construction used by the intermediate-growth theorem requires all local degrees at least 29."
+      ],
+      "relation_to_local_result": "Does not specialize to natural degree-five A5 action."
+    },
+    {
+      "id": "woryna",
+      "title": "Adam Woryna: dense amenable subgroups of inverse limits of iterated wreath products",
+      "url": "https://link.springer.com/article/10.1007/s10801-015-0584-3",
+      "dates": {
+        "journal_year": 2015
+      },
+      "primary_claims_read": [
+        "Corollary 2 applies to the degree-five alternating action but expressly produces exponential growth."
+      ],
+      "relation_to_local_result": "Amenability and contraction do not supply subexponential growth."
+    },
+    {
+      "id": "eberhard",
+      "title": "Eberhard, Maini, Sabatini and Tracey: diameter and iterated wreath products",
+      "url": "https://arxiv.org/abs/2604.15303",
+      "dates": {
+        "v1": "2026-04-16T17:58:57Z",
+        "v2": "2026-04-17T20:46:35Z"
+      },
+      "primary_claims_read": [
+        "End of section 9 in both v1 and current v2 repeats exact degree-five question.",
+        "Lower growth restriction rules out some slow subexponential rates, not all subexponential growth."
+      ],
+      "relation_to_local_result": "Contemporary source continues to formulate the exact question; no competing full construction."
+    },
+    {
+      "id": "kida",
+      "title": "Masanari Kida: On semiabelian groups",
+      "url": "https://doi.org/10.1515/jgth-2024-0010",
+      "dates": {
+        "online": "2024-11-09",
+        "issue_year": 2025,
+        "open_fulltext": "https://d-nb.info/1364524341/34"
+      },
+      "primary_claims_read": [
+        "Conjecture 1.3 asks semiabelian implies monomial.",
+        "Theorem 1.4 gives an order-192 monomial group that is not semiabelian, disproving the converse.",
+        "Page 710 gives an order-96 semiabelian group containing SL2(3)."
+      ],
+      "relation_to_local_result": "Supplies the prior complement/subgroup input but no nonmonomial semiabelian counterexample."
+    },
+    {
+      "id": "project_21_68",
+      "title": "solution to Kourovka Problem 21.68",
+      "url": "https://kourovkanotebookorg.wordpress.com/wp-content/uploads/2026/09/kourovka_21_68.pdf",
+      "dates": {
+        "internal_paper_date": "2026-09-11"
+      },
+      "primary_claims_read": [
+        "Theorem 1 gives the order-2592 semiabelian nonmonomial example and credits Kida’s input."
+      ],
+      "relation_to_local_result": "Own construction, not an independent competitor."
+    },
+    {
+      "id": "muliarchyk",
+      "title": "Kyrylo Muliarchyk: A counterexample to Problem 21.99 of the Kourovka Notebook",
+      "url": "https://kourovkanotebookorg.wordpress.com/wp-content/uploads/2026/09/kourovka_21.99_solution.pdf",
+      "dates": {
+        "internal_paper_date": null,
+        "first_publication_date": null,
+        "http_last_modified_current_version": "2026-09-10T08:45:52Z",
+        "known_linked_by": "2026-09-11"
+      },
+      "primary_claims_read": [
+        "All four pages read.",
+        "Theorem 1: a soluble group of order 46,875,000,000 acts faithfully and transitively in degree 23,437,500; two distinct points have 2000 transporters and every transporter fixes exactly one point.",
+        "Sections 2–4 supply construction and fixed-block calculation for every transporter."
+      ],
+      "relation_to_local_result": "Complete independent negative solution to the exact statement. Smaller than local witness. Public priority unresolved; current file modification time is not first-publication evidence."
+    },
+    {
+      "id": "conte_petschick",
+      "title": "Conte and Petschick: Conciseness of first-order formulae",
+      "url": "https://arxiv.org/abs/2505.01411",
+      "dates": {
+        "v1": "2025-05-02T17:40:47Z",
+        "journal_online": "2025-10-15",
+        "journal_url": "https://link.springer.com/article/10.1007/s00605-025-02127-5"
+      },
+      "primary_claims_read": [
+        "Question 1 asks the residually finite question; parameter-free convention read.",
+        "Existential-formula positive theorem is 1.2 in preprint and 1.1 in journal.",
+        "Journal version retains Question 1."
+      ],
+      "relation_to_local_result": "Existential theorem does not cover local existential-universal-existential formula."
+    },
+    {
+      "id": "ciobanu_conte",
+      "title": "Ciobanu and Conte: Concise formulae in groups of non-positive curvature",
+      "url": "https://arxiv.org/html/2605.06023v1",
+      "dates": {
+        "v1_date": "2026-05-07"
+      },
+      "primary_claims_read": [
+        "Introduction describes positive partial progress on the general question.",
+        "Results concern acylindrically hyperbolic groups and existential formulas."
+      ],
+      "relation_to_local_result": "No Heisenberg two-value full counterexample is recorded."
+    }
+  ],
+  "chronology_21_99": {
+    "interpretation": "Private at 07:54:33Z, public confirmed at 07:54:42Z on 10 September 2026. Earlier commits and CI runs are not public-disclosure evidence.",
+    "muliarchyk_pdf_http_last_modified_utc": "2026-09-10T08:45:52Z",
+    "priority_resolved": false,
+    "last_modified_limitation": "This dates the served file version, not necessarily its first public posting or any earlier version.",
+    "events": [
+      {
+        "timestamp_utc": "2026-09-10T07:54:33.775Z",
+        "repository_visibility": "PRIVATE",
+        "command_exit_code": 0,
+        "evidence_kind": "preserved repository visibility command output"
+      },
+      {
+        "timestamp_utc": "2026-09-10T07:54:42.218Z",
+        "repository_visibility": "PUBLIC",
+        "command_exit_code": 0,
+        "evidence_kind": "preserved repository visibility command output"
+      }
+    ]
+  },
+  "search_scope": {
+    "21.3": [
+      "\"Kourovka\" \"21.3\"",
+      "\"soluble-intersection\"",
+      "\"regularity number\" \"soluble\""
+    ],
+    "21.38": [
+      "\"Kourovka\" \"21.38\"",
+      "\"infinite group\" \"spread exactly one\"",
+      "Golan-Polak spread Thompson diagonal subgroup"
+    ],
+    "21.40": [
+      "\"Kourovka\" \"21.40\"",
+      "rational linear groups finitely many automorphism orbits",
+      "Dantas de Melo Kato soluble groups finite rank automorphism orbits"
+    ],
+    "21.44": [
+      "\"Kourovka\" \"21.44\"",
+      "Brieussel A5 intermediate growth iterated wreath product",
+      "Woryna alternating wreath subexponential growth"
+    ],
+    "21.68": [
+      "\"Kourovka\" \"21.68\"",
+      "semiabelian monomial counterexample Kida"
+    ],
+    "21.99": [
+      "\"Kourovka\" \"21.99\"",
+      "Muliarchyk counterexample 21.99"
+    ],
+    "21.106": [
+      "\"Kourovka\" \"21.106\"",
+      "conciseness first-order formulae Heisenberg counterexample",
+      "Conte Petschick residually finite formula concise"
+    ]
+  },
+  "search_log_note": "Representative query families from the bounded search, not a verbatim transcript of every engine request. Original and current primary versions were checked where described.",
+  "limitations": [
+    "No authors or editors contacted.",
+    "No comprehensive worldwide priority certificate is possible from these bounded searches.",
+    "Official repository coverage is selective.",
+    "Search-engine publication dates and aggregator labels were not used as priority evidence.",
+    "WordPress attachment endpoints were unavailable without authorization and were not bypassed.",
+    "Correctness and Lean reproducibility are separate acceptance gates."
+  ],
+  "math_repository_modified_by_this_audit": false,
+  "site_modified_by_this_audit": false,
+  "report": "README.md",
+  "source_archive_note": "The private research archive preserves retrieved full texts. Public readers should use the primary-source URLs provided in this report."
+}

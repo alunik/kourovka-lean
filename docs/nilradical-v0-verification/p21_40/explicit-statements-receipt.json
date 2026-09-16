@@ -1,0 +1,23 @@
+{
+  "returncode": 0,
+  "seconds": 14.46,
+  "export_sha256": "17c6e6c5d0624c164191ddfd37b0f316c4f54b90e9c5c565111684308b2a7287",
+  "printed_declarations": [
+    "Kourovka.P21_40.structural_theorem",
+    "Kourovka.P21_40.virtually_nilpotent",
+    "Kourovka.P21_40.virtually_solvable",
+    "Kourovka.P21_40.notebookStatement",
+    "Kourovka.P21_40.numberField_structure",
+    "Kourovka.P21_40.numberField_virtually_nilpotent",
+    "Kourovka.P21_40.HasFiniteAutomorphismOrbits",
+    "Kourovka.P21_40.IsVirtuallySolvable",
+    "Kourovka.P21_40.StructuralConclusion",
+    "Kourovka.P21_40.IsUpperUnitriangular",
+    "Kourovka.P21_40.NotebookStatement",
+    "Group.IsVirtuallyNilpotent",
+    "Subgroup.FiniteIndex"
+  ],
+  "requested_names_absent_from_export": [],
+  "output_sha256": "69b0b2c3b3d021a14a4081cb3f512105baf622afa3edd0e1578491d845f41cd8",
+  "human_approval": "NOT_RECORDED"
+}

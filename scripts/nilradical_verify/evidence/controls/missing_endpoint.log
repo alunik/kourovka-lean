@@ -1,0 +1,25 @@
+Building NilradicalFrozenChallenge
+⚠ [2/3] Built NilradicalFrozenChallenge (1.2s)
+warning: NilradicalFrozenChallenge.lean:3:8: declaration uses `sorry`
+Build completed successfully (3 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, verified, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from NilradicalFrozenChallenge
+Building Solution
+✔ [2/3] Built Solution (175ms)
+Build completed successfully (3 jobs).
+PANIC at dumpConstant Export:237:48: Constant verified not found in environment.
+backtrace:
+0   lean4export                         0x000000010b4e10e0 _ZN4leanL15print_backtraceEb + 60
+1   lean4export                         0x000000010b4d7c5c _ZN4leanL15lean_panic_implEPKcmb + 176
+2   lean4export                         0x000000010b4d7d78 lean_panic_fn_borrowed + 64
+3   lean4export                         0x0000000104d373a8 panic spec at dumpConstant (lean4export) + 596
+4   lean4export                         0x0000000104d28ae0 List.forIn'.loop [arity↓] spec at main (lean4export) + 576
+5   lean4export                         0x0000000104d29018 main [λ] (lean4export) + 384
+6   lean4export                         0x0000000104d292c8 main [boxed, λ] (lean4export) + 32
+7   lean4export                         0x000000010b4e90ec <apply/3> + 2732
+8   lean4export                         0x0000000104d2b518 M.run [arity↓] (lean4export) + 224
+9   lean4export                         0x000000010b4d59f0 _ZNSt3__110__function6__funcIZ13lean_run_mainE3$_0NS_9allocatorIS2_EEFvvEEclEv + 40
+10  lean4export                         0x000000010b4d5568 _ZN4lean7lthread3imp5_mainEPv + 52
+11  libsystem_pthread.dylib             0x00000001967802e4 _pthread_start + 136
+12  libsystem_pthread.dylib             0x000000019677b0fc thread_start + 8
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, verified, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from Solution
+uncaught exception: Child exited with 250

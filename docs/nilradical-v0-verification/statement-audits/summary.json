@@ -1,0 +1,116 @@
+{
+  "reviewed_at": "2026-09-16T09:55:59.865023+00:00",
+  "retained_problems": [
+    "21.3",
+    "21.38",
+    "21.40",
+    "21.44",
+    "21.68",
+    "21.106"
+  ],
+  "decision": "PASS",
+  "human_acceptance": "PENDING",
+  "records": [
+    {
+      "problem": "21.3",
+      "decision": "PASS",
+      "review_type": "AGENT_SEMANTIC_REVIEW",
+      "human_decision": "PENDING",
+      "endpoints": [
+        "Kourovka.P21_03.firstQuestion",
+        "Kourovka213.asymptoticStatement"
+      ],
+      "trusted_challenge": "trusted-challenges/P21_03.lean",
+      "challenge_sha256": "9cdc8b69c5027e4ae6947d73f7428d993a21485437cc7e58c4bb3d72ced4e2fc"
+    },
+    {
+      "problem": "21.38",
+      "decision": "PASS",
+      "review_type": "AGENT_SEMANTIC_REVIEW",
+      "human_decision": "PENDING",
+      "endpoints": [
+        "Kourovka.P21_38.diagonal_hasSpreadExactlyOne",
+        "Kourovka.P21_38.diagonal_spread_profile",
+        "Kourovka.P21_38.originalQuestion",
+        "Kourovka.P21_38.notebookStatement",
+        "Kourovka.P21_38.exists_generating_companion",
+        "Kourovka.P21_38.diagonal_exists_pair_no_common_companion",
+        "Kourovka.P21_38.diagonal_infinite"
+      ],
+      "trusted_challenge": "trusted-challenges/P21_38.lean",
+      "challenge_sha256": "258b4742c4079bd2497d3dc452636f309cd3cc953694c5cc9c09a221e5f2d328"
+    },
+    {
+      "problem": "21.40",
+      "decision": "PASS",
+      "review_type": "AGENT_SEMANTIC_REVIEW",
+      "human_decision": "PENDING",
+      "endpoints": [
+        "Kourovka.P21_40.structural_theorem",
+        "Kourovka.P21_40.virtually_nilpotent",
+        "Kourovka.P21_40.virtually_solvable",
+        "Kourovka.P21_40.notebookStatement",
+        "Kourovka.P21_40.numberField_structure",
+        "Kourovka.P21_40.numberField_virtually_nilpotent"
+      ],
+      "trusted_challenge": "trusted-challenges/P21_40.lean",
+      "challenge_sha256": "d74cb40fcfb20c9d3d7308718709a833cbe91ab737e7cef10f90fd8d69618a0e"
+    },
+    {
+      "problem": "21.44",
+      "decision": "PASS",
+      "review_type": "AGENT_SEMANTIC_REVIEW",
+      "human_decision": "PENDING",
+      "endpoints": [
+        "Kourovka.P21_44.generated_section_shortening",
+        "Kourovka.P21_44.subexponential_growth",
+        "Kourovka.P21_44.generatedSubgroup_fg",
+        "Kourovka.P21_44.notebookStatement",
+        "Kourovka.P21_44.dense_generated_pair",
+        "Kourovka.P21_44.generated_pair_surjective"
+      ],
+      "trusted_challenge": "trusted-challenges/P21_44.lean",
+      "challenge_sha256": "406cd9f8a4e71fa9f6c9e0571f36c7cafacf3d8b944afb1e1a45673e55683677"
+    },
+    {
+      "problem": "21.68",
+      "decision": "PASS",
+      "review_type": "AGENT_SEMANTIC_REVIEW",
+      "human_decision": "PENDING",
+      "endpoints": [
+        "Kourovka.P21_68.simple_witnessRepresentation",
+        "Kourovka.P21_68.finrank_witnessRepresentation",
+        "Kourovka.P21_68.witness_not_monomial",
+        "Kourovka.P21_68.G_not_monomial",
+        "Kourovka.P21_68.not_notebookStatement",
+        "Kourovka.P21_68.G_semiabelian",
+        "Kourovka.P21_68.card_G"
+      ],
+      "trusted_challenge": "trusted-challenges/P21_68.lean",
+      "challenge_sha256": "0243e8352197c563d279d3065b719ec9b70202be05a2a1fb4c9b7a6d98e0c51b"
+    },
+    {
+      "problem": "21.106",
+      "decision": "PASS",
+      "review_type": "AGENT_SEMANTIC_REVIEW",
+      "human_decision": "PENDING",
+      "endpoints": [
+        "Kourovka.P21_106.counterexample_values",
+        "Kourovka.P21_106.counterexample_not_concise",
+        "Kourovka.P21_106.not_notebookStatement",
+        "Kourovka.P21_106.realize_counterexampleFormula",
+        "Kourovka.P21_106.formulaCondition_iff",
+        "Kourovka.P21_106.formulaCondition_closure_infinite",
+        "Kourovka.P21_106.central_injective"
+      ],
+      "trusted_challenge": "trusted-challenges/P21_106.lean",
+      "challenge_sha256": "14867f915ac9bae9183204df1e506040ff1f7417c4ea1bf58c6b47203ba82fd5"
+    }
+  ],
+  "exclusions": {
+    "21.29": "Explicitly excluded from this assignment; not audited.",
+    "21.99": "Removed from Nilradical discovery upgrade by parent novelty decision; valid formal result not negated by that decision. No new strict acceptance claimed here."
+  },
+  "source_pdf_sha256": "498c2443bcee6ca398430935c87c97b6f99d0b1a6e5cb8f637d188a1827115da",
+  "site_mathematical_scope_sha256": "b7e639278bcc42d7e48ceeb07f4f06e8852b05faf70e30d71e0db617da28f2ca"
+}

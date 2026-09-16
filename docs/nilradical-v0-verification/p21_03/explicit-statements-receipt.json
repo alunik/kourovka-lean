@@ -1,0 +1,18 @@
+{
+  "returncode": 0,
+  "seconds": 5.718,
+  "export_sha256": "61e89780024df422d771eb7968fe7a92b94d67921105382be7263625720f6cc1",
+  "printed_declarations": [
+    "Kourovka.P21_03.firstQuestion",
+    "Kourovka213.asymptoticStatement",
+    "Kourovka.P21_03.FirstQuestion",
+    "Kourovka213.conjugate",
+    "Kourovka213.successProbability",
+    "Kourovka213.solubleProbabilities",
+    "Kourovka213.worstProbability",
+    "Kourovka213.AsymptoticStatement"
+  ],
+  "requested_names_absent_from_export": [],
+  "output_sha256": "85c2031dee8bf89f97e3769bd0a515f0454b5e37e2e7925c84fb441c84f49ad1",
+  "human_approval": "NOT_RECORDED"
+}

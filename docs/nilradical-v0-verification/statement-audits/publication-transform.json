@@ -1,0 +1,37 @@
+{
+  "21.106.md": {
+    "changes": "Publication changes: frozen Lean/local Notebook links, plus a clearly labeled linked technical snapshot when available. Original Notebook extraction remains private; semantic findings and human decision unchanged.",
+    "original_sha256": "8ee867f9ff032b074bc4c6d5223386f00ee7ae59bf179d454ff6e2dbf434879e",
+    "published_sha256": "dd3381a08fa6bb25e1636e93991405a63b3d99da29cd0072ab9b84afc88a313c"
+  },
+  "21.3.md": {
+    "changes": "Publication changes: frozen Lean/local Notebook links, plus a clearly labeled linked technical snapshot when available. Original Notebook extraction remains private; semantic findings and human decision unchanged.",
+    "original_sha256": "eb2d2a709a51cf08d480f8954aeb766e60650a65b5615bacb8bec4f34baf459b",
+    "published_sha256": "54b8c26d4fe82270826adf636a3afba05f86230e2ad375bfe952be7d44b99d9c"
+  },
+  "21.38.md": {
+    "changes": "Publication changes: frozen Lean/local Notebook links, plus a clearly labeled linked technical snapshot when available. Original Notebook extraction remains private; semantic findings and human decision unchanged.",
+    "original_sha256": "635391cd7b0ac1fac71d9b0711fc90a55d83a6eb83804d05d5d3480d54c7773b",
+    "published_sha256": "2b1fd15f2b8108f8578f1649d964ea2af936c5f9cc0fd50ba5cdeca66d76d715"
+  },
+  "21.40.md": {
+    "changes": "Publication changes: frozen Lean/local Notebook links, plus a clearly labeled linked technical snapshot when available. Original Notebook extraction remains private; semantic findings and human decision unchanged.",
+    "original_sha256": "27a508a3cb4a4debd83417b0aa8584d60161f51bd2566f3efe950a7e2c955bd1",
+    "published_sha256": "7eff5bf90d576bc8924263c4142ae3459ec2c2867226ca43e99821018462336a"
+  },
+  "21.44.md": {
+    "changes": "Publication changes: frozen Lean/local Notebook links, plus a clearly labeled linked technical snapshot when available. Original Notebook extraction remains private; semantic findings and human decision unchanged.",
+    "original_sha256": "9de21f29d03eb1055029955c438bc702e6b48d765ac833e1bc254e2dfab9b75a",
+    "published_sha256": "1aaa1945299882162e0da99b8e8625fc6277124c64c075a5af01d0e36eba14d2"
+  },
+  "21.68.md": {
+    "changes": "Publication changes: frozen Lean/local Notebook links, plus a clearly labeled linked technical snapshot when available. Original Notebook extraction remains private; semantic findings and human decision unchanged.",
+    "original_sha256": "89d64fc50810c4c5ec045023951642841b38c8d277e86e2d19fd502bdb418f28",
+    "published_sha256": "8ff7a7989f8bd369714f988e1faf2e141ba11bedd93da9deb3a2729d6cfda7bf"
+  },
+  "HUMAN_REVIEW_PACKET.md": {
+    "changes": "Publication changes: frozen Lean/local Notebook links, plus a clearly labeled linked technical snapshot when available. Original Notebook extraction remains private; semantic findings and human decision unchanged.",
+    "original_sha256": "07a343f3b269c2ca2c8fe385d84dfd9c910b5a8abb1b6326bd1728e105f092a6",
+    "published_sha256": "07a343f3b269c2ca2c8fe385d84dfd9c910b5a8abb1b6326bd1728e105f092a6"
+  }
+}

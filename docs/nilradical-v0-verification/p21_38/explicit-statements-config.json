@@ -1,0 +1,37 @@
+{
+  "export_file_path": "/HOST/notebook/nilradical-v0-upgrade/verification/p21_38/work-1789552889818059000/exports/Kourovka_Problems_P21_38_Solution.ndjson",
+  "nat_extension": true,
+  "string_extension": true,
+  "num_threads": 4,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "unpermitted_axiom_hard_error": true,
+  "pp_declars": [
+    "Kourovka.P21_38.diagonal_hasSpreadExactlyOne",
+    "Kourovka.P21_38.diagonal_spread_profile",
+    "Kourovka.P21_38.originalQuestion",
+    "Kourovka.P21_38.notebookStatement",
+    "Kourovka.P21_38.exists_generating_companion",
+    "Kourovka.P21_38.diagonal_exists_pair_no_common_companion",
+    "Kourovka.P21_38.diagonal_infinite",
+    "Kourovka.P21_38.GeneratesPair",
+    "Kourovka.P21_38.HasSpreadAtLeast",
+    "Kourovka.P21_38.HasSpreadExactlyOne",
+    "Kourovka.P21_38.OriginalQuestion",
+    "Kourovka.P21_38.NotebookStatement",
+    "Kourovka.P21_38.diagonalSubgroup",
+    "Kourovka.P21_38.F",
+    "Kourovka.P21_38.HasLeftExponent",
+    "Kourovka.P21_38.HasRightExponent"
+  ],
+  "pp_options": {
+    "all": true,
+    "explicit": true,
+    "universes": true,
+    "proofs": false
+  },
+  "pp_to_stdout": true
+}

@@ -1,0 +1,69 @@
+def Kourovka.P21_03.FirstQuestion : Prop :=
+∃ N,
+  ∀ (n : ℕ),
+    N ≤ n →
+      (∀ (H K : Subgroup (Equiv.Perm (Fin n))),
+          Group.IsSolvable ↥H → Group.IsSolvable ↥K → ∃ x, Disjoint H (MulAut.conj x⁻¹ • K)) ∧
+        ∀ (H K : Subgroup (Equiv.Perm (Fin n))),
+          Group.IsSolvable ↥H →
+            Group.IsSolvable ↥K →
+              H ≤ alternatingGroup (Fin n) →
+                K ≤ alternatingGroup (Fin n) → ∃ x ∈ alternatingGroup (Fin n), Disjoint H (MulAut.conj x⁻¹ • K)
+theorem Kourovka.P21_03.firstQuestion : Kourovka.P21_03.FirstQuestion :=
+Exists.casesOn (Filter.eventually_atTop.mp Kourovka213.eventually_kourovka213) fun N hN =>
+  Exists.intro N fun n hn =>
+    And.casesOn (hN n hn) fun hSym hAlt =>
+      ⟨fun H K hH hK => hSym { carrier := H, isSolvable := hH } { carrier := K, isSolvable := hK },
+        fun H K hH hK hHA hKA => hAlt { carrier := H, isSolvable := hH } { carrier := K, isSolvable := hK } hHA hKA⟩
+def Kourovka.P21_29.NotebookStatement : Prop :=
+∀ (Ω : Type) (G : Subgroup (Equiv.Perm Ω)),
+  Finite ↥G →
+    MulAction.IsPreprimitive (↥G) Ω →
+      (∃ a b, Kourovka.P21_29.TrivialPairStabilizer G a b) →
+        ∀ (a b : Ω), ∃ c, Kourovka.P21_29.TrivialPairStabilizer G a c ∧ Kourovka.P21_29.TrivialPairStabilizer G b c
+theorem Kourovka.P21_29.not_notebookStatement : ¬Kourovka.P21_29.NotebookStatement :=
+fun h =>
+  Exists.casesOn
+    (h Kourovka.P21_29.V Kourovka.P21_29.permutationGroup inferInstance inferInstance
+      Kourovka.P21_29.has_regular_suborbit 0 Kourovka.P21_29.hole)
+    fun c hc => Kourovka.P21_29.no_simultaneous_trivial_stabilizers c hc
+def Kourovka.P21_40.NotebookStatement : Prop :=
+∀ (n : ℕ) (G : Subgroup (GL (Fin n) ℚ)),
+  Kourovka.P21_40.HasFiniteAutomorphismOrbits ↥G → Kourovka.P21_40.IsVirtuallySolvable ↥G
+Kourovka.P21_40.structural_theorem {n : ℕ} (G : Subgroup (GL (Fin n) ℚ))
+  (hG : Kourovka.P21_40.HasFiniteAutomorphismOrbits ↥G) : Kourovka.P21_40.StructuralConclusion G
+theorem Kourovka.P21_40.notebookStatement : Kourovka.P21_40.NotebookStatement :=
+fun x G hG => Kourovka.P21_40.virtually_solvable G hG
+def Kourovka.P21_68.NotebookStatement : Prop :=
+∀ (G : Type) [inst : Group G] [inst_1 : Finite G], Kourovka.P21_68.IsSemiabelian G → Kourovka.P21_68.IsMonomial G
+theorem Kourovka.P21_68.not_notebookStatement : ¬Kourovka.P21_68.NotebookStatement :=
+fun h => Kourovka.P21_68.G_not_monomial (h Kourovka.P21_68.G Kourovka.P21_68.G_semiabelian)
+def Kourovka.P21_99.NotebookStatement : Prop :=
+∀ (Ω : Type) (G : Subgroup (Equiv.Perm Ω)),
+  Finite Ω → MulAction.IsPretransitive (↥G) Ω → ∀ (a b : Ω), a ≠ b → ∃ g, g • a = b ∧ ¬∃! x, g • x = x
+theorem Kourovka.P21_99.not_notebookStatement : ¬Kourovka.P21_99.NotebookStatement :=
+Kourovka.P21_99.not_notebookStatement_of_action Kourovka.P21_99.source Kourovka.P21_99.target
+  Kourovka.P21_99.source_ne_target Kourovka.P21_99.transporter_unique
+def Kourovka.P21_106.NotebookStatement : Prop :=
+∀ (G : Type) [inst : Group G] [Group.ResiduallyFinite G] (φ : Kourovka.P21_106.groupLanguage.Formula Unit),
+  Kourovka.P21_106.IsConciseIn φ G
+theorem Kourovka.P21_106.not_notebookStatement : ¬Kourovka.P21_106.NotebookStatement :=
+fun h => Kourovka.P21_106.counterexample_not_concise (h Kourovka.P21_106.H Kourovka.P21_106.counterexampleFormula)
+def Kourovka.P21_38.OriginalQuestion : Prop :=
+∃ G group, Infinite G ∧ Kourovka.P21_38.HasSpreadExactlyOne G
+def Kourovka.P21_38.NotebookStatement : Prop :=
+∃ G group, Kourovka.P21_38.HasSpreadExactlyOne G
+theorem Kourovka.P21_38.originalQuestion : Kourovka.P21_38.OriginalQuestion :=
+Exists.intro (↥Kourovka.P21_38.diagonalSubgroup)
+  (Exists.intro inferInstance ⟨Kourovka.P21_38.diagonal_infinite, Kourovka.P21_38.diagonal_hasSpreadExactlyOne⟩)
+theorem Kourovka.P21_38.notebookStatement : Kourovka.P21_38.NotebookStatement :=
+Kourovka.P21_38.notebookStatement_of_originalQuestion Kourovka.P21_38.originalQuestion
+'Kourovka.P21_38.originalQuestion' depends on axioms: [propext, Classical.choice, Quot.sound]
+def Kourovka.P21_44.NotebookStatement : Prop :=
+∃ H, H.FG ∧ Dense ↑H ∧ Kourovka.P21_44.HasSubexponentialGrowth ↥H
+theorem Kourovka.P21_44.notebookStatement : Kourovka.P21_44.NotebookStatement :=
+Exists.intro Kourovka.P21_44.generatedSubgroup
+  ⟨Kourovka.P21_44.generatedSubgroup_fg,
+    ⟨Kourovka.P21_44.dense_generated_pair,
+      Exists.intro Kourovka.P21_44.wordGeometry Kourovka.P21_44.subexponential_growth⟩⟩
+'Kourovka.P21_44.notebookStatement' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -42,3 +42,23 @@ import Kourovka
 /-- info: 'Kourovka.P21_106.not_notebookStatement' depends on axioms: [propext, Classical.choice, Quot.sound] -/
 #guard_msgs in
 #print axioms Kourovka.P21_106.not_notebookStatement
+
+#print Kourovka.P21_38.OriginalQuestion
+#print Kourovka.P21_38.NotebookStatement
+#print Kourovka.P21_38.originalQuestion
+#print Kourovka.P21_38.notebookStatement
+
+#audit_closed_axioms Kourovka.P21_38.originalQuestion
+
+/-- info: 'Kourovka.P21_38.notebookStatement' depends on axioms: [propext, Classical.choice, Quot.sound] -/
+#guard_msgs in
+#print axioms Kourovka.P21_38.notebookStatement
+
+#print Kourovka.P21_44.NotebookStatement
+#print Kourovka.P21_44.notebookStatement
+
+#audit_closed_axioms Kourovka.P21_44.notebookStatement
+
+/-- info: 'Kourovka.P21_44.notebookStatement' depends on axioms: [propext, Classical.choice, Quot.sound] -/
+#guard_msgs in
+#print axioms Kourovka.P21_44.notebookStatement

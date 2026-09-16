@@ -1,0 +1,85 @@
+# Nilradical v0
+
+[Repository](../README.md) · [Sources and credits](../AUTHORS.md)
+
+The following six solutions and their complete Lean formalizations are by
+**Nilradical v0**, a mathematical research agent built on Codex and GPT Pro.
+
+| Problem | Result |
+| --- | --- |
+| [21.3, first question](../Kourovka/Problems/P21_03/README.md) | Any two soluble subgroups of a sufficiently large symmetric or alternating group have a conjugate with trivial intersection; no explicit cutoff is claimed. |
+| [21.38](../Kourovka/Problems/P21_38/README.md) | An explicit infinite group of ordinary spread exactly one. |
+| [21.40](../Kourovka/Problems/P21_40/README.md) | Rational linear groups with finitely many automorphism orbits have a normal torsion-free nilpotent subgroup of explicitly bounded finite index, with an extension to number fields. |
+| [21.44](../Kourovka/Problems/P21_44/README.md) | A dense two-generated subgroup of subexponential growth in the full iterated natural degree-five alternating wreath product. |
+| [21.68](../Kourovka/Problems/P21_68/README.md) | A nonmonomial semiabelian group of order 2,592, with an irreducible complex representation of degree 8. |
+| [21.106](../Kourovka/Problems/P21_106/README.md) | A parameter-free formula with two values generating an infinite subgroup in a residually finite group. |
+
+The problem references identify original proposers, prior mathematical
+results and adapted code. In particular, Golan-Polak's generation theorem,
+Brieussel's related growth methods and Kida's semiabelian complement retain
+their attribution. Third-party licenses and source notices are unchanged.
+
+## Verification standard
+
+**All six retained results passed the strict gate on 16 September 2026:**
+35 named endpoints and 92 explicitly printed declarations. The independent
+statement audits also passed. No proof-source change was required.
+
+[Verification evidence and replay instructions](nilradical-v0-verification/README.md) ·
+[Human statement review packet](nilradical-v0-verification/statement-audits/HUMAN_REVIEW_PACKET.md) ·
+[Novelty audit](nilradical-v0-verification/novelty/README.md)
+
+The September 2026 verification upgrade reviews each original question
+against the actual Lean definitions, quantifiers and concrete witnesses.
+It checks every claimed public endpoint and the interpretation bridges
+needed for the website's mathematical scope.
+
+The strict gate compiles project proofs from fresh sources in a restricted
+process, compares them with independently frozen specifications and checks
+the exported proof dependency closure with both Lean and Nanoda. It permits
+only `propext`, `Quot.sound` and `Classical.choice`; proof holes, added axioms,
+compiler-oracle assumptions and altered statements cannot pass this policy.
+Pinned upstream library caches are trusted inputs whose bytes are checked
+before and after execution. The [checker source and controls](../scripts/nilradical_verify/README.md)
+explain the exact supported environment and trust boundaries.
+
+Human verification of the final mathematical statements is a separate
+recorded decision. Technical verification does not sign that decision on a
+human's behalf.
+
+## Catalogue exclusions
+
+Problem 21.29 is the work of **Aluna Rizzoli and Adam R. Thomas** and is
+entirely excluded from Nilradical credit. Its repository entry is unchanged.
+
+Problem 21.99 is excluded from this discovery catalogue. Kyrylo Muliarchyk
+provides [a complete counterexample](https://kourovkanotebookorg.wordpress.com/wp-content/uploads/2026/09/kourovka_21.99_solution.pdf),
+and the available public chronology does not settle priority. The existing
+independently constructed counterexample and its Lean proof remain in the
+repository with their contribution credit. Exclusion is a novelty decision,
+not a defect in that proof.
+
+## Proof accounts
+
+The problem READMEs and proof roadmaps provide existing explanations.
+After human acceptance of an exact source snapshot, Nilradical generates a
+separate **How the proof works** account. Its canonical Markdown lives in
+`docs/walkthroughs/` beside the code; the same version is rendered on
+[nilradical.ai](https://nilradical.ai).
+
+These accounts are labelled **Agent-generated exposition; not refereed**.
+They explain the main ideas, computations and formalization choices.
+Acceptance of the mathematical snapshot does not imply human review of the
+later explanatory prose.
+
+## Citation
+
+Cite **Nilradical v0**, the exact problem and scope, and the repository
+revision used. Each retained problem has a `CITATION.cff` file; the website
+provides BibTeX pinned to its public source commit. For example:
+
+> Nilradical. *Nilradical v0: solution and Lean proof of Kourovka Problem
+> 21.3 (first question).* Source revision: the full commit used.
+
+Keep the original mathematical and code references when building on a
+result. No archival DOI is asserted until a real archive issues one.
