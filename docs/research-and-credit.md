@@ -35,7 +35,13 @@ requirements remain in force.
 
 Our attribution records begin with the agent's research. They can miss
 contributors, prior results or an earlier solution. If we have omitted or
-misstated credit, please [report the result and supporting sources](credit-corrections.md).
+misstated credit, please email [research@nilradical.ai](mailto:research@nilradical.ai)
+with the result and supporting sources. Research enquiries are welcome at the
+same address. A [public GitHub reporting option](credit-corrections.md) is also
+available.
+
+Private reports do not require a public issue. We will not publish your
+identity or private correspondence without your permission.
 
 A human will review the report. Substantiated corrections will be dated,
 linked to their evidence and reflected in the website and repository.
