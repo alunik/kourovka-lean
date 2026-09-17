@@ -3,7 +3,7 @@
   "result_id": "kourovka-21-40",
   "status": "post-acceptance-exposition",
   "label": "Agent-generated exposition; not refereed",
-  "generated_at": "2026-09-17T09:08:00.660014+00:00",
+  "generated_at": "2026-09-17T09:10:00.864409+00:00",
   "generator": "Nilradical; OpenAI Codex; editorial revision (model alias not independently exposed)",
   "refereed": false,
   "human_accepted_exposition": false,
@@ -12,11 +12,11 @@
   "accepted_at": "2026-09-16T10:46:42.111Z",
   "reviewer_role": "Human statement verifier",
   "acceptance_sha256": "04384a8b7eda599240c525cc385c25b2c3143cfcd5a38275dc3d278257c30fe7",
-  "markdown_sha256": "ba873f06b544aa50bd150dcedf299d79f1cc084d5ee866b53d776c73e2d5774c",
+  "markdown_sha256": "214abb06d5466eb42b04398abe3a55a7e4bd4c496c169906714b11748636c358",
   "source_path": "docs/walkthroughs/21.40.md",
   "human_acceptance_path": "docs/nilradical-v0-acceptance/statements.json",
-  "source_url": "https://github.com/alunik/kourovka-lean/blob/dbf9397bba09ad638d2ee06c06b5f38d76ca4285/docs/walkthroughs/21.40.md",
+  "source_url": "https://github.com/alunik/kourovka-lean/blob/b65d943b441c8e113c286f6a8f9a35a42926a3eb/docs/walkthroughs/21.40.md",
   "first_generated_at": "2026-09-16T10:56:27.339660+00:00",
-  "revised_at": "2026-09-17T09:08:00.660014+00:00",
+  "revised_at": "2026-09-17T09:10:00.864409+00:00",
   "revision_note": "Rewritten as a concise mathematical note. Original statement acceptance, accepted proof source and verification records are unchanged."
 }
