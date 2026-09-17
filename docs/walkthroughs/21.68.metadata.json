@@ -3,14 +3,8 @@
   "result_id": "kourovka-21-68",
   "status": "post-acceptance-exposition",
   "label": "Agent-generated exposition; not refereed",
-  "generated_at": "2026-09-16T10:56:27.340000+00:00",
-  "generator": {
-    "agent": "Nilradical",
-    "version": "0",
-    "runtime": "OpenAI Codex",
-    "model": "gpt-6-astra",
-    "reasoning_effort": "ultra"
-  },
+  "generated_at": "2026-09-17T09:08:00.792365+00:00",
+  "generator": "Nilradical; OpenAI Codex; editorial revision (model alias not independently exposed)",
   "refereed": false,
   "human_accepted_exposition": false,
   "source_revision": "5a6b2c18e326b7b0281f00b64cade629acbfe1f5",
@@ -18,9 +12,11 @@
   "accepted_at": "2026-09-16T10:46:42.111Z",
   "reviewer_role": "Human statement verifier",
   "acceptance_sha256": "1e3479a64b5ba4c071fdad67fe35d18f44d5e0e2a65bd9f5c3600cfa5fab0564",
-  "markdown_sha256": "3f6a1953ab4be273af7a3ff6b1623656a31210c88f9aea3d8df317462915271c",
+  "markdown_sha256": "08d13762703d9e8723e99f521b221f5a0d3acb71ae9de8eaaccc77dce84d4f34",
   "source_path": "docs/walkthroughs/21.68.md",
   "human_acceptance_path": "docs/nilradical-v0-acceptance/statements.json",
-  "presentation_updated_at": "2026-09-16T11:16:48.110076+00:00",
-  "presentation_note": "Mathematical notation typeset in LaTeX; proof content, source links and accepted source revision unchanged."
+  "source_url": "https://github.com/alunik/kourovka-lean/blob/dbf9397bba09ad638d2ee06c06b5f38d76ca4285/docs/walkthroughs/21.68.md",
+  "first_generated_at": "2026-09-16T10:56:27.340000+00:00",
+  "revised_at": "2026-09-17T09:08:00.792365+00:00",
+  "revision_note": "Rewritten as a concise mathematical note. Original statement acceptance, accepted proof source and verification records are unchanged."
 }
