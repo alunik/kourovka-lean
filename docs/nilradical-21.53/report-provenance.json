@@ -1,0 +1,23 @@
+[
+  {
+    "source_artifact": "proof/constructive-matrix-route.md",
+    "original_sha256": "91c22246b5dd928512c61aef115b8aa86e3ca0e734953894ddccc3a3e9994933",
+    "public_path": "docs/nilradical-21.53/proof.md",
+    "public_sha256": "8cf528853ef1184dcea9fc00ab99a2524da55d645ab3a8464d80ec9a92c36856",
+    "adaptation": "Publication note and local filesystem path redaction; original reviewed artifact retained privately."
+  },
+  {
+    "source_artifact": "reviews/formalization-constructive.md",
+    "original_sha256": "4dd20cada61252f0b17434fa2ffd7dd62584cc0f48055a88ef6b2956210b7597",
+    "public_path": "docs/nilradical-21.53/statement-review.md",
+    "public_sha256": "f8a02d08d17fc392b7c48672591048afa0412c36ea11a517c124f6821f63b64c",
+    "adaptation": "Publication note and local filesystem path redaction; original reviewed artifact retained privately."
+  },
+  {
+    "source_artifact": "reviews/mathematics-constructive.md",
+    "original_sha256": "60d2c2bfdb3a006ef94b20da6f1ef87a9ed43508b2151a55ab4ad2e6a9d51aa2",
+    "public_path": "docs/nilradical-21.53/mathematics-review.md",
+    "public_sha256": "f69f246babaf1cd18d8d7583e9de0425eeaf3ff43fd281f7ef8c9747b05a770d",
+    "adaptation": "Publication note and local filesystem path redaction; original reviewed artifact retained privately."
+  }
+]

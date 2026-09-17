@@ -10,6 +10,8 @@ its proof, and reproducible verification instructions.
 The solutions to Problems **21.3 (first question), 21.38, 21.40, 21.44,
 21.68 and 21.106** are by **[Nilradical v0](https://nilradical.ai)**.
 See the [result and verification record](docs/nilradical-v0.md).
+The new solution to **21.53** is by **Nilradical v1.0.0**; see its
+[accepted proof and verification record](docs/nilradical-21.53/README.md).
 Problem 21.29 remains credited to Aluna Rizzoli and Adam R. Thomas.
 Problem 21.99 is retained as an independent formalized counterexample,
 but excluded from the Nilradical discovery catalogue because another
@@ -17,7 +19,7 @@ complete solution exists and public priority is unresolved.
 
 ## Use the results
 
-You are welcome to use the six Nilradical v0 results and publish your own
+You are welcome to use the Nilradical results and publish your own
 mathematical work. No permission or coauthorship of the agent, its developer,
 or its project team is required. Publication credit belongs to the people
 doing the mathematical work; cite the results and prior work you build on.
@@ -33,13 +35,15 @@ how to [report missing or mistaken credit](docs/credit-corrections.md).
 | [21.38](Kourovka/Problems/P21_38/README.md) | **Affirmative**: an infinite group of ordinary spread exactly one | [Lean statement](Kourovka/Problems/P21_38/Statement.lean) | [`Kourovka.P21_38.notebookStatement`](Kourovka/Problems/P21_38/Solution.lean) |
 | [21.40](Kourovka/Problems/P21_40/README.md) | **Affirmative**: every rational linear group with finitely many automorphism orbits has a normal torsion-free nilpotent subgroup of explicitly bounded finite index | [Lean statement](Kourovka/Problems/P21_40/Statement.lean) | [`Kourovka.P21_40.notebookStatement`](Kourovka/Problems/P21_40/Solution.lean) |
 | [21.44](Kourovka/Problems/P21_44/README.md) | **Affirmative**: a two-generated dense subgroup of subexponential growth in the infinite iterated natural degree-five alternating wreath product | [Lean statement](Kourovka/Problems/P21_44/Statement.lean) | [`Kourovka.P21_44.notebookStatement`](Kourovka/Problems/P21_44/Solution.lean) |
+| [21.53](Kourovka/Problem2153/README.md) | **Negative**: a whole involution-class permutation preserves colours 2 and 3 but changes an edge from 5 to 7 | [Lean statement](Kourovka/Problem2153/Core.lean) | [`Kourovka.Problem2153.not_statement`](Kourovka/Problem2153/Final.lean) |
 | [21.68](Kourovka/Problems/P21_68/README.md) | **Negative**, by a semiabelian group of order 2592 with an irreducible nonmonomial complex representation of degree 8 | [Lean statement](Kourovka/Problems/P21_68/Statement.lean) | [`Kourovka.P21_68.not_notebookStatement`](Kourovka/Problems/P21_68/Solution.lean) |
 | [21.99](Kourovka/Problems/P21_99/README.md) | **Negative**, by a finite transitive action in which every element carrying one specified point to another fixes exactly one point | [Lean statement](Kourovka/Problems/P21_99/Statement.lean) | [`Kourovka.P21_99.not_notebookStatement`](Kourovka/Problems/P21_99/Solution.lean) |
 | [21.106](Kourovka/Problems/P21_106/README.md) | **Negative**, by a parameter-free formula with two values generating an infinite subgroup in the residually finite integral Heisenberg group | [Lean statement](Kourovka/Problems/P21_106/Statement.lean) | [`Kourovka.P21_106.not_notebookStatement`](Kourovka/Problems/P21_106/Solution.lean) |
 
 Every listed answer has a complete proof checked by Lean. The permitted
 foundational axioms are `propext`, `Classical.choice`, and `Quot.sound`.
-The [guarded audit](Audit.lean) checks the public endpoints. External
+The [guarded audit](Audit.lean) checks the original catalogue endpoints;
+21.53 has its separate [protected Lean/Nanoda verification](docs/nilradical-21.53/verification.json). External
 computations and unproved classification assumptions cannot stand in for proofs.
 
 ## Check the proofs
@@ -81,7 +85,9 @@ Kourovka/Problems/P21_03/       # Same entry points for every problem
     └── …                     # Lemmas and any kernel-checked certificates
 ```
 
-[`Kourovka.lean`](Kourovka.lean) imports all accepted solutions.
+[`Kourovka.lean`](Kourovka.lean) imports the original standard-layout solutions.
+Problem 21.53 retains its independently reviewed, source-pinned module layout;
+build its complete target with `lake build Kourovka.Problem2153.Final`.
 [`docs/`](docs/README.md) holds longer explanations and verification records;
 [`scripts/`](scripts/README.md) holds repository checks and certificate generators.
 

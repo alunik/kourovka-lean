@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "local_result_key": "kourovka-21.53",
-  "result_id_scope": "Local problem key; no public catalogue ID assigned.",
+  "result_id_scope": "Stable public problem identifier.",
   "status": "SOLVED",
   "source": {
-    "revision": "base-commit:7a1712387479c0055f2b0a4e1e93d50c3faa9d66; working-tree-source-contract:e02b24ffc6e1c9c8adb3aa507a9c59de2df762492495f27dd8d788133de257ff",
+    "revision": "fab8915562b0b7202ae4c1c7d7765c4bd8e616ea",
     "manifest_sha256": "871526ba3df5c7151d602a7460fed50381c14f86d8701e0b12991d4f2acae69f",
     "contract_sha256": "e02b24ffc6e1c9c8adb3aa507a9c59de2df762492495f27dd8d788133de257ff",
     "source_files": 719
@@ -14,17 +14,28 @@
       "decision": "accepted",
       "date": "2026-09-17",
       "reviewer_role": "Human statement verifier",
-      "record_sha256": "f712d7a54f4ecb903878daa926fe0e901be66347e4201de5aeabe260405d66f4"
+      "record_sha256": "f712d7a54f4ecb903878daa926fe0e901be66347e4201de5aeabe260405d66f4",
+      "publication_binding_sha256": "1b990764d360aafd49b20f267ff0f8fa734ae172de7250eea50e5dadaa756e9a"
     },
     "novelty_contribution": {
       "decision": "accepted",
       "date": "2026-09-17",
       "reviewer_role": "Human novelty and contribution reviewer",
-      "record_sha256": "93fc6c7c2fe70064948f952ef6268efe4d25a28f809fe8ba39282f61365454fd"
+      "record_sha256": "93fc6c7c2fe70064948f952ef6268efe4d25a28f809fe8ba39282f61365454fd",
+      "publication_binding_sha256": "c1894cd9a8ba149cb768e0f0fb621a07c5ff5303c38ea9ae1d3f98c9903a14a3"
     }
   },
   "publication": "AUTHORIZED_2026-09-17",
   "privacy": "Named human records and verbatim decision evidence are retained privately outside this proof repository.",
   "agent_version": "1.0.0",
-  "execution_workflow_version": "0.4.0-draft"
+  "execution_workflow_version": "0.4.0-draft",
+  "result_id": "kourovka-21-53",
+  "source_binding": {
+    "proof_commit": "fab8915562b0b7202ae4c1c7d7765c4bd8e616ea",
+    "contract_sha256": "e02b24ffc6e1c9c8adb3aa507a9c59de2df762492495f27dd8d788133de257ff",
+    "accepted_source_manifest_sha256": "871526ba3df5c7151d602a7460fed50381c14f86d8701e0b12991d4f2acae69f",
+    "checked_files": 719,
+    "status": "IDENTICAL_ACCEPTED_SOURCE_CONTENT",
+    "binding": "All 719 frozen source/configuration files match the user-accepted snapshot byte for byte in this Git commit."
+  }
 }

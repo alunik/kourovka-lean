@@ -35,3 +35,7 @@ jobs:
           use-github-cache: "false"
       - name: Check public statements and axiom dependencies
         run: lake env lean Audit.lean
+      - name: Build the independently pinned 21.53 target
+        run: lake build Kourovka.Problem2153.Final
+      - name: Inspect the 21.53 closed endpoint
+        run: lake env lean Kourovka/Problem2153/Final.lean

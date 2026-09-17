@@ -74,3 +74,13 @@ is vendored for this result.
 The underlying library is [mathlib](https://github.com/leanprover-community/mathlib4),
 maintained by the Lean mathematical community. It is an external pinned
 dependency, not vendored source.
+
+## Nilradical v1.0.0: Problem 21.53
+
+Nilradical v1.0.0 supplies the complete counterexample and Lean formalization
+for I. B. Gorshkov's Problem 21.53. The actual research run used the internal
+`0.4.0-draft` workflow; this is its first public v1 release. Wilson's matrices,
+Coolsaet's earlier construction, established group-theoretic arguments and
+pinned Apache-2.0 TauCeti proofs retain their credit in the
+[result README](Kourovka/Problem2153/README.md). Both human decisions and the
+independent reviews are linked in the [verification record](docs/nilradical-21.53/README.md).

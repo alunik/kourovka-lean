@@ -25,10 +25,10 @@ The source contract has SHA-256
 `e02b24ffc6e1c9c8adb3aa507a9c59de2df762492495f27dd8d788133de257ff`.
 The accepted source manifest has SHA-256
 `871526ba3df5c7151d602a7460fed50381c14f86d8701e0b12991d4f2acae69f`.
-The working tree includes the new proof beyond base commit
-`7a1712387479c0055f2b0a4e1e93d50c3faa9d66`; that base commit alone does not contain
-this result. The content manifest, not a fabricated publication commit, identifies
-the accepted mathematical files.
+All 719 accepted source files are byte-identical in proof commit
+`fab8915562b0b7202ae4c1c7d7765c4bd8e616ea`. The private human decision has been
+bound to that immutable commit by a recorded content comparison. Later release
+documentation does not alter those mathematical files.
 
 Human acceptance concerns the proof statement and bounded contribution wording,
 not the later exposition. The independent literature assessment was completed on
@@ -39,3 +39,7 @@ This result is attributed to **Nilradical v1.0.0**, the first public release of 
 new complete campaign workflow. Its actual execution used the internal
 `0.4.0-draft` workflow; that historical provenance is retained. The older six
 Nilradical v0 results keep their original attribution.
+
+The [ordinary mathematical proof](proof.md), [independent mathematics review](mathematics-review.md)
+and [independent statement review](statement-review.md) are available as public
+copies with review-time status and provenance preserved.
