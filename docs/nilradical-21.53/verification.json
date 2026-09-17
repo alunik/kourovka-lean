@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "theorem_names": [
+    "Kourovka.Problem2153.not_statement"
+  ],
+  "status": "INTEGRITY_PASSED",
+  "contract_sha256": "e02b24ffc6e1c9c8adb3aa507a9c59de2df762492495f27dd8d788133de257ff",
+  "original_receipt_sha256": "c89ef595e36aabdf3871913977918a5dc477018c559ad53717db1e72ba1b88af",
+  "original_raw_log_sha256": "107f8fe25361454fe25b38d7969068371ba97b55f7a360f7d9121bb2b15a1406",
+  "started_utc": "2026-09-16T19:40:14.707660+00:00",
+  "elapsed_seconds": 1934.211,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "checker_source_pins": {
+    "comparator": "2312244ac716564a61cc0bf4e107d9abf1757a61",
+    "lean": "6a10ac8c22beadecabdbb0919c2b50214762f91d",
+    "lean4export": "cacf989bd75f608700820f6afc595f32e7a99a4d",
+    "nanoda": "4c544ed4099c8227f07d5de77ad1e69fb0740a27"
+  },
+  "isolation_checks": [
+    "protected_write_denied",
+    "child_write_denied",
+    "socket_denied_2",
+    "socket_denied_1",
+    "dependency_symlink_write_denied",
+    "build_write_permitted"
+  ],
+  "auckland_replay": {
+    "status": "PASS",
+    "passed_modules": 159,
+    "receipt_sha256": "d8bed3190f572e50fa984c074386fd9b7279dc414964e54971c7c892317e1a4f"
+  },
+  "build_scope": "Public target and complete dependency closure; not a fresh full-repository build.",
+  "trusted_inputs": "Pinned upstream compiled library caches; their byte hashes were checked before and after verification.",
+  "original_human_status_at_verification": "NOT_RECORDED; subsequent decisions are in acceptance.json.",
+  "publication": "AUTHORIZED_2026-09-17"
+}

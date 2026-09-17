@@ -1,0 +1,7 @@
+import Kourovka.Problem2153.NormalGeneration.SuzukiR
+import Kourovka.Problem2153.NormalGeneration.SuzukiX
+import Kourovka.Problem2153.NormalGeneration.SuzukiH
+import Kourovka.Problem2153.NormalGeneration.RootComm
+import Kourovka.Problem2153.NormalGeneration.SL2
+import Kourovka.Problem2153.NormalGeneration.Perfect
+import Kourovka.Problem2153.NormalGeneration.PerfectSquare

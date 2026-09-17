@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "local_result_key": "kourovka-21.53",
+  "result_id_scope": "Local problem key; no public catalogue ID assigned.",
+  "status": "SOLVED",
+  "source": {
+    "revision": "base-commit:7a1712387479c0055f2b0a4e1e93d50c3faa9d66; working-tree-source-contract:e02b24ffc6e1c9c8adb3aa507a9c59de2df762492495f27dd8d788133de257ff",
+    "manifest_sha256": "871526ba3df5c7151d602a7460fed50381c14f86d8701e0b12991d4f2acae69f",
+    "contract_sha256": "e02b24ffc6e1c9c8adb3aa507a9c59de2df762492495f27dd8d788133de257ff",
+    "source_files": 719
+  },
+  "decisions": {
+    "statement": {
+      "decision": "accepted",
+      "date": "2026-09-17",
+      "reviewer_role": "Human statement verifier",
+      "record_sha256": "f712d7a54f4ecb903878daa926fe0e901be66347e4201de5aeabe260405d66f4"
+    },
+    "novelty_contribution": {
+      "decision": "accepted",
+      "date": "2026-09-17",
+      "reviewer_role": "Human novelty and contribution reviewer",
+      "record_sha256": "93fc6c7c2fe70064948f952ef6268efe4d25a28f809fe8ba39282f61365454fd"
+    }
+  },
+  "publication": "AUTHORIZED_2026-09-17",
+  "privacy": "Named human records and verbatim decision evidence are retained privately outside this proof repository.",
+  "agent_version": "1.0.0",
+  "execution_workflow_version": "0.4.0-draft"
+}

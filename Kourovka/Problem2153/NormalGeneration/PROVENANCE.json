@@ -1,0 +1,7 @@
+{
+  "source": "../campaign-inputs/simplicity-certificate.json",
+  "sha256": "1268172a712dc6e23ea638e2c80559e2465a734829a3eecd3fd77758a9674e6e",
+  "generator": "generate_certificates.py",
+  "method": "Untrusted Python producer; all 8 word identities checked by sparse multiplication and ordinary Lean kernel. Group equality transferred by proved RankOne.word_eq_of_matrix_eq.",
+  "commutator_convention": "The source uses a^-1 b^-1 a b. The Lean bridge rewrites this as Lean commutator of a^-1 and b^-1."
+}

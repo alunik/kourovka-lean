@@ -1,0 +1,31 @@
+{
+  "source_data": [
+    {
+      "path": "../../campaign-inputs/wilson-generators.json",
+      "sha256": "181e93075922a5a681f7a83be6e771c681709c61a723a3d67512e99579d456ff"
+    },
+    {
+      "path": "../../campaign-inputs/simplicity-certificate.json",
+      "sha256": "1268172a712dc6e23ea638e2c80559e2465a734829a3eecd3fd77758a9674e6e"
+    }
+  ],
+  "generator_order": [
+    "tUnit",
+    "xUnit",
+    "rhoUnit",
+    "sigmaUnit",
+    "torusUnit 1 0",
+    "torusUnit 0 1"
+  ],
+  "shape": {
+    "word_count": 27,
+    "letters_per_word": 48,
+    "vector_dimension": 26,
+    "sparse_transitions": 1296,
+    "basis_vectors": 26,
+    "extra_connecting_vectors": 1
+  },
+  "field_encoding": "F8.e0 through F8.e7, coefficients of 1, omega, omega squared over F2, omega cubed = omega + 1",
+  "trust_boundary": "Python emits only finite tables. Lean separately proves generator alignment, all transitions, endpoints, inverse products, and bridge coordinates.",
+  "generic_argument": "Row-matrix adaptation of campaign ProjectiveFrame.lean; complete proof local in Linear.lean, not imported from campaign files."
+}

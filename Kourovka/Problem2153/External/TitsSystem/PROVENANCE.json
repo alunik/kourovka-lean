@@ -1,0 +1,28 @@
+{
+  "repository": "https://github.com/TauCetiProject/TauCeti",
+  "commit": "ede1468fb951c5117f1462008216ceb13214e29f",
+  "license": "Apache-2.0",
+  "modules": [
+    {
+      "local": "Basic.lean",
+      "upstream_path": "TauCeti/GroupTheory/TitsSystem/Basic.lean",
+      "url": "https://raw.githubusercontent.com/TauCetiProject/TauCeti/ede1468fb951c5117f1462008216ceb13214e29f/TauCeti/GroupTheory/TitsSystem/Basic.lean",
+      "upstream_sha256": "9535a70622c53f0334cc9b75d3cc940f2c6ba4100e5c07993b16c4a7fb92f929",
+      "local_sha256": "70be49b96696e091657c1ed9e15718cf98f2cac082157a86bc97312177d9d34d"
+    },
+    {
+      "local": "Bruhat.lean",
+      "upstream_path": "TauCeti/GroupTheory/TitsSystem/Bruhat/Basic.lean",
+      "url": "https://raw.githubusercontent.com/TauCetiProject/TauCeti/ede1468fb951c5117f1462008216ceb13214e29f/TauCeti/GroupTheory/TitsSystem/Bruhat/Basic.lean",
+      "upstream_sha256": "4169994a1c480356bc4a3e7b5a2186ba1fdc4c784c97a78ec7de4f0a0c0c05ca",
+      "local_sha256": "86dc46fc37c805e7ad64600af38905c2afe5015c7868b6b3f572563325a39527"
+    },
+    {
+      "local": "Identity.lean",
+      "upstream_path": "TauCeti/GroupTheory/DoubleCoset/Identity.lean",
+      "url": "https://raw.githubusercontent.com/TauCetiProject/TauCeti/ede1468fb951c5117f1462008216ceb13214e29f/TauCeti/GroupTheory/DoubleCoset/Identity.lean",
+      "upstream_sha256": "9bfd22b004a7928686f06df838200e3b89ee553ec1d99c06b2b3a5e056d2c842",
+      "local_sha256": "1105e094637b218db5b97d55c967b51a538d2d14467b3670bf3bd79579401f66"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+import Kourovka.Problem2153.WilsonModel.ClassTests
+#print axioms Kourovka.Problem2153.WilsonModel.ClassTests.commute_torus_weyl_uniform
+#print axioms Kourovka.Problem2153.WilsonModel.ClassTests.product_order_ne_three
+#print axioms Kourovka.Problem2153.WilsonModel.ClassTests.product_order_not_dvd_three
+#print axioms Kourovka.Problem2153.WilsonModel.ClassTests.product_torus_weyl_order_ne_three
