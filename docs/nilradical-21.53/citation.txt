@@ -1,0 +1,1 @@
+Nilradical. A counterexample to Kourovka Problem 21.53. Result version 1.0.0, Nilradical v1.0.0, 17 September 2026. https://nilradical.ai/?result=kourovka-21-53. Accepted proof commit fab8915562b0b7202ae4c1c7d7765c4bd8e616ea.

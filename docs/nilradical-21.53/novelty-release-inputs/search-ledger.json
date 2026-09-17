@@ -1,0 +1,743 @@
+{
+  "schema": "nilradical.release-novelty-review.v1",
+  "reviewer": "/root/release_novelty_2153",
+  "reviewer_scope": "Fresh independent agent context; no proof authorship, publication or author contact. Mathematical, formal and human acceptance are separate.",
+  "target": "Complete negative answer to Kourovka Notebook Problem 21.53",
+  "endpoint": "Kourovka.Problem2153.not_statement : ¬ Statement.{0}",
+  "frozen_contract_sha256": "e02b24ffc6e1c9c8adb3aa507a9c59de2df762492495f27dd8d788133de257ff",
+  "previous_review": "../../reviews/novelty-final.md",
+  "previous_close_utc": "2026-09-16T19:53:46Z",
+  "refresh_date": "2026-09-17",
+  "closing_primary_check_utc": "2026-09-17T06:07:37Z",
+  "disposition": "CLEAR_TO_INVESTIGATE",
+  "release_novelty_blocker_found": false,
+  "approved_wording_requires_material_change": false,
+  "approved_wording": "We give an explicit counterexample to Kourovka Notebook Problem 21.53, using Wilson's 𝔽₈ Ree matrix model and a transposition on a whole involution class. To our knowledge, no earlier complete solution has been identified; the literature search was independently reviewed on 16 September 2026. The Ree and Suzuki structure, matrix constructions, and twin-vertex principle are established mathematics and are credited to their sources.",
+  "preserve_approved_review_date": "16 September 2026",
+  "bounded_conclusion": "No earlier complete solution or credible unresolved exact-solution claim was identified in this targeted publication-time refresh together with the preserved 16 September dossier. No absolute priority is certified.",
+  "batches": [
+    {
+      "id": "01",
+      "query": [
+        {
+          "operation": "search_query",
+          "q": "\"Kourovka\" \"21.53\""
+        },
+        {
+          "operation": "search_query",
+          "q": "\"involution\" \"product orders\" \"automorphism\" \"Ree\""
+        },
+        {
+          "operation": "search_query",
+          "q": "\"finite simple\" \"involution graphs\" \"Gorshkov\""
+        },
+        {
+          "operation": "search_query",
+          "q": "\"commuting involutions\" \"binary\" \"Gill\" \"2026\""
+        }
+      ],
+      "service": "web.run",
+      "utc_interval": {
+        "after": "2026-09-17 06:01:07 UTC",
+        "before": "2026-09-17 06:02:23 UTC"
+      },
+      "purpose": "Initial independent discovery using the exact number and involution/product-order/graph terminology.",
+      "inspected_urls_or_attempted_primary_urls": [],
+      "exact_claim": "No exact earlier complete solution was identified in the merged results. Related binary-action, graph and author leads were followed in later batches.",
+      "relation_to_target": "Initial independent discovery using the exact number and involution/product-order/graph terminology.",
+      "disposition": "NO_EXACT_SOLUTION_IDENTIFIED",
+      "remaining_uncertainty": "Web indexing and merged-result coverage are incomplete; no hit count is asserted.",
+      "raw_evidence": "01-independent-discovery.json",
+      "result_attribution": "Tool returns a merged result for each batch; no per-query hit counts or attribution are claimed."
+    },
+    {
+      "id": "02",
+      "query": [
+        {
+          "operation": "open",
+          "ref_id": "https://arxiv.org/abs/1401.0300"
+        },
+        {
+          "operation": "open",
+          "ref_id": "https://kourovkanotebookorg.wordpress.com/repository/"
+        },
+        {
+          "operation": "open",
+          "ref_id": "https://arxiv.org/abs/2402.08357"
+        },
+        {
+          "operation": "open",
+          "ref_id": "https://arxiv.org/abs/2609.02508"
+        },
+        {
+          "operation": "open",
+          "ref_id": "https://arxiv.org/abs/2509.25901"
+        }
+      ],
+      "service": "web.run",
+      "utc_interval": {
+        "after": "2026-09-17 06:01:07 UTC",
+        "before": "2026-09-17 06:02:23 UTC"
+      },
+      "purpose": "Fresh checks of the Notebook, editors repository and closest current arXiv version records.",
+      "inspected_urls_or_attempted_primary_urls": [
+        "https://arxiv.org/abs/1401.0300",
+        "https://kourovkanotebookorg.wordpress.com/repository/",
+        "https://arxiv.org/abs/2402.08357",
+        "https://arxiv.org/abs/2609.02508",
+        "https://arxiv.org/abs/2509.25901"
+      ],
+      "exact_claim": "Notebook v46 remains current; no 21.53 solution appears in the editors repository. GGL v1, del Valle-Gill v1 and Bryden-Rowley v2 remain the current listed versions.",
+      "relation_to_target": "Fresh checks of the Notebook, editors repository and closest current arXiv version records.",
+      "disposition": "NO_MATERIAL_CHANGE",
+      "remaining_uncertainty": "Status listings alone do not establish openness.",
+      "raw_evidence": "02-current-primary-records.json",
+      "result_attribution": "Tool returns a merged result for each batch; no per-query hit counts or attribution are claimed."
+    },
+    {
+      "id": "03",
+      "query": [
+        {
+          "operation": "search_query",
+          "q": "\"Kourovka\" \"21.53\" solution"
+        },
+        {
+          "operation": "search_query",
+          "q": "\"21.53\" \"Gorshkov\""
+        },
+        {
+          "operation": "search_query",
+          "q": "\"Ree\" \"involution\" \"transposition\" graph"
+        },
+        {
+          "operation": "search_query",
+          "q": "\"involution\" \"graph\" \"order\" \"automorphism\" 2026",
+          "domains": [
+            "arxiv.org"
+          ]
+        }
+      ],
+      "service": "web.run",
+      "utc_interval": {
+        "after": "2026-09-17 06:02:23 UTC",
+        "before": "2026-09-17 06:02:26 UTC"
+      },
+      "purpose": "Exact-number variants and equivalent graph/color terminology.",
+      "inspected_urls_or_attempted_primary_urls": [],
+      "exact_claim": "No exact solution or credible complete-solution announcement was identified. The original question and unrelated graph/group material were returned.",
+      "relation_to_target": "Exact-number variants and equivalent graph/color terminology.",
+      "disposition": "NO_EXACT_SOLUTION_IDENTIFIED",
+      "remaining_uncertainty": "The combined response cannot reliably assign each hit to an individual submitted query.",
+      "raw_evidence": "03-exact-and-equivalent-search.json",
+      "result_attribution": "Tool returns a merged result for each batch; no per-query hit counts or attribution are claimed."
+    },
+    {
+      "id": "04",
+      "query": [
+        {
+          "operation": "open",
+          "ref_id": "https://msp.org/pjm/2025/336-1/pjm-v336-n1-p05-p.pdf"
+        },
+        {
+          "operation": "open",
+          "ref_id": "https://arxiv.org/pdf/2609.02508v1"
+        },
+        {
+          "operation": "open",
+          "ref_id": "https://arxiv.org/pdf/1401.0300v46"
+        },
+        {
+          "operation": "open",
+          "ref_id": "https://arxiv.org/list/math.GR/recent?skip=0&show=200"
+        }
+      ],
+      "service": "web.run",
+      "utc_interval": {
+        "after": "2026-09-17 06:02:23 UTC",
+        "before": "2026-09-17 06:02:26 UTC"
+      },
+      "purpose": "Primary text retrieval plus a recent-category-list attempt.",
+      "inspected_urls_or_attempted_primary_urls": [
+        "https://msp.org/pjm/2025/336-1/pjm-v336-n1-p05-p.pdf",
+        "https://arxiv.org/pdf/2609.02508v1",
+        "https://arxiv.org/pdf/1401.0300v46",
+        "https://arxiv.org/list/math.GR/recent?skip=0&show=200"
+      ],
+      "exact_claim": "Notebook and del Valle-Gill PDFs were exposed; MSP PDF rendering and arXiv recent-list access required alternate handling. Direct retrieval later supplied the actual MSP PDF.",
+      "relation_to_target": "Primary text retrieval plus a recent-category-list attempt.",
+      "disposition": "FOLLOWUP_COMPLETED",
+      "remaining_uncertainty": "The broad recent-list endpoint remained inaccessible; the 17 September new listing was screened instead.",
+      "raw_evidence": "04-primary-pdfs-and-recent-list.json",
+      "result_attribution": "Tool returns a merged result for each batch; no per-query hit counts or attribution are claimed."
+    },
+    {
+      "id": "05",
+      "query": [
+        {
+          "operation": "find",
+          "ref_id": "https://msp.org/pjm/2025/336-1/pjm-v336-n1-p05-p.pdf",
+          "pattern": "Theorem 1."
+        },
+        {
+          "operation": "find",
+          "ref_id": "https://msp.org/pjm/2025/336-1/pjm-v336-n1-p05-p.pdf",
+          "pattern": "Ree"
+        },
+        {
+          "operation": "find",
+          "ref_id": "https://arxiv.org/pdf/1401.0300v46",
+          "pattern": "21.53."
+        },
+        {
+          "operation": "find",
+          "ref_id": "https://arxiv.org/abs/2509.25901",
+          "pattern": "[v2]"
+        }
+      ],
+      "service": "web.run",
+      "utc_interval": {
+        "after": "2026-09-17 06:02:52 UTC",
+        "before": "2026-09-17 06:02:53 UTC"
+      },
+      "purpose": "Locate the original question, closest GGL theorem text and Bryden version history.",
+      "inspected_urls_or_attempted_primary_urls": [
+        "https://msp.org/pjm/2025/336-1/pjm-v336-n1-p05-p.pdf",
+        "https://arxiv.org/pdf/1401.0300v46",
+        "https://arxiv.org/abs/2509.25901"
+      ],
+      "exact_claim": "Notebook printed p.175 confirms the locked question; Bryden current record is v2 of 16 January 2026. GGL web text was empty and was read from the independently downloaded correct publisher PDF.",
+      "relation_to_target": "Locate the original question, closest GGL theorem text and Bryden version history.",
+      "disposition": "NO_MATERIAL_CHANGE",
+      "remaining_uncertainty": "No inference about GGL mathematics was made from the empty web rendering.",
+      "raw_evidence": "05-focused-primary-locations.json",
+      "result_attribution": "Tool returns a merged result for each batch; no per-query hit counts or attribution are claimed."
+    },
+    {
+      "id": "06",
+      "query": [
+        {
+          "operation": "search_query",
+          "q": "\"commuting involution graph\" \"Ree\" automorphism"
+        },
+        {
+          "operation": "search_query",
+          "q": "\"Kourovka\" \"21.53\" counterexample"
+        },
+        {
+          "operation": "search_query",
+          "q": "\"Gill\" \"Guillot\" \"Liebeck\" \"2026\" binary"
+        },
+        {
+          "operation": "search_query",
+          "q": "\"del Valle\" \"Gill\" \"rank\" binary 2026",
+          "domains": [
+            "arxiv.org"
+          ]
+        }
+      ],
+      "service": "web.run",
+      "utc_interval": {
+        "after": "2026-09-17 06:03:30 UTC",
+        "before": "2026-09-17 06:03:31 UTC"
+      },
+      "purpose": "Ree commuting-graph and binary-action overlap discovery.",
+      "inspected_urls_or_attempted_primary_urls": [],
+      "exact_claim": "Related small-Ree, field-two exceptional, perfect-commuting-graph, binary-action seminar and Bryden journal leads were found. None announced the target solution; the closest new leads were followed in primary text.",
+      "relation_to_target": "Ree commuting-graph and binary-action overlap discovery.",
+      "disposition": "RELATED_LEADS_CLOSED",
+      "remaining_uncertainty": "Unrelated or clearly different-family results were only triaged, not completely re-reviewed.",
+      "raw_evidence": "06-overlap-search.json",
+      "result_attribution": "Tool returns a merged result for each batch; no per-query hit counts or attribution are claimed."
+    },
+    {
+      "id": "07",
+      "query": [
+        {
+          "operation": "search_query",
+          "q": "\"Coen del Valle\" research publications"
+        },
+        {
+          "operation": "search_query",
+          "q": "\"The binary actions\" \"rank\" \"Liebeck\""
+        },
+        {
+          "operation": "search_query",
+          "q": "\"21.53\" \"Коуровская\""
+        },
+        {
+          "operation": "search_query",
+          "q": "\"Gorshkov\" \"involution\" \"2026\" graph automorphism"
+        },
+        {
+          "operation": "open",
+          "ref_id": "https://nickpgill.github.io/research"
+        },
+        {
+          "operation": "open",
+          "ref_id": "https://grahameerskine.co.uk/OU/Slides/delValle.pdf"
+        },
+        {
+          "operation": "open",
+          "ref_id": "https://arxiv.org/list/math.GR/new"
+        },
+        {
+          "operation": "open",
+          "ref_id": "https://arxiv.org/abs/2212.13785"
+        }
+      ],
+      "service": "web.run",
+      "utc_interval": {
+        "after": "2026-09-17 06:04:25 UTC",
+        "before": "2026-09-17 06:04:26 UTC"
+      },
+      "purpose": "Author/current-work and Russian-number searches, plus primary current pages.",
+      "inspected_urls_or_attempted_primary_urls": [
+        "https://nickpgill.github.io/research",
+        "https://grahameerskine.co.uk/OU/Slides/delValle.pdf",
+        "https://arxiv.org/list/math.GR/new",
+        "https://arxiv.org/abs/2212.13785"
+      ],
+      "exact_claim": "Gill author list is stale relative to accessible papers; del Valle institutional material supplies leads. The new math.GR listing and Revin record were accessible. Low-rank work is announced as a binary-action classification, not a 21.53 solution.",
+      "relation_to_target": "Author/current-work and Russian-number searches, plus primary current pages.",
+      "disposition": "NO_EXACT_SOLUTION_IDENTIFIED",
+      "remaining_uncertainty": "No complete author-bibliography coverage is claimed; initial slide access failed and was later recovered with curl.",
+      "raw_evidence": "07-author-latest-search.json",
+      "result_attribution": "Tool returns a merged result for each batch; no per-query hit counts or attribution are claimed."
+    },
+    {
+      "id": "08",
+      "query": [
+        {
+          "operation": "open",
+          "ref_id": "https://arxiv.org/list/math.GR/new",
+          "lineno": 25
+        },
+        {
+          "operation": "open",
+          "ref_id": "https://arxiv.org/abs/2602.02032"
+        },
+        {
+          "operation": "open",
+          "ref_id": "https://arxiv.org/pdf/2602.02032"
+        },
+        {
+          "operation": "open",
+          "ref_id": "https://nickpgill.github.io/research",
+          "lineno": 4
+        }
+      ],
+      "service": "web.run",
+      "utc_interval": {
+        "after": "2026-09-17 06:05:00 UTC",
+        "before": "2026-09-17 06:05:01 UTC"
+      },
+      "purpose": "Read today’s category listing and follow del Valle-Gill citation to Craven-del Valle-Parker.",
+      "inspected_urls_or_attempted_primary_urls": [
+        "https://arxiv.org/list/math.GR/new",
+        "https://arxiv.org/abs/2602.02032",
+        "https://arxiv.org/pdf/2602.02032",
+        "https://nickpgill.github.io/research"
+      ],
+      "exact_claim": "The cited paper is arXiv:2602.02032v2; its actual Theorem 1.1 and Corollary 1.2 concern component groups/connectivity and binary stabilizers. The daily list yielded no plausible exact-target lead.",
+      "relation_to_target": "Read today’s category listing and follow del Valle-Gill citation to Craven-del Valle-Parker.",
+      "disposition": "RELATED_LEAD_CLOSED",
+      "remaining_uncertainty": "Daily-list screening used titles and abstracts; it is limited to that displayed category/date.",
+      "raw_evidence": "08-latest-list-and-citation-followup.json",
+      "result_attribution": "Tool returns a merged result for each batch; no per-query hit counts or attribution are claimed."
+    },
+    {
+      "id": "09",
+      "query": [
+        {
+          "operation": "open",
+          "ref_id": "https://arxiv.org/list/math.GR/new",
+          "lineno": 155
+        },
+        {
+          "operation": "open",
+          "ref_id": "https://arxiv.org/abs/2602.02032",
+          "lineno": 8
+        },
+        {
+          "operation": "find",
+          "ref_id": "https://arxiv.org/pdf/2602.02032",
+          "pattern": "Theorem 1.1"
+        },
+        {
+          "operation": "find",
+          "ref_id": "https://arxiv.org/pdf/2602.02032",
+          "pattern": "Theorem 1.2"
+        },
+        {
+          "operation": "find",
+          "ref_id": "https://arxiv.org/pdf/2602.02032",
+          "pattern": "Theorem 1.3"
+        }
+      ],
+      "service": "web.run",
+      "utc_interval": {
+        "after": "2026-09-17 06:05:42 UTC",
+        "before": "2026-09-17 06:05:44 UTC"
+      },
+      "purpose": "Read cited-paper theorems and finish the daily-list/version check.",
+      "inspected_urls_or_attempted_primary_urls": [
+        "https://arxiv.org/list/math.GR/new",
+        "https://arxiv.org/abs/2602.02032",
+        "https://arxiv.org/pdf/2602.02032"
+      ],
+      "exact_claim": "Craven-del Valle-Parker v2 was revised 2 September 2026. Its hypotheses and conclusions do not provide the two-color whole-class permutation. All 15 daily entries were subsequently read from the accessible list HTML.",
+      "relation_to_target": "Read cited-paper theorems and finish the daily-list/version check.",
+      "disposition": "RELATED_LEAD_CLOSED",
+      "remaining_uncertainty": "The search for Theorem 1.2 returned Corollary 1.2; there is no claim of a Theorem 1.3 inspection.",
+      "raw_evidence": "09-cited-theorem-locations.json",
+      "result_attribution": "Tool returns a merged result for each batch; no per-query hit counts or attribution are claimed."
+    },
+    {
+      "id": "10",
+      "query": [
+        {
+          "operation": "search_query",
+          "q": "\"Automorphism groups of the\" \"commuting involution graphs\" \"2026\" \"jgth\""
+        },
+        {
+          "operation": "search_query",
+          "q": "\"Kourovka\" \"21.53\"",
+          "recency": 2
+        },
+        {
+          "operation": "search_query",
+          "q": "\"Коуровская тетрадь\" \"21.53\""
+        },
+        {
+          "operation": "search_query",
+          "q": "\"Ree\" \"involution\" \"graph\" \"counterexample\"",
+          "recency": 30
+        },
+        {
+          "operation": "open",
+          "ref_id": "https://arxiv.org/search/?query=Gill%2C+Nick&searchtype=author&abstracts=show&order=-announced_date_first&size=50"
+        }
+      ],
+      "service": "web.run",
+      "utc_interval": {
+        "after": "2026-09-17 06:07:08 UTC",
+        "before": "2026-09-17 06:07:12 UTC"
+      },
+      "purpose": "Final discovery queries, including date-limited exact/route queries, and Bryden journal metadata.",
+      "inspected_urls_or_attempted_primary_urls": [
+        "https://arxiv.org/search/?query=Gill%2C+Nick&searchtype=author&abstracts=show&order=-announced_date_first&size=50"
+      ],
+      "exact_claim": "The primary publisher search extract gives Bryden-Rowley J. Group Theory 29 (2026), 545-559, DOI 10.1515/jgth-2025-0143, online 12 February 2026, with the same Theorem 1 as arXiv v2. No exact-target solution was identified.",
+      "relation_to_target": "Final discovery queries, including date-limited exact/route queries, and Bryden journal metadata.",
+      "disposition": "BIBLIOGRAPHIC_UPDATE_ONLY",
+      "remaining_uncertainty": "Author search on arXiv failed; search-engine date filters are not exhaustive.",
+      "raw_evidence": "10-final-discovery-and-journal-record.json",
+      "result_attribution": "Tool returns a merged result for each batch; no per-query hit counts or attribution are claimed."
+    },
+    {
+      "id": "11",
+      "query": [
+        {
+          "operation": "open",
+          "ref_id": "https://www.degruyterbrill.com/document/doi/10.1515/jgth-2025-0143/html"
+        },
+        {
+          "operation": "open",
+          "ref_id": "https://kourovkanotebookorg.wordpress.com/"
+        },
+        {
+          "operation": "open",
+          "ref_id": "https://arxiv.org/abs/1401.0300"
+        },
+        {
+          "operation": "open",
+          "ref_id": "https://arxiv.org/abs/2609.02508"
+        }
+      ],
+      "service": "web.run",
+      "utc_interval": {
+        "after": "2026-09-17 06:07:35 UTC",
+        "before": "2026-09-17 06:07:37 UTC"
+      },
+      "purpose": "Closing live primary-source status check.",
+      "inspected_urls_or_attempted_primary_urls": [
+        "https://www.degruyterbrill.com/document/doi/10.1515/jgth-2025-0143/html",
+        "https://kourovkanotebookorg.wordpress.com/",
+        "https://arxiv.org/abs/1401.0300",
+        "https://arxiv.org/abs/2609.02508"
+      ],
+      "exact_claim": "Notebook remains v46; its homepage still leads with the 1 September update. del Valle-Gill remains v1. Direct Bryden publisher HTML opening failed with HTTP 405; available indexed primary theorem text and author full text agree in scope.",
+      "relation_to_target": "Closing live primary-source status check.",
+      "disposition": "NO_MATERIAL_CHANGE",
+      "remaining_uncertainty": "The direct publisher failure is recorded; no inaccessible exact-solution claim was found.",
+      "raw_evidence": "11-final-primary-status.json",
+      "result_attribution": "Tool returns a merged result for each batch; no per-query hit counts or attribution are claimed."
+    }
+  ],
+  "primary_mathematics_inspected": [
+    {
+      "id": "notebook",
+      "urls": [
+        "https://arxiv.org/abs/1401.0300",
+        "https://arxiv.org/pdf/1401.0300v46",
+        "https://kourovkanotebookorg.wordpress.com/",
+        "https://kourovkanotebookorg.wordpress.com/repository/"
+      ],
+      "version": "arXiv:1401.0300v46; submitted 2026-09-01 13:35:35 UTC",
+      "file": "notebook-v46.pdf",
+      "locations": "Printed p.175, Problems 21.52 and 21.53; live version history and current editors pages",
+      "exact_claim": "Question concerns exact product-order colors on a whole involution class of a finite nonabelian simple group, with two least prime divisors 2 and p. No solution annotation or repository entry was found.",
+      "relation_to_target": "Exact primary target and fresh public status.",
+      "disposition": "TARGET_UNCHANGED",
+      "remaining_uncertainty": "Notebook absence of a solution entry is not proof that no solution exists.",
+      "sha256": "498c2443bcee6ca398430935c87c97b6f99d0b1a6e5cb8f637d188a1827115da",
+      "retrieval_utc_interval": {
+        "after": "2026-09-17T06:03:18.412703+00:00",
+        "before": "2026-09-17T06:03:19.650462+00:00"
+      }
+    },
+    {
+      "id": "ggl2025",
+      "urls": [
+        "https://msp.org/pjm/2025/336-1/pjm-v336-n1-p05-p.pdf",
+        "https://arxiv.org/abs/2402.08357"
+      ],
+      "version": "Pacific J. Math. 336 (2025), 113-135; arXiv:2402.08357v1, submitted 2024-02-13 10:37:17 UTC",
+      "file": "ggl-published-2025.pdf",
+      "locations": "Theorems 1-2 pp.114-115; Definition 2.1 p.116; Example 2.3 and Lemma 2.5/proof p.117; large-Ree part of Lemma 4.6 p.130; section 5 pp.130-131",
+      "exact_claim": "Classifies component groups and rules out binary large-Ree actions with proper even point stabilizers. The component graph requires the product of involutions to remain in the class.",
+      "relation_to_target": "Nonbinarity concerns pairwise-compatible tuples; it does not provide a global permutation preserving orders 2 and 3 but changing another product order.",
+      "disposition": "CLOSED_RELATED_RESULT",
+      "remaining_uncertainty": "The paper is not independently re-proved here; the inspected implication to the target fails for the stated global-versus-partial reason.",
+      "sha256": "b18266e0800eb9e8ea49a01eb02027709be8a654b33e8a91f15566b4b476ba3a",
+      "retrieval_utc_interval": {
+        "after": "2026-09-17T06:03:18.413286+00:00",
+        "before": "2026-09-17T06:03:20.009539+00:00"
+      }
+    },
+    {
+      "id": "delvalle_gill2026",
+      "urls": [
+        "https://arxiv.org/abs/2609.02508",
+        "https://arxiv.org/pdf/2609.02508v1"
+      ],
+      "version": "arXiv:2609.02508v1, submitted 2026-09-02 12:14:16 UTC; displayed manuscript date 3 September 2026",
+      "file": "delvalle-gill-v1.pdf",
+      "locations": "Theorems 1.1-1.2 pp.1-2; section 2 definition and Lemmas 2.2/2.4 p.3, Lemma 2.7 and proof p.4; reference [8] p.32",
+      "exact_claim": "Classifies binary actions of quasisimple sporadic groups including the Tits group; mentions forthcoming low-untwisted-rank binary-action work.",
+      "relation_to_target": "Different group scope and tuple-extension problem. The permutation in Lemma 2.7 is defined on a union of fixed-point sets, not on every vertex with the target relation-preservation property.",
+      "disposition": "CLOSED_RELATED_RESULT",
+      "remaining_uncertainty": "Forthcoming paper not publicly inspected in full; its announced scope is not a credible announced solution of 21.53.",
+      "sha256": "4ccb9798dceaca014082a21e70b4b34a18d2ccd93fb01b0e829582b8b4ca54a4",
+      "retrieval_utc_interval": {
+        "after": "2026-09-17T06:03:18.413414+00:00",
+        "before": "2026-09-17T06:03:18.820858+00:00"
+      }
+    },
+    {
+      "id": "craven_delvalle_parker2026",
+      "urls": [
+        "https://arxiv.org/abs/2602.02032",
+        "https://arxiv.org/pdf/2602.02032v2"
+      ],
+      "version": "arXiv:2602.02032v2; first submitted 2 February 2026, revised 2 September 2026",
+      "file": "craven-delvalle-parker-current.pdf",
+      "locations": "Introduction and Theorem 1.1/Corollary 1.2 pp.1-2; graph/component definitions and Lemma 2.1 p.3",
+      "exact_claim": "Classifies connectivity/component groups for sporadic quasisimple groups and exceptional covers; restricts primes in binary-action stabilizers.",
+      "relation_to_target": "Does not give the full automorphism group of the two-color reduct or a color-breaking whole-class permutation.",
+      "disposition": "CLOSED_RELATED_RESULT",
+      "remaining_uncertainty": "Only relevant statements/definitions were inspected; no full mathematical re-audit or code rerun.",
+      "sha256": "7d970b520bab9d58b287457cfd7ce719c7b6bc029c7e4f5f22e21c5a965c1991",
+      "retrieval_utc_interval": {
+        "after": "2026-09-17T06:05:44.297951+00:00",
+        "before": "2026-09-17T06:05:44.786839+00:00"
+      }
+    },
+    {
+      "id": "bryden_rowley2026",
+      "urls": [
+        "https://arxiv.org/abs/2509.25901",
+        "https://arxiv.org/pdf/2509.25901v2",
+        "https://www.degruyterbrill.com/document/doi/10.1515/jgth-2025-0143/html"
+      ],
+      "version": "arXiv:2509.25901v2, submitted 2026-01-16 08:40:56 UTC; J. Group Theory 29 (2026), 545-559, online 12 February 2026",
+      "file": "bryden-rowley-v2.pdf",
+      "locations": "Theorem 1 p.2 and introduction; indexed primary publisher Theorem 1 and bibliographic record",
+      "exact_claim": "For PSL2(q), commuting-graph automorphisms are Sym(q-1) wreath Sym(q+1) for even q and PΓL2(q) for odd q at least 7.",
+      "relation_to_target": "Family-specific commuting-graph result does not supply the required two-relation-preserving counterexample. Journal metadata supplements the prior dossier without changing this conclusion.",
+      "disposition": "BIBLIOGRAPHIC_UPDATE_ONLY",
+      "remaining_uncertainty": "Direct publisher reopen returned 405; primary indexed theorem and complete author preprint were accessible. No code was rerun.",
+      "sha256": "e212b62827e7815c4aa0de283428fc735a245940ff5bea5f04be5b390a587bc4",
+      "retrieval_utc_interval": {
+        "after": "2026-09-17T06:03:18.413455+00:00",
+        "before": "2026-09-17T06:03:18.754491+00:00"
+      }
+    },
+    {
+      "id": "aschbacher_guralnick_segev2007",
+      "urls": [
+        "https://ems.press/content/serial-article-files/29479"
+      ],
+      "version": "2007 published article, unchanged fetched bytes",
+      "file": "aschbacher-guralnick-segev.pdf",
+      "locations": "Hypothesis 10.1, Lemma 10.2(1)-(4) and proof, pp.380-381",
+      "exact_claim": "In the relevant root-subgroup setting, the involution centralizer is R(P)X independently of the nonidentity root element.",
+      "relation_to_target": "Established equal-centralizer structural input; no complete product-order reconstruction answer.",
+      "disposition": "ESTABLISHED_INGREDIENT",
+      "remaining_uncertainty": "Broader theorem/proof audit retained in earlier dossier; only the relevant claim was re-read.",
+      "sha256": "d7c74d7c1fbd6ab10af8b27abe594a6594bc491694c037863d83d293b55a759b",
+      "retrieval_utc_interval": {
+        "after": "2026-09-17T06:05:44.298759+00:00",
+        "before": "2026-09-17T06:05:45.341644+00:00"
+      }
+    },
+    {
+      "id": "revin_zavarnitsine2022",
+      "urls": [
+        "https://arxiv.org/abs/2212.13785",
+        "https://arxiv.org/pdf/2212.13785v1"
+      ],
+      "version": "arXiv:2212.13785v1; unchanged fetched bytes",
+      "file": "revin-zavarnitsine-v1.pdf",
+      "locations": "Lemma 8(2A2) and proof p.5",
+      "exact_claim": "A 2-central involution of the relevant large-Ree group inverts no element of order 3.",
+      "relation_to_target": "Established input implying the empty order-three relation; the target also needs a global swap and different remaining product orders.",
+      "disposition": "ESTABLISHED_INGREDIENT",
+      "remaining_uncertainty": "This is source inspection, not an independent re-proof of all structure results cited by the lemma.",
+      "sha256": "80e375355d7ffd420b73e4c8d4bab0ed02e8ff2e200c4969079c2fff9717bdd6",
+      "retrieval_utc_interval": {
+        "after": "2026-09-17T06:03:18.754557+00:00",
+        "before": "2026-09-17T06:03:19.044238+00:00"
+      }
+    },
+    {
+      "id": "wilson",
+      "urls": [
+        "https://webspace.maths.qmul.ac.uk/r.a.wilson/pubs_files/ReeF4alg.pdf"
+      ],
+      "version": "Author draft dated 5 June 2009; published J. Algebra 323 (2010), 1468-1481, DOI 10.1016/j.jalgebra.2009.11.015 as recorded in prior dossier",
+      "file": "wilson-author.pdf",
+      "locations": "Attribution p.2; root-generator discussion pp.7-8; section 8/Theorem 2 and proof p.11",
+      "exact_claim": "Provides the concrete matrix construction and a simplicity proof using a normal abelian subgroup and Iwasawa lemma; explicitly credits earlier Coolsaet work.",
+      "relation_to_target": "Confirms that matrix construction and group structure remain credited established mathematics, not the novelty claim.",
+      "disposition": "ESTABLISHED_INGREDIENT",
+      "remaining_uncertainty": "Draft date is not asserted to be the first verifiable public availability date.",
+      "sha256": "300c3a4d5be9372c393ba2c7da51dd0c3a3bface442e1a532fc6d685b51b0234",
+      "retrieval_utc_interval": {
+        "after": "2026-09-17T06:03:18.763403+00:00",
+        "before": "2026-09-17T06:03:19.797705+00:00"
+      }
+    },
+    {
+      "id": "seminar_slides",
+      "urls": [
+        "https://grahameerskine.co.uk/OU/Slides/delValle.pdf"
+      ],
+      "version": "Displayed date 7 January 2026",
+      "file": "delvalle-slides-curl.pdf",
+      "locations": "Slides 13-15 and associated definitions",
+      "exact_claim": "Announces binary-action classifications for simple groups and sporadics; no target solution announcement in inspected material.",
+      "relation_to_target": "Closes a public seminar-announcement lead.",
+      "disposition": "CLOSED_RELATED_ANNOUNCEMENT",
+      "remaining_uncertainty": "Initial access errors were recovered through curl; not every seminar channel was searched.",
+      "sha256": "3f03d5c8200574d01e7b3fabfcb58b89c2f984adaeeb43e5e7bcdb500c754aed",
+      "retrieval_utc_interval": {
+        "after": "2026-09-17 06:05:44 UTC",
+        "before": "2026-09-17 06:07:08 UTC",
+        "basis": "Tool-order bounds for successful system curl fallback; not a source publication date."
+      }
+    }
+  ],
+  "daily_arxiv_screen": {
+    "url": "https://arxiv.org/list/math.GR/new",
+    "displayed_date": "Thursday, 17 September 2026",
+    "new": 4,
+    "cross_lists": 5,
+    "replacements": 6,
+    "total": 15,
+    "arxiv_ids": [
+      "2609.17559",
+      "2609.17957",
+      "2609.18513",
+      "2609.18630",
+      "2609.17860",
+      "2609.17879",
+      "2609.18380",
+      "2609.18433",
+      "2609.19086",
+      "2409.13796",
+      "2604.09161",
+      "2609.12326",
+      "2609.17438",
+      "2609.12290",
+      "2609.15971"
+    ],
+    "inspection_level": "All displayed titles and abstracts; no plausible exact-target lead, so no claim to have read all 15 full papers.",
+    "files": [
+      "arxiv-math-gr-new.html",
+      "arxiv-math-gr-new.txt"
+    ]
+  },
+  "mathematical_overlap_assessment": {
+    "kind": "Reviewer inference from actual definitions and proof steps",
+    "claim": "Nonbinarity supplies a pairwise-compatible tuple map which need not extend to a relation-preserving permutation of the whole class. Arbitrary set extensions do not preserve relations on pairs involving the complement. A global map preserving every conjugation orbital would preserve all product-order colors, so nonbinarity alone is not the required color-breaking automorphism.",
+    "main_sources": [
+      "ggl2025",
+      "delvalle_gill2026"
+    ]
+  },
+  "material_changes_since_previous_review": [],
+  "nonmaterial_additions": [
+    "Primary Bryden-Rowley journal metadata and indexed published Theorem 1 corroborate arXiv v2.",
+    "Craven-del Valle-Parker v2 citation follow-up closed as a distinct component-graph result.",
+    "January 2026 del Valle seminar slides checked.",
+    "17 September math.GR daily listing screened."
+  ],
+  "coverage_limits": [
+    "This is a targeted release freshness check, not repetition of all 44 searches from the prior dossier.",
+    "No authenticated MathSciNet, zbMATH, Scopus or Web of Science search.",
+    "No private manuscripts, private correspondence, complete talk coverage, or author contact.",
+    "Web indexing and date filters cannot ensure all prior public work is found.",
+    "Gill author publication list visibly lags current records and was used only as a lead.",
+    "Earlier Suzuki, twins, small-Ree, field-two exceptional and axial-algebra source inspections are carried forward from the 16 September report, not all freshly repeated."
+  ],
+  "access_issues": [
+    {
+      "channel": "arXiv recent category list",
+      "observed": "web internal error; direct HTTP 406",
+      "resolution": "Current 17 September new listing and individual primary records accessible",
+      "blocks_release": false
+    },
+    {
+      "channel": "arXiv author search",
+      "observed": "web internal error",
+      "resolution": "Targeted discovery searches, author lead page, individual records and daily list used; full author-query coverage not claimed",
+      "blocks_release": false
+    },
+    {
+      "channel": "MSP published GGL PDF",
+      "observed": "web renderer exposed no PDF text",
+      "resolution": "Direct HTTP 200 valid PDF retrieved, identity and full relevant text inspected; byte-identical to previous correct source",
+      "blocks_release": false
+    },
+    {
+      "channel": "del Valle seminar slides",
+      "observed": "web internal error and Python SSL certificate-chain failure",
+      "resolution": "System curl succeeded with normal certificate validation",
+      "blocks_release": false
+    },
+    {
+      "channel": "Bryden-Rowley publisher HTML",
+      "observed": "Direct web reopening returned HTTP 405",
+      "resolution": "Indexed primary theorem text and complete current author preprint inspected; only journal metadata added",
+      "blocks_release": false
+    }
+  ],
+  "evidence_files": [
+    "input-snapshot.json",
+    "source-fetch-manifest.json",
+    "additional-source-fetch-manifest.json",
+    "version-byte-comparison.json"
+  ],
+  "created_utc": "2026-09-17T06:13:06.716773+00:00"
+}

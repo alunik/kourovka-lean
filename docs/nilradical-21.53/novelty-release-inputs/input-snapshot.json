@@ -1,0 +1,29 @@
+{
+  "captured_utc": "2026-09-17T06:04:49.252481+00:00",
+  "inputs": [
+    {
+      "path": "problem.md",
+      "sha256": "6febe3fc5bc84e193c328f81e5eb096b549e34a390441fa308728c3fdf2e9b1c"
+    },
+    {
+      "path": "proof/constructive-matrix-route.md",
+      "sha256": "91c22246b5dd928512c61aef115b8aa86e3ca0e734953894ddccc3a3e9994933"
+    },
+    {
+      "path": "reviews/novelty-final.md",
+      "sha256": "9bc8e38054958c0f7c75d39a2551f8057df22b717adf3e440d934115758a8421"
+    },
+    {
+      "path": "reviews/novelty-final-ledger.json",
+      "sha256": "5a6dfc9b0aa3a1438a0d695b84c9929a2abf56d1558a733e83c59f11a5cf5c64"
+    },
+    {
+      "path": "verification/contract.json",
+      "sha256": "e02b24ffc6e1c9c8adb3aa507a9c59de2df762492495f27dd8d788133de257ff"
+    },
+    {
+      "path": "verification/challenge/Challenge.lean",
+      "sha256": "9f28dde89cf12a709007361f261ec4e050c674a03277686565f3129ef5f11381"
+    }
+  ]
+}

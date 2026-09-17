@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Cite this versioned Nilradical result when using the counterexample to Kourovka Problem 21.53."
+type: software
+title: "Nilradical v1.0.0: a counterexample to Kourovka Problem 21.53"
+authors:
+  - name: Nilradical
+version: "1.0.0"
+date-released: "2026-09-17"
+url: "https://nilradical.ai/?result=kourovka-21-53"
+repository-code: "https://github.com/alunik/kourovka-lean"
+license: Apache-2.0
+commit: "fab8915562b0b7202ae4c1c7d7765c4bd8e616ea"
+abstract: "An explicit finite nonabelian simple matrix group and a permutation of a whole involution class preserving product-order colours 2 and 3 while changing an edge from 5 to 7, with a complete Lean proof and protected Lean/Nanoda verification."

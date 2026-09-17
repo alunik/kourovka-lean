@@ -1,0 +1,54 @@
+{
+  "captured_utc": "2026-09-17T06:06:55.513885+00:00",
+  "comparisons": [
+    {
+      "fresh": "release-20260917/notebook-v46.pdf",
+      "previous": "final-refresh-20260916/notebook-v46.pdf",
+      "fresh_sha256": "498c2443bcee6ca398430935c87c97b6f99d0b1a6e5cb8f637d188a1827115da",
+      "previous_sha256": "498c2443bcee6ca398430935c87c97b6f99d0b1a6e5cb8f637d188a1827115da",
+      "byte_identical": true
+    },
+    {
+      "fresh": "release-20260917/ggl-published-2025.pdf",
+      "previous": "final-refresh-20260916/gill-guillot-liebeck-journal-correct.pdf",
+      "fresh_sha256": "b18266e0800eb9e8ea49a01eb02027709be8a654b33e8a91f15566b4b476ba3a",
+      "previous_sha256": "b18266e0800eb9e8ea49a01eb02027709be8a654b33e8a91f15566b4b476ba3a",
+      "byte_identical": true
+    },
+    {
+      "fresh": "release-20260917/delvalle-gill-v1.pdf",
+      "previous": "final-refresh-20260916/gill-sporadic.pdf",
+      "fresh_sha256": "4ccb9798dceaca014082a21e70b4b34a18d2ccd93fb01b0e829582b8b4ca54a4",
+      "previous_sha256": "4ccb9798dceaca014082a21e70b4b34a18d2ccd93fb01b0e829582b8b4ca54a4",
+      "byte_identical": true
+    },
+    {
+      "fresh": "release-20260917/bryden-rowley-v2.pdf",
+      "previous": "final-refresh-20260916/bryden-rowley-v2.pdf",
+      "fresh_sha256": "e212b62827e7815c4aa0de283428fc735a245940ff5bea5f04be5b390a587bc4",
+      "previous_sha256": "e212b62827e7815c4aa0de283428fc735a245940ff5bea5f04be5b390a587bc4",
+      "byte_identical": true
+    },
+    {
+      "fresh": "release-20260917/revin-zavarnitsine-v1.pdf",
+      "previous": "final-refresh-20260916/revin-zavarnitsine.pdf",
+      "fresh_sha256": "80e375355d7ffd420b73e4c8d4bab0ed02e8ff2e200c4969079c2fff9717bdd6",
+      "previous_sha256": "80e375355d7ffd420b73e4c8d4bab0ed02e8ff2e200c4969079c2fff9717bdd6",
+      "byte_identical": true
+    },
+    {
+      "fresh": "release-20260917/wilson-author.pdf",
+      "previous": "final-refresh-20260916/wilson-draft.pdf",
+      "fresh_sha256": "300c3a4d5be9372c393ba2c7da51dd0c3a3bface442e1a532fc6d685b51b0234",
+      "previous_sha256": "300c3a4d5be9372c393ba2c7da51dd0c3a3bface442e1a532fc6d685b51b0234",
+      "byte_identical": true
+    },
+    {
+      "fresh": "release-20260917/aschbacher-guralnick-segev.pdf",
+      "previous": "final-refresh-20260916/aschbacher-guralnick-segev.pdf",
+      "fresh_sha256": "d7c74d7c1fbd6ab10af8b27abe594a6594bc491694c037863d83d293b55a759b",
+      "previous_sha256": "d7c74d7c1fbd6ab10af8b27abe594a6594bc491694c037863d83d293b55a759b",
+      "byte_identical": true
+    }
+  ]
+}

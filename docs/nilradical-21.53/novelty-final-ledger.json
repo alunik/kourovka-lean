@@ -1,0 +1,1462 @@
+{
+  "schema": 1,
+  "created_utc": "2026-09-16T19:59:45.725385+00:00",
+  "reviewer": "/root/final_novelty_refresh",
+  "review_type": "Independent final novelty only, without proof authorship",
+  "overall_disposition": "CLEAR_TO_INVESTIGATE",
+  "not_a_priority_certificate": true,
+  "closing_search_utc": "2026-09-16T19:53:46Z",
+  "frozen_contract_sha256": "e02b24ffc6e1c9c8adb3aa507a9c59de2df762492495f27dd8d788133de257ff",
+  "challenge_sha256": "9f28dde89cf12a709007361f261ec4e050c674a03277686565f3129ef5f11381",
+  "exact_target": "Negative answer to Kourovka 21.53: Aut(all exact product orders) is strictly smaller than Aut(2) intersection Aut(p) for a whole involution class in some finite nonabelian simple group. Current witness is the Wilson F8 model, p=3, identical centralizers, empty order-three relation, and a class transposition changing 5 to 7.",
+  "entries": [
+    {
+      "id": "Q001",
+      "batch": "exact",
+      "service": "web.run",
+      "operation": "search_query",
+      "query": "\"Kourovka\" \"21.53\"",
+      "utc_start": "2026-09-16 19:45:37 UTC",
+      "utc_end": "2026-09-16 19:45:39 UTC",
+      "timestamp_basis": "Tool-batch invocation/completion interval; queries within batch share this honest bound.",
+      "raw_result_file": "novelty/final-refresh-20260916/exact.json",
+      "inspected_source_ids": [
+        "notebook",
+        "axial"
+      ],
+      "inspected_urls": [
+        "https://arxiv.org/abs/1401.0300",
+        "https://arxiv.org/pdf/1401.0300v46",
+        "https://kourovkanotebookorg.wordpress.com/repository/",
+        "https://arxiv.org/abs/2311.18538",
+        "https://arxiv.org/pdf/2311.18538v1",
+        "https://research.birmingham.ac.uk/files/237372286/GorshkovIB2024Automorphism.pdf"
+      ],
+      "versions_and_primary_claims": "See source_inspections for linked ids.",
+      "exact_claim_assessed": "Existence of a whole-involution-class permutation preserving orders 2 and least odd prime p but changing another exact product order in a finite nonabelian simple group.",
+      "relation_to_target": "Exact number, proposer, distinctive terminology returned the Notebook and axial-algebra work; no earlier exact solution located.",
+      "disposition": "NO_PRIOR_COMPLETE_SOLUTION_LOCATED",
+      "remaining_uncertainty": "Bounded public/indexed search only; source-specific limitations are in source_inspections."
+    },
+    {
+      "id": "Q002",
+      "batch": "exact",
+      "service": "web.run",
+      "operation": "search_query",
+      "query": "\"Gorshkov\" \"Aut\" \"involutions\" graph",
+      "utc_start": "2026-09-16 19:45:37 UTC",
+      "utc_end": "2026-09-16 19:45:39 UTC",
+      "timestamp_basis": "Tool-batch invocation/completion interval; queries within batch share this honest bound.",
+      "raw_result_file": "novelty/final-refresh-20260916/exact.json",
+      "inspected_source_ids": [
+        "notebook",
+        "axial"
+      ],
+      "inspected_urls": [
+        "https://arxiv.org/abs/1401.0300",
+        "https://arxiv.org/pdf/1401.0300v46",
+        "https://kourovkanotebookorg.wordpress.com/repository/",
+        "https://arxiv.org/abs/2311.18538",
+        "https://arxiv.org/pdf/2311.18538v1",
+        "https://research.birmingham.ac.uk/files/237372286/GorshkovIB2024Automorphism.pdf"
+      ],
+      "versions_and_primary_claims": "See source_inspections for linked ids.",
+      "exact_claim_assessed": "Existence of a whole-involution-class permutation preserving orders 2 and least odd prime p but changing another exact product order in a finite nonabelian simple group.",
+      "relation_to_target": "Exact number, proposer, distinctive terminology returned the Notebook and axial-algebra work; no earlier exact solution located.",
+      "disposition": "NO_PRIOR_COMPLETE_SOLUTION_LOCATED",
+      "remaining_uncertainty": "Bounded public/indexed search only; source-specific limitations are in source_inspections."
+    },
+    {
+      "id": "Q003",
+      "batch": "exact",
+      "service": "web.run",
+      "operation": "search_query",
+      "query": "\"involution\" \"graph\" \"two smallest prime\"",
+      "utc_start": "2026-09-16 19:45:37 UTC",
+      "utc_end": "2026-09-16 19:45:39 UTC",
+      "timestamp_basis": "Tool-batch invocation/completion interval; queries within batch share this honest bound.",
+      "raw_result_file": "novelty/final-refresh-20260916/exact.json",
+      "inspected_source_ids": [
+        "notebook",
+        "axial"
+      ],
+      "inspected_urls": [
+        "https://arxiv.org/abs/1401.0300",
+        "https://arxiv.org/pdf/1401.0300v46",
+        "https://kourovkanotebookorg.wordpress.com/repository/",
+        "https://arxiv.org/abs/2311.18538",
+        "https://arxiv.org/pdf/2311.18538v1",
+        "https://research.birmingham.ac.uk/files/237372286/GorshkovIB2024Automorphism.pdf"
+      ],
+      "versions_and_primary_claims": "See source_inspections for linked ids.",
+      "exact_claim_assessed": "Existence of a whole-involution-class permutation preserving orders 2 and least odd prime p but changing another exact product order in a finite nonabelian simple group.",
+      "relation_to_target": "Exact number, proposer, distinctive terminology returned the Notebook and axial-algebra work; no earlier exact solution located.",
+      "disposition": "NO_PRIOR_COMPLETE_SOLUTION_LOCATED",
+      "remaining_uncertainty": "Bounded public/indexed search only; source-specific limitations are in source_inspections."
+    },
+    {
+      "id": "Q004",
+      "batch": "ree_graph",
+      "service": "web.run",
+      "operation": "search_query",
+      "query": "\"Ree\" \"involution\" \"graph automorphism\"",
+      "utc_start": "2026-09-16 19:45:40 UTC",
+      "utc_end": "2026-09-16 19:45:41 UTC",
+      "timestamp_basis": "Tool-batch invocation/completion interval; queries within batch share this honest bound.",
+      "raw_result_file": "novelty/final-refresh-20260916/ree_graph.json",
+      "inspected_source_ids": [
+        "aubad_rowley",
+        "wilson"
+      ],
+      "inspected_urls": [
+        "https://link.springer.com/content/pdf/10.1007/s00373-021-02321-w.pdf",
+        "https://webspace.maths.qmul.ac.uk/r.a.wilson/pubs_files/ReeF4alg.pdf",
+        "https://doi.org/10.1016/j.jalgebra.2009.11.015"
+      ],
+      "versions_and_primary_claims": "See source_inspections for linked ids.",
+      "exact_claim_assessed": "Existence of a whole-involution-class permutation preserving orders 2 and least odd prime p but changing another exact product order in a finite nonabelian simple group.",
+      "relation_to_target": "Ree/equal-centralizer/graph search produced family and structural leads, none claiming the target.",
+      "disposition": "NO_PRIOR_COMPLETE_SOLUTION_LOCATED",
+      "remaining_uncertainty": "Bounded public/indexed search only; source-specific limitations are in source_inspections."
+    },
+    {
+      "id": "Q005",
+      "batch": "ree_graph",
+      "service": "web.run",
+      "operation": "search_query",
+      "query": "\"2F4\" \"commuting\" \"automorphisms\"",
+      "utc_start": "2026-09-16 19:45:40 UTC",
+      "utc_end": "2026-09-16 19:45:41 UTC",
+      "timestamp_basis": "Tool-batch invocation/completion interval; queries within batch share this honest bound.",
+      "raw_result_file": "novelty/final-refresh-20260916/ree_graph.json",
+      "inspected_source_ids": [
+        "aubad_rowley",
+        "wilson"
+      ],
+      "inspected_urls": [
+        "https://link.springer.com/content/pdf/10.1007/s00373-021-02321-w.pdf",
+        "https://webspace.maths.qmul.ac.uk/r.a.wilson/pubs_files/ReeF4alg.pdf",
+        "https://doi.org/10.1016/j.jalgebra.2009.11.015"
+      ],
+      "versions_and_primary_claims": "See source_inspections for linked ids.",
+      "exact_claim_assessed": "Existence of a whole-involution-class permutation preserving orders 2 and least odd prime p but changing another exact product order in a finite nonabelian simple group.",
+      "relation_to_target": "Ree/equal-centralizer/graph search produced family and structural leads, none claiming the target.",
+      "disposition": "NO_PRIOR_COMPLETE_SOLUTION_LOCATED",
+      "remaining_uncertainty": "Bounded public/indexed search only; source-specific limitations are in source_inspections."
+    },
+    {
+      "id": "Q006",
+      "batch": "ree_graph",
+      "service": "web.run",
+      "operation": "search_query",
+      "query": "\"Ree\" \"equal centralizers\" involutions",
+      "utc_start": "2026-09-16 19:45:40 UTC",
+      "utc_end": "2026-09-16 19:45:41 UTC",
+      "timestamp_basis": "Tool-batch invocation/completion interval; queries within batch share this honest bound.",
+      "raw_result_file": "novelty/final-refresh-20260916/ree_graph.json",
+      "inspected_source_ids": [
+        "aubad_rowley",
+        "wilson"
+      ],
+      "inspected_urls": [
+        "https://link.springer.com/content/pdf/10.1007/s00373-021-02321-w.pdf",
+        "https://webspace.maths.qmul.ac.uk/r.a.wilson/pubs_files/ReeF4alg.pdf",
+        "https://doi.org/10.1016/j.jalgebra.2009.11.015"
+      ],
+      "versions_and_primary_claims": "See source_inspections for linked ids.",
+      "exact_claim_assessed": "Existence of a whole-involution-class permutation preserving orders 2 and least odd prime p but changing another exact product order in a finite nonabelian simple group.",
+      "relation_to_target": "Ree/equal-centralizer/graph search produced family and structural leads, none claiming the target.",
+      "disposition": "NO_PRIOR_COMPLETE_SOLUTION_LOCATED",
+      "remaining_uncertainty": "Bounded public/indexed search only; source-specific limitations are in source_inspections."
+    },
+    {
+      "id": "Q007",
+      "batch": "ree_graph",
+      "service": "web.run",
+      "operation": "search_query",
+      "query": "\"Kourovka\" \"21.53\" counterexample",
+      "utc_start": "2026-09-16 19:45:40 UTC",
+      "utc_end": "2026-09-16 19:45:41 UTC",
+      "timestamp_basis": "Tool-batch invocation/completion interval; queries within batch share this honest bound.",
+      "raw_result_file": "novelty/final-refresh-20260916/ree_graph.json",
+      "inspected_source_ids": [
+        "aubad_rowley",
+        "wilson"
+      ],
+      "inspected_urls": [
+        "https://link.springer.com/content/pdf/10.1007/s00373-021-02321-w.pdf",
+        "https://webspace.maths.qmul.ac.uk/r.a.wilson/pubs_files/ReeF4alg.pdf",
+        "https://doi.org/10.1016/j.jalgebra.2009.11.015"
+      ],
+      "versions_and_primary_claims": "See source_inspections for linked ids.",
+      "exact_claim_assessed": "Existence of a whole-involution-class permutation preserving orders 2 and least odd prime p but changing another exact product order in a finite nonabelian simple group.",
+      "relation_to_target": "Ree/equal-centralizer/graph search produced family and structural leads, none claiming the target.",
+      "disposition": "NO_PRIOR_COMPLETE_SOLUTION_LOCATED",
+      "remaining_uncertainty": "Bounded public/indexed search only; source-specific limitations are in source_inspections."
+    },
+    {
+      "id": "Q008",
+      "batch": "primary_status",
+      "service": "web.run",
+      "operation": "open",
+      "query": "https://arxiv.org/abs/1401.0300",
+      "utc_start": "2026-09-16 19:45:42 UTC",
+      "utc_end": "2026-09-16 19:45:44 UTC",
+      "timestamp_basis": "Tool-batch invocation/completion interval; queries within batch share this honest bound.",
+      "raw_result_file": "novelty/final-refresh-20260916/primary_status.json",
+      "inspected_source_ids": [
+        "notebook",
+        "wilson"
+      ],
+      "inspected_urls": [
+        "https://arxiv.org/abs/1401.0300",
+        "https://arxiv.org/pdf/1401.0300v46",
+        "https://kourovkanotebookorg.wordpress.com/repository/",
+        "https://webspace.maths.qmul.ac.uk/r.a.wilson/pubs_files/ReeF4alg.pdf",
+        "https://doi.org/10.1016/j.jalgebra.2009.11.015"
+      ],
+      "versions_and_primary_claims": "See source_inspections for linked ids.",
+      "exact_claim_assessed": "Existence of a whole-involution-class permutation preserving orders 2 and least odd prime p but changing another exact product order in a finite nonabelian simple group.",
+      "relation_to_target": "Current problem status and primary Wilson draft inspected.",
+      "disposition": "NO_PRIOR_COMPLETE_SOLUTION_LOCATED",
+      "remaining_uncertainty": "Bounded public/indexed search only; source-specific limitations are in source_inspections."
+    },
+    {
+      "id": "Q009",
+      "batch": "primary_status",
+      "service": "web.run",
+      "operation": "open",
+      "query": "https://kourovkanotebookorg.wordpress.com/repository/",
+      "utc_start": "2026-09-16 19:45:42 UTC",
+      "utc_end": "2026-09-16 19:45:44 UTC",
+      "timestamp_basis": "Tool-batch invocation/completion interval; queries within batch share this honest bound.",
+      "raw_result_file": "novelty/final-refresh-20260916/primary_status.json",
+      "inspected_source_ids": [
+        "notebook",
+        "wilson"
+      ],
+      "inspected_urls": [
+        "https://arxiv.org/abs/1401.0300",
+        "https://arxiv.org/pdf/1401.0300v46",
+        "https://kourovkanotebookorg.wordpress.com/repository/",
+        "https://webspace.maths.qmul.ac.uk/r.a.wilson/pubs_files/ReeF4alg.pdf",
+        "https://doi.org/10.1016/j.jalgebra.2009.11.015"
+      ],
+      "versions_and_primary_claims": "See source_inspections for linked ids.",
+      "exact_claim_assessed": "Existence of a whole-involution-class permutation preserving orders 2 and least odd prime p but changing another exact product order in a finite nonabelian simple group.",
+      "relation_to_target": "Current problem status and primary Wilson draft inspected.",
+      "disposition": "NO_PRIOR_COMPLETE_SOLUTION_LOCATED",
+      "remaining_uncertainty": "Bounded public/indexed search only; source-specific limitations are in source_inspections."
+    },
+    {
+      "id": "Q010",
+      "batch": "primary_status",
+      "service": "web.run",
+      "operation": "open",
+      "query": "https://webspace.maths.qmul.ac.uk/r.a.wilson/pubs_files/ReeF4alg.pdf",
+      "utc_start": "2026-09-16 19:45:42 UTC",
+      "utc_end": "2026-09-16 19:45:44 UTC",
+      "timestamp_basis": "Tool-batch invocation/completion interval; queries within batch share this honest bound.",
+      "raw_result_file": "novelty/final-refresh-20260916/primary_status.json",
+      "inspected_source_ids": [
+        "notebook",
+        "wilson"
+      ],
+      "inspected_urls": [
+        "https://arxiv.org/abs/1401.0300",
+        "https://arxiv.org/pdf/1401.0300v46",
+        "https://kourovkanotebookorg.wordpress.com/repository/",
+        "https://webspace.maths.qmul.ac.uk/r.a.wilson/pubs_files/ReeF4alg.pdf",
+        "https://doi.org/10.1016/j.jalgebra.2009.11.015"
+      ],
+      "versions_and_primary_claims": "See source_inspections for linked ids.",
+      "exact_claim_assessed": "Existence of a whole-involution-class permutation preserving orders 2 and least odd prime p but changing another exact product order in a finite nonabelian simple group.",
+      "relation_to_target": "Current problem status and primary Wilson draft inspected.",
+      "disposition": "NO_PRIOR_COMPLETE_SOLUTION_LOCATED",
+      "remaining_uncertainty": "Bounded public/indexed search only; source-specific limitations are in source_inspections."
+    },
+    {
+      "id": "Q011",
+      "batch": "equivalent_graphs",
+      "service": "web.run",
+      "operation": "search_query",
+      "query": "\"involutions\" \"product orders\" \"automorphism\" graph",
+      "utc_start": "2026-09-16 19:46:21 UTC",
+      "utc_end": "2026-09-16 19:46:24 UTC",
+      "timestamp_basis": "Tool-batch invocation/completion interval; queries within batch share this honest bound.",
+      "raw_result_file": "novelty/final-refresh-20260916/equivalent_graphs.json",
+      "inspected_source_ids": [
+        "axial"
+      ],
+      "inspected_urls": [
+        "https://arxiv.org/abs/2311.18538",
+        "https://arxiv.org/pdf/2311.18538v1",
+        "https://research.birmingham.ac.uk/files/237372286/GorshkovIB2024Automorphism.pdf"
+      ],
+      "versions_and_primary_claims": "See source_inspections for linked ids.",
+      "exact_claim_assessed": "Existence of a whole-involution-class permutation preserving orders 2 and least odd prime p but changing another exact product order in a finite nonabelian simple group.",
+      "relation_to_target": "Product-order/involution-twin searches did not locate an exact prior counterexample; unrelated results discarded.",
+      "disposition": "NO_PRIOR_COMPLETE_SOLUTION_LOCATED",
+      "remaining_uncertainty": "Bounded public/indexed search only; source-specific limitations are in source_inspections."
+    },
+    {
+      "id": "Q012",
+      "batch": "equivalent_graphs",
+      "service": "web.run",
+      "operation": "search_query",
+      "query": "\"large Ree\" \"commuting involution\" graph",
+      "utc_start": "2026-09-16 19:46:21 UTC",
+      "utc_end": "2026-09-16 19:46:24 UTC",
+      "timestamp_basis": "Tool-batch invocation/completion interval; queries within batch share this honest bound.",
+      "raw_result_file": "novelty/final-refresh-20260916/equivalent_graphs.json",
+      "inspected_source_ids": [
+        "axial"
+      ],
+      "inspected_urls": [
+        "https://arxiv.org/abs/2311.18538",
+        "https://arxiv.org/pdf/2311.18538v1",
+        "https://research.birmingham.ac.uk/files/237372286/GorshkovIB2024Automorphism.pdf"
+      ],
+      "versions_and_primary_claims": "See source_inspections for linked ids.",
+      "exact_claim_assessed": "Existence of a whole-involution-class permutation preserving orders 2 and least odd prime p but changing another exact product order in a finite nonabelian simple group.",
+      "relation_to_target": "Product-order/involution-twin searches did not locate an exact prior counterexample; unrelated results discarded.",
+      "disposition": "NO_PRIOR_COMPLETE_SOLUTION_LOCATED",
+      "remaining_uncertainty": "Bounded public/indexed search only; source-specific limitations are in source_inspections."
+    },
+    {
+      "id": "Q013",
+      "batch": "equivalent_graphs",
+      "service": "web.run",
+      "operation": "search_query",
+      "query": "\"involution class\" \"twins\"",
+      "utc_start": "2026-09-16 19:46:21 UTC",
+      "utc_end": "2026-09-16 19:46:24 UTC",
+      "timestamp_basis": "Tool-batch invocation/completion interval; queries within batch share this honest bound.",
+      "raw_result_file": "novelty/final-refresh-20260916/equivalent_graphs.json",
+      "inspected_source_ids": [
+        "axial"
+      ],
+      "inspected_urls": [
+        "https://arxiv.org/abs/2311.18538",
+        "https://arxiv.org/pdf/2311.18538v1",
+        "https://research.birmingham.ac.uk/files/237372286/GorshkovIB2024Automorphism.pdf"
+      ],
+      "versions_and_primary_claims": "See source_inspections for linked ids.",
+      "exact_claim_assessed": "Existence of a whole-involution-class permutation preserving orders 2 and least odd prime p but changing another exact product order in a finite nonabelian simple group.",
+      "relation_to_target": "Product-order/involution-twin searches did not locate an exact prior counterexample; unrelated results discarded.",
+      "disposition": "NO_PRIOR_COMPLETE_SOLUTION_LOCATED",
+      "remaining_uncertainty": "Bounded public/indexed search only; source-specific limitations are in source_inspections."
+    },
+    {
+      "id": "Q014",
+      "batch": "route_citations",
+      "service": "web.run",
+      "operation": "search_query",
+      "query": "\"A simple construction of the Ree groups of type\" involution graph",
+      "utc_start": "2026-09-16 19:46:21 UTC",
+      "utc_end": "2026-09-16 19:46:24 UTC",
+      "timestamp_basis": "Tool-batch invocation/completion interval; queries within batch share this honest bound.",
+      "raw_result_file": "novelty/final-refresh-20260916/route_citations.json",
+      "inspected_source_ids": [
+        "wilson",
+        "ggl",
+        "sporadic_binary"
+      ],
+      "inspected_urls": [
+        "https://webspace.maths.qmul.ac.uk/r.a.wilson/pubs_files/ReeF4alg.pdf",
+        "https://doi.org/10.1016/j.jalgebra.2009.11.015",
+        "https://arxiv.org/abs/2402.08357",
+        "https://arxiv.org/pdf/2402.08357",
+        "https://msp.org/pjm/2025/336-1/pjm-v336-n1-p05-p.pdf",
+        "https://arxiv.org/abs/2609.02508",
+        "https://arxiv.org/pdf/2609.02508v1"
+      ],
+      "versions_and_primary_claims": "See source_inspections for linked ids.",
+      "exact_claim_assessed": "Existence of a whole-involution-class permutation preserving orders 2 and least odd prime p but changing another exact product order in a finite nonabelian simple group.",
+      "relation_to_target": "Citation-graph expansion located primary binary-action papers, including fresh September 2026 preprint.",
+      "disposition": "NO_PRIOR_COMPLETE_SOLUTION_LOCATED",
+      "remaining_uncertainty": "Bounded public/indexed search only; source-specific limitations are in source_inspections."
+    },
+    {
+      "id": "Q015",
+      "batch": "route_citations",
+      "service": "web.run",
+      "operation": "search_query",
+      "query": "\"Ree\" \"commuting graph\" \"twins\"",
+      "utc_start": "2026-09-16 19:46:21 UTC",
+      "utc_end": "2026-09-16 19:46:24 UTC",
+      "timestamp_basis": "Tool-batch invocation/completion interval; queries within batch share this honest bound.",
+      "raw_result_file": "novelty/final-refresh-20260916/route_citations.json",
+      "inspected_source_ids": [
+        "wilson",
+        "ggl",
+        "sporadic_binary"
+      ],
+      "inspected_urls": [
+        "https://webspace.maths.qmul.ac.uk/r.a.wilson/pubs_files/ReeF4alg.pdf",
+        "https://doi.org/10.1016/j.jalgebra.2009.11.015",
+        "https://arxiv.org/abs/2402.08357",
+        "https://arxiv.org/pdf/2402.08357",
+        "https://msp.org/pjm/2025/336-1/pjm-v336-n1-p05-p.pdf",
+        "https://arxiv.org/abs/2609.02508",
+        "https://arxiv.org/pdf/2609.02508v1"
+      ],
+      "versions_and_primary_claims": "See source_inspections for linked ids.",
+      "exact_claim_assessed": "Existence of a whole-involution-class permutation preserving orders 2 and least odd prime p but changing another exact product order in a finite nonabelian simple group.",
+      "relation_to_target": "Citation-graph expansion located primary binary-action papers, including fresh September 2026 preprint.",
+      "disposition": "NO_PRIOR_COMPLETE_SOLUTION_LOCATED",
+      "remaining_uncertainty": "Bounded public/indexed search only; source-specific limitations are in source_inspections."
+    },
+    {
+      "id": "Q016",
+      "batch": "route_citations",
+      "service": "web.run",
+      "operation": "search_query",
+      "query": "\"binary actions\" Gill Guillot Liebeck involutions",
+      "utc_start": "2026-09-16 19:46:21 UTC",
+      "utc_end": "2026-09-16 19:46:24 UTC",
+      "timestamp_basis": "Tool-batch invocation/completion interval; queries within batch share this honest bound.",
+      "raw_result_file": "novelty/final-refresh-20260916/route_citations.json",
+      "inspected_source_ids": [
+        "wilson",
+        "ggl",
+        "sporadic_binary"
+      ],
+      "inspected_urls": [
+        "https://webspace.maths.qmul.ac.uk/r.a.wilson/pubs_files/ReeF4alg.pdf",
+        "https://doi.org/10.1016/j.jalgebra.2009.11.015",
+        "https://arxiv.org/abs/2402.08357",
+        "https://arxiv.org/pdf/2402.08357",
+        "https://msp.org/pjm/2025/336-1/pjm-v336-n1-p05-p.pdf",
+        "https://arxiv.org/abs/2609.02508",
+        "https://arxiv.org/pdf/2609.02508v1"
+      ],
+      "versions_and_primary_claims": "See source_inspections for linked ids.",
+      "exact_claim_assessed": "Existence of a whole-involution-class permutation preserving orders 2 and least odd prime p but changing another exact product order in a finite nonabelian simple group.",
+      "relation_to_target": "Citation-graph expansion located primary binary-action papers, including fresh September 2026 preprint.",
+      "disposition": "NO_PRIOR_COMPLETE_SOLUTION_LOCATED",
+      "remaining_uncertainty": "Bounded public/indexed search only; source-specific limitations are in source_inspections."
+    },
+    {
+      "id": "Q017",
+      "batch": "russian_and_fresh",
+      "service": "web.run",
+      "operation": "search_query",
+      "query": "\"21.53\" \"Коуровская\"",
+      "utc_start": "2026-09-16 19:46:21 UTC",
+      "utc_end": "2026-09-16 19:46:24 UTC",
+      "timestamp_basis": "Tool-batch invocation/completion interval; queries within batch share this honest bound.",
+      "raw_result_file": "novelty/final-refresh-20260916/russian_and_fresh.json",
+      "inspected_source_ids": [
+        "tsiovkina",
+        "notebook"
+      ],
+      "inspected_urls": [
+        "https://journal.imm.uran.ru/sites/default/files/content/25_4/TrIMMUrORAN_2019_4_p249_L.pdf",
+        "https://arxiv.org/abs/1401.0300",
+        "https://arxiv.org/pdf/1401.0300v46",
+        "https://kourovkanotebookorg.wordpress.com/repository/"
+      ],
+      "versions_and_primary_claims": "See source_inspections for linked ids.",
+      "exact_claim_assessed": "Existence of a whole-involution-class permutation preserving orders 2 and least odd prime p but changing another exact product order in a finite nonabelian simple group.",
+      "relation_to_target": "Russian proposer/number and fresh solution searches produced small-Ree/Suzuki graph leads and unrelated matches; no exact solution.",
+      "disposition": "NO_PRIOR_COMPLETE_SOLUTION_LOCATED",
+      "remaining_uncertainty": "Bounded public/indexed search only; source-specific limitations are in source_inspections."
+    },
+    {
+      "id": "Q018",
+      "batch": "russian_and_fresh",
+      "service": "web.run",
+      "operation": "search_query",
+      "query": "Горшков \"инволюций\" \"граф\" автоморфизм",
+      "utc_start": "2026-09-16 19:46:21 UTC",
+      "utc_end": "2026-09-16 19:46:24 UTC",
+      "timestamp_basis": "Tool-batch invocation/completion interval; queries within batch share this honest bound.",
+      "raw_result_file": "novelty/final-refresh-20260916/russian_and_fresh.json",
+      "inspected_source_ids": [
+        "tsiovkina",
+        "notebook"
+      ],
+      "inspected_urls": [
+        "https://journal.imm.uran.ru/sites/default/files/content/25_4/TrIMMUrORAN_2019_4_p249_L.pdf",
+        "https://arxiv.org/abs/1401.0300",
+        "https://arxiv.org/pdf/1401.0300v46",
+        "https://kourovkanotebookorg.wordpress.com/repository/"
+      ],
+      "versions_and_primary_claims": "See source_inspections for linked ids.",
+      "exact_claim_assessed": "Existence of a whole-involution-class permutation preserving orders 2 and least odd prime p but changing another exact product order in a finite nonabelian simple group.",
+      "relation_to_target": "Russian proposer/number and fresh solution searches produced small-Ree/Suzuki graph leads and unrelated matches; no exact solution.",
+      "disposition": "NO_PRIOR_COMPLETE_SOLUTION_LOCATED",
+      "remaining_uncertainty": "Bounded public/indexed search only; source-specific limitations are in source_inspections."
+    },
+    {
+      "id": "Q019",
+      "batch": "russian_and_fresh",
+      "service": "web.run",
+      "operation": "search_query",
+      "query": "\"Kourovka\" \"21.53\" solution 2026",
+      "utc_start": "2026-09-16 19:46:21 UTC",
+      "utc_end": "2026-09-16 19:46:24 UTC",
+      "timestamp_basis": "Tool-batch invocation/completion interval; queries within batch share this honest bound.",
+      "raw_result_file": "novelty/final-refresh-20260916/russian_and_fresh.json",
+      "inspected_source_ids": [
+        "tsiovkina",
+        "notebook"
+      ],
+      "inspected_urls": [
+        "https://journal.imm.uran.ru/sites/default/files/content/25_4/TrIMMUrORAN_2019_4_p249_L.pdf",
+        "https://arxiv.org/abs/1401.0300",
+        "https://arxiv.org/pdf/1401.0300v46",
+        "https://kourovkanotebookorg.wordpress.com/repository/"
+      ],
+      "versions_and_primary_claims": "See source_inspections for linked ids.",
+      "exact_claim_assessed": "Existence of a whole-involution-class permutation preserving orders 2 and least odd prime p but changing another exact product order in a finite nonabelian simple group.",
+      "relation_to_target": "Russian proposer/number and fresh solution searches produced small-Ree/Suzuki graph leads and unrelated matches; no exact solution.",
+      "disposition": "NO_PRIOR_COMPLETE_SOLUTION_LOCATED",
+      "remaining_uncertainty": "Bounded public/indexed search only; source-specific limitations are in source_inspections."
+    },
+    {
+      "id": "Q020",
+      "batch": "route_primary_versions",
+      "service": "web.run",
+      "operation": "open",
+      "query": "https://arxiv.org/abs/2402.08357",
+      "utc_start": "2026-09-16 19:47:16 UTC",
+      "utc_end": "2026-09-16 19:47:19 UTC",
+      "timestamp_basis": "Tool-batch invocation/completion interval; queries within batch share this honest bound.",
+      "raw_result_file": "novelty/final-refresh-20260916/route_primary_versions.json",
+      "inspected_source_ids": [
+        "ggl",
+        "sporadic_binary",
+        "wilson"
+      ],
+      "inspected_urls": [
+        "https://arxiv.org/abs/2402.08357",
+        "https://arxiv.org/pdf/2402.08357",
+        "https://msp.org/pjm/2025/336-1/pjm-v336-n1-p05-p.pdf",
+        "https://arxiv.org/abs/2609.02508",
+        "https://arxiv.org/pdf/2609.02508v1",
+        "https://webspace.maths.qmul.ac.uk/r.a.wilson/pubs_files/ReeF4alg.pdf",
+        "https://doi.org/10.1016/j.jalgebra.2009.11.015"
+      ],
+      "versions_and_primary_claims": "See source_inspections for linked ids.",
+      "exact_claim_assessed": "Existence of a whole-involution-class permutation preserving orders 2 and least odd prime p but changing another exact product order in a finite nonabelian simple group.",
+      "relation_to_target": "Primary arXiv histories checked; Wilson publisher endpoint 403; initial MSP web endpoint failed. Later correct full texts independently read.",
+      "disposition": "NO_PRIOR_COMPLETE_SOLUTION_LOCATED",
+      "remaining_uncertainty": "Bounded public/indexed search only; source-specific limitations are in source_inspections."
+    },
+    {
+      "id": "Q021",
+      "batch": "route_primary_versions",
+      "service": "web.run",
+      "operation": "open",
+      "query": "https://arxiv.org/abs/2609.02508",
+      "utc_start": "2026-09-16 19:47:16 UTC",
+      "utc_end": "2026-09-16 19:47:19 UTC",
+      "timestamp_basis": "Tool-batch invocation/completion interval; queries within batch share this honest bound.",
+      "raw_result_file": "novelty/final-refresh-20260916/route_primary_versions.json",
+      "inspected_source_ids": [
+        "ggl",
+        "sporadic_binary",
+        "wilson"
+      ],
+      "inspected_urls": [
+        "https://arxiv.org/abs/2402.08357",
+        "https://arxiv.org/pdf/2402.08357",
+        "https://msp.org/pjm/2025/336-1/pjm-v336-n1-p05-p.pdf",
+        "https://arxiv.org/abs/2609.02508",
+        "https://arxiv.org/pdf/2609.02508v1",
+        "https://webspace.maths.qmul.ac.uk/r.a.wilson/pubs_files/ReeF4alg.pdf",
+        "https://doi.org/10.1016/j.jalgebra.2009.11.015"
+      ],
+      "versions_and_primary_claims": "See source_inspections for linked ids.",
+      "exact_claim_assessed": "Existence of a whole-involution-class permutation preserving orders 2 and least odd prime p but changing another exact product order in a finite nonabelian simple group.",
+      "relation_to_target": "Primary arXiv histories checked; Wilson publisher endpoint 403; initial MSP web endpoint failed. Later correct full texts independently read.",
+      "disposition": "NO_PRIOR_COMPLETE_SOLUTION_LOCATED",
+      "remaining_uncertainty": "Bounded public/indexed search only; source-specific limitations are in source_inspections."
+    },
+    {
+      "id": "Q022",
+      "batch": "route_primary_versions",
+      "service": "web.run",
+      "operation": "open",
+      "query": "https://msp.org/pjm/2025/336-1/p07.xhtml",
+      "utc_start": "2026-09-16 19:47:16 UTC",
+      "utc_end": "2026-09-16 19:47:19 UTC",
+      "timestamp_basis": "Tool-batch invocation/completion interval; queries within batch share this honest bound.",
+      "raw_result_file": "novelty/final-refresh-20260916/route_primary_versions.json",
+      "inspected_source_ids": [
+        "ggl",
+        "sporadic_binary",
+        "wilson"
+      ],
+      "inspected_urls": [
+        "https://arxiv.org/abs/2402.08357",
+        "https://arxiv.org/pdf/2402.08357",
+        "https://msp.org/pjm/2025/336-1/pjm-v336-n1-p05-p.pdf",
+        "https://arxiv.org/abs/2609.02508",
+        "https://arxiv.org/pdf/2609.02508v1",
+        "https://webspace.maths.qmul.ac.uk/r.a.wilson/pubs_files/ReeF4alg.pdf",
+        "https://doi.org/10.1016/j.jalgebra.2009.11.015"
+      ],
+      "versions_and_primary_claims": "See source_inspections for linked ids.",
+      "exact_claim_assessed": "Existence of a whole-involution-class permutation preserving orders 2 and least odd prime p but changing another exact product order in a finite nonabelian simple group.",
+      "relation_to_target": "Primary arXiv histories checked; Wilson publisher endpoint 403; initial MSP web endpoint failed. Later correct full texts independently read.",
+      "disposition": "NO_PRIOR_COMPLETE_SOLUTION_LOCATED",
+      "remaining_uncertainty": "Bounded public/indexed search only; source-specific limitations are in source_inspections."
+    },
+    {
+      "id": "Q023",
+      "batch": "route_primary_versions",
+      "service": "web.run",
+      "operation": "open",
+      "query": "https://www.sciencedirect.com/science/article/pii/S002186930900622X",
+      "utc_start": "2026-09-16 19:47:16 UTC",
+      "utc_end": "2026-09-16 19:47:19 UTC",
+      "timestamp_basis": "Tool-batch invocation/completion interval; queries within batch share this honest bound.",
+      "raw_result_file": "novelty/final-refresh-20260916/route_primary_versions.json",
+      "inspected_source_ids": [
+        "ggl",
+        "sporadic_binary",
+        "wilson"
+      ],
+      "inspected_urls": [
+        "https://arxiv.org/abs/2402.08357",
+        "https://arxiv.org/pdf/2402.08357",
+        "https://msp.org/pjm/2025/336-1/pjm-v336-n1-p05-p.pdf",
+        "https://arxiv.org/abs/2609.02508",
+        "https://arxiv.org/pdf/2609.02508v1",
+        "https://webspace.maths.qmul.ac.uk/r.a.wilson/pubs_files/ReeF4alg.pdf",
+        "https://doi.org/10.1016/j.jalgebra.2009.11.015"
+      ],
+      "versions_and_primary_claims": "See source_inspections for linked ids.",
+      "exact_claim_assessed": "Existence of a whole-involution-class permutation preserving orders 2 and least odd prime p but changing another exact product order in a finite nonabelian simple group.",
+      "relation_to_target": "Primary arXiv histories checked; Wilson publisher endpoint 403; initial MSP web endpoint failed. Later correct full texts independently read.",
+      "disposition": "NO_PRIOR_COMPLETE_SOLUTION_LOCATED",
+      "remaining_uncertainty": "Bounded public/indexed search only; source-specific limitations are in source_inspections."
+    },
+    {
+      "id": "Q024",
+      "batch": "coolsaet_lineage",
+      "service": "web.run",
+      "operation": "search_query",
+      "query": "Kris Coolsaet \"Algebraic structure of the perfect Ree-Tits generalized octagons\" pdf",
+      "utc_start": "2026-09-16 19:48:35 UTC",
+      "utc_end": "2026-09-16 19:48:36 UTC",
+      "timestamp_basis": "Tool-batch invocation/completion interval; queries within batch share this honest bound.",
+      "raw_result_file": "novelty/final-refresh-20260916/coolsaet_lineage.json",
+      "inspected_source_ids": [
+        "coolsaet",
+        "wilson"
+      ],
+      "inspected_urls": [
+        "https://msp.org/iig/2005/1-1/iig-v1-n1-p04-p.pdf",
+        "https://doi.org/10.2140/iig.2005.1.67",
+        "https://biblio.ugent.be/publication/331681",
+        "https://webspace.maths.qmul.ac.uk/r.a.wilson/pubs_files/ReeF4alg.pdf",
+        "https://doi.org/10.1016/j.jalgebra.2009.11.015"
+      ],
+      "versions_and_primary_claims": "See source_inspections for linked ids.",
+      "exact_claim_assessed": "Existence of a whole-involution-class permutation preserving orders 2 and least odd prime p but changing another exact product order in a finite nonabelian simple group.",
+      "relation_to_target": "Wilson backward citations resolved to Coolsaet primary 2005 paper and 2007 bibliography.",
+      "disposition": "NO_PRIOR_COMPLETE_SOLUTION_LOCATED",
+      "remaining_uncertainty": "Bounded public/indexed search only; source-specific limitations are in source_inspections."
+    },
+    {
+      "id": "Q025",
+      "batch": "coolsaet_lineage",
+      "service": "web.run",
+      "operation": "search_query",
+      "query": "Kris Coolsaet \"25-dimensional embedding\" pdf",
+      "utc_start": "2026-09-16 19:48:35 UTC",
+      "utc_end": "2026-09-16 19:48:36 UTC",
+      "timestamp_basis": "Tool-batch invocation/completion interval; queries within batch share this honest bound.",
+      "raw_result_file": "novelty/final-refresh-20260916/coolsaet_lineage.json",
+      "inspected_source_ids": [
+        "coolsaet",
+        "wilson"
+      ],
+      "inspected_urls": [
+        "https://msp.org/iig/2005/1-1/iig-v1-n1-p04-p.pdf",
+        "https://doi.org/10.2140/iig.2005.1.67",
+        "https://biblio.ugent.be/publication/331681",
+        "https://webspace.maths.qmul.ac.uk/r.a.wilson/pubs_files/ReeF4alg.pdf",
+        "https://doi.org/10.1016/j.jalgebra.2009.11.015"
+      ],
+      "versions_and_primary_claims": "See source_inspections for linked ids.",
+      "exact_claim_assessed": "Existence of a whole-involution-class permutation preserving orders 2 and least odd prime p but changing another exact product order in a finite nonabelian simple group.",
+      "relation_to_target": "Wilson backward citations resolved to Coolsaet primary 2005 paper and 2007 bibliography.",
+      "disposition": "NO_PRIOR_COMPLETE_SOLUTION_LOCATED",
+      "remaining_uncertainty": "Bounded public/indexed search only; source-specific limitations are in source_inspections."
+    },
+    {
+      "id": "Q026",
+      "batch": "author_channels",
+      "service": "web.run",
+      "operation": "open",
+      "query": "https://www.mathnet.ru/eng/person34160",
+      "utc_start": "2026-09-16 19:50:09 UTC",
+      "utc_end": "2026-09-16 19:50:11 UTC",
+      "timestamp_basis": "Tool-batch invocation/completion interval; queries within batch share this honest bound.",
+      "raw_result_file": "novelty/final-refresh-20260916/author_channels.json",
+      "inspected_source_ids": [
+        "axial",
+        "ggl",
+        "sporadic_binary",
+        "bryden_rowley"
+      ],
+      "inspected_urls": [
+        "https://arxiv.org/abs/2311.18538",
+        "https://arxiv.org/pdf/2311.18538v1",
+        "https://research.birmingham.ac.uk/files/237372286/GorshkovIB2024Automorphism.pdf",
+        "https://arxiv.org/abs/2402.08357",
+        "https://arxiv.org/pdf/2402.08357",
+        "https://msp.org/pjm/2025/336-1/pjm-v336-n1-p05-p.pdf",
+        "https://arxiv.org/abs/2609.02508",
+        "https://arxiv.org/pdf/2609.02508v1",
+        "https://arxiv.org/abs/2509.25901",
+        "https://arxiv.org/pdf/2509.25901v2",
+        "https://doi.org/10.1515/jgth-2025-0143"
+      ],
+      "versions_and_primary_claims": "See source_inspections for linked ids.",
+      "exact_claim_assessed": "Existence of a whole-involution-class permutation preserving orders 2 and least odd prime p but changing another exact product order in a finite nonabelian simple group.",
+      "relation_to_target": "Gorshkov Math-Net, Gill and Rowley public author pages used as leads. Lists are not treated as complete.",
+      "disposition": "NO_PRIOR_COMPLETE_SOLUTION_LOCATED",
+      "remaining_uncertainty": "Bounded public/indexed search only; source-specific limitations are in source_inspections."
+    },
+    {
+      "id": "Q027",
+      "batch": "author_channels",
+      "service": "web.run",
+      "operation": "open",
+      "query": "https://nickpgill.github.io/research",
+      "utc_start": "2026-09-16 19:50:09 UTC",
+      "utc_end": "2026-09-16 19:50:11 UTC",
+      "timestamp_basis": "Tool-batch invocation/completion interval; queries within batch share this honest bound.",
+      "raw_result_file": "novelty/final-refresh-20260916/author_channels.json",
+      "inspected_source_ids": [
+        "axial",
+        "ggl",
+        "sporadic_binary",
+        "bryden_rowley"
+      ],
+      "inspected_urls": [
+        "https://arxiv.org/abs/2311.18538",
+        "https://arxiv.org/pdf/2311.18538v1",
+        "https://research.birmingham.ac.uk/files/237372286/GorshkovIB2024Automorphism.pdf",
+        "https://arxiv.org/abs/2402.08357",
+        "https://arxiv.org/pdf/2402.08357",
+        "https://msp.org/pjm/2025/336-1/pjm-v336-n1-p05-p.pdf",
+        "https://arxiv.org/abs/2609.02508",
+        "https://arxiv.org/pdf/2609.02508v1",
+        "https://arxiv.org/abs/2509.25901",
+        "https://arxiv.org/pdf/2509.25901v2",
+        "https://doi.org/10.1515/jgth-2025-0143"
+      ],
+      "versions_and_primary_claims": "See source_inspections for linked ids.",
+      "exact_claim_assessed": "Existence of a whole-involution-class permutation preserving orders 2 and least odd prime p but changing another exact product order in a finite nonabelian simple group.",
+      "relation_to_target": "Gorshkov Math-Net, Gill and Rowley public author pages used as leads. Lists are not treated as complete.",
+      "disposition": "NO_PRIOR_COMPLETE_SOLUTION_LOCATED",
+      "remaining_uncertainty": "Bounded public/indexed search only; source-specific limitations are in source_inspections."
+    },
+    {
+      "id": "Q028",
+      "batch": "author_channels",
+      "service": "web.run",
+      "operation": "open",
+      "query": "https://peterrowley.github.io/publications/",
+      "utc_start": "2026-09-16 19:50:09 UTC",
+      "utc_end": "2026-09-16 19:50:11 UTC",
+      "timestamp_basis": "Tool-batch invocation/completion interval; queries within batch share this honest bound.",
+      "raw_result_file": "novelty/final-refresh-20260916/author_channels.json",
+      "inspected_source_ids": [
+        "axial",
+        "ggl",
+        "sporadic_binary",
+        "bryden_rowley"
+      ],
+      "inspected_urls": [
+        "https://arxiv.org/abs/2311.18538",
+        "https://arxiv.org/pdf/2311.18538v1",
+        "https://research.birmingham.ac.uk/files/237372286/GorshkovIB2024Automorphism.pdf",
+        "https://arxiv.org/abs/2402.08357",
+        "https://arxiv.org/pdf/2402.08357",
+        "https://msp.org/pjm/2025/336-1/pjm-v336-n1-p05-p.pdf",
+        "https://arxiv.org/abs/2609.02508",
+        "https://arxiv.org/pdf/2609.02508v1",
+        "https://arxiv.org/abs/2509.25901",
+        "https://arxiv.org/pdf/2509.25901v2",
+        "https://doi.org/10.1515/jgth-2025-0143"
+      ],
+      "versions_and_primary_claims": "See source_inspections for linked ids.",
+      "exact_claim_assessed": "Existence of a whole-involution-class permutation preserving orders 2 and least odd prime p but changing another exact product order in a finite nonabelian simple group.",
+      "relation_to_target": "Gorshkov Math-Net, Gill and Rowley public author pages used as leads. Lists are not treated as complete.",
+      "disposition": "NO_PRIOR_COMPLETE_SOLUTION_LOCATED",
+      "remaining_uncertainty": "Bounded public/indexed search only; source-specific limitations are in source_inspections."
+    },
+    {
+      "id": "Q029",
+      "batch": "focused_latest",
+      "service": "web.run",
+      "operation": "search_query",
+      "query": "\"Kourovka\" \"21.53\" site:arxiv.org",
+      "utc_start": "2026-09-16 19:50:09 UTC",
+      "utc_end": "2026-09-16 19:50:11 UTC",
+      "timestamp_basis": "Tool-batch invocation/completion interval; queries within batch share this honest bound.",
+      "raw_result_file": "novelty/final-refresh-20260916/focused_latest.json",
+      "inspected_source_ids": [
+        "notebook",
+        "bryden_rowley"
+      ],
+      "inspected_urls": [
+        "https://arxiv.org/abs/1401.0300",
+        "https://arxiv.org/pdf/1401.0300v46",
+        "https://kourovkanotebookorg.wordpress.com/repository/",
+        "https://arxiv.org/abs/2509.25901",
+        "https://arxiv.org/pdf/2509.25901v2",
+        "https://doi.org/10.1515/jgth-2025-0143"
+      ],
+      "versions_and_primary_claims": "See source_inspections for linked ids.",
+      "exact_claim_assessed": "Existence of a whole-involution-class permutation preserving orders 2 and least odd prime p but changing another exact product order in a finite nonabelian simple group.",
+      "relation_to_target": "Exact arXiv/public-code query and 2026 graph searches found no prior complete solution; current PSL2 work confirmed.",
+      "disposition": "NO_PRIOR_COMPLETE_SOLUTION_LOCATED",
+      "remaining_uncertainty": "Bounded public/indexed search only; source-specific limitations are in source_inspections."
+    },
+    {
+      "id": "Q030",
+      "batch": "focused_latest",
+      "service": "web.run",
+      "operation": "search_query",
+      "query": "\"21.53\" \"Kourovka\" site:github.com",
+      "utc_start": "2026-09-16 19:50:09 UTC",
+      "utc_end": "2026-09-16 19:50:11 UTC",
+      "timestamp_basis": "Tool-batch invocation/completion interval; queries within batch share this honest bound.",
+      "raw_result_file": "novelty/final-refresh-20260916/focused_latest.json",
+      "inspected_source_ids": [
+        "notebook",
+        "bryden_rowley"
+      ],
+      "inspected_urls": [
+        "https://arxiv.org/abs/1401.0300",
+        "https://arxiv.org/pdf/1401.0300v46",
+        "https://kourovkanotebookorg.wordpress.com/repository/",
+        "https://arxiv.org/abs/2509.25901",
+        "https://arxiv.org/pdf/2509.25901v2",
+        "https://doi.org/10.1515/jgth-2025-0143"
+      ],
+      "versions_and_primary_claims": "See source_inspections for linked ids.",
+      "exact_claim_assessed": "Existence of a whole-involution-class permutation preserving orders 2 and least odd prime p but changing another exact product order in a finite nonabelian simple group.",
+      "relation_to_target": "Exact arXiv/public-code query and 2026 graph searches found no prior complete solution; current PSL2 work confirmed.",
+      "disposition": "NO_PRIOR_COMPLETE_SOLUTION_LOCATED",
+      "remaining_uncertainty": "Bounded public/indexed search only; source-specific limitations are in source_inspections."
+    },
+    {
+      "id": "Q031",
+      "batch": "focused_latest",
+      "service": "web.run",
+      "operation": "search_query",
+      "query": "\"involution graphs\" \"automorphism groups\" 2026",
+      "utc_start": "2026-09-16 19:50:09 UTC",
+      "utc_end": "2026-09-16 19:50:11 UTC",
+      "timestamp_basis": "Tool-batch invocation/completion interval; queries within batch share this honest bound.",
+      "raw_result_file": "novelty/final-refresh-20260916/focused_latest.json",
+      "inspected_source_ids": [
+        "notebook",
+        "bryden_rowley"
+      ],
+      "inspected_urls": [
+        "https://arxiv.org/abs/1401.0300",
+        "https://arxiv.org/pdf/1401.0300v46",
+        "https://kourovkanotebookorg.wordpress.com/repository/",
+        "https://arxiv.org/abs/2509.25901",
+        "https://arxiv.org/pdf/2509.25901v2",
+        "https://doi.org/10.1515/jgth-2025-0143"
+      ],
+      "versions_and_primary_claims": "See source_inspections for linked ids.",
+      "exact_claim_assessed": "Existence of a whole-involution-class permutation preserving orders 2 and least odd prime p but changing another exact product order in a finite nonabelian simple group.",
+      "relation_to_target": "Exact arXiv/public-code query and 2026 graph searches found no prior complete solution; current PSL2 work confirmed.",
+      "disposition": "NO_PRIOR_COMPLETE_SOLUTION_LOCATED",
+      "remaining_uncertainty": "Bounded public/indexed search only; source-specific limitations are in source_inspections."
+    },
+    {
+      "id": "Q032",
+      "batch": "local_fusion",
+      "service": "web.run",
+      "operation": "search_query",
+      "query": "\"large Ree\" \"local fusion graphs\"",
+      "utc_start": "2026-09-16 19:50:09 UTC",
+      "utc_end": "2026-09-16 19:50:11 UTC",
+      "timestamp_basis": "Tool-batch invocation/completion interval; queries within batch share this honest bound.",
+      "raw_result_file": "novelty/final-refresh-20260916/local_fusion.json",
+      "inspected_source_ids": [
+        "tsiovkina",
+        "axial"
+      ],
+      "inspected_urls": [
+        "https://journal.imm.uran.ru/sites/default/files/content/25_4/TrIMMUrORAN_2019_4_p249_L.pdf",
+        "https://arxiv.org/abs/2311.18538",
+        "https://arxiv.org/pdf/2311.18538v1",
+        "https://research.birmingham.ac.uk/files/237372286/GorshkovIB2024Automorphism.pdf"
+      ],
+      "versions_and_primary_claims": "See source_inspections for linked ids.",
+      "exact_claim_assessed": "Existence of a whole-involution-class permutation preserving orders 2 and least odd prime p but changing another exact product order in a finite nonabelian simple group.",
+      "relation_to_target": "Equivalent pi-local-fusion terminology and colored-algebra references checked; no exact prior solution located.",
+      "disposition": "NO_PRIOR_COMPLETE_SOLUTION_LOCATED",
+      "remaining_uncertainty": "Bounded public/indexed search only; source-specific limitations are in source_inspections."
+    },
+    {
+      "id": "Q033",
+      "batch": "local_fusion",
+      "service": "web.run",
+      "operation": "search_query",
+      "query": "\"pi-local fusion graphs\" automorphism",
+      "utc_start": "2026-09-16 19:50:09 UTC",
+      "utc_end": "2026-09-16 19:50:11 UTC",
+      "timestamp_basis": "Tool-batch invocation/completion interval; queries within batch share this honest bound.",
+      "raw_result_file": "novelty/final-refresh-20260916/local_fusion.json",
+      "inspected_source_ids": [
+        "tsiovkina",
+        "axial"
+      ],
+      "inspected_urls": [
+        "https://journal.imm.uran.ru/sites/default/files/content/25_4/TrIMMUrORAN_2019_4_p249_L.pdf",
+        "https://arxiv.org/abs/2311.18538",
+        "https://arxiv.org/pdf/2311.18538v1",
+        "https://research.birmingham.ac.uk/files/237372286/GorshkovIB2024Automorphism.pdf"
+      ],
+      "versions_and_primary_claims": "See source_inspections for linked ids.",
+      "exact_claim_assessed": "Existence of a whole-involution-class permutation preserving orders 2 and least odd prime p but changing another exact product order in a finite nonabelian simple group.",
+      "relation_to_target": "Equivalent pi-local-fusion terminology and colored-algebra references checked; no exact prior solution located.",
+      "disposition": "NO_PRIOR_COMPLETE_SOLUTION_LOCATED",
+      "remaining_uncertainty": "Bounded public/indexed search only; source-specific limitations are in source_inspections."
+    },
+    {
+      "id": "Q034",
+      "batch": "local_fusion",
+      "service": "web.run",
+      "operation": "search_query",
+      "query": "\"coloured\" \"involutions\" \"Gorshkov\"",
+      "utc_start": "2026-09-16 19:50:09 UTC",
+      "utc_end": "2026-09-16 19:50:11 UTC",
+      "timestamp_basis": "Tool-batch invocation/completion interval; queries within batch share this honest bound.",
+      "raw_result_file": "novelty/final-refresh-20260916/local_fusion.json",
+      "inspected_source_ids": [
+        "tsiovkina",
+        "axial"
+      ],
+      "inspected_urls": [
+        "https://journal.imm.uran.ru/sites/default/files/content/25_4/TrIMMUrORAN_2019_4_p249_L.pdf",
+        "https://arxiv.org/abs/2311.18538",
+        "https://arxiv.org/pdf/2311.18538v1",
+        "https://research.birmingham.ac.uk/files/237372286/GorshkovIB2024Automorphism.pdf"
+      ],
+      "versions_and_primary_claims": "See source_inspections for linked ids.",
+      "exact_claim_assessed": "Existence of a whole-involution-class permutation preserving orders 2 and least odd prime p but changing another exact product order in a finite nonabelian simple group.",
+      "relation_to_target": "Equivalent pi-local-fusion terminology and colored-algebra references checked; no exact prior solution located.",
+      "disposition": "NO_PRIOR_COMPLETE_SOLUTION_LOCATED",
+      "remaining_uncertainty": "Bounded public/indexed search only; source-specific limitations are in source_inspections."
+    },
+    {
+      "id": "Q035",
+      "batch": "ggl_publisher_locator",
+      "service": "web.run",
+      "operation": "search_query",
+      "query": "site:msp.org/pjm/2025/336 \"THE BINARY ACTIONS\" pdf",
+      "utc_start": "2026-09-16 19:50:52 UTC",
+      "utc_end": "2026-09-16 19:50:54 UTC",
+      "timestamp_basis": "Tool-batch invocation/completion interval; queries within batch share this honest bound.",
+      "raw_result_file": "novelty/final-refresh-20260916/ggl_publisher_locator.json",
+      "inspected_source_ids": [
+        "ggl"
+      ],
+      "inspected_urls": [
+        "https://arxiv.org/abs/2402.08357",
+        "https://arxiv.org/pdf/2402.08357",
+        "https://msp.org/pjm/2025/336-1/pjm-v336-n1-p05-p.pdf"
+      ],
+      "versions_and_primary_claims": "See source_inspections for linked ids.",
+      "exact_claim_assessed": "Existence of a whole-involution-class permutation preserving orders 2 and least odd prime p but changing another exact product order in a finite nonabelian simple group.",
+      "relation_to_target": "Correct publisher PDF p05 located after identity check caught wrong guessed p07 article.",
+      "disposition": "NO_PRIOR_COMPLETE_SOLUTION_LOCATED",
+      "remaining_uncertainty": "Bounded public/indexed search only; source-specific limitations are in source_inspections."
+    },
+    {
+      "id": "Q036",
+      "batch": "final_versions",
+      "service": "web.run",
+      "operation": "open",
+      "query": "https://arxiv.org/abs/2212.13785",
+      "utc_start": "2026-09-16 19:52:37 UTC",
+      "utc_end": "2026-09-16 19:52:40 UTC",
+      "timestamp_basis": "Tool-batch invocation/completion interval; queries within batch share this honest bound.",
+      "raw_result_file": "novelty/final-refresh-20260916/final_versions.json",
+      "inspected_source_ids": [
+        "rz",
+        "baarnhielm",
+        "bryden_rowley",
+        "axial"
+      ],
+      "inspected_urls": [
+        "https://arxiv.org/abs/2212.13785",
+        "https://arxiv.org/pdf/2212.13785v1",
+        "https://arxiv.org/abs/math/0608210",
+        "https://arxiv.org/pdf/math/0608210v1",
+        "https://arxiv.org/abs/2509.25901",
+        "https://arxiv.org/pdf/2509.25901v2",
+        "https://doi.org/10.1515/jgth-2025-0143",
+        "https://arxiv.org/abs/2311.18538",
+        "https://arxiv.org/pdf/2311.18538v1",
+        "https://research.birmingham.ac.uk/files/237372286/GorshkovIB2024Automorphism.pdf"
+      ],
+      "versions_and_primary_claims": "See source_inspections for linked ids.",
+      "exact_claim_assessed": "Existence of a whole-involution-class permutation preserving orders 2 and least odd prime p but changing another exact product order in a finite nonabelian simple group.",
+      "relation_to_target": "Live version histories checked; relevant versions unchanged.",
+      "disposition": "NO_PRIOR_COMPLETE_SOLUTION_LOCATED",
+      "remaining_uncertainty": "Bounded public/indexed search only; source-specific limitations are in source_inspections."
+    },
+    {
+      "id": "Q037",
+      "batch": "final_versions",
+      "service": "web.run",
+      "operation": "open",
+      "query": "https://arxiv.org/abs/2509.25901",
+      "utc_start": "2026-09-16 19:52:37 UTC",
+      "utc_end": "2026-09-16 19:52:40 UTC",
+      "timestamp_basis": "Tool-batch invocation/completion interval; queries within batch share this honest bound.",
+      "raw_result_file": "novelty/final-refresh-20260916/final_versions.json",
+      "inspected_source_ids": [
+        "rz",
+        "baarnhielm",
+        "bryden_rowley",
+        "axial"
+      ],
+      "inspected_urls": [
+        "https://arxiv.org/abs/2212.13785",
+        "https://arxiv.org/pdf/2212.13785v1",
+        "https://arxiv.org/abs/math/0608210",
+        "https://arxiv.org/pdf/math/0608210v1",
+        "https://arxiv.org/abs/2509.25901",
+        "https://arxiv.org/pdf/2509.25901v2",
+        "https://doi.org/10.1515/jgth-2025-0143",
+        "https://arxiv.org/abs/2311.18538",
+        "https://arxiv.org/pdf/2311.18538v1",
+        "https://research.birmingham.ac.uk/files/237372286/GorshkovIB2024Automorphism.pdf"
+      ],
+      "versions_and_primary_claims": "See source_inspections for linked ids.",
+      "exact_claim_assessed": "Existence of a whole-involution-class permutation preserving orders 2 and least odd prime p but changing another exact product order in a finite nonabelian simple group.",
+      "relation_to_target": "Live version histories checked; relevant versions unchanged.",
+      "disposition": "NO_PRIOR_COMPLETE_SOLUTION_LOCATED",
+      "remaining_uncertainty": "Bounded public/indexed search only; source-specific limitations are in source_inspections."
+    },
+    {
+      "id": "Q038",
+      "batch": "final_versions",
+      "service": "web.run",
+      "operation": "open",
+      "query": "https://arxiv.org/abs/math/0608210",
+      "utc_start": "2026-09-16 19:52:37 UTC",
+      "utc_end": "2026-09-16 19:52:40 UTC",
+      "timestamp_basis": "Tool-batch invocation/completion interval; queries within batch share this honest bound.",
+      "raw_result_file": "novelty/final-refresh-20260916/final_versions.json",
+      "inspected_source_ids": [
+        "rz",
+        "baarnhielm",
+        "bryden_rowley",
+        "axial"
+      ],
+      "inspected_urls": [
+        "https://arxiv.org/abs/2212.13785",
+        "https://arxiv.org/pdf/2212.13785v1",
+        "https://arxiv.org/abs/math/0608210",
+        "https://arxiv.org/pdf/math/0608210v1",
+        "https://arxiv.org/abs/2509.25901",
+        "https://arxiv.org/pdf/2509.25901v2",
+        "https://doi.org/10.1515/jgth-2025-0143",
+        "https://arxiv.org/abs/2311.18538",
+        "https://arxiv.org/pdf/2311.18538v1",
+        "https://research.birmingham.ac.uk/files/237372286/GorshkovIB2024Automorphism.pdf"
+      ],
+      "versions_and_primary_claims": "See source_inspections for linked ids.",
+      "exact_claim_assessed": "Existence of a whole-involution-class permutation preserving orders 2 and least odd prime p but changing another exact product order in a finite nonabelian simple group.",
+      "relation_to_target": "Live version histories checked; relevant versions unchanged.",
+      "disposition": "NO_PRIOR_COMPLETE_SOLUTION_LOCATED",
+      "remaining_uncertainty": "Bounded public/indexed search only; source-specific limitations are in source_inspections."
+    },
+    {
+      "id": "Q039",
+      "batch": "final_versions",
+      "service": "web.run",
+      "operation": "open",
+      "query": "https://arxiv.org/abs/2311.18538",
+      "utc_start": "2026-09-16 19:52:37 UTC",
+      "utc_end": "2026-09-16 19:52:40 UTC",
+      "timestamp_basis": "Tool-batch invocation/completion interval; queries within batch share this honest bound.",
+      "raw_result_file": "novelty/final-refresh-20260916/final_versions.json",
+      "inspected_source_ids": [
+        "rz",
+        "baarnhielm",
+        "bryden_rowley",
+        "axial"
+      ],
+      "inspected_urls": [
+        "https://arxiv.org/abs/2212.13785",
+        "https://arxiv.org/pdf/2212.13785v1",
+        "https://arxiv.org/abs/math/0608210",
+        "https://arxiv.org/pdf/math/0608210v1",
+        "https://arxiv.org/abs/2509.25901",
+        "https://arxiv.org/pdf/2509.25901v2",
+        "https://doi.org/10.1515/jgth-2025-0143",
+        "https://arxiv.org/abs/2311.18538",
+        "https://arxiv.org/pdf/2311.18538v1",
+        "https://research.birmingham.ac.uk/files/237372286/GorshkovIB2024Automorphism.pdf"
+      ],
+      "versions_and_primary_claims": "See source_inspections for linked ids.",
+      "exact_claim_assessed": "Existence of a whole-involution-class permutation preserving orders 2 and least odd prime p but changing another exact product order in a finite nonabelian simple group.",
+      "relation_to_target": "Live version histories checked; relevant versions unchanged.",
+      "disposition": "NO_PRIOR_COMPLETE_SOLUTION_LOCATED",
+      "remaining_uncertainty": "Bounded public/indexed search only; source-specific limitations are in source_inspections."
+    },
+    {
+      "id": "Q040",
+      "batch": "closing_refresh",
+      "service": "web.run",
+      "operation": "search_query",
+      "query": "\"21.53\" Kourovka solution counterexample",
+      "utc_start": "2026-09-16 19:53:44 UTC",
+      "utc_end": "2026-09-16 19:53:46 UTC",
+      "timestamp_basis": "Tool-batch invocation/completion interval; queries within batch share this honest bound.",
+      "raw_result_file": "novelty/final-refresh-20260916/closing_refresh.json",
+      "inspected_source_ids": [
+        "notebook",
+        "ags",
+        "wilson"
+      ],
+      "inspected_urls": [
+        "https://arxiv.org/abs/1401.0300",
+        "https://arxiv.org/pdf/1401.0300v46",
+        "https://kourovkanotebookorg.wordpress.com/repository/",
+        "https://ems.press/content/serial-article-files/29479",
+        "https://webspace.maths.qmul.ac.uk/r.a.wilson/pubs_files/ReeF4alg.pdf",
+        "https://doi.org/10.1016/j.jalgebra.2009.11.015"
+      ],
+      "versions_and_primary_claims": "See source_inspections for linked ids.",
+      "exact_claim_assessed": "Existence of a whole-involution-class permutation preserving orders 2 and least odd prime p but changing another exact product order in a finite nonabelian simple group.",
+      "relation_to_target": "Exact solution/counterexample and explicit witness searches plus live Notebook/editor status repeated; no exact prior complete solution or credible announcement located.",
+      "disposition": "NO_PRIOR_COMPLETE_SOLUTION_LOCATED",
+      "remaining_uncertainty": "Bounded public/indexed search only; source-specific limitations are in source_inspections."
+    },
+    {
+      "id": "Q041",
+      "batch": "closing_refresh",
+      "service": "web.run",
+      "operation": "search_query",
+      "query": "\"2F4(8)\" \"involution\" graph automorphism",
+      "utc_start": "2026-09-16 19:53:44 UTC",
+      "utc_end": "2026-09-16 19:53:46 UTC",
+      "timestamp_basis": "Tool-batch invocation/completion interval; queries within batch share this honest bound.",
+      "raw_result_file": "novelty/final-refresh-20260916/closing_refresh.json",
+      "inspected_source_ids": [
+        "notebook",
+        "ags",
+        "wilson"
+      ],
+      "inspected_urls": [
+        "https://arxiv.org/abs/1401.0300",
+        "https://arxiv.org/pdf/1401.0300v46",
+        "https://kourovkanotebookorg.wordpress.com/repository/",
+        "https://ems.press/content/serial-article-files/29479",
+        "https://webspace.maths.qmul.ac.uk/r.a.wilson/pubs_files/ReeF4alg.pdf",
+        "https://doi.org/10.1016/j.jalgebra.2009.11.015"
+      ],
+      "versions_and_primary_claims": "See source_inspections for linked ids.",
+      "exact_claim_assessed": "Existence of a whole-involution-class permutation preserving orders 2 and least odd prime p but changing another exact product order in a finite nonabelian simple group.",
+      "relation_to_target": "Exact solution/counterexample and explicit witness searches plus live Notebook/editor status repeated; no exact prior complete solution or credible announcement located.",
+      "disposition": "NO_PRIOR_COMPLETE_SOLUTION_LOCATED",
+      "remaining_uncertainty": "Bounded public/indexed search only; source-specific limitations are in source_inspections."
+    },
+    {
+      "id": "Q042",
+      "batch": "closing_refresh",
+      "service": "web.run",
+      "operation": "search_query",
+      "query": "\"Ree\" \"involutions\" \"product-order\"",
+      "utc_start": "2026-09-16 19:53:44 UTC",
+      "utc_end": "2026-09-16 19:53:46 UTC",
+      "timestamp_basis": "Tool-batch invocation/completion interval; queries within batch share this honest bound.",
+      "raw_result_file": "novelty/final-refresh-20260916/closing_refresh.json",
+      "inspected_source_ids": [
+        "notebook",
+        "ags",
+        "wilson"
+      ],
+      "inspected_urls": [
+        "https://arxiv.org/abs/1401.0300",
+        "https://arxiv.org/pdf/1401.0300v46",
+        "https://kourovkanotebookorg.wordpress.com/repository/",
+        "https://ems.press/content/serial-article-files/29479",
+        "https://webspace.maths.qmul.ac.uk/r.a.wilson/pubs_files/ReeF4alg.pdf",
+        "https://doi.org/10.1016/j.jalgebra.2009.11.015"
+      ],
+      "versions_and_primary_claims": "See source_inspections for linked ids.",
+      "exact_claim_assessed": "Existence of a whole-involution-class permutation preserving orders 2 and least odd prime p but changing another exact product order in a finite nonabelian simple group.",
+      "relation_to_target": "Exact solution/counterexample and explicit witness searches plus live Notebook/editor status repeated; no exact prior complete solution or credible announcement located.",
+      "disposition": "NO_PRIOR_COMPLETE_SOLUTION_LOCATED",
+      "remaining_uncertainty": "Bounded public/indexed search only; source-specific limitations are in source_inspections."
+    },
+    {
+      "id": "Q043",
+      "batch": "closing_refresh",
+      "service": "web.run",
+      "operation": "open",
+      "query": "https://kourovkanotebookorg.wordpress.com/repository/",
+      "utc_start": "2026-09-16 19:53:44 UTC",
+      "utc_end": "2026-09-16 19:53:46 UTC",
+      "timestamp_basis": "Tool-batch invocation/completion interval; queries within batch share this honest bound.",
+      "raw_result_file": "novelty/final-refresh-20260916/closing_refresh.json",
+      "inspected_source_ids": [
+        "notebook",
+        "ags",
+        "wilson"
+      ],
+      "inspected_urls": [
+        "https://arxiv.org/abs/1401.0300",
+        "https://arxiv.org/pdf/1401.0300v46",
+        "https://kourovkanotebookorg.wordpress.com/repository/",
+        "https://ems.press/content/serial-article-files/29479",
+        "https://webspace.maths.qmul.ac.uk/r.a.wilson/pubs_files/ReeF4alg.pdf",
+        "https://doi.org/10.1016/j.jalgebra.2009.11.015"
+      ],
+      "versions_and_primary_claims": "See source_inspections for linked ids.",
+      "exact_claim_assessed": "Existence of a whole-involution-class permutation preserving orders 2 and least odd prime p but changing another exact product order in a finite nonabelian simple group.",
+      "relation_to_target": "Exact solution/counterexample and explicit witness searches plus live Notebook/editor status repeated; no exact prior complete solution or credible announcement located.",
+      "disposition": "NO_PRIOR_COMPLETE_SOLUTION_LOCATED",
+      "remaining_uncertainty": "Bounded public/indexed search only; source-specific limitations are in source_inspections."
+    },
+    {
+      "id": "Q044",
+      "batch": "closing_refresh",
+      "service": "web.run",
+      "operation": "open",
+      "query": "https://arxiv.org/abs/1401.0300",
+      "utc_start": "2026-09-16 19:53:44 UTC",
+      "utc_end": "2026-09-16 19:53:46 UTC",
+      "timestamp_basis": "Tool-batch invocation/completion interval; queries within batch share this honest bound.",
+      "raw_result_file": "novelty/final-refresh-20260916/closing_refresh.json",
+      "inspected_source_ids": [
+        "notebook",
+        "ags",
+        "wilson"
+      ],
+      "inspected_urls": [
+        "https://arxiv.org/abs/1401.0300",
+        "https://arxiv.org/pdf/1401.0300v46",
+        "https://kourovkanotebookorg.wordpress.com/repository/",
+        "https://ems.press/content/serial-article-files/29479",
+        "https://webspace.maths.qmul.ac.uk/r.a.wilson/pubs_files/ReeF4alg.pdf",
+        "https://doi.org/10.1016/j.jalgebra.2009.11.015"
+      ],
+      "versions_and_primary_claims": "See source_inspections for linked ids.",
+      "exact_claim_assessed": "Existence of a whole-involution-class permutation preserving orders 2 and least odd prime p but changing another exact product order in a finite nonabelian simple group.",
+      "relation_to_target": "Exact solution/counterexample and explicit witness searches plus live Notebook/editor status repeated; no exact prior complete solution or credible announcement located.",
+      "disposition": "NO_PRIOR_COMPLETE_SOLUTION_LOCATED",
+      "remaining_uncertainty": "Bounded public/indexed search only; source-specific limitations are in source_inspections."
+    }
+  ],
+  "source_inspections": [
+    {
+      "id": "notebook",
+      "urls": [
+        "https://arxiv.org/abs/1401.0300",
+        "https://arxiv.org/pdf/1401.0300v46",
+        "https://kourovkanotebookorg.wordpress.com/repository/"
+      ],
+      "version": "v46, submitted 2026-09-01; editors repository accessed 2026-09-16",
+      "locations": "Printed p.175, Problems 21.52-21.53; current version history and complete repository entries",
+      "exact_claim": "Whole involution conjugacy class in a finite nonabelian simple group; exact integer colors; equality Aut(all) = Aut(2) intersection Aut(p) where p is least odd prime divisor. No solution annotation/entry located.",
+      "relation_to_target": "Fixes target and current public problem-status evidence.",
+      "disposition": "TARGET_CONFIRMED_STATUS_ONLY",
+      "remaining_uncertainty": "An unannotated problem and a repository without an entry do not prove openness."
+    },
+    {
+      "id": "ags",
+      "urls": [
+        "https://ems.press/content/serial-article-files/29479"
+      ],
+      "version": "Groups Geometry and Dynamics 1 (2007), 347-400",
+      "locations": "Introduction pp.347-348; Hypothesis 10.1 and Lemma 10.2 with proof pp.380-381",
+      "exact_claim": "Centralizer C_L(u)=R(P)X is independent of nonidentity root element u under the stated hypotheses; rank-one subgroup alternatives and root group centrality.",
+      "relation_to_target": "Prior equal-centralizer/group-structure ingredients, with no complete two-color class-swap result.",
+      "disposition": "PRIOR_INGREDIENT",
+      "remaining_uncertainty": "This novelty review is not a new audit of every structural theorem in the paper."
+    },
+    {
+      "id": "rz",
+      "urls": [
+        "https://arxiv.org/abs/2212.13785",
+        "https://arxiv.org/pdf/2212.13785v1"
+      ],
+      "version": "v1, first submitted 2022-12-28 11:36:49 UTC; no later arXiv version on final check",
+      "locations": "Section 3 p.4; Lemma 8(2A1)-(2A3) and proof p.5",
+      "exact_claim": "A 2-central involution in large Ree groups does not invert an element of order 3; proof uses SU3(Q):2 and centralizer contradiction.",
+      "relation_to_target": "Prior empty-order-three ingredient; no whole-class permutation changing another color.",
+      "disposition": "PRIOR_INGREDIENT",
+      "remaining_uncertainty": "Author arXiv primary proof used; journal typesetting not independently compared."
+    },
+    {
+      "id": "baarnhielm",
+      "urls": [
+        "https://arxiv.org/abs/math/0608210",
+        "https://arxiv.org/pdf/math/0608210v1"
+      ],
+      "version": "v1, submitted 2006-08-09 02:43:35 UTC; J. Algebra 300 (2006), 171-198",
+      "locations": "Section 2, equations (2.1)-(2.10), Theorem 2.1 pp.3-4",
+      "exact_claim": "Standard four-dimensional Suzuki generators, Sylow subgroup product and torus action, center.",
+      "relation_to_target": "Prior construction used in ordinary original witness; not an ambient Ree two-color automorphism theorem.",
+      "disposition": "PRIOR_INGREDIENT",
+      "remaining_uncertainty": "No claim to priority for these matrices; current final proof uses Wilson matrices."
+    },
+    {
+      "id": "wilson",
+      "urls": [
+        "https://webspace.maths.qmul.ac.uk/r.a.wilson/pubs_files/ReeF4alg.pdf",
+        "https://doi.org/10.1016/j.jalgebra.2009.11.015"
+      ],
+      "version": "Author draft dated 2009-06-05; J. Algebra 323 (2010), 1468-1481",
+      "locations": "Introduction pp.1-2; coordinate permutations p.3; torus and root generators pp.6-7; Section 8 Theorems 1-2 and simplicity proof p.11; references pp.11-12",
+      "exact_claim": "Explicit Ree construction, order and simplicity, with Iwasawa argument; explicit acknowledgment of Coolsaet earlier/independent geometric construction.",
+      "relation_to_target": "The model and elementary simplicity route are prior mathematics. No two-color involution-class counterexample stated.",
+      "disposition": "PRIOR_INGREDIENT",
+      "remaining_uncertainty": "Draft date is not independently verified first-public-availability date. Publisher endpoint returned 403."
+    },
+    {
+      "id": "coolsaet",
+      "urls": [
+        "https://msp.org/iig/2005/1-1/iig-v1-n1-p04-p.pdf",
+        "https://doi.org/10.2140/iig.2005.1.67",
+        "https://biblio.ugent.be/publication/331681"
+      ],
+      "version": "Innovations in Incidence Geometry 1 (2005), 67-131",
+      "locations": "Section 8 pp.109-111, equations (99)-(102), Lemma 8.2; Propositions 10.3-10.4 and proofs pp.127-130",
+      "exact_claim": "Algebraic Ree-Tits octagon embedding with twisted generators and two root-group types.",
+      "relation_to_target": "Required construction-lineage attribution identified independently from Wilson references. No involution-order-colored whole-class automorphism result.",
+      "disposition": "PRIOR_INGREDIENT",
+      "remaining_uncertainty": "Did not audit every geometric statement; inspected the generator/root-group claims relevant to attribution."
+    },
+    {
+      "id": "cameron",
+      "urls": [
+        "https://research-repository.st-andrews.ac.uk/bitstream/handle/10023/28877/Cameron-2023-What-can-graphs-AKCE-IJGG-2290036-CCBY.pdf?isAllowed=y&sequence=1"
+      ],
+      "version": "2023 author-repository primary PDF preserved from 2026-09-16 16:19 UTC retrieval",
+      "locations": "Section 6, printed p.5 / PDF p.6",
+      "exact_claim": "Transposition of graph twins fixing all remaining vertices is an automorphism; symmetric-group factors arise from twin classes.",
+      "relation_to_target": "Standard graph mechanism, without the large-Ree class/order tuple.",
+      "disposition": "PRIOR_INGREDIENT",
+      "remaining_uncertainty": "Fresh final-review fetch failed with 503/timeout; read and hashed preserved same-day primary PDF."
+    },
+    {
+      "id": "ggl",
+      "urls": [
+        "https://arxiv.org/abs/2402.08357",
+        "https://arxiv.org/pdf/2402.08357",
+        "https://msp.org/pjm/2025/336-1/pjm-v336-n1-p05-p.pdf"
+      ],
+      "version": "arXiv v1 2024-02-13 10:37:17 UTC; published Pacific J. Math. 336 (2025), 113-135, revised 2024-11-13",
+      "locations": "Theorems 1-2; Definition 2.1 and Lemma 2.5; Lemma 4.6 large-Ree case p.130; Section 5 proof pp.130-131",
+      "exact_claim": "Classifies component groups of graph with gh in the involution class; excludes nontrivial even-stabilizer binary actions for large Ree groups.",
+      "relation_to_target": "Nonbinary tuple maps need not extend to whole-class permutations. No implication establishing failure of the two-color equality. Earlier unclosed lead resolved for this target.",
+      "disposition": "NEAR_MISS_CLOSED",
+      "remaining_uncertainty": "No full proof audit of unrelated classical-group cases or computational reproduction. An initial guessed publisher path returned another article and is explicitly excluded."
+    },
+    {
+      "id": "sporadic_binary",
+      "urls": [
+        "https://arxiv.org/abs/2609.02508",
+        "https://arxiv.org/pdf/2609.02508v1"
+      ],
+      "version": "v1 submitted 2026-09-02 12:14:16 UTC; document dated 2026-09-03",
+      "locations": "Introduction pp.1-2; Theorems 1.1-1.2, definitions and initial Section 2 machinery; reference [8]",
+      "exact_claim": "Binary-action classification for quasisimple sporadic groups including the Tits group; announces forthcoming binary low-rank work of untwisted rank at most two.",
+      "relation_to_target": "Tuple-map/global-permutation distinction and different group scope. No credible announcement of a solution of 21.53.",
+      "disposition": "NEAR_MISS_CLOSED",
+      "remaining_uncertainty": "Full 33-page proof not audited because the actual theorem does not imply the target. No access to unpublished forthcoming work claimed."
+    },
+    {
+      "id": "bryden_rowley",
+      "urls": [
+        "https://arxiv.org/abs/2509.25901",
+        "https://arxiv.org/pdf/2509.25901v2",
+        "https://doi.org/10.1515/jgth-2025-0143"
+      ],
+      "version": "v1 submitted 2025-09-30; v2 submitted 2026-01-16 08:40:56 UTC; J. Group Theory 29 (2026), 545-559",
+      "locations": "Theorem 1 p.2; Lemmas 11 and 15 with proofs pp.10,14; final finite-field Magma code",
+      "exact_claim": "For odd q >=7, full commuting-involution automorphism group is PΓL2(q); for even q it is Sym(q-1) wreath Sym(q+1).",
+      "relation_to_target": "Known positive family/control, not universal answer; the v2 odd-field boundary is used.",
+      "disposition": "NEAR_MISS_CLOSED",
+      "remaining_uncertainty": "Authors code read, not rerun."
+    },
+    {
+      "id": "aubad_rowley",
+      "urls": [
+        "https://link.springer.com/content/pdf/10.1007/s00373-021-02321-w.pdf"
+      ],
+      "version": "Graphs and Combinatorics 37 (2021), 1345-1355",
+      "locations": "Theorem 1 and Tables 1-2 pp.1346-1347",
+      "exact_claim": "Disc sizes and product classes for 3D4(2), E6(2), 2F4(2) prime, F4(2).",
+      "relation_to_target": "No large-Ree field-eight case or full graph automorphism comparison.",
+      "disposition": "NEAR_MISS_CLOSED",
+      "remaining_uncertainty": "Saved same-day primary PDF read; no computations replayed."
+    },
+    {
+      "id": "tsiovkina",
+      "urls": [
+        "https://journal.imm.uran.ru/sites/default/files/content/25_4/TrIMMUrORAN_2019_4_p249_L.pdf"
+      ],
+      "version": "Trudy IMM UrO RAN 25(4) (2019), 249-254",
+      "locations": "Full theorem p.251; proof setup pp.251-252",
+      "exact_claim": "Association-scheme/coset-graph results with a full-Aut assertion for Sz(q) and small Ree 2G2(q).",
+      "relation_to_target": "Different ambient family; does not refute the large-Ree candidate. Prior separate Suzuki-family uncertainty is retained, not silently cleared.",
+      "disposition": "NEAR_MISS_CLOSED_FOR_CURRENT_TARGET",
+      "remaining_uncertainty": "Earlier reviewer identified unresolved provenance of full-Aut proof for Suzuki family; not a complete-solution claim for this target."
+    },
+    {
+      "id": "axial",
+      "urls": [
+        "https://arxiv.org/abs/2311.18538",
+        "https://arxiv.org/pdf/2311.18538v1",
+        "https://research.birmingham.ac.uk/files/237372286/GorshkovIB2024Automorphism.pdf"
+      ],
+      "version": "arXiv v1 submitted 2023-11-30 13:20:51 UTC; published J. Algebra 661 (2025), 657-712",
+      "locations": "Theorem 1.3 p.3; Definition 3.6 and Theorem 3.7 with proof pp.10-11",
+      "exact_claim": "Finite automorphism group of certain axial algebras; finite colored-graph argument uses pointed isomorphism classes of two-generated algebras.",
+      "relation_to_target": "Colors carry algebra structure beyond involution product order; no universal two-color result or exact counterexample.",
+      "disposition": "NEAR_MISS_CLOSED",
+      "remaining_uncertainty": "Institutional final PDF 403; current author arXiv version successfully retrieved and inspected."
+    }
+  ],
+  "attribution_refinement": {
+    "source": "wilson",
+    "credit": "K. Coolsaet, Algebraic structure of the perfect Ree-Tits generalized octagons, Innovations in Incidence Geometry 1 (2005), 67-131, DOI 10.2140/iig.2005.1.67. Wilson explicitly credits the earlier/independent geometric construction on draft p.2.",
+    "contribution_boundary": "Candidate-specific whole-class counterexample and formal verification. No novelty claimed for Ree group existence, standard matrices, elementary simplicity, root centralizers, no-three fact, or twin-transposition principle."
+  },
+  "access_limitations": [
+    "No authenticated MathSciNet, zbMATH, Scopus, or Web of Science search.",
+    "No private manuscripts, author contact, or public release.",
+    "Fresh Cameron PDF retrieval failed (503 then timeout); preserved same-day primary PDF read.",
+    "Axial-algebra institutional PDF returned 403; current primary arXiv PDF read.",
+    "Wilson publisher endpoint 403; complete author draft read, publisher bibliography located.",
+    "Initial guessed Gill-Guillot-Liebeck publisher URL was another article; identity error recorded, correct p05 journal PDF fetched and read.",
+    "Public author lists are incomplete; no completeness claim."
+  ],
+  "unresolved_exact_solution_claims": [],
+  "manifest_files": [
+    "novelty/final-refresh-20260916/primary-source-manifest.json",
+    "novelty/final-refresh-20260916/additional-source-manifest.json",
+    "novelty/final-refresh-20260916/corrected-ggl-source-manifest.json",
+    "novelty/final-refresh-20260916/preserved-source-fallbacks.json",
+    "novelty/final-refresh-20260916/input-snapshot-hashes.json"
+  ],
+  "human_novelty_wording_acceptance": "REQUIRED_SEPARATELY; not supplied by this review",
+  "math_and_integrity_acceptance": "OUTSIDE_REVIEW_SCOPE",
+  "new_publication_time": "NOT_ESTABLISHED"
+}

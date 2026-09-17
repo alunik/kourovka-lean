@@ -19,5 +19,12 @@
     "public_path": "docs/nilradical-21.53/mathematics-review.md",
     "public_sha256": "f69f246babaf1cd18d8d7583e9de0425eeaf3ff43fd281f7ef8c9747b05a770d",
     "adaptation": "Publication note and local filesystem path redaction; original reviewed artifact retained privately."
+  },
+  {
+    "source_artifact": "reviews/novelty-release-20260917.md",
+    "original_sha256": "9aaec303884da941b3726701e8005265f20b00c5baa3ab83147507bec922d014",
+    "public_path": "docs/nilradical-21.53/novelty-release.md",
+    "public_sha256": "a3be0c0c59dc546be2e301751b0da569db7ff75be645d5cef6738ce9b61ced27",
+    "adaptation": "Public-copy note and local path redaction; accepted novelty wording unchanged."
   }
 ]

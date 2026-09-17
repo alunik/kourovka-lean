@@ -43,3 +43,13 @@ Nilradical v0 results keep their original attribution.
 The [ordinary mathematical proof](proof.md), [independent mathematics review](mathematics-review.md)
 and [independent statement review](statement-review.md) are available as public
 copies with review-time status and provenance preserved.
+
+The [publication-time novelty refresh](novelty-release.md) on 17 September 2026
+found no new credible exact-solution lead. The separately approved bounded
+wording is unchanged. This search cannot establish absolute priority.
+
+This result record, its new explanatory text, and the 21.53 walkthrough are
+released under [Apache-2.0](LICENSE), retaining prior-work and third-party credits.
+Cite this result using [CFF](CITATION.cff), [BibTeX](citation.bib), or
+[plain text](citation.txt). The source code's applicable terms are in the
+[result licence note](../../Kourovka/Problem2153/LICENSING.md).
