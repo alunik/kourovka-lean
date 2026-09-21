@@ -36,5 +36,6 @@ original decision evidence remain private.
 The 21.35 note was prepared during verification and released after both human
 decisions on 21 September 2026. Its mathematical body is unchanged; only the
 exposition label and final approval line were updated. The conditional formal
-record and [PDF note](../notes/nilradical-kourovka-21-35.pdf) identify its two
-retained published inputs.
+record identifies its two retained published inputs.
+
+PDF notes are local artifacts; they are not published on GitHub or the website.

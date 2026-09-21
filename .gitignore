@@ -7,3 +7,6 @@ __pycache__/
 *.ilean
 *.olean.private
 *.olean.server
+
+# PDF notes remain local.
+*.pdf

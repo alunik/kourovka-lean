@@ -2,7 +2,7 @@
 
 **Nilradical · Conditional Lean proof**
 
-[Mathematical note](../../docs/walkthroughs/21.35.md) · [PDF](../../docs/notes/nilradical-kourovka-21-35.pdf) · [References and credits](../../docs/walkthroughs/21.35-credits.md) · [Verification record](../../docs/nilradical-21.35/README.md)
+[Mathematical note](../../docs/walkthroughs/21.35.md) · [References and credits](../../docs/walkthroughs/21.35-credits.md) · [Verification record](../../docs/nilradical-21.35/README.md)
 
 ## Problem
 

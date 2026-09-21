@@ -13,7 +13,7 @@ The source was verified before approval. Publication preserves all **762 files**
 - [Verification summary](verification.json) and [actual final checker log](replay.log.txt).
 - [Independent source comparison](source-identity-review.md), [statement review](statement-review.md) and [quasisimple input review](quasisimple-review.md).
 - [Publication-time literature refresh](novelty-release.md) and its [query ledger](novelty-refresh-20260921.json).
-- [Mathematical proof outline](../walkthroughs/21.35.md), [PDF note](../notes/nilradical-kourovka-21-35.pdf) and [full credits](../walkthroughs/21.35-credits.md).
+- [Mathematical proof outline](../walkthroughs/21.35.md) and [full credits](../walkthroughs/21.35-credits.md).
 
 Nanoda and Lean's default kernel both accepted the exact three endpoints. The successful continuation rechecked the original captured exports after a temporary-storage failure in the first integrity attempt; the failed parent remains preserved. The original fresh source build, all unchanged-input checks and the control suite passed. The immutable receipt digest is `d063624152c3fd8008a521058c4d1547462ad90c32063f544377584bc7990981`.
 
