@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "result_id": "kourovka-21-35",
+  "status": "ACCEPTED_CONDITIONAL_FORMALIZATION",
+  "agent_version": "1.0.0",
+  "execution_workflow_version": "0.4.0-draft",
+  "source": {
+    "revision": "eb026951d20b1a362c7ec206ac116cd55547e96d",
+    "manifest_sha256": "a1c27f85713c158b8d9dcca4be0a04ea14c01bbd7745802694ecefbb9b389b70",
+    "contract_sha256": "736152a70be7041fdf511bd874ca2cd5e451a2cf7749e89ef093de829408fb4d",
+    "source_files": 762,
+    "project_modules": 745,
+    "source_root": "Kourovka/Problem2135",
+    "original_accepted_manifest_sha256": "3d156634b26f9c393f7f07a1392fd3654769959ea48233ec4dbe8a391c2212bc"
+  },
+  "decisions": {
+    "statement": {
+      "decision": "accepted",
+      "date": "2026-09-21",
+      "reviewer_role": "Human statement verifier",
+      "reviewer": "Aluna Rizzoli",
+      "record_sha256": "3940d9e0aebc2cc5f9c86bafa713988b6422907c6ecce8692682a00626dd533f",
+      "publication_binding_sha256": "5ff134a77aceb5cdd9ee4dcaedb5984a052d0ebe1329ec414522a606507257d2"
+    },
+    "novelty_contribution": {
+      "decision": "accepted",
+      "date": "2026-09-21",
+      "reviewer_role": "Human novelty and contribution reviewer",
+      "reviewer": "Aluna Rizzoli",
+      "record_sha256": "0ab552551cc59e8511a0c5683a3c9fc3794de2e60530335a3b5cd7510cf968eb",
+      "publication_binding_sha256": "ecbbdda08e5cd422a5ef80a0504fb8bf1d9ff1ad3e8f4b2489202f4e4063ca8c"
+    }
+  },
+  "publication": "AUTHORIZED_2026-09-21",
+  "rebuild": "NOT_RUN_AT_USER_REQUEST; unchanged verified source reused",
+  "final_stage_approver": "Aluna Rizzoli",
+  "approved_scope": "Complete Lean formalization under exactly MinimalSimpleClassification and QuasisimpleCoprimeCommutators as explicit theorem parameters. Their published proofs are not formalized here.",
+  "privacy": "Original response and identity-bearing evidence records are retained privately. The approver name is public at the user's explicit request."
+}

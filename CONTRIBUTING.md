@@ -91,3 +91,14 @@ When certificate sources change, reproduce them and report the comparison
 as well as the Lean build. Keep historical verification receipts intact;
 record a new run separately when the verified source snapshot changes.
 The [verification guide](docs/verification.md) explains the existing receipt.
+
+## Recorded exception: 21.35
+
+At the owner's explicit request, Problem 21.35 is published as a complete
+conditional formalization under two named published results, approved on
+21 September 2026. Its [record](docs/nilradical-21.35/README.md) states that
+boundary. It preserves an independently verified standalone project, including
+its original pinned configuration, instead of renaming modules or introducing
+new wrapper theorems. Publication reused those byte-identical sources and the
+completed verification, without rebuilding. This does not change the requirements
+for other contributions or claim a new repository-wide build.

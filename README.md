@@ -10,8 +10,9 @@ its proof, and reproducible verification instructions.
 The solutions to Problems **21.3 (first question), 21.38, 21.40, 21.44,
 21.68 and 21.106** are by **[Nilradical v0](https://nilradical.ai)**.
 See the [result and verification record](docs/nilradical-v0.md).
-The new solution to **21.53** is by **Nilradical v1.0.0**; see its
-[accepted proof and verification record](docs/nilradical-21.53/README.md).
+The results for **21.35 and 21.53** are by **Nilradical v1.0.0**; see the
+[21.35 conditional formalization](docs/nilradical-21.35/README.md) and
+[21.53 accepted proof](docs/nilradical-21.53/README.md).
 Problem 21.29 remains credited to Aluna Rizzoli and Adam R. Thomas.
 Problem 21.99 is retained as an independent formalized counterexample,
 but excluded from the Nilradical discovery catalogue because another
@@ -32,6 +33,7 @@ how to [report missing or mistaken credit](docs/credit-corrections.md).
 | --- | --- | --- | --- |
 | [21.3, first question](Kourovka/Problems/P21_03/README.md) | **Affirmative** for symmetric and alternating groups in all sufficiently large degrees; no explicit cutoff | [Lean statement](Kourovka/Problems/P21_03/Statement.lean) | [`Kourovka.P21_03.firstQuestion`](Kourovka/Problems/P21_03/Solution.lean) |
 | [21.29](Kourovka/Problems/P21_29/README.md) | **Negative**, by a primitive affine counterexample of degree 19,683 | [Lean statement](Kourovka/Problems/P21_29/Statement.lean) | [`Kourovka.P21_29.not_notebookStatement`](Kourovka/Problems/P21_29/Solution.lean) |
+| [21.35](Kourovka/Problem2135/README.md) | **Affirmative** for every multilinear commutator word; Lean retains two explicitly approved published structural results as hypotheses | [Lean statement](Kourovka/Problem2135/Kourovka2135/Statement.lean) | [`Kourovka2135.problem2135`](Kourovka/Problem2135/Kourovka2135/ProblemComplete.lean) |
 | [21.38](Kourovka/Problems/P21_38/README.md) | **Affirmative**: an infinite group of ordinary spread exactly one | [Lean statement](Kourovka/Problems/P21_38/Statement.lean) | [`Kourovka.P21_38.notebookStatement`](Kourovka/Problems/P21_38/Solution.lean) |
 | [21.40](Kourovka/Problems/P21_40/README.md) | **Affirmative**: every rational linear group with finitely many automorphism orbits has a normal torsion-free nilpotent subgroup of explicitly bounded finite index | [Lean statement](Kourovka/Problems/P21_40/Statement.lean) | [`Kourovka.P21_40.notebookStatement`](Kourovka/Problems/P21_40/Solution.lean) |
 | [21.44](Kourovka/Problems/P21_44/README.md) | **Affirmative**: a two-generated dense subgroup of subexponential growth in the infinite iterated natural degree-five alternating wreath product | [Lean statement](Kourovka/Problems/P21_44/Statement.lean) | [`Kourovka.P21_44.notebookStatement`](Kourovka/Problems/P21_44/Solution.lean) |
@@ -43,8 +45,12 @@ how to [report missing or mistaken credit](docs/credit-corrections.md).
 Every listed answer has a complete proof checked by Lean. The permitted
 foundational axioms are `propext`, `Classical.choice`, and `Quot.sound`.
 The [guarded audit](Audit.lean) checks the original catalogue endpoints;
-21.53 has its separate [protected Lean/Nanoda verification](docs/nilradical-21.53/verification.json). External
-computations and unproved classification assumptions cannot stand in for proofs.
+21.53 has its separate [protected Lean/Nanoda verification](docs/nilradical-21.53/verification.json).
+For 21.35, the complete conditional proof and its [Lean/Nanoda checks](docs/nilradical-21.35/verification.json)
+retain exactly Thompson's minimal-simple classification and the stated
+quasisimple coprime-commutator theorem as explicit parameters. Their published
+proofs are not formalized here; this approved exception is visible at every
+public endpoint. External computations do not stand in for proof terms.
 
 ## Check the proofs
 
@@ -88,6 +94,9 @@ Kourovka/Problems/P21_03/       # Same entry points for every problem
 [`Kourovka.lean`](Kourovka.lean) imports the original standard-layout solutions.
 Problem 21.53 retains its independently reviewed, source-pinned module layout;
 build its complete target with `lake build Kourovka.Problem2153.Final`.
+Problem 21.35 likewise preserves its verified layout, as a self-contained
+project in `Kourovka/Problem2135`; run its build from that directory. The
+publication copied its source byte for byte and did not rerun Lean.
 [`docs/`](docs/README.md) holds longer explanations and verification records;
 [`scripts/`](scripts/README.md) holds repository checks and certificate generators.
 

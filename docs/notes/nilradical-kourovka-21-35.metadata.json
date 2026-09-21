@@ -1,0 +1,33 @@
+{
+  "status": "RELEASE_RENDERED_AND_REVIEWED",
+  "canonical_markdown": "docs/walkthroughs/21.35.md",
+  "canonical_markdown_sha256": "96b3c2c198d98336c3a2b9c76de5b4792df522052621aee280b0fcf7d8056a1a",
+  "credits_sha256": "7b68c1ab3c2c00b72e276ec3411efc0489efc8740c9d06588b98f018da97f093",
+  "style_reference_pdf_sha256": "c61fd107eb7eb01279e7250d5ad5279006697c19a7e93e4854635bf2968485d9",
+  "style_source_sha256": "cc6b68dc387f19fa4b67b75a913be4c8fd91595effe2e2cfef7820c40852ae2e",
+  "pdf_sha256": "edf9e91130bab2b36694e4eae1c240200f4f113db3ae1a1b5569f81456440bb5",
+  "pdf_author": "Nilradical",
+  "designated_final_stage_approver": "Aluna Rizzoli",
+  "human_acceptance": {
+    "approver": "Aluna Rizzoli",
+    "date": "2026-09-21",
+    "statement": "accepted",
+    "bounded_contribution": "accepted"
+  },
+  "independent_kernel_receipt": {
+    "sha256": "d063624152c3fd8008a521058c4d1547462ad90c32063f544377584bc7990981",
+    "status": "CAPTURED_EXPORT_INTEGRITY_PASSED"
+  },
+  "mathematical_source_changed": false,
+  "visual_review": {
+    "status": "PASS",
+    "pages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "method": "Five-page PNG inspection; final title refinement inspected and remaining four page PNGs matched previously inspected images exactly."
+  }
+}

@@ -3,7 +3,8 @@
 Short mathematical accounts by **Nilradical**, written after human
 acceptance of the linked source-pinned Lean statement scopes. The original six
 [acceptance records](../nilradical-v0-acceptance/README.md) are separate from the
-[21.53 record](../nilradical-21.53/README.md).
+[21.53 record](../nilradical-21.53/README.md) and the
+[21.35 conditional formalization](../nilradical-21.35/README.md).
 
 **Agent-generated exposition; not refereed.** These are not preprints. They
 advertise the results and explain their proofs for human researchers to check,
@@ -19,6 +20,7 @@ revision separately.
 | Problem | Account |
 | --- | --- |
 | 21.3, first question | [Separating soluble subgroups](21.3.md) |
+| 21.35 | [An order criterion for multilinear verbal subgroups](21.35.md) |
 | 21.38 | [An infinite group of spread one](21.38.md) |
 | 21.40 | [Few automorphism orbits force structure](21.40.md) |
 | 21.44 | [Dense generators with slow growth](21.44.md) |
@@ -30,3 +32,9 @@ Each account links formal resources at the accepted proof revision.
 Its adjacent `.metadata.json` file binds the text
 to that source manifest and human decision digest. Named human identity and
 original decision evidence remain private.
+
+The 21.35 note was prepared during verification and released after both human
+decisions on 21 September 2026. Its mathematical body is unchanged; only the
+exposition label and final approval line were updated. The conditional formal
+record and [PDF note](../notes/nilradical-kourovka-21-35.pdf) identify its two
+retained published inputs.

@@ -84,3 +84,20 @@ Coolsaet's earlier construction, established group-theoretic arguments and
 pinned Apache-2.0 TauCeti proofs retain their credit in the
 [result README](Kourovka/Problem2153/README.md). Both human decisions and the
 independent reviews are linked in the [verification record](docs/nilradical-21.53/README.md).
+
+## Nilradical v1.0.0: Problem 21.35
+
+The general word and extension arguments, their assembly and the conditional
+Lean formalization are by Nilradical. The question, earlier lower-central and
+soluble derived-word results, and centralization argument are due to Yerko
+Contreras Rojas, Valentina Grazian and Carmine Monetta. Thompson's minimal-simple
+classification and the coprime-commutator consequence of Liebeck–O'Brien–Shalev–Tiep
+remain explicit mathematical inputs. All prior mathematics and reused code are
+credited in the [mathematical note](docs/walkthroughs/21.35.md) and
+[full credits](docs/walkthroughs/21.35-credits.md), including Yawara Ishida and the
+OddOrder contributors, Qiuzhen-CFSG, Tau Ceti, mathlib and Lean. Original notices,
+licenses and pinned provenance accompany the source.
+
+**Final-stage approver: Aluna Rizzoli.** Both the statement and bounded contribution
+assessment were accepted on 21 September 2026; see the
+[source-bound acceptance and verification record](docs/nilradical-21.35/README.md).

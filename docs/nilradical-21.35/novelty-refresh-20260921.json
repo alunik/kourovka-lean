@@ -1,0 +1,117 @@
+{
+  "date": "2026-09-21",
+  "recorded_at_utc": "2026-09-21T06:40:48.676718+00:00",
+  "reviewer": "independent delegated publication-time literature reviewer",
+  "scope": "Bounded refresh of recorded 18–20 September 2026 novelty searches; no correctness audit or proof search",
+  "disposition": "NO_NEW_CREDIBLE_COMPLETE_SOLUTION_FOUND_IN_RECORDED_BOUNDED_REFRESH",
+  "supported_wording": "No earlier complete solution found in the recorded bounded searches.",
+  "new_material_evidence": false,
+  "unresolved_credible_complete_solution_leads": [],
+  "web_queries": [
+    "\"Kourovka\" \"21.35\" solution",
+    "\"multilinear commutator\" \"p-nilpotency\" 2026",
+    "site:github.com \"21.35\" Kourovka",
+    "site:zenodo.org \"Kourovka\" \"21.35\"",
+    "\"p-nilpotency\" \"multilinear\" \"2026\" \"Monetta\"",
+    "\"Kourovka\" \"21.35\" \"solution\" after:2026-09-17",
+    "\"Criteria for nilpotency of higher commutator subgroups\"",
+    "\"Characterisations of finite groups by subsets of commutators\"",
+    "\"21.35\" \"normal\" \"complement\" Kourovka",
+    "site:arxiv.org \"multilinear\" \"p-nilpotency\"",
+    "\"Contreras Rojas\" \"Grazian\" \"Monetta\" 2026 solution",
+    "site:zenodo.org \"p-nilpotency\" \"verbal\"",
+    "site:github.com \"Kourovka\" \"multilinear\"",
+    "site:zenodo.org \"21.35\" \"Kourovka\""
+  ],
+  "sources": [
+    {
+      "url": "https://alglog.org/21tkt.pdf",
+      "disposition": "Exact 21.35 entry available in fresh indexed primary-source search excerpt; direct open timed out. Arbitrary multilinear word, fixed prime, single values, y has order divisible by p; special-case citation only."
+    },
+    {
+      "url": "https://kourovkanotebookorg.wordpress.com/wp-content/uploads/2026/09/21tkt.pdf",
+      "disposition": "Direct fetch failed; source-pinned September full-PDF record retained."
+    },
+    {
+      "url": "https://kourovkanotebookorg.wordpress.com/repository/",
+      "disposition": "Fresh full repository listing inspected; no entry labeled 21.35."
+    },
+    {
+      "url": "https://arxiv.org/abs/2105.14474",
+      "disposition": "Fresh record inspected; original author preprint."
+    },
+    {
+      "url": "https://arxiv.org/pdf/2105.14474",
+      "disposition": "Fresh primary text read: definition and Question 1, Theorems C and D, pp. 1–3. Lower-central/all finite and derived/soluble results, not arbitrary multilinear theorem."
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0021869322003507",
+      "disposition": "Fresh indexed publisher text confirms special-case scope; DOI 10.1016/j.jalgebra.2022.07.017."
+    },
+    {
+      "url": "https://grazianvalentina.wordpress.com/research/",
+      "disposition": "Fresh author publication list inspected; original Journal of Algebra 609 (2022), 926–936 with Yerko Contreras Rojas, Valentina Grazian, Carmine Monetta; no complete-solution announcement identified."
+    },
+    {
+      "url": "https://arxiv.org/search/?query=Monetta%2C+Carmine&searchtype=author&abstracts=show&order=-announced_date_first&size=50",
+      "disposition": "Fresh author search inspected; no 2026 text match and no full-solution title/abstract identified."
+    },
+    {
+      "url": "https://docenti.unisa.it/028874/ricerca/pubblicazioni?anno=2026",
+      "disposition": "Direct open failed."
+    },
+    {
+      "url": "https://docenti.unisa.it/028874/ricerca/pubblicazioni?anno=0",
+      "disposition": "Indexed institutional page retrieved as lead; direct open timed out. Not treated as fully inspected live list."
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/s00013-025-02157-3",
+      "disposition": "Fresh publisher abstract: lower-central series; derived series under solubility. Consistent with 18 September primary-manuscript audit."
+    },
+    {
+      "url": "https://www.researchgate.net/publication/413591162_Characterisations_of_finite_groups_by_subsets_of_commutators",
+      "disposition": "Fresh author primary text, Theorem 1.1 and its proof: tests every p-prime element x, not only w-values. No transfer to arbitrary verbal subgroup supplied by that theorem; consistent with earlier audit of later word families."
+    },
+    {
+      "url": "https://doi.org/10.1515/jgth-2025-0151",
+      "disposition": "2026 adjacent-paper identifier retained from prior dossier; refreshed via author primary text, not new publisher full-text access."
+    }
+  ],
+  "zenodo_direct_attempts": [
+    {
+      "query": "\"Kourovka\" AND \"21.35\"",
+      "url": "https://zenodo.org/api/records?q=%22Kourovka%22+AND+%2221.35%22&size=25&sort=mostrecent",
+      "outcome": "Read timeout after 25 seconds; no result count inferred"
+    },
+    {
+      "query": "\"multilinear commutator\"",
+      "url": "https://zenodo.org/api/records?q=%22multilinear+commutator%22&size=25&sort=mostrecent",
+      "outcome": "Read timeout after 25 seconds; no result count inferred"
+    },
+    {
+      "query": "\"p-nilpotency\" AND \"verbal\"",
+      "url": "https://zenodo.org/api/records?q=%22p-nilpotency%22+AND+%22verbal%22&size=25&sort=mostrecent",
+      "outcome": "Read timeout after 25 seconds; no result count inferred"
+    },
+    {
+      "query": "Kourovka",
+      "url": "https://zenodo.org/api/records?q=Kourovka&size=25&sort=mostrecent",
+      "outcome": "Read timeout after 25 seconds; no result count inferred"
+    }
+  ],
+  "limitations": [
+    "Zenodo direct API timed out; indexed searches are not a fresh exhaustive Zenodo inventory. Prior 18 September direct inventory remains historical evidence.",
+    "GitHub covered by two targeted indexed searches only, not exhaustive authenticated code search.",
+    "Notebook direct PDFs failed; exact entry reconfirmed via indexed primary excerpt and earlier source-pinned file.",
+    "Institutional Monetta direct lists failed.",
+    "No subscription reviewing-database, unpublished-work, or author-contact coverage.",
+    "Search indexing can lag recent work."
+  ],
+  "actions_not_performed": [
+    "Lean build",
+    "Pro query",
+    "external message",
+    "publication"
+  ],
+  "lean_release_scope": "Conditional formalization under the two approved published-theorem parameters: Thompson minimal-simple classification and coprime commutators in finite quasisimple groups. This refresh does not certify either parameter or rebuild the formalization."
+}

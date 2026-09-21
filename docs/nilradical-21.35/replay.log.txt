@@ -1,0 +1,14 @@
+Building NilradicalFrozenChallenge
+CAPTURED_REPLAY_BUILD_ATTESTED NilradicalFrozenChallenge
+CAPTURED_REPLAY_EXPORT_SERVED NilradicalFrozenChallenge
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Kourovka2135.problem2135_outerWord, Kourovka2135.problem2135, Kourovka2135.productOrderCondition_iff_hasNormalPComplement, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from NilradicalFrozenChallenge
+Building Kourovka2135
+CAPTURED_REPLAY_BUILD_ATTESTED Kourovka2135
+CAPTURED_REPLAY_EXPORT_SERVED Kourovka2135
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, Kourovka2135.problem2135_outerWord, Kourovka2135.problem2135, Kourovka2135.productOrderCondition_iff_hasNormalPComplement, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from Kourovka2135
+Running nanoda kernel on solution
+CAPTURED_REPLAY_NANODA_EXACT_INPUT
+nanoda kernel accepts the solution
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!

@@ -15,6 +15,7 @@ question, its formal answer, and a map of its proof.
 | [Proof walkthroughs](walkthroughs/README.md) | Post-acceptance accounts by Nilradical v0, informal and unrefereed |
 | [Novelty audit](nilradical-v0-verification/novelty/README.md) | Primary-source comparison and exclusion of 21.99 from the discovery catalogue |
 | [Problem template](problem-template.md) | Common files and README sections for a new solution |
+| [21.35 accepted conditional proof](nilradical-21.35/README.md) | Exact two-input scope, human approval, original source identity and Lean/Nanoda evidence |
 | [21.38 verification](21.38-verification.md) | Complete infinite spread-one theorem, source provenance, build and closed axiom checks |
 | [21.38 statement audit](21.38-statement-audit.md) | Ordinary spread, concrete witness, all nonidentity inputs, infinitude, and proof assumptions |
 | [21.40 verification](21.40-verification.md) | Full rational structural theorem, number-field extension, targeted build, and axiom audit |

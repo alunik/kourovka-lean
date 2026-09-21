@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "status": "CAPTURED_EXPORT_INTEGRITY_PASSED",
+  "profile": "captured-export-bwrap-seccomp-comparator-nanoda-v1",
+  "theorem_names": [
+    "Kourovka2135.problem2135_outerWord",
+    "Kourovka2135.problem2135",
+    "Kourovka2135.productOrderCondition_iff_hasNormalPComplement"
+  ],
+  "explicit_mathematical_parameters": [
+    "MinimalSimpleClassification.{0}",
+    "QuasisimpleCoprimeCommutators.{0}"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "receipt_sha256": "d063624152c3fd8008a521058c4d1547462ad90c32063f544377584bc7990981",
+  "contract_sha256": "736152a70be7041fdf511bd874ca2cd5e451a2cf7749e89ef093de829408fb4d",
+  "source_revision": "eb026951d20b1a362c7ec206ac116cd55547e96d",
+  "project_modules": 745,
+  "original_fresh_build": "PASS; 4707 jobs including the complete 745-module public project closure",
+  "recorded_kernel_checks": {
+    "nanoda": "PASS",
+    "lean_default_kernel": "PASS",
+    "returncode": 0,
+    "elapsed_seconds": 19420.0,
+    "log": "replay.log.txt",
+    "log_sha256": "d2bd005883928c0630f9eb9d87266d430173dd58812196bb42fdc17aafffe89d"
+  },
+  "original_attempt": {
+    "status": "INTEGRITY_REJECTED",
+    "cause": "Temporary storage exhausted while preparing Nanoda input after the successful fresh build.",
+    "receipt_sha256": "2dcbfadd5c6f72a033dcc73fb3a0ec8d6868b16beb6cecb4cee5ac78972f71de",
+    "preserved": true
+  },
+  "continuation_scope": "The pinned Comparator repeated statement and dependency comparison and checked the exact original captured exports with Nanoda and Lean. No new candidate elaboration occurred in this continuation.",
+  "controls": {
+    "six_cases": "PASS",
+    "adapter_rejections": "PASS",
+    "all_before_after_checks_passed": true,
+    "isolation_checks": "PASS"
+  },
+  "exports": {
+    "Kourovka2135": {
+      "sha256": "2cdf4f280180abd80793660bc447f94afe1c2686d0481a22afb16cda95aab892",
+      "bytes": 960206169
+    },
+    "NilradicalFrozenChallenge": {
+      "sha256": "64a2b121e40f8322b95564422b553e9a2695a4f703c896c22038582c008a91c5",
+      "bytes": 65465786
+    }
+  },
+  "evidence_archive": {
+    "sha256": "1d5883abbadba9dce1bc252fabf44ba9bab3f17f935ac676286af36e5ec68867",
+    "bytes": 210965453,
+    "members": 1372,
+    "collection_receipt_sha256": "8ffaf676fb978ca8ab5e1d78a0b8e8dbd5c0dd5ebea6ab71783f2e4f55e150c1",
+    "independent_review": "PASS",
+    "storage": "Durable local and private GitHub archive; raw operational records remain private."
+  },
+  "source_archive_sha256": "d58a903458a1f661223676c672da9c51ef49a0905c6a21150af38508ee3b77ed",
+  "strict_gate_receipt_sha256": "bdaeba8375602216cc284e4b17c529dd92418eefe18d219096fcdca1c68afb95",
+  "checker_source_pins": {
+    "lean": "6a10ac8c22beadecabdbb0919c2b50214762f91d",
+    "comparator": "2312244ac716564a61cc0bf4e107d9abf1757a61",
+    "lean4export": "cacf989bd75f608700820f6afc595f32e7a99a4d",
+    "nanoda": "4c544ed4099c8227f07d5de77ad1e69fb0740a27"
+  },
+  "build_scope": "Recorded complete standalone target/dependency build; no new full-repository build for publication.",
+  "trusted_inputs": "Pinned upstream compiled library caches, checked before and after verification.",
+  "human_acceptance": "Both decisions recorded separately in acceptance.json on 21 September 2026.",
+  "publication_rebuild_performed": false
+}
