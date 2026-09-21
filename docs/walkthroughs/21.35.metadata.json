@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "result_id": "kourovka-21-35",
+  "status": "post-acceptance-exposition",
+  "label": "Agent-generated exposition; not refereed",
+  "generated_at": "2026-09-21T06:48:36.840776+00:00",
+  "generator": "Nilradical v1.0.0; publication revision of the mathematical outline after human statement and contribution approval",
+  "refereed": false,
+  "human_accepted_exposition": false,
+  "source_revision": "eb026951d20b1a362c7ec206ac116cd55547e96d",
+  "acceptance_sha256": "5ff134a77aceb5cdd9ee4dcaedb5984a052d0ebe1329ec414522a606507257d2",
+  "source_manifest_sha256": "a1c27f85713c158b8d9dcca4be0a04ea14c01bbd7745802694ecefbb9b389b70",
+  "accepted_at": "2026-09-21T06:40:53.953316+00:00",
+  "markdown_sha256": "96b3c2c198d98336c3a2b9c76de5b4792df522052621aee280b0fcf7d8056a1a",
+  "source_url": "https://github.com/alunik/kourovka-lean/blob/f41924a770cb4fe034f1fed9053a2fcdef0e0b3d/docs/walkthroughs/21.35.md",
+  "reviewer_role": "Human statement verifier",
+  "agent_version": "1.0.0",
+  "execution_workflow_version": "0.4.0-draft",
+  "first_prepared_on": "2026-09-20",
+  "revision_note": "Mathematical exposition preserved. Publication adds the standard exposition label and records the actual human statement and contribution approval; no Lean source or configuration change.",
+  "licence": "Retained per-file and vendor notices apply to source components; this record grants no additional rights over third-party materials."
+}
