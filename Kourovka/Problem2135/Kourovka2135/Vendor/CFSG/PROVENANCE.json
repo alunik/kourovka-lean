@@ -1,0 +1,135 @@
+{
+  "upstream": "https://github.com/Qiuzhen-CFSG/CFSG",
+  "commit": "96b2a02085dc678f3e0a97b334c31ada599c55fd",
+  "license": "Apache-2.0",
+  "integrated_utc": "2026-09-18T16:40:19.270641+00:00",
+  "changes": "Only internal import paths renamed from FeitThompson to Kourovka2135.Vendor.CFSG; mathematical namespaces and proofs unchanged.",
+  "files": [
+    {
+      "upstream_path": "FeitThompson/ChiefFactors/BaerCore.lean",
+      "local_path": "Kourovka2135/Vendor/CFSG/ChiefFactors/BaerCore.lean",
+      "upstream_sha256": "351babbe46e5139b7c83b42d3c624ff51aca397bf9501d61fbfab02c54d69284",
+      "adapted_sha256": "0d9639af21c22980214873b49e79f9aa347aa6ca4dc81d0d44072de101432eae"
+    },
+    {
+      "upstream_path": "FeitThompson/ChiefFactors/Core.lean",
+      "local_path": "Kourovka2135/Vendor/CFSG/ChiefFactors/Core.lean",
+      "upstream_sha256": "931d46cf6bc0e615ced1b814c5ce92755cbed3854bcce1266a0e05001024a64b",
+      "adapted_sha256": "fdc22ea1f94fc9f1a0b4f1a8ff0dab01acef7d341ff15c8068589bd69ca621ec"
+    },
+    {
+      "upstream_path": "FeitThompson/ChiefFactors/Proposition12.lean",
+      "local_path": "Kourovka2135/Vendor/CFSG/ChiefFactors/Proposition12.lean",
+      "upstream_sha256": "5451d931524bc4adec6c48c77c3a499d2e22c82abf41a251721f4d09cd2a1f1b",
+      "adapted_sha256": "243e85acae8e68a965df85c0d6a211eb57d29fb454d81256045bebaf6775017b"
+    },
+    {
+      "upstream_path": "FeitThompson/Commutator/Core.lean",
+      "local_path": "Kourovka2135/Vendor/CFSG/Commutator/Core.lean",
+      "upstream_sha256": "f570c5430e2e3b15ce1bc9d0203010450fb2ae9213542f1b1204fd9562c26b0a",
+      "adapted_sha256": "f570c5430e2e3b15ce1bc9d0203010450fb2ae9213542f1b1204fd9562c26b0a"
+    },
+    {
+      "upstream_path": "FeitThompson/ElementaryAbelian.lean",
+      "local_path": "Kourovka2135/Vendor/CFSG/ElementaryAbelian.lean",
+      "upstream_sha256": "22ca5892138e2e32eda4bd622fcc4190074aadf0aaf98dfef56237a8de224c0e",
+      "adapted_sha256": "22ca5892138e2e32eda4bd622fcc4190074aadf0aaf98dfef56237a8de224c0e"
+    },
+    {
+      "upstream_path": "FeitThompson/Fitting/Centralizer.lean",
+      "local_path": "Kourovka2135/Vendor/CFSG/Fitting/Centralizer.lean",
+      "upstream_sha256": "e045a5bc2e6243a97547661cc6fd66ada1117771ffc37bc50caf7568835427ed",
+      "adapted_sha256": "5e51612b4aba4baffd8fcd3bbf01e14b906443d1c8b571370321d14af8988634"
+    },
+    {
+      "upstream_path": "FeitThompson/Fitting/Core.lean",
+      "local_path": "Kourovka2135/Vendor/CFSG/Fitting/Core.lean",
+      "upstream_sha256": "fe728baca7700d0c75a3e90685f0291d7934704e9697a0e29656c13e8ff3db77",
+      "adapted_sha256": "ea804f3aa8b7c4e8d8365d88eb1109824d7606cd83dad811821c5a76974fa447"
+    },
+    {
+      "upstream_path": "FeitThompson/Frattini/CoprimeAction.lean",
+      "local_path": "Kourovka2135/Vendor/CFSG/Frattini/CoprimeAction.lean",
+      "upstream_sha256": "82fbf4146cf5dbf8dddf82bd73f10c138346bddb7a8bcddd7f6ce7a5af8cd37a",
+      "adapted_sha256": "1ddd22775a8eeeea3f6891bef7d303115f4b6f4223f7704fbd43c3ad1edcba00"
+    },
+    {
+      "upstream_path": "FeitThompson/Frattini/Core.lean",
+      "local_path": "Kourovka2135/Vendor/CFSG/Frattini/Core.lean",
+      "upstream_sha256": "a1a425d95c479aa721fc9d574542b7ea33cd3684dd4b4e1f5b6be6dd94ca259a",
+      "adapted_sha256": "9cb1e9685f2b26b66988891e3e7f868210922d0244b84598a3544073c24676ba"
+    },
+    {
+      "upstream_path": "FeitThompson/GroupAction/Defs.lean",
+      "local_path": "Kourovka2135/Vendor/CFSG/GroupAction/Defs.lean",
+      "upstream_sha256": "7cf853252fe7750fb95107a95bc67d605d86c61d0d5e3be44db0a40e921ec37b",
+      "adapted_sha256": "24fafeb4dbe28634f024c5b2808d4594a84990be4b43ae4d27523cb478ebd913"
+    },
+    {
+      "upstream_path": "FeitThompson/GroupAction/Invariant.lean",
+      "local_path": "Kourovka2135/Vendor/CFSG/GroupAction/Invariant.lean",
+      "upstream_sha256": "a0940a86aaccf38883b1f72caa28d02f587d72a7d16acd37aef51ea9f22a5b16",
+      "adapted_sha256": "3e54a92ddba28a88f78f24bc414f765c5d769f50d6c8a03afc9beee7e2dc18c4"
+    },
+    {
+      "upstream_path": "FeitThompson/GroupAction/Lemmas.lean",
+      "local_path": "Kourovka2135/Vendor/CFSG/GroupAction/Lemmas.lean",
+      "upstream_sha256": "9ce10a83a5bb429e66a3c09fab9f14c5300ea93a9f1f341b85dc14c6e02dc9f0",
+      "adapted_sha256": "078cab30b336514004dc14043e29f5813916d55465c0aa01eb4b130397f56a3d"
+    },
+    {
+      "upstream_path": "FeitThompson/GroupAction/Quotient.lean",
+      "local_path": "Kourovka2135/Vendor/CFSG/GroupAction/Quotient.lean",
+      "upstream_sha256": "0ab4926310218a6019780a35f4439daf77131615a073233a77f0ea77f01e9ef5",
+      "adapted_sha256": "d4833ea270f30b7d5b0e0d05e1611f109805c3b045ebd8b819df11a25d9855a3"
+    },
+    {
+      "upstream_path": "FeitThompson/HallSubgroups/Complements.lean",
+      "local_path": "Kourovka2135/Vendor/CFSG/HallSubgroups/Complements.lean",
+      "upstream_sha256": "ad4cfe39d1750436fc0e3e00116afbdf6efbb985a3ce50e1769599bc845c7f3f",
+      "adapted_sha256": "73d69bde9ff3796b7e0664cb0cd6f7c0c613bbcb8e181810b3ce9bcc2e2f059e"
+    },
+    {
+      "upstream_path": "FeitThompson/HallSubgroups/Conjugacy.lean",
+      "local_path": "Kourovka2135/Vendor/CFSG/HallSubgroups/Conjugacy.lean",
+      "upstream_sha256": "555fef7fb7dd359d5da4ead847b66770e3c8cea5c36fbd4933d214b3dda853b0",
+      "adapted_sha256": "75c646ff9e8729f66e4a0f8dba30055aabe5efe24890fd694c4aed50dad5d9f3"
+    },
+    {
+      "upstream_path": "FeitThompson/HallSubgroups/Core.lean",
+      "local_path": "Kourovka2135/Vendor/CFSG/HallSubgroups/Core.lean",
+      "upstream_sha256": "2514e6bf347e7b5c775a30a8dd17a5338852493b37028e8543cb6eae0f2135a6",
+      "adapted_sha256": "2514e6bf347e7b5c775a30a8dd17a5338852493b37028e8543cb6eae0f2135a6"
+    },
+    {
+      "upstream_path": "FeitThompson/HallSubgroups/Existence.lean",
+      "local_path": "Kourovka2135/Vendor/CFSG/HallSubgroups/Existence.lean",
+      "upstream_sha256": "7100d67066f229f8390c891288f0a205699fcbb6af3144ce7df9c757a90e1f05",
+      "adapted_sha256": "4023b587b1a71e2bc127e1f3d8c85238d52b23e015d427f83b48bf4d55973d27"
+    },
+    {
+      "upstream_path": "FeitThompson/PCore/Defs.lean",
+      "local_path": "Kourovka2135/Vendor/CFSG/PCore/Defs.lean",
+      "upstream_sha256": "8eb2a86b8b877d1529b25c4923daf108b6fde60d31d5ba805b1d85a6d37030ef",
+      "adapted_sha256": "8eb2a86b8b877d1529b25c4923daf108b6fde60d31d5ba805b1d85a6d37030ef"
+    },
+    {
+      "upstream_path": "FeitThompson/PCore/PCore.lean",
+      "local_path": "Kourovka2135/Vendor/CFSG/PCore/PCore.lean",
+      "upstream_sha256": "02409b1523bf78e338d29028d822cd47ee2fa4f3f7d8e6419dc1692451582e85",
+      "adapted_sha256": "6e68ce3670c7e5f7855544eacd4e862be56386ca6a860cd1f185c661d1429113"
+    },
+    {
+      "upstream_path": "FeitThompson/PCore/PPrimeCore.lean",
+      "local_path": "Kourovka2135/Vendor/CFSG/PCore/PPrimeCore.lean",
+      "upstream_sha256": "693654e3f0b801864be00ba9405bac44a55f90e7ba0fb3a2c7730dc3344ef08d",
+      "adapted_sha256": "c9fc0d6cd71232d50d53f08c322ea98320dc030276b33eeceb47f8d46fa1145b"
+    },
+    {
+      "upstream_path": "FeitThompson/PGroup/Omega.lean",
+      "local_path": "Kourovka2135/Vendor/CFSG/PGroup/Omega.lean",
+      "upstream_sha256": "8527c6db841de51f5ed22eb3aac7733cb229b02604bdf45c94e39b26e2619e75",
+      "adapted_sha256": "1f4b9733f90188c581cd7dc5ec7a02ec8b2257ffce5f92672a812c23960c7ae0"
+    }
+  ]
+}

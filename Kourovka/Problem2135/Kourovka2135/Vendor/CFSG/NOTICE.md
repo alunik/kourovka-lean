@@ -1,0 +1,1 @@
+Selective source integration from Qiuzhen-CFSG/CFSG commit 96b2a02085dc678f3e0a97b334c31ada599c55fd, Apache-2.0. Original source copyright and authorship headers are retained. Only internal module import paths are renamed; mathematical namespaces and proofs are unchanged. See PROVENANCE.json.

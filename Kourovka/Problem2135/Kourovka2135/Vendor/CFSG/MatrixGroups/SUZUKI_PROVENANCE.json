@@ -1,0 +1,23 @@
+{
+  "upstream": "https://github.com/Qiuzhen-CFSG/CFSG",
+  "commit": "96b2a02085dc678f3e0a97b334c31ada599c55fd",
+  "license": "Apache-2.0",
+  "status": "STANDALONE_COMPILE_PASS_NOT_YET_IN_UMBRELLA",
+  "recorded_utc": "2026-09-18T19:40:23.522883+00:00",
+  "changes": "FiniteFields extracts only the prime-two instance and BinaryGaloisField abbreviation. Suzuki replaces unused project-wide PSL2 and Unitary imports by this field shim and FinCases. Concrete matrix definitions and determinant proofs otherwise unchanged. This imports no classification theorem or assumption. The field shim uses public module declarations to match Lean module export rules.",
+  "files": [
+    {
+      "upstream_path": "BenderSuzuki/PFAppendixIII/Basic.lean",
+      "local_path": "Kourovka2135/Vendor/CFSG/MatrixGroups/FiniteFields.lean",
+      "upstream_sha256": "c6c50bf4b1205933f68f75fc7e5e29805d63bf3426ca76da27d5dc62cb611350",
+      "adapted_sha256": "a35d739c74fce4d18518ee59fb5aacceb8daf8531e2315eb01d9452b35fb20d8"
+    },
+    {
+      "upstream_path": "BenderSuzuki/MatrixGroups/Suzuki.lean",
+      "local_path": "Kourovka2135/Vendor/CFSG/MatrixGroups/Suzuki.lean",
+      "upstream_sha256": "ad35028682f7e8db7c99b3f36177e38c1942e17f539f705cca8e2ac2949afda4",
+      "adapted_sha256": "c6787b8c96d07769b4e4964e9cd4d57e0914ae57cbd8e7f7722d8f1085966a8c"
+    }
+  ],
+  "last_checked_utc": "2026-09-18T19:47:33.589833+00:00"
+}

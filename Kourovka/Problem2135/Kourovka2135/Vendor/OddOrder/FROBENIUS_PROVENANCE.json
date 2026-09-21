@@ -1,0 +1,307 @@
+{
+  "repository": "https://github.com/yawara/odd-order",
+  "commit": "82e8b66fe80a2eb9f0c6568bf288186086af73af",
+  "license": "Apache-2.0",
+  "modifications": [
+    "Rewrote local OddOrder imports to Kourovka2135.Vendor.OddOrder; original declaration namespaces retained.",
+    "Lean 4.34 compatibility: replaced deprecated if_pos/if_neg aliases with ite_eq_left/ite_eq_right (identical theorem signatures).",
+    "Mathlib compatibility: converted three Group.isNilpotent_of_finite_tfae.out calls from zero-based to one-based indices, preserving the selected propositions; updated related comments.",
+    "Lean 4.34 compatibility: replaced the single deprecated if_false alias with ite_false; no if_true occurrences were present."
+  ],
+  "files": [
+    {
+      "upstream_path": "OddOrder/Isaacs/Ch05_Transfer/Main.lean",
+      "sha256": "c1c7dc766bc9675217d26473789659a7523287d50a0de955b2eafedd7f5c5c80",
+      "local_path": "lean/Kourovka2135/Vendor/OddOrder/Isaacs/Ch05_Transfer/Main.lean",
+      "local_module": "Kourovka2135.Vendor.OddOrder.Isaacs.Ch05_Transfer.Main",
+      "adapted_sha256": "4e85fdfd96c37349ed4e6d1172203cad7534b30c7500ed55c964d5a56cd6e856"
+    },
+    {
+      "upstream_path": "OddOrder/Isaacs/Ch05_Transfer/SylowTwoDirectFactor.lean",
+      "sha256": "8f4de6af12a2c6af246a3fa0db492f11a432f2f324b91f185c9693d9814b3fc4",
+      "local_path": "lean/Kourovka2135/Vendor/OddOrder/Isaacs/Ch05_Transfer/SylowTwoDirectFactor.lean",
+      "local_module": "Kourovka2135.Vendor.OddOrder.Isaacs.Ch05_Transfer.SylowTwoDirectFactor",
+      "adapted_sha256": "eec595d9da874fc28b8859dacdd5b24a360a518bedc770b0ce9f32ccfa50c31e"
+    },
+    {
+      "upstream_path": "OddOrder/Isaacs/Ch05_Transfer/Basic.lean",
+      "sha256": "e8c003258b860c8a60a651eb9a241557b3b6e29af24fe4738403d23b37588ef9",
+      "local_path": "lean/Kourovka2135/Vendor/OddOrder/Isaacs/Ch05_Transfer/Basic.lean",
+      "local_module": "Kourovka2135.Vendor.OddOrder.Isaacs.Ch05_Transfer.Basic",
+      "adapted_sha256": "fc91e3cd29326925248f7051883e2526e7fcab5fd50058dc975459377ad0c952"
+    },
+    {
+      "upstream_path": "OddOrder/Isaacs/Ch05_Transfer/CentralTransfer.lean",
+      "sha256": "5639fe20dbf1a2bc08e8d2e7f98c712460a78909d2595192d2ea71a594cf294d",
+      "local_path": "lean/Kourovka2135/Vendor/OddOrder/Isaacs/Ch05_Transfer/CentralTransfer.lean",
+      "local_module": "Kourovka2135.Vendor.OddOrder.Isaacs.Ch05_Transfer.CentralTransfer",
+      "adapted_sha256": "4587dbd58195267d65efebaeb0df7befb53c9c83b7955714eb780a0e1e694cd5"
+    },
+    {
+      "upstream_path": "OddOrder/Isaacs/Ch04_Commutators/Main.lean",
+      "sha256": "07d7f639a2ba6e8fc1b2b93064515173fac67c3932f77eb907fc49b83a10c78c",
+      "local_path": "lean/Kourovka2135/Vendor/OddOrder/Isaacs/Ch04_Commutators/Main.lean",
+      "local_module": "Kourovka2135.Vendor.OddOrder.Isaacs.Ch04_Commutators.Main",
+      "adapted_sha256": "df92fd2352b99d6adb24c2d537177f04bffe5718fc4ac6de1f89c876586cd5ea"
+    },
+    {
+      "upstream_path": "OddOrder/Isaacs/Ch04_Commutators/HartleyTurull.lean",
+      "sha256": "32919c36c1cafb17c360986d50c065779ff980d2a5c8f6610c133da2ea6f7c90",
+      "local_path": "lean/Kourovka2135/Vendor/OddOrder/Isaacs/Ch04_Commutators/HartleyTurull.lean",
+      "local_module": "Kourovka2135.Vendor.OddOrder.Isaacs.Ch04_Commutators.HartleyTurull",
+      "adapted_sha256": "2eb322bcb02619382ed1ce0a421194aaf8e5bd08ea11e1cb1f8730c94127d46c"
+    },
+    {
+      "upstream_path": "OddOrder/Isaacs/Ch04_Commutators/Main/ThreeSubgroups.lean",
+      "sha256": "d452a4c86ada99b2a30c5ca7ed6ff5f68ecac25044283e1d846ec396cdf3c975",
+      "local_path": "lean/Kourovka2135/Vendor/OddOrder/Isaacs/Ch04_Commutators/Main/ThreeSubgroups.lean",
+      "local_module": "Kourovka2135.Vendor.OddOrder.Isaacs.Ch04_Commutators.Main.ThreeSubgroups",
+      "adapted_sha256": "078c5fa3512250c6df60bd0cc328e6d7cd9b12d4017a657271f032364f66ac36"
+    },
+    {
+      "upstream_path": "OddOrder/Isaacs/Ch04_Commutators/Main/CommutatorBasics.lean",
+      "sha256": "1bdd57dd47bc7ceba8f8a2285951438179a1957af3086d1a0a1af6f9d60e8a1b",
+      "local_path": "lean/Kourovka2135/Vendor/OddOrder/Isaacs/Ch04_Commutators/Main/CommutatorBasics.lean",
+      "local_module": "Kourovka2135.Vendor.OddOrder.Isaacs.Ch04_Commutators.Main.CommutatorBasics",
+      "adapted_sha256": "a5b6e0d1a3bdae0e86a808a56c646b987e583a7eccbb8b41e07b65ac14063dd3"
+    },
+    {
+      "upstream_path": "OddOrder/Isaacs/Ch04_Commutators/Main/CommutatorIdentities.lean",
+      "sha256": "927b4baed8e2645d07888de97fbaa272cbab279848fdc9801d8b9f4ce1a2f85f",
+      "local_path": "lean/Kourovka2135/Vendor/OddOrder/Isaacs/Ch04_Commutators/Main/CommutatorIdentities.lean",
+      "local_module": "Kourovka2135.Vendor.OddOrder.Isaacs.Ch04_Commutators.Main.CommutatorIdentities",
+      "adapted_sha256": "0a8188880ce17164a42c2aca7534d490362593b167f2a8acce66c41f1a0a222a"
+    },
+    {
+      "upstream_path": "OddOrder/Mathlib/Subgroup.lean",
+      "sha256": "c9e59526aed197cf18692903e3b83249496ea37ba44f396bd94e302f47517b15",
+      "local_path": "lean/Kourovka2135/Vendor/OddOrder/Mathlib/Subgroup.lean",
+      "local_module": "Kourovka2135.Vendor.OddOrder.Mathlib.Subgroup",
+      "adapted_sha256": "c9e59526aed197cf18692903e3b83249496ea37ba44f396bd94e302f47517b15"
+    },
+    {
+      "upstream_path": "OddOrder/Mathlib/SemidirectProduct.lean",
+      "sha256": "6d0649a34bc4b3138392f1ec55ce5012c8dacf17ac1fe49b97f1b992f9327545",
+      "local_path": "lean/Kourovka2135/Vendor/OddOrder/Mathlib/SemidirectProduct.lean",
+      "local_module": "Kourovka2135.Vendor.OddOrder.Mathlib.SemidirectProduct",
+      "adapted_sha256": "6d0649a34bc4b3138392f1ec55ce5012c8dacf17ac1fe49b97f1b992f9327545"
+    },
+    {
+      "upstream_path": "OddOrder/Isaacs/Ch04_Commutators/ForwardFromCh03.lean",
+      "sha256": "e618f9ec86e297d37f798d5ad5fd217dde4431246415bec3e8a7ce8d73dfd003",
+      "local_path": "lean/Kourovka2135/Vendor/OddOrder/Isaacs/Ch04_Commutators/ForwardFromCh03.lean",
+      "local_module": "Kourovka2135.Vendor.OddOrder.Isaacs.Ch04_Commutators.ForwardFromCh03",
+      "adapted_sha256": "38d78c7dc3072629e43e34082a32539a3e4cd3350799e4f5b6be8de80aeb40d5"
+    },
+    {
+      "upstream_path": "OddOrder/Mathlib/SchurZassenhausConj.lean",
+      "sha256": "5336ceacb36b18ba95b63cec3eaec38164094c1a3e15ac4a5976e5d90e02757f",
+      "local_path": "lean/Kourovka2135/Vendor/OddOrder/Mathlib/SchurZassenhausConj.lean",
+      "local_module": "Kourovka2135.Vendor.OddOrder.Mathlib.SchurZassenhausConj",
+      "adapted_sha256": "c4c58b99c34cc3c40b5af4cd65f20717d7e4aa99e1728486338b5e15257e07d4"
+    },
+    {
+      "upstream_path": "OddOrder/Isaacs/Ch03_SplitExtensions/Main.lean",
+      "sha256": "72baed49b9a679c7f00c7bb44dc1afa29fa7b03ebd84d8f9078a4f41d698ddbc",
+      "local_path": "lean/Kourovka2135/Vendor/OddOrder/Isaacs/Ch03_SplitExtensions/Main.lean",
+      "local_module": "Kourovka2135.Vendor.OddOrder.Isaacs.Ch03_SplitExtensions.Main",
+      "adapted_sha256": "1c270b08d57f94101ab4ae757b6a1b6dfa4e9dde7d85668211be65c6fc105fb5"
+    },
+    {
+      "upstream_path": "OddOrder/Isaacs/Ch03_SplitExtensions/Theorem315.lean",
+      "sha256": "6b873abc1ca6036b3d380dd75e1ca2ee485947f52c4cb8115b36fe96e570b86c",
+      "local_path": "lean/Kourovka2135/Vendor/OddOrder/Isaacs/Ch03_SplitExtensions/Theorem315.lean",
+      "local_module": "Kourovka2135.Vendor.OddOrder.Isaacs.Ch03_SplitExtensions.Theorem315",
+      "adapted_sha256": "ae4b49c8464e951a1c9f2ba4395bcfbf721788bcf850adce815686d95f110f7e"
+    },
+    {
+      "upstream_path": "OddOrder/GroupTheory/OpResidual.lean",
+      "sha256": "a2cce3469289b0b6c57e06c239d1b7113527901cfc712ea9849d6eff81669115",
+      "local_path": "lean/Kourovka2135/Vendor/OddOrder/GroupTheory/OpResidual.lean",
+      "local_module": "Kourovka2135.Vendor.OddOrder.GroupTheory.OpResidual",
+      "adapted_sha256": "c74a7393c12318567744b78392bbc73df4271f601020f4be1f20ed888bd112ff"
+    },
+    {
+      "upstream_path": "OddOrder/Isaacs/Ch01_Sylow/Main.lean",
+      "sha256": "db4737e5af74f5b008ab269aac1670cc30515ad0ec8a047dd1082cbbd04696a7",
+      "local_path": "lean/Kourovka2135/Vendor/OddOrder/Isaacs/Ch01_Sylow/Main.lean",
+      "local_module": "Kourovka2135.Vendor.OddOrder.Isaacs.Ch01_Sylow.Main",
+      "adapted_sha256": "cb7d51ef7af094a22295991c15b85115c0cfaee87c7ee3c01919ac1134a3a520"
+    },
+    {
+      "upstream_path": "OddOrder/Isaacs/Ch01_Sylow/Theorem131.lean",
+      "sha256": "bd7bcf82412c718681a6e42303167f9ddc4355c8dac93884b382197fc768241a",
+      "local_path": "lean/Kourovka2135/Vendor/OddOrder/Isaacs/Ch01_Sylow/Theorem131.lean",
+      "local_module": "Kourovka2135.Vendor.OddOrder.Isaacs.Ch01_Sylow.Theorem131",
+      "adapted_sha256": "43d125d53c8eeec92c541920a75eb9db1b6974669ff24f3f34d170984b924450"
+    },
+    {
+      "upstream_path": "OddOrder/Isaacs/Ch01_Sylow/Basic.lean",
+      "sha256": "733b5bcca04c417077551f400b5e0064169421a1452c1929e658b05090f0cb10",
+      "local_path": "lean/Kourovka2135/Vendor/OddOrder/Isaacs/Ch01_Sylow/Basic.lean",
+      "local_module": "Kourovka2135.Vendor.OddOrder.Isaacs.Ch01_Sylow.Basic",
+      "adapted_sha256": "2b2c41069b17a25fea064d6e215373426a526bc259e0247682e22259f8ee70d0"
+    },
+    {
+      "upstream_path": "OddOrder/GroupTheory/ChermakDelgado.lean",
+      "sha256": "33d4005f8a6d3ca21f08bb473ad077cf29b603b4247ae26b29d2a3d67e6d3181",
+      "local_path": "lean/Kourovka2135/Vendor/OddOrder/GroupTheory/ChermakDelgado.lean",
+      "local_module": "Kourovka2135.Vendor.OddOrder.GroupTheory.ChermakDelgado",
+      "adapted_sha256": "b42ac8862a2ee277195822d1f927a40c2a694a8a2ce8421b179e6d07e30acb41"
+    },
+    {
+      "upstream_path": "OddOrder/Isaacs/Ch03_SplitExtensions/Basic.lean",
+      "sha256": "efab5b8b4e01e6c265a90fbac0baf011917f5c5f6c5d603a9429dd7195cf5323",
+      "local_path": "lean/Kourovka2135/Vendor/OddOrder/Isaacs/Ch03_SplitExtensions/Basic.lean",
+      "local_module": "Kourovka2135.Vendor.OddOrder.Isaacs.Ch03_SplitExtensions.Basic",
+      "adapted_sha256": "102323f67afa6d0949f5ad8eb7868faec9b3854255c6aa70b669b033cbec6315"
+    },
+    {
+      "upstream_path": "OddOrder/Isaacs/Ch04_Commutators/ForwardFromCh02.lean",
+      "sha256": "17c31960011848aaa66629dfe19f0b85614b327bd7794f5d4853e18b4a198e0c",
+      "local_path": "lean/Kourovka2135/Vendor/OddOrder/Isaacs/Ch04_Commutators/ForwardFromCh02.lean",
+      "local_module": "Kourovka2135.Vendor.OddOrder.Isaacs.Ch04_Commutators.ForwardFromCh02",
+      "adapted_sha256": "3ba025e092320f0ea30506cba0eba08fb1070350cacb2509baa87cecc1a576b7"
+    },
+    {
+      "upstream_path": "OddOrder/Isaacs/Ch02_Subnormality/Main.lean",
+      "sha256": "e4b879a2b266cb0655dcd555dfd7e562adf494637de5b7a5f53f70c03d6df64a",
+      "local_path": "lean/Kourovka2135/Vendor/OddOrder/Isaacs/Ch02_Subnormality/Main.lean",
+      "local_module": "Kourovka2135.Vendor.OddOrder.Isaacs.Ch02_Subnormality.Main",
+      "adapted_sha256": "1d033502fd31f564fd603b80ba98f7fe117d8fa9fd9d8681684b5cb22c87fcef"
+    },
+    {
+      "upstream_path": "OddOrder/Isaacs/Ch02_Subnormality/Theorem211Wielandt.lean",
+      "sha256": "7ea8fffe737e09f3ccde7607810784f3082e906477d947fe6780f89be830af3d",
+      "local_path": "lean/Kourovka2135/Vendor/OddOrder/Isaacs/Ch02_Subnormality/Theorem211Wielandt.lean",
+      "local_module": "Kourovka2135.Vendor.OddOrder.Isaacs.Ch02_Subnormality.Theorem211Wielandt",
+      "adapted_sha256": "373c1876562c586d9d23cc21005c0bcd6783c9feac4b816063c1ddc816cb52ad"
+    },
+    {
+      "upstream_path": "OddOrder/Isaacs/Ch02_Subnormality/Basic.lean",
+      "sha256": "6e2da9d1d1d83c9f4199a306d77f993b369cf0bf132e9a83bea85daf9a9c9100",
+      "local_path": "lean/Kourovka2135/Vendor/OddOrder/Isaacs/Ch02_Subnormality/Basic.lean",
+      "local_module": "Kourovka2135.Vendor.OddOrder.Isaacs.Ch02_Subnormality.Basic",
+      "adapted_sha256": "7e9dfb7701c28abb8818572ffacb6679bd29f7e3b78f4675e14f37acee9b5a36"
+    },
+    {
+      "upstream_path": "OddOrder/Isaacs/Ch02_Subnormality/DihedralBasics.lean",
+      "sha256": "cb0b1c998c43bbaa6798107152ca138b4c8ccfcbaf08396f3d0a0e1f4562b330",
+      "local_path": "lean/Kourovka2135/Vendor/OddOrder/Isaacs/Ch02_Subnormality/DihedralBasics.lean",
+      "local_module": "Kourovka2135.Vendor.OddOrder.Isaacs.Ch02_Subnormality.DihedralBasics",
+      "adapted_sha256": "2354e588c88603e04afc787606d8909f1296336754a4b8b161fc24d8399ff2c1"
+    },
+    {
+      "upstream_path": "OddOrder/GroupTheory/ElementaryAbelian.lean",
+      "sha256": "e054d26e4a77444b18a4332584d4bcdff0871cbe65373fec2735fe761883ed24",
+      "local_path": "lean/Kourovka2135/Vendor/OddOrder/GroupTheory/ElementaryAbelian.lean",
+      "local_module": "Kourovka2135.Vendor.OddOrder.GroupTheory.ElementaryAbelian",
+      "adapted_sha256": "16e3a83c4f1ccdf71e0cbd83ea81ef1834b6187ad504755721c94108697c257d"
+    },
+    {
+      "upstream_path": "OddOrder/Isaacs/Ch03_SplitExtensions/SemidirectAut.lean",
+      "sha256": "dcf1bb64e72927473b2dd2adfbbd912c5d597f743c42fadfb8f84e108a978f35",
+      "local_path": "lean/Kourovka2135/Vendor/OddOrder/Isaacs/Ch03_SplitExtensions/SemidirectAut.lean",
+      "local_module": "Kourovka2135.Vendor.OddOrder.Isaacs.Ch03_SplitExtensions.SemidirectAut",
+      "adapted_sha256": "0298094bc442771f3dd579ae357ccc176f22d89dc29fd7820c13b413271db88c"
+    },
+    {
+      "upstream_path": "OddOrder/Isaacs/Ch03_SplitExtensions/SplitExtensionUniqueness.lean",
+      "sha256": "fff93ebe24f8940e82c911c99fade856140c8292a9a54bdabbea1538ecc35023",
+      "local_path": "lean/Kourovka2135/Vendor/OddOrder/Isaacs/Ch03_SplitExtensions/SplitExtensionUniqueness.lean",
+      "local_module": "Kourovka2135.Vendor.OddOrder.Isaacs.Ch03_SplitExtensions.SplitExtensionUniqueness",
+      "adapted_sha256": "fff93ebe24f8940e82c911c99fade856140c8292a9a54bdabbea1538ecc35023"
+    },
+    {
+      "upstream_path": "OddOrder/Isaacs/Ch03_SplitExtensions/PiSeparableSeries.lean",
+      "sha256": "c816f57f6e4b0244c4e782816faaac18aa135784d279838eaa7de92c26dafc2f",
+      "local_path": "lean/Kourovka2135/Vendor/OddOrder/Isaacs/Ch03_SplitExtensions/PiSeparableSeries.lean",
+      "local_module": "Kourovka2135.Vendor.OddOrder.Isaacs.Ch03_SplitExtensions.PiSeparableSeries",
+      "adapted_sha256": "d89e7eeff63c8fac28d3d09e56a5ddc9e78dd2521c98d621a9ee1af1c531d599"
+    },
+    {
+      "upstream_path": "OddOrder/Isaacs/Ch03_SplitExtensions/WreathProduct.lean",
+      "sha256": "c77318902dddc7b4e5864da012066df119aaa0d9ee4f877b174a6cf6e014731d",
+      "local_path": "lean/Kourovka2135/Vendor/OddOrder/Isaacs/Ch03_SplitExtensions/WreathProduct.lean",
+      "local_module": "Kourovka2135.Vendor.OddOrder.Isaacs.Ch03_SplitExtensions.WreathProduct",
+      "adapted_sha256": "32564ce617e5758dbfb0c793596015947c7cd1dfe3534aa1cb6e16bb3d7565b5"
+    },
+    {
+      "upstream_path": "OddOrder/Isaacs/Ch03_SplitExtensions/CyclicExtensions.lean",
+      "sha256": "ccbfdee1cb03244089a14c82cf5dabc3bc26d0f9741e8fd4de139a0956ccedfa",
+      "local_path": "lean/Kourovka2135/Vendor/OddOrder/Isaacs/Ch03_SplitExtensions/CyclicExtensions.lean",
+      "local_module": "Kourovka2135.Vendor.OddOrder.Isaacs.Ch03_SplitExtensions.CyclicExtensions",
+      "adapted_sha256": "60125f8eca3817d8de40454936890ec3d646d49122c1eae8bdef17c5ebfe1cd8"
+    },
+    {
+      "upstream_path": "OddOrder/Isaacs/Ch03_SplitExtensions/CrossedHomomorphism.lean",
+      "sha256": "2e409c112613d67993b70f86b2970cf7cd161a791b01e89b8eece78b40ca2a17",
+      "local_path": "lean/Kourovka2135/Vendor/OddOrder/Isaacs/Ch03_SplitExtensions/CrossedHomomorphism.lean",
+      "local_module": "Kourovka2135.Vendor.OddOrder.Isaacs.Ch03_SplitExtensions.CrossedHomomorphism",
+      "adapted_sha256": "2e409c112613d67993b70f86b2970cf7cd161a791b01e89b8eece78b40ca2a17"
+    },
+    {
+      "upstream_path": "OddOrder/GroupTheory/FixedSubgroup.lean",
+      "sha256": "5d613f2433a41625d05f841a7c2201a9ba5d3968e8098310914071b51082d791",
+      "local_path": "lean/Kourovka2135/Vendor/OddOrder/GroupTheory/FixedSubgroup.lean",
+      "local_module": "Kourovka2135.Vendor.OddOrder.GroupTheory.FixedSubgroup",
+      "adapted_sha256": "5d613f2433a41625d05f841a7c2201a9ba5d3968e8098310914071b51082d791"
+    },
+    {
+      "upstream_path": "OddOrder/Isaacs/Ch04_Commutators/Main/ChainNilpotent.lean",
+      "sha256": "cb3cb8b31d958f34da7dd0db0be481c3536af54b745e21a00e229582abbb77a6",
+      "local_path": "lean/Kourovka2135/Vendor/OddOrder/Isaacs/Ch04_Commutators/Main/ChainNilpotent.lean",
+      "local_module": "Kourovka2135.Vendor.OddOrder.Isaacs.Ch04_Commutators.Main.ChainNilpotent",
+      "adapted_sha256": "57526b3b70b5c998a1654d0ff08f0cfe15e48bfa87bc336781b0281ece8c347c"
+    },
+    {
+      "upstream_path": "OddOrder/Isaacs/Ch04_Commutators/Main/BaerTrick.lean",
+      "sha256": "d0e5729d257cbd891992c78885d531ea0413b37dd0c63e66e438706a38897668",
+      "local_path": "lean/Kourovka2135/Vendor/OddOrder/Isaacs/Ch04_Commutators/Main/BaerTrick.lean",
+      "local_module": "Kourovka2135.Vendor.OddOrder.Isaacs.Ch04_Commutators.Main.BaerTrick",
+      "adapted_sha256": "309a0a5ff95ae710b0387ce41d52c2b84a5ff4c1050ab9cfb842b1382d1a44c6"
+    },
+    {
+      "upstream_path": "OddOrder/Isaacs/Ch04_Commutators/Main/BaerMulGroup.lean",
+      "sha256": "4bc6c2ee92fb53247ccabd5ce264a1ab2232e605b6efbd1ac881b97a3beccde8",
+      "local_path": "lean/Kourovka2135/Vendor/OddOrder/Isaacs/Ch04_Commutators/Main/BaerMulGroup.lean",
+      "local_module": "Kourovka2135.Vendor.OddOrder.Isaacs.Ch04_Commutators.Main.BaerMulGroup",
+      "adapted_sha256": "1052095b741f669525289992408822f3ce2aa91b4e303ceb0830b57f7f3c8c42"
+    },
+    {
+      "upstream_path": "OddOrder/Isaacs/Ch04_Commutators/Main/ThreeSubgroupsCoprime.lean",
+      "sha256": "20738accc03b609d3409f644805b739c8577a5a0257d3beeecad15a4cb137672",
+      "local_path": "lean/Kourovka2135/Vendor/OddOrder/Isaacs/Ch04_Commutators/Main/ThreeSubgroupsCoprime.lean",
+      "local_module": "Kourovka2135.Vendor.OddOrder.Isaacs.Ch04_Commutators.Main.ThreeSubgroupsCoprime",
+      "adapted_sha256": "270de1a8d25f03e9f657ab9b073f8492d95d5795561f30aa60b2b6b61207fe28"
+    },
+    {
+      "upstream_path": "OddOrder/GroupTheory/CyclicSubgroupUniqueness.lean",
+      "sha256": "bbd79ecfd4744e244f9da129b8a24d25acd23f68e63d34468e692fc343cbf11f",
+      "local_path": "lean/Kourovka2135/Vendor/OddOrder/GroupTheory/CyclicSubgroupUniqueness.lean",
+      "local_module": "Kourovka2135.Vendor.OddOrder.GroupTheory.CyclicSubgroupUniqueness",
+      "adapted_sha256": "bbd79ecfd4744e244f9da129b8a24d25acd23f68e63d34468e692fc343cbf11f"
+    },
+    {
+      "upstream_path": "OddOrder/Isaacs/Ch05_Transfer/NilpotentPComplement.lean",
+      "sha256": "20c416bcdf17856b9eb7d3ccff0096c7423468e030f9360a48942fb93f94c45b",
+      "local_path": "lean/Kourovka2135/Vendor/OddOrder/Isaacs/Ch05_Transfer/NilpotentPComplement.lean",
+      "local_module": "Kourovka2135.Vendor.OddOrder.Isaacs.Ch05_Transfer.NilpotentPComplement",
+      "adapted_sha256": "c419f643db4f30bd9f771a5416a6e286ab5f36793fc6e73186ac8916bbe52b75"
+    },
+    {
+      "upstream_path": "OddOrder/Isaacs/Ch05_Transfer/NilpotentMaximal.lean",
+      "sha256": "6f6b42a06090c422a10db6c20f332d155ea6da07daad99f556dc4b475045541b",
+      "local_path": "lean/Kourovka2135/Vendor/OddOrder/Isaacs/Ch05_Transfer/NilpotentMaximal.lean",
+      "local_module": "Kourovka2135.Vendor.OddOrder.Isaacs.Ch05_Transfer.NilpotentMaximal",
+      "adapted_sha256": "865c2938161551b3c57dbcfa719ea0c6b447422a30f2a03aa671fae50f0c93ed"
+    },
+    {
+      "upstream_path": "OddOrder/Isaacs/Ch05_Transfer/Dietzmann.lean",
+      "sha256": "2627d620f019147ae48529a07ada56664e5f6423db0b14a3d03f32ad15c2ee6f",
+      "local_path": "lean/Kourovka2135/Vendor/OddOrder/Isaacs/Ch05_Transfer/Dietzmann.lean",
+      "local_module": "Kourovka2135.Vendor.OddOrder.Isaacs.Ch05_Transfer.Dietzmann",
+      "adapted_sha256": "2627d620f019147ae48529a07ada56664e5f6423db0b14a3d03f32ad15c2ee6f"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "upstream": "https://github.com/TauCetiProject/TauCeti",
+  "commit": "7a4e28011b29a4e8c8365fe87f2144022cf1377f",
+  "license": "Apache-2.0",
+  "integrated_utc": "2026-09-18T16:29:55.825899+00:00",
+  "changes": "Only internal import module paths renamed from TauCeti to Kourovka2135.Vendor.TauCeti; mathematical namespaces and proofs unchanged.",
+  "files": [
+    {
+      "upstream_path": "TauCeti/Algebra/Homology/Ext/ProjectiveResolution.lean",
+      "local_path": "Kourovka2135/Vendor/TauCeti/Algebra/Homology/Ext/ProjectiveResolution.lean",
+      "upstream_sha256": "becb1243cffe484f182fa87257d66dab22b6ca41e8bb064a42560130c69eedac",
+      "adapted_sha256": "dc9961703b97be3bb62f60d1747659d0e53031ada3395b2eeac9bb3b25745741"
+    },
+    {
+      "upstream_path": "TauCeti/Algebra/Homology/Opposite.lean",
+      "local_path": "Kourovka2135/Vendor/TauCeti/Algebra/Homology/Opposite.lean",
+      "upstream_sha256": "aed1a65d60287430fda4ea0512001d6d47c5c15c606587e3d81adece5252812f",
+      "adapted_sha256": "aed1a65d60287430fda4ea0512001d6d47c5c15c606587e3d81adece5252812f"
+    },
+    {
+      "upstream_path": "TauCeti/RepresentationTheory/FiniteIndex.lean",
+      "local_path": "Kourovka2135/Vendor/TauCeti/RepresentationTheory/FiniteIndex.lean",
+      "upstream_sha256": "e6b27caa67b09958eb957d5574792ddc10f2caaab2f8e555733bee2b23fe29ae",
+      "adapted_sha256": "e6b27caa67b09958eb957d5574792ddc10f2caaab2f8e555733bee2b23fe29ae"
+    },
+    {
+      "upstream_path": "TauCeti/RepresentationTheory/Homological/GroupCohomology/Corestriction.lean",
+      "local_path": "Kourovka2135/Vendor/TauCeti/RepresentationTheory/Homological/GroupCohomology/Corestriction.lean",
+      "upstream_sha256": "220c02c33add355a0052aff85f2b29815191ab4d3a9bc4661fda1bada80c78f5",
+      "adapted_sha256": "d2422afc01a0455a0e4e0aef35118ada915b4c9013514863201c72c729bb2a2a"
+    },
+    {
+      "upstream_path": "TauCeti/RepresentationTheory/Homological/GroupCohomology/Shapiro.lean",
+      "local_path": "Kourovka2135/Vendor/TauCeti/RepresentationTheory/Homological/GroupCohomology/Shapiro.lean",
+      "upstream_sha256": "23416bc9ae6834104d7626dca8b1df2505eaa2ca050bae95ad6bf3c297200c8d",
+      "adapted_sha256": "bb39b4fb27c9ebbec7a65f3787f9a3d7a41d54bc382c5a0a51d0e1e9ea9eec3c"
+    },
+    {
+      "upstream_path": "TauCeti/RepresentationTheory/Homological/Resolution.lean",
+      "local_path": "Kourovka2135/Vendor/TauCeti/RepresentationTheory/Homological/Resolution.lean",
+      "upstream_sha256": "a67fbbabb061fd183e1e7f7e0000becf6020562829362e0583515cb79233be92",
+      "adapted_sha256": "a67fbbabb061fd183e1e7f7e0000becf6020562829362e0583515cb79233be92"
+    }
+  ]
+}
