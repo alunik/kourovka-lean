@@ -92,6 +92,17 @@ as well as the Lean build. Keep historical verification receipts intact;
 record a new run separately when the verified source snapshot changes.
 The [verification guide](docs/verification.md) explains the existing receipt.
 
+## Preserved standalone projects: 16.68
+
+The complex and real proofs for Problem 16.68 preserve their accepted source
+bytes and original build configurations in two standalone projects under
+`Kourovka/Problem1668`. Their [problem README](Kourovka/Problem1668/README.md)
+uses the same section structure as the standard entries. Each project has a
+guarded `Audit.lean`; CI builds and audits both. The repository checker enforces
+the catalogue links, endpoint declarations, audit coverage and frozen source
+hashes. This packaging preserves the original reviewed module names without
+changing the mathematical proof requirements.
+
 ## Recorded exception: 21.35
 
 At the owner's explicit request, Problem 21.35 is published as a complete

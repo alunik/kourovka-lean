@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-09-21",
+  "publication_summarized_on": "2026-09-22",
+  "scope": "Original private review document digests underlying the public summaries; these are agent reviews, distinct from the human statement decision.",
+  "original_sha256": {
+    "complex_statement_review": "350aeb1f1fc72ed0c8dce16b02fd4f9d2e129ad058d1a762f0c17fe059883223",
+    "complex_fresh_mathematical_literature_review": "ce959fe629d15f6f26f88a416d43bdb14e801dd2a53335d3e54a2b041f3b4fbc",
+    "complex_supplementary_novelty_report": "6dc78a9fef0f1e9d55e808800f374b958032a168b44db9993eebe220d2fed34e",
+    "real_statement_review_receipt": "c88cb34b5d9557c9a0325653618b6c03045c2847d2fee85f2d658b73c7c0e1e2",
+    "real_final_novelty_report": "f079aecb702602981724b82b9b549522af65f85727501886337939dd5bead4e9",
+    "combined_mathematical_review": "e806ccba80db5952aa788e7681886c2806f45d8a7f4eb2441456b5e573a37b66"
+  }
+}

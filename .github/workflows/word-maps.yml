@@ -1,0 +1,54 @@
+name: Kourovka 16.68 word maps
+
+on:
+  push:
+    paths:
+      - "Kourovka/Problem1668/**"
+      - "docs/nilradical-16.68/source-manifest.json"
+      - "scripts/check_repository.py"
+      - ".github/workflows/word-maps.yml"
+  pull_request:
+    paths:
+      - "Kourovka/Problem1668/**"
+      - "docs/nilradical-16.68/source-manifest.json"
+      - "scripts/check_repository.py"
+      - ".github/workflows/word-maps.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  repository:
+    name: Repository structure, links and frozen source hashes
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check the public package and catalogue
+        run: python3 scripts/check_repository.py
+
+  word-maps:
+    name: "16.68: ${{ matrix.branch }}"
+    needs: repository
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    strategy:
+      fail-fast: false
+      matrix:
+        branch: [Complex, Real]
+    env:
+      LEAN_NUM_THREADS: 1
+    defaults:
+      run:
+        working-directory: Kourovka/Problem1668/${{ matrix.branch }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: leanprover/lean-action@v1
+        with:
+          lake-package-directory: Kourovka/Problem1668/${{ matrix.branch }}
+          auto-config: "false"
+          build: "true"
+          use-mathlib-cache: "true"
+          use-github-cache: "false"
+      - name: Check the preserved project endpoints and permitted axioms
+        run: lake env lean Audit.lean

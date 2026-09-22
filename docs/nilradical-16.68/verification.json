@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "result_id": "kourovka-16-68",
+  "status": "INTEGRITY_PASSED",
+  "verification_date": "2026-09-21",
+  "lean_toolchain": "leanprover/lean4:v4.34.0-rc2",
+  "mathlib_revision": "87f6d5ec4c780581c9a78b06a9c5f1cf86dc5a70",
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "results": [
+    {
+      "branch": "complex",
+      "status": "INTEGRITY_PASSED",
+      "profile": "macos-seatbelt-comparator-nanoda-v1",
+      "original_contract_sha256": "b78057c6822704eecc468c02b3b72de71d4ca67d4da8832a33b0dab6675bac07",
+      "original_receipt_sha256": "13e370d29edfdea250ae82974730806e025b1be94d5ddbd4ae7a688a57cb7f92",
+      "started_utc": "2026-09-21T14:37:55.311274+00:00",
+      "elapsed_seconds": 308.666,
+      "returncode": 0,
+      "theorem_names": [
+        "WordMaps.word_surjective",
+        "WordMaps.complex_word_surjective"
+      ],
+      "solution_module": "WordMaps.Surjectivity",
+      "source_files": 13,
+      "log": "complex-verification.log.txt",
+      "log_sha256": "1e401319dd954fefa05c3bffee87f358bac375683817816e8f17ade23f853981",
+      "checks": {
+        "comparator_statement_and_dependency_comparison": "PASS",
+        "nanoda_kernel": "PASS",
+        "lean_default_kernel": "PASS"
+      },
+      "exports": {
+        "NilradicalFrozenChallenge.ndjson": {
+          "bytes": 51718785,
+          "sha256": "1111e945d2771fb815c81bfdd4264cce06810b7680c4f4fc06c0545e3bfe32e0"
+        },
+        "WordMaps_Surjectivity.ndjson": {
+          "bytes": 310387780,
+          "sha256": "fe81e0cbf53cb95c9e182dc59b29dc4e5b4e295f1365f756647a9b9069a506f1"
+        }
+      }
+    },
+    {
+      "branch": "real",
+      "status": "INTEGRITY_PASSED",
+      "profile": "macos-seatbelt-comparator-nanoda-v1",
+      "original_contract_sha256": "78478f0d6cae1b3853b6dd5ab1f37ba7658322bd5b6b0ffe32dcdd06ea22ed8b",
+      "original_receipt_sha256": "f0233a1419ada656acdf14b7e3a5e174847cc9ab3a4eaacf851528fd56a1d9e3",
+      "started_utc": "2026-09-21T18:46:21.610701+00:00",
+      "elapsed_seconds": 143.093,
+      "returncode": 0,
+      "theorem_names": [
+        "RealWord.map_value",
+        "RealWord.eval_word",
+        "RealWord.tr_value",
+        "RealWord.real_domain",
+        "RealWord.tracePoly_gt_seven_fourths",
+        "RealWord.tr_value_gt_seven_fourths",
+        "RealWord.word_ne_one",
+        "RealWord.project_surjective",
+        "RealWord.tr_targetSL",
+        "RealWord.tr_eq_zero_of_project_eq_target",
+        "RealWord.project_target_ne_one",
+        "RealWord.project_target_sq",
+        "RealWord.word_omits_target",
+        "RealWord.word_not_surjective",
+        "RealWord.exists_nontrivial_nonsurjective_word"
+      ],
+      "solution_module": "RealWord.Counterexample",
+      "source_files": 10,
+      "log": "real-verification.log.txt",
+      "log_sha256": "891e1ff178f1ecae2cfedaf7ef69199b816d287d89706a49c64b622f1da22104",
+      "checks": {
+        "comparator_statement_and_dependency_comparison": "PASS",
+        "nanoda_kernel": "PASS",
+        "lean_default_kernel": "PASS"
+      },
+      "exports": {
+        "NilradicalFrozenChallenge.ndjson": {
+          "bytes": 55912761,
+          "sha256": "8d6daa14295c748bcd482fa126bc4a596d0ee6aee17787925926d583b26a6f45"
+        },
+        "RealWord_Counterexample.ndjson": {
+          "bytes": 81455486,
+          "sha256": "d7fd2238548e77ebd8f28ada3babdb65200a8bb7842c413a07221aa9ceacf4b4"
+        }
+      }
+    }
+  ],
+  "checker_source_pins": {
+    "comparator": "2312244ac716564a61cc0bf4e107d9abf1757a61",
+    "lean": "6a10ac8c22beadecabdbb0919c2b50214762f91d",
+    "lean4export": "cacf989bd75f608700820f6afc595f32e7a99a4d",
+    "nanoda": "4c544ed4099c8227f07d5de77ad1e69fb0740a27"
+  },
+  "trusted_inputs": "Pinned upstream compiled library caches were trusted inputs, hashed before and after; project sources were rebuilt fresh. Both Lean and Nanoda replay the same exported dependency closure.",
+  "scope": "Historical protected checks for the two unchanged accepted proof projects, not a new full-repository check. Human statement approval was recorded later that day and is documented separately.",
+  "publication_replay": "Fresh publication build and axiom diagnostics, if performed, are recorded separately in publication-checks.json; they do not replace these protected receipts."
+}

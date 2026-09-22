@@ -1,0 +1,146 @@
+{
+  "challenge_sha256": "96b5d81540e9b89b97add8c5ded406d5f8e43b6ccda24e1d0c9b29b3e749ee90",
+  "created_utc": "2026-09-21T18:31:42.838970+00:00",
+  "dependencies": {
+    "Cli": {
+      "build_cache": {
+        "file_count": 0,
+        "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+      },
+      "cache_trust": "existing upstream cache, read-only during run",
+      "lake_config_cache": {},
+      "rev": "ab3a82db9fea14cf0fd7f5a2de650f4b534640af",
+      "source_file_count": 5,
+      "sources_sha256": "d48c8065df31aaf4d4578b63b13a2ce185524e1836168e2edf62d2f2d926b4d3"
+    },
+    "LeanSearchClient": {
+      "build_cache": {
+        "file_count": 60,
+        "sha256": "13873981455d49aee1226d2035ee9629b0515fc7f84a864d2c04cfdcc545be8f"
+      },
+      "cache_trust": "existing upstream cache, read-only during run",
+      "lake_config_cache": {},
+      "rev": "ba67e212be1197b84c1f1f6299488a10a3002713",
+      "source_file_count": 8,
+      "sources_sha256": "2e16b45b5006b1098b70db20a25b3a0f0880d32579eebb7d34136e5d2e21a5f9"
+    },
+    "Qq": {
+      "build_cache": {
+        "file_count": 210,
+        "sha256": "055589f0944af686dbe83da602ff62577dc5f2f8b1b075ac3f7582915da53301"
+      },
+      "cache_trust": "existing upstream cache, read-only during run",
+      "lake_config_cache": {},
+      "rev": "507746ab8f4b643ccdacb2ec4cdb5853fa9f8ab3",
+      "source_file_count": 28,
+      "sources_sha256": "ded42bbcb218aab8396dae244a9face5175079287ff7b1c4573427244b3b9a82"
+    },
+    "aesop": {
+      "build_cache": {
+        "file_count": 1980,
+        "sha256": "70618c99e57de3c7dc4f1ec52925a604e27288aa269654870735de725c740c8a"
+      },
+      "cache_trust": "existing upstream cache, read-only during run",
+      "lake_config_cache": {},
+      "rev": "18889deb9e83ea7420ef51c160d6f88552e744e3",
+      "source_file_count": 250,
+      "sources_sha256": "94511a42762674c1ace5efff04501f59954446e2e71e449505a7f2faaee34644"
+    },
+    "batteries": {
+      "build_cache": {
+        "file_count": 3127,
+        "sha256": "8e89916be29aee8be013f808d31f1a95db731c3ce54062d7c191bb377e15a31d"
+      },
+      "cache_trust": "existing upstream cache, read-only during run",
+      "lake_config_cache": {},
+      "rev": "d54dddc581e08be364c278052863524bff7a99a9",
+      "source_file_count": 258,
+      "sources_sha256": "c566ee3e9d0f81268fd630314a57d8a6ba4347a281f0deed9a40d314e06baaf0"
+    },
+    "importGraph": {
+      "build_cache": {
+        "file_count": 373,
+        "sha256": "decd937799ca9584dd855834f09f7770172c3150e687e357053ef28ea5c903fc"
+      },
+      "cache_trust": "existing upstream cache, read-only during run",
+      "lake_config_cache": {},
+      "rev": "d8823026ac7ef130c253089d95685f9877b95323",
+      "source_file_count": 37,
+      "sources_sha256": "82d93e4a74a3e42a02a0ba84dccf72b35019fb2974169ed3c91377c2c50b4be4"
+    },
+    "mathlib": {
+      "build_cache": {
+        "file_count": 125989,
+        "sha256": "5fa422e8995025f862b787012ba070a5a14bd3fb2ce8a4d629da2186a2496513"
+      },
+      "cache_trust": "existing upstream cache, read-only during run",
+      "lake_config_cache": {},
+      "rev": "87f6d5ec4c780581c9a78b06a9c5f1cf86dc5a70",
+      "source_file_count": 8952,
+      "sources_sha256": "7ab3b8517f0518903d11b5e501f270079e2cf6f27fa2ea23a2f2bbad9e385791"
+    },
+    "plausible": {
+      "build_cache": {
+        "file_count": 195,
+        "sha256": "d586c569866163d83d690719d5847b41f72c807cb466187b913a9de52fcf60bc"
+      },
+      "cache_trust": "existing upstream cache, read-only during run",
+      "lake_config_cache": {},
+      "rev": "d9598f07b1bc701f1e3aae163d2681c1fd978793",
+      "source_file_count": 28,
+      "sources_sha256": "5bc135d62015c3b3d90abc5be8ce82d58aad15e07246f672abf927eeb37677f7"
+    },
+    "proofwidgets": {
+      "build_cache": {
+        "file_count": 195,
+        "sha256": "3b6de83ca51cf78effc6a5a2978509ceabd532e802f8a6a06150a99e1e3fa096"
+      },
+      "cache_trust": "existing upstream cache, read-only during run",
+      "lake_config_cache": {},
+      "rev": "a8acbfd87375ff4abe14ce09db5b7664d383bc7f",
+      "source_file_count": 46,
+      "sources_sha256": "69c9effc885db6f5fdd2613100fecbd697bfaf57801d9e5c0c3c8403e2798106"
+    }
+  },
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "profile": "macos-seatbelt-comparator-nanoda-v1",
+  "schema": 1,
+  "solution_module": "RealWord.Counterexample",
+  "source_files": {
+    "RealWord.lean": "f792a81a071b8479273610be3328ce77ae5d336b467ea9c1f923b7da88ef29d8",
+    "RealWord/Counterexample.lean": "254438f2e6ace0ec3e1a748e0e0bf7a3c2b61124f82d9418383d3cb9a64f3bab",
+    "RealWord/Definitions.lean": "1e4d09744f30fb30453871559cba98fc12aa5fad445e192ad05b362630699fb5",
+    "RealWord/Inequality.lean": "b8101a113f30fea8eaa1e2db59cc9f018650618df09c8abd22653bb0504b63f3",
+    "RealWord/RealDomain.lean": "1a4a02b0ce0b41b2858ad7fe6e6fc878a076aeed7e0dad101da115c48a4447c1",
+    "RealWord/Trace.lean": "07c2428bdc5071feef0379f9cfe7146a3b391bdf2a5782efe5fb140197a99c39",
+    "lake-manifest.json": "9cecc948460478a61079fdf09b12e94e9c53c3e7abffc933b24f07db3d8d6c0e",
+    "lakefile.toml": "39a3f9d5f945814c8cbbc2c2032b366aee0aec9e3595a4daefb764e84c925426",
+    "lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88",
+    "logs/trace-interface.lean": "57491a11a7b6b90c6c9de0ff4b5837d8c803eb3b1cd04a8ec3121effee3ffb1e"
+  },
+  "theorem_names": [
+    "RealWord.map_value",
+    "RealWord.eval_word",
+    "RealWord.tr_value",
+    "RealWord.real_domain",
+    "RealWord.tracePoly_gt_seven_fourths",
+    "RealWord.tr_value_gt_seven_fourths",
+    "RealWord.word_ne_one",
+    "RealWord.project_surjective",
+    "RealWord.tr_targetSL",
+    "RealWord.tr_eq_zero_of_project_eq_target",
+    "RealWord.project_target_ne_one",
+    "RealWord.project_target_sq",
+    "RealWord.word_omits_target",
+    "RealWord.word_not_surjective",
+    "RealWord.exists_nontrivial_nonsurjective_word"
+  ],
+  "tools_manifest_sha256": "c158c50879186001fd88de76575018d72344f2d4d3d94cb66eb64803a2017f6c",
+  "original_contract_sha256": "78478f0d6cae1b3853b6dd5ab1f37ba7658322bd5b6b0ffe32dcdd06ea22ed8b",
+  "publication_note": "Sanitized derivative of the original frozen contract: local project/dependency paths and embedded challenge text omitted. Original hash identifies the privately retained bytes; source_files and challenge_sha256 are unchanged.",
+  "source_root": "Kourovka/Problem1668/Real"
+}

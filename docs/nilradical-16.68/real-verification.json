@@ -1,0 +1,105 @@
+{
+  "contract_sha256": "78478f0d6cae1b3853b6dd5ab1f37ba7658322bd5b6b0ffe32dcdd06ea22ed8b",
+  "elapsed_seconds": 143.093,
+  "exports": {
+    "NilradicalFrozenChallenge.ndjson": {
+      "bytes": 55912761,
+      "sha256": "8d6daa14295c748bcd482fa126bc4a596d0ee6aee17787925926d583b26a6f45"
+    },
+    "RealWord_Counterexample.ndjson": {
+      "bytes": 81455486,
+      "sha256": "d7fd2238548e77ebd8f28ada3babdb65200a8bb7842c413a07221aa9ceacf4b4"
+    }
+  },
+  "harness_sha256": {
+    "sandbox.py": "76c455a4b6f3798f19e3c3ead9474ddfeac5e4e677c768b5c16dd047ee0f1348",
+    "verify.py": "ebfd71d5e0392c1b55f35256c39a75d1fdb83ccd476edefcdf21fd362291648f"
+  },
+  "host": "macOS-15.2-arm64-arm-64bit-Mach-O",
+  "human_statement_approval": "NOT_RECORDED",
+  "isolation_checks": [
+    "protected_write_denied",
+    "child_write_denied",
+    "socket_denied_2",
+    "socket_denied_1",
+    "dependency_symlink_write_denied",
+    "build_write_permitted"
+  ],
+  "log_sha256": "891e1ff178f1ecae2cfedaf7ef69199b816d287d89706a49c64b622f1da22104",
+  "next_gate": "AWAITING_HUMAN_STATEMENT_AND_NOVELTY_APPROVAL",
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "returncode": 0,
+  "schema": 1,
+  "started_utc": "2026-09-21T18:46:21.610701+00:00",
+  "status": "INTEGRITY_PASSED",
+  "theorem_names": [
+    "RealWord.map_value",
+    "RealWord.eval_word",
+    "RealWord.tr_value",
+    "RealWord.real_domain",
+    "RealWord.tracePoly_gt_seven_fourths",
+    "RealWord.tr_value_gt_seven_fourths",
+    "RealWord.word_ne_one",
+    "RealWord.project_surjective",
+    "RealWord.tr_targetSL",
+    "RealWord.tr_eq_zero_of_project_eq_target",
+    "RealWord.project_target_ne_one",
+    "RealWord.project_target_sq",
+    "RealWord.word_omits_target",
+    "RealWord.word_not_surjective",
+    "RealWord.exists_nontrivial_nonsurjective_word"
+  ],
+  "tools": {
+    "build_provenance": "Comparator, lean4export and Nanoda built from clean upstream pinned sources on 2026-09-16.",
+    "comparator": {
+      "sha256": "378586e4f6785d320c4b5d753dd84a7f9cc4b2e6b66867f23f080970e2fa2c3a"
+    },
+    "exporter": {
+      "sha256": "86ac903a8d040bc79a3a59ee4816e0a0a961f7f864100f1a8e154820297e756a"
+    },
+    "lake": {
+      "sha256": "c8c24f1398162ab4004e2a869952d8469f54293651151feaad4526f2b8474c6e"
+    },
+    "lean": {
+      "sha256": "1b370cfcbf44e80d1b004ab1b1ab9a4c73951f9f7c242140bcff9bc577576554"
+    },
+    "lean_known_fix": {
+      "ahead_by": 93,
+      "behind_by": 0,
+      "comparison_status": "ahead",
+      "fix_pr": "https://github.com/leanprover/lean4/pull/14577",
+      "issue": "https://github.com/leanprover/lean4/issues/14576",
+      "lean_commit": "6a10ac8c22beadecabdbb0919c2b50214762f91d",
+      "merge_base": "a39eab69e1eee9ad38f4efe507907b1026a77808",
+      "merge_commit": "a39eab69e1eee9ad38f4efe507907b1026a77808"
+    },
+    "lean_version_string": "Lean (version 4.34.0-rc2, arm64-apple-darwin24.6.0, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)",
+    "nanoda": {
+      "sha256": "411b09fe602f6784a3fcca0beb33be54e5deae7f571c4819c79664e7b21400b5"
+    },
+    "source_pins": {
+      "comparator": "2312244ac716564a61cc0bf4e107d9abf1757a61",
+      "lean": "6a10ac8c22beadecabdbb0919c2b50214762f91d",
+      "lean4export": "cacf989bd75f608700820f6afc595f32e7a99a4d",
+      "nanoda": "4c544ed4099c8227f07d5de77ad1e69fb0740a27"
+    },
+    "toolchain_library_tree": {
+      "file_count": 15136,
+      "sha256": "0991b4b2fa89204828689a1efb4c9cd3999a9cd444ef808071ec7cc05e5ab716"
+    }
+  },
+  "trust_notes": [
+    "macOS Seatbelt custom profile tested by local canaries, not independently security-audited",
+    "read access is broad; never run on a host with secrets available to untrusted submissions",
+    "upstream compiled library caches are trusted inputs; byte hashes checked before and after; project sources rebuilt fresh",
+    "same-kernel replay and independently implemented Nanoda verify one exported dependency closure",
+    "semantic correctness of challenge requires separate human review"
+  ],
+  "original_receipt_sha256": "f0233a1419ada656acdf14b7e3a5e174847cc9ab3a4eaacf851528fd56a1d9e3",
+  "log": "real-verification.log.txt",
+  "publication_note": "Sanitized derivative: machine-local command, paths and work-directory fields omitted. The original receipt and its digest are retained privately. Historical human_approval/next_gate fields precede the later statement acceptance; see acceptance.json."
+}

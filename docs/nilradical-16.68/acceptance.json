@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "result_id": "kourovka-16-68",
+  "status": "ACCEPTED_FORMAL_STATEMENTS",
+  "agent_version": "v0",
+  "source": {
+    "revision": "75b93ec1363f5ba4d138512a9dba13f749855f4e",
+    "source_root": "Kourovka/Problem1668",
+    "manifest_sha256": "8f9c917055bf21a13b886862015a16bd8a54b86d9719bacb3bb050bba99a0e85",
+    "source_files": 23,
+    "original_snapshots": [
+      {
+        "branch": "complex",
+        "source_directory": "Complex",
+        "original_contract_sha256": "b78057c6822704eecc468c02b3b72de71d4ca67d4da8832a33b0dab6675bac07",
+        "original_source_manifest_sha256": "09f20321c5c07b4d18cfdd5cb22ecf339e236f3a3690d8eb71940e1826b2eed4",
+        "manifest_canonicalization": "UTF-8 JSON source_files object; sorted keys; comma/colon separators; no final newline",
+        "source_files": 13
+      },
+      {
+        "branch": "real",
+        "source_directory": "Real",
+        "original_contract_sha256": "78478f0d6cae1b3853b6dd5ab1f37ba7658322bd5b6b0ffe32dcdd06ea22ed8b",
+        "original_source_manifest_sha256": "576dbd51e8a8a7b0b6608f7019ebdc6ff73c361801f1a71cdfabac73f760908a",
+        "manifest_canonicalization": "UTF-8 JSON source_files object; sorted keys; comma/colon separators; no final newline",
+        "source_files": 10
+      }
+    ]
+  },
+  "statement_acceptance": {
+    "decision": "accepted",
+    "accepted_at": "2026-09-21T19:59:18.991915+00:00",
+    "reviewer_role": "Human statement verifier",
+    "original_record_sha256": "b6ba817dfc14435e118fb0789bfa8c281a596178541d7d79614e56072bcccec4",
+    "approved_scope": [
+      "Every nonidentity two-generator word is surjective on PSL2(K) for algebraically closed K of characteristic zero, in particular K=C.",
+      "The specified nonidentity word W has trace greater than 7/4 on SL2(R) and induces a nonsurjective word map on PSL2(R)."
+    ]
+  },
+  "publication": {
+    "authorized_on": "2026-09-22",
+    "authorization": "Explicit user request to add the website and GitHub entry and push the changes."
+  },
+  "novelty_contribution_acceptance": "No separate human novelty or contribution decision is recorded in the 21 September statement approval. See novelty-release.md for the bounded literature assessment.",
+  "privacy": "Original identity-bearing approval record, verbatim user response and machine-local paths are retained privately. Public contracts and receipts are labeled sanitized derivatives.",
+  "provenance": "The human statement approval concerns the frozen non-Git proof snapshots. Publication copies all 23 contract files byte-for-byte into Complex/ and Real/; the combined manifest changes path prefixes only. Publication audit modules and generated exposition are separate additions."
+}

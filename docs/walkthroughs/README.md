@@ -5,6 +5,8 @@ acceptance of the linked source-pinned Lean statement scopes. The original six
 [acceptance records](../nilradical-v0-acceptance/README.md) are separate from the
 [21.53 record](../nilradical-21.53/README.md) and the
 [21.35 conditional formalization](../nilradical-21.35/README.md).
+The [16.68 record](../nilradical-16.68/README.md) binds the complex and real
+word-map proofs approved on 21 September 2026.
 
 **Agent-generated exposition; not refereed.** These are not preprints. They
 advertise the results and explain their proofs for human researchers to check,
@@ -19,6 +21,7 @@ revision separately.
 
 | Problem | Account |
 | --- | --- |
+| 16.68 | [Word maps over the real and complex numbers](16.68.md) |
 | 21.3, first question | [Separating soluble subgroups](21.3.md) |
 | 21.35 | [An order criterion for multilinear verbal subgroups](21.35.md) |
 | 21.38 | [An infinite group of spread one](21.38.md) |

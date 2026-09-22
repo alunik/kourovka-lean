@@ -1,0 +1,32 @@
+Building NilradicalFrozenChallenge
+⚠ [1691/1692] Built NilradicalFrozenChallenge (8.3s)
+warning: NilradicalFrozenChallenge.lean:53:8: declaration uses `sorry`
+warning: NilradicalFrozenChallenge.lean:57:8: declaration uses `sorry`
+warning: NilradicalFrozenChallenge.lean:61:8: declaration uses `sorry`
+warning: NilradicalFrozenChallenge.lean:65:8: declaration uses `sorry`
+warning: NilradicalFrozenChallenge.lean:69:8: declaration uses `sorry`
+warning: NilradicalFrozenChallenge.lean:73:8: declaration uses `sorry`
+warning: NilradicalFrozenChallenge.lean:77:8: declaration uses `sorry`
+warning: NilradicalFrozenChallenge.lean:82:8: declaration uses `sorry`
+warning: NilradicalFrozenChallenge.lean:87:8: declaration uses `sorry`
+warning: NilradicalFrozenChallenge.lean:90:8: declaration uses `sorry`
+warning: NilradicalFrozenChallenge.lean:94:8: declaration uses `sorry`
+warning: NilradicalFrozenChallenge.lean:97:8: declaration uses `sorry`
+warning: NilradicalFrozenChallenge.lean:100:8: declaration uses `sorry`
+warning: NilradicalFrozenChallenge.lean:104:8: declaration uses `sorry`
+warning: NilradicalFrozenChallenge.lean:109:8: declaration uses `sorry`
+Build completed successfully (1692 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, RealWord.map_value, RealWord.eval_word, RealWord.tr_value, RealWord.real_domain, RealWord.tracePoly_gt_seven_fourths, RealWord.tr_value_gt_seven_fourths, RealWord.word_ne_one, RealWord.project_surjective, RealWord.tr_targetSL, RealWord.tr_eq_zero_of_project_eq_target, RealWord.project_target_ne_one, RealWord.project_target_sq, RealWord.word_omits_target, RealWord.word_not_surjective, RealWord.exists_nontrivial_nonsurjective_word, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from NilradicalFrozenChallenge
+Building RealWord.Counterexample
+✔ [1698/1702] Built RealWord.Definitions (1.9s)
+✔ [1699/1702] Built RealWord.Trace (2.7s)
+✔ [1700/1702] Built RealWord.RealDomain (3.6s)
+✔ [1701/1702] Built RealWord.Inequality (9.2s)
+✔ [1702/1702] Built RealWord.Counterexample (5.4s)
+Build completed successfully (1702 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, RealWord.map_value, RealWord.eval_word, RealWord.tr_value, RealWord.real_domain, RealWord.tracePoly_gt_seven_fourths, RealWord.tr_value_gt_seven_fourths, RealWord.word_ne_one, RealWord.project_surjective, RealWord.tr_targetSL, RealWord.tr_eq_zero_of_project_eq_target, RealWord.project_target_ne_one, RealWord.project_target_sq, RealWord.word_omits_target, RealWord.word_not_surjective, RealWord.exists_nontrivial_nonsurjective_word, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from RealWord.Counterexample
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!

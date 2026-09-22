@@ -1,9 +1,22 @@
 # Credits
 
-The retained discovery catalogue and its formal proofs are credited to **Nilradical v0**.
+The original retained discovery catalogue and its formal proofs are credited to **Nilradical v0**.
 Nilradical uses Codex and GPT Pro for mathematical exploration, independent
 review, Lean development and verification. Original mathematical and code
 sources are credited below.
+
+Problem 16.68 was posed by Jan Mycielski. The complex projective-linear theorem,
+explicit real projective-linear counterexample and their complete Lean proofs
+are by **Nilradical v0**, under Aluna Rizzoli's direction, dated 21 September 2026.
+The complex argument credits Schneider–Thom's elementary-matrix trace
+specialization and Mushkarov–Nikolov's polynomial-fiber observation; the needed
+results are proved in Lean here. Fricke and skein identities retain their
+established mathematical credit. Andreas Thom's earlier compact-group negative
+result settles the SO₃(ℝ) branch and is not formalized in this entry.
+See the [mathematical note](docs/walkthroughs/16.68.md) for references and the
+[source-bound verification record](docs/nilradical-16.68/README.md) for the
+accepted scopes. The formal proofs use pinned Lean and mathlib; Comparator,
+lean4export and Nanoda receive verification credit.
 
 Problem 21.3 was posed by M. Anagnostopoulou-Merkouri and T. C. Burness.
 The solution of its first question and its Lean proof are by Nilradical v0.

@@ -7,7 +7,9 @@ a small convention checker, not a full Markdown parser or Lean elaborator.
 """
 
 from collections import Counter
+import hashlib
 from html import unescape
+import json
 from pathlib import Path
 import re
 import subprocess
@@ -17,6 +19,25 @@ from urllib.parse import unquote, urlsplit
 
 HEADINGS = ["Problem", "Result and scope", "Formal statement", "Proof outline",
             "File guide", "Verification", "References and credits"]
+WORD_MAP_PROJECTS = {
+    "Complex": {
+        "module": "WordMaps",
+        "endpoint_file": "WordMaps/Surjectivity.lean",
+        "catalogue_endpoint": "WordMaps.complex_word_surjective",
+        "audited_endpoints": ["WordMaps.word_surjective", "WordMaps.complex_word_surjective"],
+    },
+    "Real": {
+        "module": "RealWord",
+        "endpoint_file": "RealWord/Counterexample.lean",
+        "catalogue_endpoint": "RealWord.exists_nontrivial_nonsurjective_word",
+        "audited_endpoints": [
+            "RealWord.tr_value_gt_seven_fourths", "RealWord.word_ne_one",
+            "RealWord.project_target_ne_one", "RealWord.project_target_sq",
+            "RealWord.word_omits_target", "RealWord.word_not_surjective",
+            "RealWord.exists_nontrivial_nonsurjective_word",
+        ],
+    },
+}
 LABEL = r"\[((?:\\.|[^\]\\\n])+)\]"
 DEST = r'''(<[^>\n]+>|(?:\\.|[^\s()\\]|\([^()\n]*\))+)'''
 INLINE = re.compile(LABEL + r"\(" + DEST + r'''(?:\s+(?:"[^"]*"|'[^']*'|\([^)]*\)))?\)''')
@@ -141,6 +162,63 @@ def theorem_names(text):
     return names
 
 
+def check_word_maps(root, read, catalogue, report):
+    """Check the source-preserved 16.68 projects without rewriting their layout."""
+    base = Path("Kourovka/Problem1668")
+    for name in ("README.md", "Proof/README.md"):
+        if not (root / base / name).is_file():
+            report(base / name, "required file is missing")
+    headings = re.findall(r"^## (.+?)\s*$", prose(read(base / "README.md")), re.M)
+    if headings != HEADINGS:
+        report(base / "README.md", f"expected H2 headings in order: {', '.join(HEADINGS)}")
+    targets = []
+    for label, destination, _ in catalogue:
+        url = urlsplit(unescape_md(destination))
+        if not url.scheme and not url.netloc:
+            targets.append((label.strip("`"), (root / unquote(url.path)).resolve()))
+    if not any(dest == root / base / "README.md" for _, dest in targets):
+        report("README.md", f"missing catalogue link to {base}/README.md")
+    for branch, project in WORD_MAP_PROJECTS.items():
+        directory = base / branch
+        for name in ("lakefile.toml", "lake-manifest.json", "lean-toolchain",
+                     f"{project['module']}.lean", project["endpoint_file"], "Audit.lean"):
+            if not (root / directory / name).is_file():
+                report(directory / name, "required file is missing")
+        endpoint_file = directory / project["endpoint_file"]
+        endpoint = project["catalogue_endpoint"]
+        if targets.count((endpoint, root / endpoint_file)) != 1:
+            report("README.md", f"expected one qualified public theorem link for {endpoint}")
+        declared = theorem_names(read(endpoint_file))
+        for name in project["audited_endpoints"]:
+            if name not in declared:
+                report(endpoint_file, f"missing public theorem {name}")
+        audit_file = directory / "Audit.lean"
+        audit = lean_code(read(audit_file))
+        imports = re.findall(r"^import\s+(\S+)\s*$", audit, re.M)
+        if imports != [project["module"]]:
+            report(audit_file, f"expected the public import {project['module']}")
+        printed = Counter(re.findall(r"^#print axioms\s+(\S+)\s*$", audit, re.M))
+        guarded = Counter(re.findall(r"^#guard_msgs\s+in\s*\n#print axioms\s+(\S+)\s*$", audit, re.M))
+        expected = Counter(project["audited_endpoints"])
+        if printed != expected or guarded != expected:
+            report(audit_file, "expected exactly one guarded axiom check for each documented endpoint")
+    manifest_path = Path("docs/nilradical-16.68/source-manifest.json")
+    try:
+        manifest = json.loads(read(manifest_path))
+        sources = manifest["files"]
+        if manifest["source_root"] != str(base) or len(sources) != 23:
+            report(manifest_path, "expected the 23-file frozen 16.68 source inventory")
+        for name, expected in sources.items():
+            path = base / name
+            resolved = (root / path).resolve()
+            if root / base not in resolved.parents or not resolved.is_file():
+                report(manifest_path, f"missing or invalid source path: {name}")
+            elif hashlib.sha256(resolved.read_bytes()).hexdigest() != expected:
+                report(path, "source hash differs from the accepted frozen inventory")
+    except (ValueError, KeyError, TypeError) as error:
+        report(manifest_path, f"invalid source manifest: {error}")
+
+
 def check(root):
     root = root.resolve()
     errors = []
@@ -183,6 +261,7 @@ def check(root):
     if not problems:
         report("Kourovka/Problems", "no problem directories found")
     catalogue = markdown.get(Path("README.md"), [])
+    check_word_maps(root, read, catalogue, report)
     endpoints = []
     for problem in problems:
         base = Path("Kourovka/Problems") / problem

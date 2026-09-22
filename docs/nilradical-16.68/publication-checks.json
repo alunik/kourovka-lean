@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "result_id": "kourovka-16-68",
+  "checked_on": "2026-09-22",
+  "source_revision": "75b93ec1363f5ba4d138512a9dba13f749855f4e",
+  "status": "PUBLICATION_RELOCATION_CHECKS_PASSED",
+  "scope": "Fresh builds and guarded axiom diagnostics of the relocated public projects; distinct from the protected 21 September Comparator/Nanoda verification.",
+  "dependencies": "Reused the pinned upstream dependency caches through ignored local symlinks. Local solution modules were rebuilt in the public project directories.",
+  "results": [
+    {
+      "branch": "complex",
+      "source_directory": "Kourovka/Problem1668/Complex",
+      "fresh_local_build": {
+        "command": "LEAN_NUM_THREADS=1 lake build WordMaps",
+        "exit_code": 0,
+        "reported_jobs": 3451,
+        "newly_compiled_local_solution_modules": 10,
+        "output_capture": "Build output was observed in the publication session; no separate raw build log was saved."
+      },
+      "guarded_axiom_diagnostic": {
+        "branch": "Complex",
+        "command": "lake env lean Audit.lean",
+        "directory": "Kourovka/Problem1668/Complex",
+        "exit_code": 0,
+        "elapsed_seconds": 15.039,
+        "audit_sha256": "8b3e16d872c0b188b720c44be73f7c0598494fc0c11875e7f8fc44d48834d9e3",
+        "stdout": "",
+        "stderr": ""
+      }
+    },
+    {
+      "branch": "real",
+      "source_directory": "Kourovka/Problem1668/Real",
+      "fresh_local_build": {
+        "command": "LEAN_NUM_THREADS=1 lake build RealWord",
+        "exit_code": 0,
+        "reported_jobs": 1704,
+        "newly_compiled_local_solution_modules": 6,
+        "output_capture": "Build output was observed in the publication session; no separate raw build log was saved."
+      },
+      "guarded_axiom_diagnostic": {
+        "branch": "Real",
+        "command": "lake env lean Audit.lean",
+        "directory": "Kourovka/Problem1668/Real",
+        "exit_code": 0,
+        "elapsed_seconds": 14.344,
+        "audit_sha256": "8ef646d7cd4c87482139508fceb1ae9a6667895eaafb8881caef8ed182bbd2df",
+        "stdout": "",
+        "stderr": ""
+      }
+    }
+  ],
+  "accepted_source_identity": {
+    "checked_files": 23,
+    "manifest_sha256": "8f9c917055bf21a13b886862015a16bd8a54b86d9719bacb3bb050bba99a0e85",
+    "working_copy_matches": true,
+    "source_commit_matches": true,
+    "command": "python3 scripts/check_repository.py"
+  },
+  "protected_checker_rerun_performed": false
+}

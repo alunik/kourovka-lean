@@ -1,6 +1,7 @@
 # Kourovka in Lean
 
 [![Lean proofs](https://github.com/alunik/kourovka-lean/actions/workflows/lean.yml/badge.svg)](https://github.com/alunik/kourovka-lean/actions/workflows/lean.yml)
+[![16.68 word maps](https://github.com/alunik/kourovka-lean/actions/workflows/word-maps.yml/badge.svg)](https://github.com/alunik/kourovka-lean/actions/workflows/word-maps.yml)
 
 Complete, kernel-checked Lean proofs answering selected problems from
 [*The Kourovka Notebook*](https://arxiv.org/abs/1401.0300v46).
@@ -10,6 +11,8 @@ its proof, and reproducible verification instructions.
 The solutions to Problems **21.3 (first question), 21.38, 21.40, 21.44,
 21.68 and 21.106** are by **[Nilradical v0](https://nilradical.ai)**.
 See the [result and verification record](docs/nilradical-v0.md).
+The complex and real projective-linear cases of **16.68** are also by
+**Nilradical v0**; see their [accepted formal proofs](docs/nilradical-16.68/README.md).
 The results for **21.35 and 21.53** are by **Nilradical v1.0.0**; see the
 [21.35 conditional formalization](docs/nilradical-21.35/README.md) and
 [21.53 accepted proof](docs/nilradical-21.53/README.md).
@@ -31,6 +34,7 @@ how to [report missing or mistaken credit](docs/credit-corrections.md).
 
 | Problem | Answer and scope | Statement | Final theorem |
 | --- | --- | --- | --- |
+| [16.68](Kourovka/Problem1668/README.md) | **Affirmative** for every nonidentity two-variable word on PSL₂(ℂ), more generally over any algebraically closed characteristic-zero field; **negative** on PSL₂(ℝ), by an explicit word | [Complex statement](Kourovka/Problem1668/Complex/WordMaps/Surjectivity.lean), [real word](Kourovka/Problem1668/Real/RealWord/Definitions.lean) | [`WordMaps.complex_word_surjective`](Kourovka/Problem1668/Complex/WordMaps/Surjectivity.lean), [`RealWord.exists_nontrivial_nonsurjective_word`](Kourovka/Problem1668/Real/RealWord/Counterexample.lean) |
 | [21.3, first question](Kourovka/Problems/P21_03/README.md) | **Affirmative** for symmetric and alternating groups in all sufficiently large degrees; no explicit cutoff | [Lean statement](Kourovka/Problems/P21_03/Statement.lean) | [`Kourovka.P21_03.firstQuestion`](Kourovka/Problems/P21_03/Solution.lean) |
 | [21.29](Kourovka/Problems/P21_29/README.md) | **Negative**, by a primitive affine counterexample of degree 19,683 | [Lean statement](Kourovka/Problems/P21_29/Statement.lean) | [`Kourovka.P21_29.not_notebookStatement`](Kourovka/Problems/P21_29/Solution.lean) |
 | [21.35](Kourovka/Problem2135/README.md) | **Affirmative** for every multilinear commutator word; Lean retains two explicitly approved published structural results as hypotheses | [Lean statement](Kourovka/Problem2135/Kourovka2135/Statement.lean) | [`Kourovka2135.problem2135`](Kourovka/Problem2135/Kourovka2135/ProblemComplete.lean) |
@@ -45,6 +49,9 @@ how to [report missing or mistaken credit](docs/credit-corrections.md).
 Every listed answer has a complete proof checked by Lean. The permitted
 foundational axioms are `propext`, `Classical.choice`, and `Quot.sound`.
 The [guarded audit](Audit.lean) checks the original catalogue endpoints;
+16.68 has separate [complex](Kourovka/Problem1668/Complex/Audit.lean) and
+[real](Kourovka/Problem1668/Real/Audit.lean) audits and a
+[Lean/Comparator/Nanoda verification record](docs/nilradical-16.68/README.md);
 21.53 has its separate [protected Lean/Nanoda verification](docs/nilradical-21.53/verification.json).
 For 21.35, the complete conditional proof and its [Lean/Nanoda checks](docs/nilradical-21.35/verification.json)
 retain exactly Thompson's minimal-simple classification and the stated
@@ -92,6 +99,10 @@ Kourovka/Problems/P21_03/       # Same entry points for every problem
 ```
 
 [`Kourovka.lean`](Kourovka.lean) imports the original standard-layout solutions.
+Problem 16.68 preserves its two independently verified projects in
+`Kourovka/Problem1668/Complex` and `Kourovka/Problem1668/Real`; run each build
+from its own directory, following the [entry's instructions](Kourovka/Problem1668/README.md#verification).
+CI builds and audits both projects explicitly.
 Problem 21.53 retains its independently reviewed, source-pinned module layout;
 build its complete target with `lake build Kourovka.Problem2153.Final`.
 Problem 21.35 likewise preserves its verified layout, as a self-contained

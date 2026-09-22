@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "source_root": "Kourovka/Problem1668",
+  "scope": "The 23 unchanged files bound by the two approved frozen contracts. Publication adds only Complex/ and Real/ path prefixes. New publication audit modules and documentation are outside this accepted-source inventory.",
+  "original_snapshots": [
+    {
+      "branch": "complex",
+      "source_directory": "Complex",
+      "original_contract_sha256": "b78057c6822704eecc468c02b3b72de71d4ca67d4da8832a33b0dab6675bac07",
+      "original_source_manifest_sha256": "09f20321c5c07b4d18cfdd5cb22ecf339e236f3a3690d8eb71940e1826b2eed4",
+      "manifest_canonicalization": "UTF-8 JSON source_files object; sorted keys; comma/colon separators; no final newline",
+      "source_files": 13
+    },
+    {
+      "branch": "real",
+      "source_directory": "Real",
+      "original_contract_sha256": "78478f0d6cae1b3853b6dd5ab1f37ba7658322bd5b6b0ffe32dcdd06ea22ed8b",
+      "original_source_manifest_sha256": "576dbd51e8a8a7b0b6608f7019ebdc6ff73c361801f1a71cdfabac73f760908a",
+      "manifest_canonicalization": "UTF-8 JSON source_files object; sorted keys; comma/colon separators; no final newline",
+      "source_files": 10
+    }
+  ],
+  "files": {
+    "Complex/WordMaps.lean": "8d9ccc3d0848e64cd33905cddf64b9ed55c9c7c6e33bc9a3f46505dcdffaf9d9",
+    "Complex/WordMaps/Assembly.lean": "fafaf47b277abacc6fe6d289bcffd8322ec9a69a1cbc0cee33d394a9a5a6b809",
+    "Complex/WordMaps/Conjugacy.lean": "daac52fbfa7c977f3d6131bdb1de354417030f8337be135bdebd4cce96964cfd",
+    "Complex/WordMaps/Curve.lean": "b07ab0aaa0c9fa1b1ad229e84a8685f9bf46f39ece330de20dedd04646b363bd",
+    "Complex/WordMaps/Evaluation.lean": "a8fc84b45c5f4b9208a27d73f915005f0039baa6117970ec563c8116fe776451",
+    "Complex/WordMaps/Polynomial.lean": "b5f3cdaebc88b072fdf9c245e29b511699583b32bc6a9dba08589e2e3b9b4dc9",
+    "Complex/WordMaps/Surjectivity.lean": "61e91dac84b0452fbfc589c3a0c04dadc6b528e62249d85bd905edefca997cb2",
+    "Complex/WordMaps/WordMatrices.lean": "a45c6efa2586e5cbebcdd43cc1cbd8e3748420883b611f7cd472065b4b4b4af6",
+    "Complex/WordMaps/WordReduction.lean": "bb4a9d811af393a9ac7c839568c500a703a8ff364d89f6613877c4a8f1ad767d",
+    "Complex/WordMaps/WordSpecialization.lean": "3f9f6d90d6eacae0c870fa71443be2ce158ed14a384dae61ab0584e287e52bbd",
+    "Complex/lake-manifest.json": "8d98e71fcc832634db474e6c92ebdbe589bfd92263e73d9833d39b4231c37afc",
+    "Complex/lakefile.toml": "98bb38ec135e6ed90d73f2d2e1c8b6e7ad52839a7eeab7240afb606d8bb7678c",
+    "Complex/lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88",
+    "Real/RealWord.lean": "f792a81a071b8479273610be3328ce77ae5d336b467ea9c1f923b7da88ef29d8",
+    "Real/RealWord/Counterexample.lean": "254438f2e6ace0ec3e1a748e0e0bf7a3c2b61124f82d9418383d3cb9a64f3bab",
+    "Real/RealWord/Definitions.lean": "1e4d09744f30fb30453871559cba98fc12aa5fad445e192ad05b362630699fb5",
+    "Real/RealWord/Inequality.lean": "b8101a113f30fea8eaa1e2db59cc9f018650618df09c8abd22653bb0504b63f3",
+    "Real/RealWord/RealDomain.lean": "1a4a02b0ce0b41b2858ad7fe6e6fc878a076aeed7e0dad101da115c48a4447c1",
+    "Real/RealWord/Trace.lean": "07c2428bdc5071feef0379f9cfe7146a3b391bdf2a5782efe5fb140197a99c39",
+    "Real/lake-manifest.json": "9cecc948460478a61079fdf09b12e94e9c53c3e7abffc933b24f07db3d8d6c0e",
+    "Real/lakefile.toml": "39a3f9d5f945814c8cbbc2c2032b366aee0aec9e3595a4daefb764e84c925426",
+    "Real/lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88",
+    "Real/logs/trace-interface.lean": "57491a11a7b6b90c6c9de0ff4b5837d8c803eb3b1cd04a8ec3121effee3ffb1e"
+  }
+}
