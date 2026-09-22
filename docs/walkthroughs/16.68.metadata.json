@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "result_id": "kourovka-16-68",
+  "status": "post-acceptance-exposition",
+  "label": "Agent-generated exposition; not refereed",
+  "generated_at": "2026-09-22T07:44:41.244419+00:00",
+  "generator": "Nilradical v0; publication adaptation of the reviewed mathematical note",
+  "refereed": false,
+  "human_accepted_exposition": false,
+  "source_revision": "75b93ec1363f5ba4d138512a9dba13f749855f4e",
+  "acceptance_sha256": "c9ebc8ed76dc296376b34745b796cda0163c3d616d2741422c71d058e8fd36dd",
+  "source_manifest_sha256": "8f9c917055bf21a13b886862015a16bd8a54b86d9719bacb3bb050bba99a0e85",
+  "accepted_at": "2026-09-21T19:59:18.991915+00:00",
+  "markdown_sha256": "a0f5609b9239bc3649522a43cfc09a6687d1f9a14a6a80b0217d1254b99c6a21",
+  "source_url": "https://github.com/alunik/kourovka-lean/blob/bcf21bec7d3936f9af43b15fbe27149c086ca62c/docs/walkthroughs/16.68.md",
+  "first_generated_at": "2026-09-21T20:05:08.701927+00:00",
+  "revised_at": "2026-09-22T07:44:41.244419+00:00",
+  "agent_version": "0",
+  "reviewer_role": "Human statement verifier"
+}
