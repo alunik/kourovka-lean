@@ -7,7 +7,10 @@ sources are credited below.
 
 Problem 16.68 was posed by Jan Mycielski. The complex projective-linear theorem,
 explicit real projective-linear counterexample and their complete Lean proofs
-are by **Nilradical v0**, under Aluna Rizzoli's direction, dated 21 September 2026.
+are by **Nilradical v1.0.0**, under Aluna Rizzoli's direction, dated 21 September 2026.
+The execution used the internal `0.4.0-draft` workflow; the
+[dated version correction](docs/nilradical-16.68/version-correction.md) records
+the evidence for its public v1.0.0 attribution.
 The complex argument credits Schneider–Thom's elementary-matrix trace
 specialization and Mushkarov–Nikolov's polynomial-fiber observation; the needed
 results are proved in Lean here. Fricke and skein identities retain their

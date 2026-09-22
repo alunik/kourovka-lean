@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "result_id": "kourovka-16-68",
+  "corrected_on": "2026-09-22",
+  "previous_public_agent_version": "v0",
+  "agent_version": "1.0.0",
+  "execution_workflow_version": "0.4.0-draft",
+  "reason": "The initial public attribution inherited a stale Nilradical v0 label from the local writeup.",
+  "initial_publication_revision": "77782846adb951ab7b231bfe272cc5e8fc7bc182",
+  "preserved_proof_revision": "75b93ec1363f5ba4d138512a9dba13f749855f4e",
+  "workflow_release": {
+    "url": "https://github.com/alunik/nilradical/releases/tag/v1.0.0",
+    "revision": "4d41912c80df71ef0d7ee565868600892578a21c",
+    "published_at": "2026-09-17T06:17:53Z",
+    "version_mapping": "https://github.com/alunik/nilradical/blob/4d41912c80df71ef0d7ee565868600892578a21c/publication-adaptations.json"
+  },
+  "execution_evidence": {
+    "receipts": [
+      "complex-verification.json",
+      "real-verification.json"
+    ],
+    "harness_sha256": {
+      "sandbox.py": "76c455a4b6f3798f19e3c3ead9474ddfeac5e4e677c768b5c16dd047ee0f1348",
+      "verify.py": "ebfd71d5e0392c1b55f35256c39a75d1fdb83ccd476edefcdf21fd362291648f"
+    },
+    "comparison": "Both receipt hashes match the internal 0.4.0-draft workflow package and the corresponding verification scripts in the pinned public v1.0.0 release."
+  },
+  "scope": "Public version credit and explanatory provenance only; Lean proofs, frozen source manifest, verification receipts, statement acceptance, mathematical scope and prior-work credits are unchanged."
+}

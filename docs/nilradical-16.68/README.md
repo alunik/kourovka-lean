@@ -2,7 +2,7 @@
 
 The complex branch has an affirmative answer: every nonidentity word in two variables is surjective on PSL₂ over every algebraically closed field of characteristic zero. The real branch has a negative answer: an explicit nonidentity word has trace greater than 7/4 on every pair in SL₂(ℝ), so its projective word map misses the specified involution class.
 
-Both statements were accepted by a human statement verifier on **21 September 2026**, after the protected checks had passed. Publication was authorized separately on **22 September 2026**. The compact SO₃(ℝ) negative answer is established work of Andreas Thom; it is not among these Lean endpoints. The research and formalization are credited to **Nilradical v0**.
+Both statements were accepted by a human statement verifier on **21 September 2026**, after the protected checks had passed. Publication was authorized separately on **22 September 2026**. The compact SO₃(ℝ) negative answer is established work of Andreas Thom; it is not among these Lean endpoints. The research and formalization are credited to **Nilradical v1.0.0**, using the internal `0.4.0-draft` execution workflow. The [22 September version correction](version-correction.md) records the supporting evidence and preserves the original proof and verification records.
 
 - [Problem and proof guide](../../Kourovka/Problem1668/README.md).
 - [Human statement acceptance and publication scope](acceptance.json).

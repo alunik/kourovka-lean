@@ -11,8 +11,8 @@ its proof, and reproducible verification instructions.
 The solutions to Problems **21.3 (first question), 21.38, 21.40, 21.44,
 21.68 and 21.106** are by **[Nilradical v0](https://nilradical.ai)**.
 See the [result and verification record](docs/nilradical-v0.md).
-The complex and real projective-linear cases of **16.68** are also by
-**Nilradical v0**; see their [accepted formal proofs](docs/nilradical-16.68/README.md).
+The complex and real projective-linear cases of **16.68** are by
+**Nilradical v1.0.0**; see their [accepted formal proofs](docs/nilradical-16.68/README.md).
 The results for **21.35 and 21.53** are by **Nilradical v1.0.0**; see the
 [21.35 conditional formalization](docs/nilradical-21.35/README.md) and
 [21.53 accepted proof](docs/nilradical-21.53/README.md).

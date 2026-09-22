@@ -2,7 +2,9 @@
   "schema_version": 1,
   "result_id": "kourovka-16-68",
   "status": "ACCEPTED_FORMAL_STATEMENTS",
-  "agent_version": "v0",
+  "agent_version": "1.0.0",
+  "execution_workflow_version": "0.4.0-draft",
+  "version_correction": "version-correction.json",
   "source": {
     "revision": "75b93ec1363f5ba4d138512a9dba13f749855f4e",
     "source_root": "Kourovka/Problem1668",

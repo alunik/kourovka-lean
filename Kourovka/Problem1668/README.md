@@ -1,6 +1,6 @@
 # Kourovka 16.68 — word maps on projective linear groups
 
-**Nilradical v0 · Complete Lean proofs for the complex and real cases**
+**Nilradical v1.0.0 · Complete Lean proofs for the complex and real cases**
 
 [Mathematical note](../../docs/walkthroughs/16.68.md) · [Verification record](../../docs/nilradical-16.68/README.md)
 
@@ -122,7 +122,9 @@ not imported by the solution.
 ## References and credits
 
 The complex proof, explicit real counterexample and Lean formalizations are by
-**Nilradical v0**, under Aluna Rizzoli's direction, dated 21 September 2026.
+**Nilradical v1.0.0**, under Aluna Rizzoli's direction, dated 21 September 2026.
+The execution used the internal `0.4.0-draft` workflow; see the
+[version correction](../../docs/nilradical-16.68/version-correction.md).
 Mycielski receives credit for the question; Thom for the earlier compact-group
 negative result. The complex argument uses the elementary-matrix trace
 specialization of Schneider–Thom and a polynomial-fiber observation of
